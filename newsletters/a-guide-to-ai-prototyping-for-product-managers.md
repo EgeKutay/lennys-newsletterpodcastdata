@@ -3,12 +3,10 @@ title: "A guide to AI prototyping for product managers"
 subtitle: "How to turn your idea into a working prototype in minutes"
 date: "2025-01-07"
 type: "newsletter"
-summary: "A practical guide to turning your idea into a working prototype in minutes, covering Choosing your tooling, Chatbots (ChatGPT, Claude), and Cloud development environments (Replit, Bolt, v0, Lovable)."
+summary: "A practical guide to building products, coming up with new ideas, and operating as a PM, covering Choosing your tooling, Chatbots (ChatGPT, Claude), and Cloud development environments (Replit, Bolt, v0, Lovable)."
 tags: ["design", "ai", "engineering", "leadership", "newsletter", "product-management"]
-word_count: 4277
+word_count: 4219
 ---
-
-*👋 Welcome to a**🔒 subscriber-only edition 🔒**of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. For more: **[Lennybot](https://www.lennybot.com/) | [Podcast](https://www.lennysnewsletter.com/podcast) | [Hire your next product leader](https://www.lennysjobs.com/)** | **[My favorite Maven courses](https://maven.com/lenny)** | **[Swag](https://lennyswag.com/)***
 
 This post will transform how you build products, come up with new ideas, and operate as a PM.
 

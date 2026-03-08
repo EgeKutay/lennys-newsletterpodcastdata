@@ -3,14 +3,10 @@ title: "What people are vibe coding (and actually using)"
 subtitle: "50+ useful/fun/clever examples of what non-technical people are building—to inspire your own vibe-coding journey"
 date: "2025-07-08"
 type: "newsletter"
-summary: "A deep dive into 50+ useful/fun/clever examples of what non-technical people are building—to inspire your own vibe-coding journey, covering Some high-level takeaways from the stories you shared:, Health, wellness, and style, and Carb counter, by [Morgan Brown](https://www.linkedin.com/in/morganb/) using Replit."
+summary: "An overview of i asked on X, LinkedIn, and my subscriber Slack community: What’s a product or tool you vibe coded that you actually use regularly in your work or life, covering Some high-level takeaways from the stories you shared:, Health, wellness, and style, and Carb counter, by [Morgan Brown](https://www.linkedin.c"
 tags: ["design", "ai", "engineering", "newsletter", "b2c", "career"]
-word_count: 4489
+word_count: 4396
 ---
-
-*👋 Welcome to a **🔒 subscriber-only edition 🔒** of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. For more: **[Lenny’s Podcast](https://www.lennysnewsletter.com/podcast) |** **[How I AI](https://www.youtube.com/@howiaipodcast)** **| [Lennybot](https://www.lennybot.com/) | [Lenny’s Reads](https://www.lennysnewsletter.com/s/lennys-reads)** | **[Courses](https://maven.com/lenny) | [Swag](https://lennyswag.com/)***
-
-*Annual subscribers now get a free year of [Bolt, Perplexity Pro, Notion, Superhuman, Linear, Granola, and more](https://www.lennysnewsletter.com/p/announcing-the-greatest-product-bundle). **[Subscribe now](https://www.lennysnewsletter.com/subscribe?).***
 
 Everyone’s talking about [vibe coding](https://www.lennysnewsletter.com/i/153296003/vibe-coding), and how important it is to get your hands dirty by using the latest AI tools. But what are people building? And are these products useful, like for real? The answer is a resounding yes.
 

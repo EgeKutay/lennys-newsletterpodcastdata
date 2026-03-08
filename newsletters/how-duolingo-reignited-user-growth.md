@@ -3,7 +3,7 @@ title: "How Duolingo reignited user growth"
 subtitle: "The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model"
 date: "2023-02-28"
 type: "newsletter"
-summary: "A deep dive into The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model, covering Phase 1: Increasing gamification, Phase 2: Referrals, and Time to regroup."
+summary: "An overview of welcome to this month’s ✨ free edition✨ of Lenny’s Newsletter, covering Phase 1: Increasing gamification, Phase 2: Referrals, and Time to regroup."
 tags: ["growth", "leadership", "design", "newsletter", "strategy", "analytics"]
 word_count: 4718
 ---
@@ -111,13 +111,13 @@ The remaining three buckets represent users who were not active today and have d
 
 - **At-risk WAU:** inactive today, but active in at least one of the prior 6 days
 
-  - At-risk WAU + DAU = WAU
+- At-risk WAU + DAU = WAU
 - **At-risk MAU:** inactive in the past seven days, but active in at least one of the prior 23 days
 
-  - At-risk MAU + WAU = MAU
+- At-risk MAU + WAU = MAU
 - **Dormant users:** inactive in the past 31 days or longer
 
-  - MAU + dormant users =  Total user base
+- MAU + dormant users =  Total user base
 
 The fact that DAU, WAU, and MAU can easily be calculated from these buckets made it easy to model them over time. This is a key feature of the model. Additionally, by manipulating the rates represented by the arrows, we can model the compounding and cumulative impact of moving these rates over time; in other words, the rates are the levers product teams can pull to grow DAU.
 

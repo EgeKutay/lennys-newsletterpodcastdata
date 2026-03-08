@@ -3,14 +3,10 @@ title: "Beyond vibe checks: A PM’s complete guide to evals"
 subtitle: "How to master the emerging skill that can make or break an AI product"
 date: "2025-04-08"
 type: "newsletter"
-summary: "A practical guide to master the emerging skill that can make or break an AI product, covering Why evals matter, What exactly are evals?, and Getting started."
+summary: "A practical guide to understanding what evals are, why they are so important, and mastering this emerging skill, covering Why evals matter, What exactly are evals?, and Getting started."
 tags: ["ai", "design", "engineering", "leadership", "organization", "analytics"]
-word_count: 3527
+word_count: 3448
 ---
-
-*👋 Welcome to a**🔒 subscriber-only edition 🔒**of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. For more: **[Lennybot](https://www.lennybot.com/) | [Podcast](https://www.lennysnewsletter.com/podcast) | [Courses](https://maven.com/lenny) | [Hiring](https://www.lennysjobs.com/) | [Swag](https://lennyswag.com/)***
-
-*Annual subscribers now get a free year of [Perplexity Pro, Notion, Superhuman, Linear, and Granola](https://www.lennysnewsletter.com/p/announcing-the-greatest-product-bundle). **[Subscribe now](https://www.lennysnewsletter.com/subscribe?).***
 
 I’m going to keep this intro short because this post is so damn good, and so damn timely.
 
@@ -64,15 +60,15 @@ Evals are analogous to unit testing in some ways, with important differences. Tr
 
 1. **Human evals:** These are human feedback loops you can design into your product (i.e. showing a thumbs-up/thumbs-down or a comment box next to an LLM response, for your user to provide feedback). You can also have human labelers (i.e. subject-matter experts) provide their labels and feedback, and use this for aligning the application with human preferences via prompt optimization or fine-tuning a model (aka [reinforcement learning from human feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback), or RLHF).
 
-   - **Pro:** Directly tied to the end user.
+- **Pro:** Directly tied to the end user.
    - **Cons:** Very sparse (most people don’t hit that thumbs-up/thumbs-down), not a strong signal (what does a thumbs-up or -down mean?), and costly (if you want to hire human labelers).
 2. **Code-based evals:** Utilizing checks on API calls or code generation (i.e. was the generated code “valid” and can it run?).
 
-   - **Pros:** Cheap and fast to write this eval. Some examples include simple checks (i.e. is this text string present in the paragraph), to more complex logic/system checks. This approach is often cheaper and faster to write on a first pass, as AI coding agents improve (and code logic is often faster to execute), compared to LLM-as-judge, which still requires LLM inference and calibration.
+- **Pros:** Cheap and fast to write this eval. Some examples include simple checks (i.e. is this text string present in the paragraph), to more complex logic/system checks. This approach is often cheaper and faster to write on a first pass, as AI coding agents improve (and code logic is often faster to execute), compared to LLM-as-judge, which still requires LLM inference and calibration.
    - **Cons:** Not a strong signal for subjective or open-ended tasks.
 3. **LLM-based evals:** This technique utilizes an external LLM system (i.e. a “judge” LLM), with a prompt like the one above, to grade the output of the agent system. LLM-based evals allow you to generate classification labels in an automated way that resembles human-labeled data—without needing to have users or subject-matter experts label all of your data.
 
-   - **Pro:** Highly scalable (it’s like a human labeling your data but much cheaper) and uses natural language, so PMs can write prompts directly. You can get the LLM to generate explanations for its judgments, making them more reliable and explainable for debugging. While individual judgments may be subjective, they become empirically useful over large datasets—if a human can grade something, so can an LLM. Production systems often use techniques like confidence scores or panels of LLM judges to increase reliability.
+- **Pro:** Highly scalable (it’s like a human labeling your data but much cheaper) and uses natural language, so PMs can write prompts directly. You can get the LLM to generate explanations for its judgments, making them more reliable and explainable for debugging. While individual judgments may be subjective, they become empirically useful over large datasets—if a human can grade something, so can an LLM. Production systems often use techniques like confidence scores or panels of LLM judges to increase reliability.
    - **Con:** Requires initial setup of the LLM-as-judge system with some labeled examples to validate performance. Results are probabilistic rather than deterministic, so you need sufficient volume to trust the signal.
 
 Importantly, LLM-based evals are natural language prompts themselves. That means that just as building intuition for your AI agent or LLM-based system requires prompting, evaluating that same system also requires you to describe what you want to catch.
@@ -87,15 +83,15 @@ As a user, you want evals that are (1) specific, (2) battle-tested, and (3) test
 
 1. **[Hallucination](https://docs.arize.com/phoenix/evaluation/how-to-evals/running-pre-tested-evals/hallucinations):** Is the agent accurately using the provided context, or is it making things up?
 
-   1. Useful for: When you are providing documents (e.g. PDFs) for the agent to perform reasoning on top of
+1. Useful for: When you are providing documents (e.g. PDFs) for the agent to perform reasoning on top of
 
 2. **[Toxicity/tone](https://docs.arize.com/phoenix/evaluation/how-to-evals/running-pre-tested-evals/toxicity):** Is the agent outputting harmful or undesirable language?
 
-   1. Useful for: End-user applications, to determine if users may be trying to exploit the system or the LLM is responding inappropriately
+1. Useful for: End-user applications, to determine if users may be trying to exploit the system or the LLM is responding inappropriately
 
 3. **[Overall correctness](https://docs.arize.com/phoenix/evaluation/how-to-evals/running-pre-tested-evals/q-and-a-on-retrieved-data):** How well is the system performing at its primary goal?
 
-   1. Useful for: End-to-end effectiveness; for example, question-answering accuracy—how often is the agent actually correct at answering a question provided by a user?
+1. Useful for: End-to-end effectiveness; for example, question-answering accuracy—how often is the agent actually correct at answering a question provided by a user?
 
 Other common areas for eval would be:
 
@@ -130,14 +126,14 @@ Let’s say you’ve launched your trip planning agent and are getting feedback 
 
 1. **Gather real user interactions:** [Capture real examples](https://hamel.dev/blog/posts/field-guide/index.html#measure-alignment-between-automated-evals-and-human-judgment) of how users engage with your app. You can do this via direct feedback, analytics, or manual inspection of interactions within your application.
 
-   1. For example: Capture human feedback (thumbs-up/down) from your users interacting with the agent. Try to build out a dataset representative of real-world examples that have human feedback.
+1. For example: Capture human feedback (thumbs-up/down) from your users interacting with the agent. Try to build out a dataset representative of real-world examples that have human feedback.
    2. If you don’t collect feedback from your application, you can also take a sample of data and have subject-matter experts (or even PMs!) label the data.
 
 2. **Document edge cases:** Identify the unusual or unexpected ways users interact with your AI, as well as any atypical responses from the agent.
 
-   1. As you inspect specific examples, you might want a dataset that is balanced across topics. For example:
+1. As you inspect specific examples, you might want a dataset that is balanced across topics. For example:
 
-      - Help booking a hotel
+- Help booking a hotel
       - Help booking a flight
       - Asking for support
       - Asking for trip planning advice
@@ -152,20 +148,20 @@ For example: You might be trying to see if your agent ever answers in a tone tha
 
 1. **Write initial eval prompts:** Clearly specify the scenarios you’re testing for, following the four-part formula above.
 
-   1. For example, the initial eval might look something like:
+1. For example, the initial eval might look something like:
 
-      - **Setting the role:** “You are a judge, evaluating written text.”
+- **Setting the role:** “You are a judge, evaluating written text.”
       - **Providing the context:** “Here is the text : {text}” → In this case, {text} is a variable, where you will be providing the “LLM agent answer” in the [variable of the prompt](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-templates-and-variables).
       - **Providing the goal:** “Determine whether the LLM agent response was friendly.”
       - **Defining the terminology and label:** “‘Friendly’ would be defined as using an exclamation point in response and generally being helpful. The response should never have a negative tone.”
 
 2. **Run evals against your dataset:** You will run the eval by sending the eval prompt plus LLM agent answer variable to an LLM, and get back a label for each row in your dataset.
 
-   1. Aim for at least 90% accuracy compared with your human-labeled ground truth.
+1. Aim for at least 90% accuracy compared with your human-labeled ground truth.
 
 3. **Identify patterns in failures:** Where does the eval fall short? Iterate on your prompt.
 
-   1. In the example below: The eval disagrees with the human label in the last example. Our prompt above requires an exclamation point for an LLM agent response to be considered friendly. Maybe that requirement is too strict?
+1. In the example below: The eval disagrees with the human label in the last example. Our prompt above requires an exclamation point for an LLM agent response to be considered friendly. Maybe that requirement is too strict?
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/6c0f6186-adc4-41f8-b367-cc184a2bd9eb_2913x1830.jpeg)
 
@@ -173,7 +169,7 @@ For example: You might be trying to see if your agent ever answers in a tone tha
 
 1. **Refine eval prompts:** Continuously adjust your prompts based on results until performance meets your standards.
 
-   1. Tip: You can add a few examples to your prompt of “good” and “bad” evals to ground the LLM response, as a form of “[few-shot prompting](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/multishot-prompting).”
+1. Tip: You can add a few examples to your prompt of “good” and “bad” evals to ground the LLM response, as a form of “[few-shot prompting](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/multishot-prompting).”
 2. **Expand your dataset:** Regularly add new examples and edge cases to test whether your eval prompts can generalize effectively.
 3. **Iterate on your agent prompt:** Evals help you test your product when you make changes to the underlying AI system—in some ways, they are the final boss when A/B testing prompts for your AI system. For example, when you make a change to an agent (e.g. changing the model from GPT-4o to Claude 3.7 Sonnet), you can rerun the dataset of questions you collected *through your updated agent* and evaluate the new output (i.e. Claude 3.7) with your eval agent. The goal would be to improve on your initial agent (GPT-4o) eval scores, giving you a benchmark you can use for continual improvement.
 
@@ -183,7 +179,7 @@ For example: You might be trying to see if your agent ever answers in a tone tha
 
 1. **Continuous evaluation:** Set up evals to run automatically on live user interactions.
 
-   - For example: You can continuously run the “friendly” eval on all your incoming requests and agent responses, to get a score over time. This can help you answer questions such as “Are your users getting more frustrated over time?” or “Are the changes we are making to our system impacting how friendly our LLM is?”
+- For example: You can continuously run the “friendly” eval on all your incoming requests and agent responses, to get a score over time. This can help you answer questions such as “Are your users getting more frustrated over time?” or “Are the changes we are making to our system impacting how friendly our LLM is?”
 2. **Compare eval results to actual user outcomes:** Look for discrepancies between eval results and real-world performance (i.e. human-labeled ground truth). Use these insights to enhance your eval framework and improve accuracy over time.
 3. **Build actionable eval dashboards:** Evals can help communicate AI metrics to stakeholders across your team, and they can even be tied to business outcomes. They can serve as proxy leading metrics for changes you make to your system.
 

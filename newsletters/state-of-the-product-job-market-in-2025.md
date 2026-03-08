@@ -3,14 +3,10 @@ title: "State of the product job market in 2025"
 subtitle: "There’s a lot to be optimistic about"
 date: "2025-05-13"
 type: "newsletter"
-summary: "A deep dive into There’s a lot to be optimistic about, covering 2. AI roles are exploding, 3. Layoffs are slowing, and 4. Capital investment is increasing."
+summary: "An overview of last year, I did a two-part series on the state of the product job market (see part 1, part 2), where we found:, covering 2. AI roles are exploding, 3. Layoffs are slowing, and 4. Capital investment is increasing."
 tags: ["product-management", "newsletter", "ai", "career", "engineering", "strategy"]
-word_count: 1298
+word_count: 1206
 ---
-
-*👋 Welcome to a **🔒 subscriber-only edition 🔒** of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. For more: **[Lenny’s Podcast](https://www.lennysnewsletter.com/podcast) |** **[How I AI](https://www.youtube.com/@howiaipodcast)** **| [Lennybot](https://www.lennybot.com/) | [Lenny’s Reads](https://www.lennysnewsletter.com/s/lennys-reads)** | **[Courses](https://maven.com/lenny) | [Swag](https://lennyswag.com/)***
-
-*Annual subscribers now get a free year of [Perplexity Pro, Notion, Superhuman, Linear, Granola, and more](https://www.lennysnewsletter.com/p/announcing-the-greatest-product-bundle). **[Subscribe now](https://www.lennysnewsletter.com/subscribe?).***
 
 Last year, I did a two-part series on the state of the product job market (see [part 1](https://www.lennysnewsletter.com/p/new-data-on-the-product-job-market), [part 2](https://www.lennysnewsletter.com/p/state-of-the-product-job-market-part)), where we found:
 

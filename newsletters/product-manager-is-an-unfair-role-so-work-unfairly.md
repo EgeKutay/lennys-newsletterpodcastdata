@@ -3,12 +3,10 @@ title: "Product manager is an unfair role. So work unfairly."
 subtitle: "How to thrive in “the great flattening” by redefining work norms"
 date: "2024-11-12"
 type: "newsletter"
-summary: "A practical guide to thrive in “the great flattening” by redefining work norms, covering 3. Hide, ignore, and automate Slack, 4. Cultivate a team that operates without you, and 7. PM your own brain’s freshness."
+summary: "An overview of i believe the future of product management looks like Tal Raviv, covering 3. Hide, ignore, and automate Slack, 4. Cultivate a team that operates without you, and 7. PM your own brain’s freshness."
 tags: ["leadership", "design", "product-management", "newsletter", "organization", "ai"]
-word_count: 4165
+word_count: 4108
 ---
-
-*👋 Welcome to a**🔒 subscriber-only edition 🔒**of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. For more: **[Hire your next product leader](https://www.lennysjobs.com/)** | **[Favorite Maven courses](https://maven.com/lenny)** | **[Lennybot](https://www.lennybot.com/) | [Podcast](https://www.lennysnewsletter.com/podcast) | [Swag](https://lennyswag.com/)***
 
 I believe the future of product management looks like [Tal Raviv](https://www.linkedin.com/in/talsraviv/). He’s an individual contributor (IC) PM who leverages AI tools and a suite of productivity systems to get more done with fewer resources (and management layers). Throughout his more than 10-year career, Tal has actively chosen to stay an IC and, over that time, has honed a set of productivity practices that give him tremendous leverage and impact—beyond what many traditionally believe ICs can achieve**.**In other words, he’s become a “super-IC.”Below, Tal shares seven of the unique productivity tactics that have gotten him to where he is today—and might help you become a super-IC too.
 
@@ -83,12 +81,12 @@ To anyone outside the product team, we *are* design, engineering, QA, data, know
 1. Don’t go into Slack for the first half of your day (or pick the best window for *your* time zone, cadence, and teammates). This has been my ironclad rule since 2016, at three hypergrowth companies, while PMing multiple teams at once. And it has never once gotten in the way of supporting my team or achieving my goals.
 2. When you do go into Slack, put it to work for you: configure Slack sections to compartmentalize and help you prioritize where to look first, and collapse everything that isn’t urgent.
 
-   ![](https://substack-post-media.s3.amazonaws.com/public/images/03d6984f-1c77-4638-9827-ae0f741eebd7_548x354.png)
+![](https://substack-post-media.s3.amazonaws.com/public/images/03d6984f-1c77-4638-9827-ae0f741eebd7_548x354.png)
 
-   Once I’ve taken care of the critical channels where I am a bottleneck, the pressure goes down, and I can calmly and intentionally scan the rest.
+Once I’ve taken care of the critical channels where I am a bottleneck, the pressure goes down, and I can calmly and intentionally scan the rest.
 3. Hide read channels ([how to do this](https://slack.com/help/articles/212596808-Adjust-your-sidebar-preferences#choose-which-conversations-to-show)). This feature makes Slack feel smaller and a lot more manageable, which makes a big difference when you’re getting a million pings a day. I’m always surprised how few people turn on this setting compared with the number of people who complain about “too many Slack channels.”
 
-   If I use sections and combine it with hiding read channels, my Slack looks like this in the middle of the day:
+If I use sections and combine it with hiding read channels, my Slack looks like this in the middle of the day:
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/ae2a1ed1-f781-4bc0-ad3a-81ec7fb52a89_559x872.jpeg)
 

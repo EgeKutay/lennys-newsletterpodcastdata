@@ -3,7 +3,7 @@ title: "Everyone should be using Claude Code more"
 subtitle: "How to get started, and 50 ways non-technical people are using Claude Code in their work and life"
 date: "2025-10-14"
 type: "newsletter"
-summary: "A practical guide to get started, and 50 ways non-technical people are using Claude Code in their work and life, covering 1. Clearing space on my computer, 2. Improving the image quality of screenshots, and 3. Downloading YouTube videos."
+summary: "An overview of ever since my chat with Dan Shipper, I couldn’t stop thinking about his hot take that Claude Code was the most underrated AI tool for non-technical people, covering 1. Clearing space on my computer, 2. Improving the image quality of screenshots, and 3. Downloading YouTube videos."
 tags: ["ai", "engineering", "design", "newsletter", "career", "leadership"]
 word_count: 3909
 ---
@@ -28,11 +28,11 @@ A huge thank-you to the more than 500 of you who shared your stories. 🙏
 
 1. **Open your Terminal app**
 
-   1. On a Mac, press **Command (⌘) + Space**, type **“Terminal”**, and hit **Return**
+1. On a Mac, press **Command (⌘) + Space**, type **“Terminal”**, and hit **Return**
    2. In Windows, press **Windows key + R**, type **“wt”**, and press **Enter**
 2. **Install Claude Code**
 
-   1. On a Mac, run this command: *curl -fsSL https://claude.ai/install.sh | bash*
+1. On a Mac, run this command: *curl -fsSL https://claude.ai/install.sh | bash*
    2. In Windows, run this command: *irm https://claude.ai/install.ps1 | iex*
 3. **Launch Claude Code:** *claude*
 

@@ -3,12 +3,10 @@ title: "An AI glossary"
 subtitle: "The most common AI terms explained, simply"
 date: "2025-06-24"
 type: "newsletter"
-summary: "A deep dive into The most common AI terms explained, simply, covering LLM (large language model), Supervised learning, and Unsupervised learning."
+summary: "An overview of you’re probably hearing a lot of AI jargon, and you probably sort of know what some of it means, covering LLM (large language model), Supervised learning, and Unsupervised learning."
 tags: ["ai", "engineering", "design", "newsletter", "b2b", "b2c"]
-word_count: 3313
+word_count: 3255
 ---
-
-*👋 Welcome to a**🔒 subscriber-only edition 🔒**of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. For more: **[Lennybot](https://www.lennybot.com/) | [Podcast](https://www.lennysnewsletter.com/podcast) | [Hire your next product leader](https://www.lennysjobs.com/)** | **[My favorite Maven courses](https://maven.com/lenny)** | **[Swag](https://lennyswag.com/)***
 
 You’re probably hearing a lot of AI jargon, and you probably *sort* *of* know what some of it means . . . but not *really*. Below is an “explain it to me like I’m 5” definition of the 20+ most common AI terms, drawn from my own understanding, a bunch of research, and feedback from my most AI-pilled friends.
 

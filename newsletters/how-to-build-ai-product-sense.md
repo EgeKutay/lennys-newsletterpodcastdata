@@ -3,7 +3,7 @@ title: "How to build AI product sense"
 subtitle: "The secret is using Cursor for non-technical work (inside: 75 free days of Cursor Pro to try this out!)"
 date: "2026-02-03"
 type: "newsletter"
-summary: "A deep dive into The secret is using Cursor for non-technical work (inside: 75 free days of Cursor Pro to try this out!), covering Step 1: Download Cursor, Step 2: Create a new project, and Step 3: Continue this post inside Cursor."
+summary: "A practical guide to how to take this newfound AI intuition and apply it to your own product, covering Step 1: Download Cursor, Step 2: Create a new project, and Step 3: Continue this post inside Cursor."
 tags: ["ai", "design", "engineering", "newsletter", "b2b", "leadership"]
 word_count: 6851
 ---
