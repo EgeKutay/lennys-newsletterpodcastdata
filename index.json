@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-03-12T19:00:01.856045+00:00",
+  "generated_at": "2026-03-12T19:16:29.315902+00:00",
   "podcasts": [
     {
       "title": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
@@ -89,20 +89,9 @@
     {
       "title": "Why LinkedIn is turning PMs into AI-powered \"full stack builders” | Tomer Cohen (LinkedIn CPO)",
       "date": "2025-12-04",
-      "filename": "03-podcasts/tomer-cohen-20.md",
-      "word_count": 13082,
-      "guest": "Tomer Cohen 2.0",
-      "canonical_filename": "03-podcasts/tomer-cohen.md",
-      "transcript_variant": "alternate"
-    },
-    {
-      "title": "Why LinkedIn is turning PMs into AI-powered \"full stack builders” | Tomer Cohen (LinkedIn CPO)",
-      "date": "2025-12-04",
       "filename": "03-podcasts/tomer-cohen.md",
       "word_count": 13085,
-      "guest": "Tomer Cohen",
-      "canonical_filename": "03-podcasts/tomer-cohen.md",
-      "transcript_variant": "canonical"
+      "guest": "Tomer Cohen"
     },
     {
       "title": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe, Google)",
@@ -142,20 +131,9 @@
     {
       "title": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
       "date": "2025-11-09",
-      "filename": "03-podcasts/jen-abel-20.md",
-      "word_count": 15380,
-      "guest": "Jen Abel 2.0",
-      "canonical_filename": "03-podcasts/jen-abel.md",
-      "transcript_variant": "alternate"
-    },
-    {
-      "title": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "date": "2025-11-09",
       "filename": "03-podcasts/jen-abel.md",
       "word_count": 14531,
-      "guest": "Jen Abel",
-      "canonical_filename": "03-podcasts/jen-abel.md",
-      "transcript_variant": "canonical"
+      "guest": "Jen Abel"
     },
     {
       "title": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
@@ -181,20 +159,9 @@
     {
       "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
       "date": "2025-10-19",
-      "filename": "03-podcasts/nicole-forsgren-20.md",
-      "word_count": 12817,
-      "guest": "Nicole Forsgren 2.0",
-      "canonical_filename": "03-podcasts/nicole-forsgren.md",
-      "transcript_variant": "alternate"
-    },
-    {
-      "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "date": "2025-10-19",
       "filename": "03-podcasts/nicole-forsgren.md",
       "word_count": 14088,
-      "guest": "Nicole Forsgren",
-      "canonical_filename": "03-podcasts/nicole-forsgren.md",
-      "transcript_variant": "canonical"
+      "guest": "Nicole Forsgren"
     },
     {
       "title": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein (VP of Product, Google Search)",
@@ -304,20 +271,9 @@
     {
       "title": "Brian Chesky's secret mentor who died 9 times, started the Burning Man board, and built the world's first midlife wisdom school | Chip Conley (founder of MEA)",
       "date": "2025-08-03",
-      "filename": "03-podcasts/brian-chesky.md",
-      "word_count": 13702,
-      "guest": "Brian Chesky",
-      "canonical_filename": "03-podcasts/chip-conley.md",
-      "transcript_variant": "alternate"
-    },
-    {
-      "title": "Brian Chesky's secret mentor who died 9 times, started the Burning Man board, and built the world's first midlife wisdom school | Chip Conley (founder of MEA)",
-      "date": "2025-08-03",
       "filename": "03-podcasts/chip-conley.md",
       "word_count": 13744,
-      "guest": "Chip Conley",
-      "canonical_filename": "03-podcasts/chip-conley.md",
-      "transcript_variant": "canonical"
+      "guest": "Chip Conley"
     },
     {
       "title": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
@@ -329,20 +285,9 @@
     {
       "title": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
       "date": "2025-07-27",
-      "filename": "03-podcasts/madhavan-ramanujam-20.md",
-      "word_count": 13694,
-      "guest": "Madhavan Ramanujam 2.0",
-      "canonical_filename": "03-podcasts/madhavan-ramanujam.md",
-      "transcript_variant": "alternate"
-    },
-    {
-      "title": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "date": "2025-07-27",
       "filename": "03-podcasts/madhavan-ramanujam.md",
       "word_count": 19317,
-      "guest": "Madhavan Ramanujam",
-      "canonical_filename": "03-podcasts/madhavan-ramanujam.md",
-      "transcript_variant": "canonical"
+      "guest": "Madhavan Ramanujam"
     },
     {
       "title": "The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code | Dan Shipper (co-founder/CEO of Every)",
@@ -371,6 +316,41 @@
       "filename": "03-podcasts/peter-deng.md",
       "word_count": 22640,
       "guest": "Peter Deng"
+    },
+    {
+      "title": "AI prompt engineering in 2025: What works and what doesn’t | Sander Schulhoff (Learn Prompting, HackAPrompt)",
+      "date": "2025-06-19",
+      "filename": "03-podcasts/sander-schulhoff.md",
+      "word_count": 17352,
+      "guest": "Sander Schulhoff"
+    },
+    {
+      "title": "How to build a team that can “take a punch”: A playbook for building resilient, high-performing teams | Hilary Gridley (Head of Core Product, Whoop)",
+      "date": "2025-06-15",
+      "filename": "03-podcasts/hilary-gridley.md",
+      "word_count": 23016,
+      "guest": "Hilary Gridley"
+    },
+    {
+      "title": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+      "date": "2025-06-12",
+      "filename": "03-podcasts/bob-baxley.md",
+      "word_count": 21888,
+      "guest": "Bob Baxley"
+    },
+    {
+      "title": "Anthropic’s CPO on what comes next | Mike Krieger (co-founder of Instagram)",
+      "date": "2025-06-05",
+      "filename": "03-podcasts/mike-krieger.md",
+      "word_count": 13926,
+      "guest": "Mike Krieger"
+    },
+    {
+      "title": "Growth tactics from OpenAI and Stripe’s first marketer | Krithika Shankarraman",
+      "date": "2025-05-25",
+      "filename": "03-podcasts/krithika-shankarraman.md",
+      "word_count": 14206,
+      "guest": "Krithika Shankarraman"
     }
   ],
   "newsletters": [

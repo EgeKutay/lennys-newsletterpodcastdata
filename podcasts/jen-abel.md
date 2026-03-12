@@ -3,8 +3,6 @@ title: "\"Sell the alpha, not the feature\": The enterprise sales playbook for $
 publish_date: "2025-11-09"
 type: "podcast"
 guest: "Jen Abel"
-canonical_filename: "podcasts/jen-abel.md"
-transcript_variant: "canonical"
 channel: "Lenny's Podcast"
 youtube_url: "https://www.youtube.com/watch?v=37fKFWdrMyA"
 video_id: "37fKFWdrMyA"
