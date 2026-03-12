@@ -3,6 +3,8 @@ title: "Why LinkedIn is turning PMs into AI-powered \"full stack builders” | T
 publish_date: "2025-12-04"
 type: "podcast"
 guest: "Tomer Cohen 2.0"
+canonical_filename: "podcasts/tomer-cohen.md"
+transcript_variant: "alternate"
 channel: "Lenny's Podcast"
 youtube_url: "https://www.youtube.com/watch?v=R-zCfLQD_84"
 video_id: "R-zCfLQD_84"

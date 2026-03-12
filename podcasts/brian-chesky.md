@@ -3,6 +3,8 @@ title: "Brian Chesky's secret mentor who died 9 times, started the Burning Man b
 publish_date: "2025-08-03"
 type: "podcast"
 guest: "Brian Chesky"
+canonical_filename: "podcasts/chip-conley.md"
+transcript_variant: "alternate"
 channel: "Lenny's Podcast"
 youtube_url: "https://www.youtube.com/watch?v=R5_ypwiRIyo"
 video_id: "R5_ypwiRIyo"
