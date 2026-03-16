@@ -14,6 +14,8 @@ That includes copying it, remixing it, sharing it, publishing projects built wit
 
 The only thing you may not do is claim ownership of Lenny Rachitsky's original content.
 
+These starter-dataset terms are intentionally more permissive than the paid full-archive terms below. Commercial use is allowed for this public starter dataset only.
+
 ## Full paid archive
 
 The full archive available at [https://www.lennysdata.com](https://www.lennysdata.com) is covered by different terms.
