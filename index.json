@@ -1,10 +1,10 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-03-15T22:27:13.169336+00:00",
+  "generated_at": "2026-03-15T23:33:15.230037+00:00",
   "podcasts": [
     {
       "title": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
-      "filename": "03-podcasts/brian-halligan.md",
+      "filename": "podcasts/brian-halligan.md",
       "word_count": 14630,
       "date": "2026-02-15",
       "description": "Brian Halligan co-founded HubSpot, ran it as CEO for about 15 years, and now coaches Sequoia’s fastest-growing founders as their in-house CEO coach.",
@@ -12,7 +12,7 @@
     },
     {
       "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
-      "filename": "03-podcasts/lazar-jovanovic.md",
+      "filename": "podcasts/lazar-jovanovic.md",
       "word_count": 18219,
       "date": "2026-02-08",
       "description": "Lazar Jovanovic is a full-time professional vibe coder at Lovable. His job is to build both internal tools and customer-facing products purely using AI, while not having a coding background. In this conversation, he breaks down the tactics, workflows, and framework that let him ship production-quality products using only AI.",
@@ -20,7 +20,7 @@
     },
     {
       "title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
-      "filename": "03-podcasts/dr-becky-kennedy.md",
+      "filename": "podcasts/dr-becky-kennedy.md",
       "word_count": 19452,
       "date": "2026-02-01",
       "description": "Dr. Becky Kennedy is a clinical psychologist, the bestselling author of Good Inside , and the founder of a parenting platform used by millions. Known for her practical, psychology-based approach to parenting, Dr. Becky shares how the same principles that help parents raise resilient children can make you a much more effective leader. In this conversation, she breaks down why all human systems—whether families or companies—operate on the same fundamental principles, and how understanding these dy",
@@ -28,7 +28,7 @@
     },
     {
       "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
-      "filename": "03-podcasts/marc-andreessen.md",
+      "filename": "podcasts/marc-andreessen.md",
       "word_count": 22735,
       "date": "2026-01-29",
       "description": "Marc Andreessen is a founder, investor, and co-founder of Netscape, as well as co-founder of the venture capital firm Andreessen Horowitz (a16z). In this conversation, we dig into why we’re living through a unique and one of the most incredible times in history, and what comes next.",
@@ -36,7 +36,7 @@
     },
     {
       "title": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
-      "filename": "03-podcasts/jason-cohen.md",
+      "filename": "podcasts/jason-cohen.md",
       "word_count": 21523,
       "date": "2026-01-25",
       "description": "Jason’s five-step framework: logo retention, pricing, NRR, marketing channels, target market",
@@ -44,7 +44,7 @@
     },
     {
       "title": "The non-technical PM’s guide to building with Cursor | Zevi Arnovitz (Meta)",
-      "filename": "03-podcasts/zevi-arnovitz.md",
+      "filename": "podcasts/zevi-arnovitz.md",
       "word_count": 14839,
       "date": "2026-01-18",
       "description": "The complete AI workflow that lets non-technical people build real products in Cursor",
@@ -52,7 +52,7 @@
     },
     {
       "title": "How to show up in any room with a low heart rate: Silicon Valley’s missing etiquette playbook | Sam Lessin",
-      "filename": "03-podcasts/sam-lessin.md",
+      "filename": "podcasts/sam-lessin.md",
       "word_count": 19233,
       "date": "2026-01-15",
       "description": "Sam Lessin is a partner at Slow Ventures, a former VP of Product at Facebook, and a two-time founder who’s now teaching etiquette to Silicon Valley’s founders. In this unconventional episode, Sam explains why proper etiquette has become a vital skill for founders in 2026—especially as technology becomes more central to society and trust becomes harder to build. His etiquette book and courses have become surprisingly popular, teaching founders how to “show up in a room with a low heart rate” and",
@@ -60,7 +60,7 @@
     },
     {
       "title": "The power user’s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
-      "filename": "03-podcasts/alexander-embiricos.md",
+      "filename": "podcasts/alexander-embiricos.md",
       "word_count": 17382,
       "date": "2026-01-12",
       "description": "How to set up and use Codex in VS Code and terminal environments for both simple and complex coding tasks",
@@ -68,7 +68,7 @@
     },
     {
       "title": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
-      "filename": "03-podcasts/molly-graham.md",
+      "filename": "podcasts/molly-graham.md",
       "word_count": 17885,
       "date": "2026-01-04",
       "description": "Molly Graham has worked for some of tech’s most effective leaders, including Mark Zuckerberg, Sheryl Sandberg, Chamath Palihapitiya, and Bret Taylor. Today she leads Glue Club, a community for leaders navigating rapid scale, growth, and change. She’s best known for her “Give away your Legos” framework and her collection of practical mental models for leading through hypergrowth.",
@@ -76,7 +76,7 @@
     },
     {
       "title": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
-      "filename": "03-podcasts/jason-m-lemkin.md",
+      "filename": "podcasts/jason-m-lemkin.md",
       "word_count": 25973,
       "date": "2026-01-01",
       "description": "Jason Lemkin is the founder of SaaStr, the world’s largest community for software founders, and a veteran SaaS investor who has deployed over $200 million into B2B startups. After his last salesperson quit, Jason made a radical decision: replace his entire go-to-market team with AI agents. What started as an experiment has transformed into a new operating model, where 20 AI agents managed by just 1.2 humans now do the work previously handled by a team of 10 SDRs and AEs. In this conversation, Ja",
@@ -84,7 +84,7 @@
     },
     {
       "title": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
-      "filename": "03-podcasts/matt-macinnis.md",
+      "filename": "podcasts/matt-macinnis.md",
       "word_count": 18324,
       "date": "2025-12-28",
       "description": "Matt MacInnis is the chief product officer and former longtime COO at Rippling, a unified workforce management platform valued at over $16 billion.",
@@ -92,7 +92,7 @@
     },
     {
       "title": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
-      "filename": "03-podcasts/edwin-chen.md",
+      "filename": "podcasts/edwin-chen.md",
       "word_count": 14417,
       "date": "2025-12-07",
       "description": "Edwin Chen is the founder and CEO of Surge AI, the company that teaches AI what’s good and bad, powering frontier labs with elite data, environments, and evaluations. Surge surpassed $1 billion in revenue with under 100 employees last year, completely bootstrapped—the fastest company in history to reach this milestone. Before founding Surge, Edwin was a research scientist at Google, Facebook, and Twitter and studied mathematics, computer science, and linguistics at MIT.",
@@ -100,7 +100,7 @@
     },
     {
       "title": "Why LinkedIn is turning PMs into AI-powered \"full stack builders” | Tomer Cohen (LinkedIn CPO)",
-      "filename": "03-podcasts/tomer-cohen.md",
+      "filename": "podcasts/tomer-cohen.md",
       "word_count": 13085,
       "date": "2025-12-04",
       "description": "Tomer Cohen is the longtime chief product officer at LinkedIn, where he’s pioneering the Full Stack Builder program, a radical new approach to product development that fully embraces what AI makes possible. Under his leadership, LinkedIn has scrapped its traditional Associate Product Manager program and replaced it with an Associate Product Builder program that teaches coding, design, and PM skills together. He’s also introduced a formal “Full Stack Builder” title and career ladder, enabling any",
@@ -108,7 +108,7 @@
     },
     {
       "title": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe, Google)",
-      "filename": "03-podcasts/jeanne-grosser.md",
+      "filename": "podcasts/jeanne-grosser.md",
       "word_count": 14929,
       "date": "2025-11-30",
       "description": "Jeanne DeWitt Grosser built world-class GTM teams at Stripe, Google, and, most recently, Vercel, where she serves as COO and oversees marketing, sales, customer success, revenue operations, and field engineering. She transformed Stripe’s early sales organization from the ground up and advises founders on GTM strategy.",
@@ -116,7 +116,7 @@
     },
     {
       "title": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
-      "filename": "03-podcasts/rachel-lockett.md",
+      "filename": "podcasts/rachel-lockett.md",
       "word_count": 19831,
       "date": "2025-11-23",
       "description": "A guide to difficult conversations, building high-trust teams, and designing a life you love, covering team leadership, product design, and consumer products.",
@@ -124,7 +124,7 @@
     },
     {
       "title": "Slack founder: Mental models for building products people love ft. Stewart Butterfield",
-      "filename": "03-podcasts/stewart-butterfield.md",
+      "filename": "podcasts/stewart-butterfield.md",
       "word_count": 16198,
       "date": "2025-11-20",
       "description": "Stewart Butterfield is the co-founder of Slack and Flickr, two of the most influential products in internet history. After selling Slack to Salesforce in one of tech’s biggest acquisitions, he’s been focused on family, philanthropy, and creative projects. In this rare podcast appearance, Stewart shares the product frameworks and leadership principles that most contributed to his success. From “utility curves” to “the owner’s delusion” to “hyper-realistic work-like activities,” his thoughts on cr",
@@ -132,7 +132,7 @@
     },
     {
       "title": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
-      "filename": "03-podcasts/dr-fei-fei-li.md",
+      "filename": "podcasts/dr-fei-fei-li.md",
       "word_count": 11555,
       "date": "2025-11-16",
       "description": "Dr. Fei-Fei Li is known as the “godmother of AI.” She’s been at the center of AI’s biggest breakthroughs for over two decades. She spearheaded ImageNet, the dataset that sparked the deep-learning revolution we’re living right now, served as Google Cloud’s Chief AI Scientist, directed Stanford’s Artificial Intelligence Lab, and co-founded Stanford’s Institute for Human-Centered AI. In this conversation, Fei-Fei shares the rarely told history of how we got here—including the wild fact that just ni",
@@ -140,7 +140,7 @@
     },
     {
       "title": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
-      "filename": "03-podcasts/grant-lee.md",
+      "filename": "podcasts/grant-lee.md",
       "word_count": 24473,
       "date": "2025-11-13",
       "description": "Grant Lee is the co-founder of Gamma, the AI-powered presentation tool that’s one of the hottest and most interesting AI startups in the world right now. They’re valued at over $2 billion, and they hit $100 million ARR in just over two years, with a lean team of just around 50 people. Unlike many fast-growing AI startups, Gamma has been profitable for most of its history, has not raised significant funding, and they built a massive business in a category most investors dismissed. In fact, one in",
@@ -148,7 +148,7 @@
     },
     {
       "title": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "filename": "03-podcasts/jen-abel.md",
+      "filename": "podcasts/jen-abel.md",
       "word_count": 14531,
       "date": "2025-11-09",
       "description": "Jen Abel is GM of Enterprise at State Affairs and co-founded Jellyfish, a consultancy that helps founders learn zero-to-one enterprise sales. She’s one of the smartest people I’ve ever met on learning enterprise sales, and in this follow-up to our first chat two years ago (covering the zero to $1 million ARR founder-led sales phase), we focus on the skills founders need to learn to go from $1M to $10M ARR.",
@@ -156,7 +156,7 @@
     },
     {
       "title": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
-      "filename": "03-podcasts/melanie-perkins.md",
+      "filename": "podcasts/melanie-perkins.md",
       "word_count": 13679,
       "date": "2025-11-02",
       "description": "Melanie Perkins is CEO and co-founder of Canva, currently valued at over $42 billion, generating over $3 billion in annual revenue, with more than 240 million monthly active users and, incredibly, eight consecutive years of profitability. But the journey was far from smooth. Melanie was rejected by over 100 investors during her first fundraising round, her team spent two years without being able to ship a new feature during a technical rewrite, and the company pivoted early from a yearbook publi",
@@ -164,7 +164,7 @@
     },
     {
       "title": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
-      "filename": "03-podcasts/dhanji-r-prasanna.md",
+      "filename": "podcasts/dhanji-r-prasanna.md",
       "word_count": 14839,
       "date": "2025-10-26",
       "description": "Dhanji R. Prasanna is the chief technology officer at Block (formerly Square), where he’s managed more than 4,000 engineers over the past two years. Under his leadership, Block has become one of the most AI-native large companies in the world. Before becoming CTO, Dhanji wrote an “AI manifesto” to CEO Jack Dorsey that sparked a company-wide transformation (and his promotion to CTO).",
@@ -172,7 +172,7 @@
     },
     {
       "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
-      "filename": "03-podcasts/chip-huyen.md",
+      "filename": "podcasts/chip-huyen.md",
       "word_count": 15296,
       "date": "2025-10-23",
       "description": "Chip Huyen is a core developer on Nvidia’s Nemo platform, a former AI researcher at Netflix, and taught machine learning at Stanford. She’s a two-time founder and the author of two widely read books on AI, including AI Engineering , which has been the most-read book on the O’Reilly platform since its launch. Unlike many AI commentators, Chip has built multiple successful AI products and platforms and works directly with enterprises on their AI strategies, giving her unique visibility into what’s",
@@ -180,7 +180,7 @@
     },
     {
       "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "filename": "03-podcasts/nicole-forsgren.md",
+      "filename": "podcasts/nicole-forsgren.md",
       "word_count": 14088,
       "date": "2025-10-19",
       "description": "Nicole Forsgren created the most widely used frameworks for measuring developer productivity—DORA and SPACE. She wrote the foundational book Accelerate and is about to release her newest book, Frictionless , a practical guide for helping teams move faster in the AI era. She’s currently Senior Director of Developer Intelligence at Google.",
@@ -188,7 +188,7 @@
     },
     {
       "title": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein (VP of Product, Google Search)",
-      "filename": "03-podcasts/robby-stein.md",
+      "filename": "podcasts/robby-stein.md",
       "word_count": 17522,
       "date": "2025-10-10",
       "description": "Robby Stein is VP of Product at Google, where he oversees the core products of Google Search—including the new AI Overviews, AI Mode, search ranking, Google Lens, and more. Previously, he led consumer products at Instagram, where he and his teams built Stories, Reels, Close Friends, and other key features now used by billions.",
@@ -196,7 +196,7 @@
     },
     {
       "title": "First interview with Scale AI’s CEO: $14B Meta deal, what’s working in enterprise AI, and what frontier labs are building next | Jason Droege",
-      "filename": "03-podcasts/jason-droege.md",
+      "filename": "podcasts/jason-droege.md",
       "word_count": 16353,
       "date": "2025-10-09",
       "description": "Jason Droege is the CEO of Scale AI, a company that provides foundational training data to every major AI lab. He previously co-founded Scour with Travis Kalanick and built Uber Eats from idea to $20 billion in revenue. In this conversation, Jason shares lessons from getting sued for $250 billion, discovering restaurant economics by weighing sandwich ingredients, and over 25 years of launching transformative technology businesses.",
@@ -204,7 +204,7 @@
     },
     {
       "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
-      "filename": "03-podcasts/albert-cheng.md",
+      "filename": "podcasts/albert-cheng.md",
       "word_count": 17085,
       "date": "2025-10-05",
       "description": "Finding hidden growth opportunities in your product, covering growth systems, measurement and analysis, and product design.",
@@ -212,7 +212,7 @@
     },
     {
       "title": "The secret to better AI prototypes: Why Tinder’s CPO starts with JSON, not design | Ravi Mehta (product advisor, previously EIR at Reforge)",
-      "filename": "03-podcasts/ravi-mehta.md",
+      "filename": "podcasts/ravi-mehta.md",
       "word_count": 16657,
       "date": "2025-09-29",
       "description": "Why Tinder’s CPO starts with JSON, not design, covering team leadership, startup building, and product design.",
@@ -220,7 +220,7 @@
     },
     {
       "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
-      "filename": "03-podcasts/hamel-husain--shreya-shankar.md",
+      "filename": "podcasts/hamel-husain--shreya-shankar.md",
       "word_count": 19553,
       "date": "2025-09-25",
       "description": "Why AI evals are the hottest new skill for product builders, covering AI product work, product design, and measurement and analysis.",
@@ -228,7 +228,7 @@
     },
     {
       "title": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
-      "filename": "03-podcasts/brendan-foody.md",
+      "filename": "podcasts/brendan-foody.md",
       "word_count": 12086,
       "date": "2025-09-18",
       "description": "Why experts writing AI evals is creating the fastest-growing companies in history, covering AI product work, product design, and strategic decision-making.",
@@ -236,7 +236,7 @@
     },
     {
       "title": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
-      "filename": "03-podcasts/ethan-smith.md",
+      "filename": "podcasts/ethan-smith.md",
       "word_count": 14213,
       "date": "2025-09-14",
       "description": "Getting ChatGPT to recommend your product, covering AI product work, product design, and practical product lessons.",
@@ -244,7 +244,7 @@
     },
     {
       "title": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
-      "filename": "03-podcasts/ben-horowitz.md",
+      "filename": "podcasts/ben-horowitz.md",
       "word_count": 15972,
       "date": "2025-09-11",
       "description": "Why founders fail and why you need to run toward fear (a16z co-founder), covering team leadership, product design, and product strategy and execution.",
@@ -252,7 +252,7 @@
     },
     {
       "title": "How Devin replaces your junior engineers with infinite AI interns that never sleep | Scott Wu (Cognition CEO)",
-      "filename": "03-podcasts/scott-wu.md",
+      "filename": "podcasts/scott-wu.md",
       "word_count": 19567,
       "date": "2025-09-08",
       "description": "Scott Wu is the co-founder and CEO of Cognition Labs, the creators of Devin, an AI agent designed to function as a junior engineer on software development teams. In this conversation, Scott demonstrates how his team uses their own product to accelerate development workflows, reduce engineering toil, and handle routine tasks asynchronously. Scott walks us through real examples of how Devin integrates into Cognition’s daily operations—from researching and implementing new features to responding to",
@@ -260,7 +260,7 @@
     },
     {
       "title": "How we restructured Airtable’s entire org for AI | Howie Liu (co-founder and CEO)",
-      "filename": "03-podcasts/howie-liu.md",
+      "filename": "podcasts/howie-liu.md",
       "word_count": 17980,
       "date": "2025-08-31",
       "description": "How we restructured Airtable’s entire org for AI, covering AI product work, product design, and strategic decision-making.",
@@ -268,7 +268,7 @@
     },
     {
       "title": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
-      "filename": "03-podcasts/asha-sharma.md",
+      "filename": "podcasts/asha-sharma.md",
       "word_count": 10684,
       "date": "2025-08-28",
       "description": "Products as organisms, the death of org charts, and why agents will outnumber employees by 2026, covering AI product work, product design, and engineering tradeoffs.",
@@ -276,7 +276,7 @@
     },
     {
       "title": "Inside the expert network training every frontier AI model | Garrett Lord (Handshake CEO)",
-      "filename": "03-podcasts/garrett-lord.md",
+      "filename": "podcasts/garrett-lord.md",
       "word_count": 12723,
       "date": "2025-08-24",
       "description": "Inside the expert network training every frontier AI model, covering AI product work, product design, and team leadership.",
@@ -284,7 +284,7 @@
     },
     {
       "title": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
-      "filename": "03-podcasts/eoghan-mccabe.md",
+      "filename": "podcasts/eoghan-mccabe.md",
       "word_count": 13585,
       "date": "2025-08-21",
       "description": "How Intercom rose from the ashes by betting everything on AI, covering AI product work, pricing decisions, and product design.",
@@ -292,7 +292,7 @@
     },
     {
       "title": "The one question that saves product careers | Matt LeMay",
-      "filename": "03-podcasts/matt-lemay.md",
+      "filename": "podcasts/matt-lemay.md",
       "word_count": 17480,
       "date": "2025-08-14",
       "description": "The one question that saves product careers, covering team leadership, product design, and product strategy and execution.",
@@ -300,7 +300,7 @@
     },
     {
       "title": "Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
-      "filename": "03-podcasts/nick-turley.md",
+      "filename": "podcasts/nick-turley.md",
       "word_count": 19140,
       "date": "2025-08-09",
       "description": "The fastest-growing product in history, covering AI product work, product design, and go-to-market execution.",
@@ -308,7 +308,7 @@
     },
     {
       "title": "Brian Chesky's secret mentor who died 9 times, started the Burning Man board, and built the world's first midlife wisdom school | Chip Conley (founder of MEA)",
-      "filename": "03-podcasts/chip-conley.md",
+      "filename": "podcasts/chip-conley.md",
       "word_count": 13744,
       "date": "2025-08-03",
       "description": "Brian Chesky's secret mentor who died 9 times, started the Burning Man board, and built the world's first midlife wisdom school, covering team leadership, product design, and startup building.",
@@ -316,7 +316,7 @@
     },
     {
       "title": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
-      "filename": "03-podcasts/bret-taylor.md",
+      "filename": "podcasts/bret-taylor.md",
       "word_count": 16513,
       "date": "2025-07-31",
       "description": "The future of careers, coding, agents, and more, covering product design, team leadership, and product strategy and execution.",
@@ -324,7 +324,7 @@
     },
     {
       "title": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "filename": "03-podcasts/madhavan-ramanujam.md",
+      "filename": "podcasts/madhavan-ramanujam.md",
       "word_count": 19317,
       "date": "2025-07-27",
       "description": "Lessons from 400+ companies and 50 unicorns, covering pricing decisions, strategic decision-making, and product design.",
@@ -332,7 +332,7 @@
     },
     {
       "title": "The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code | Dan Shipper (co-founder/CEO of Every)",
-      "filename": "03-podcasts/dan-shipper.md",
+      "filename": "podcasts/dan-shipper.md",
       "word_count": 19059,
       "date": "2025-07-17",
       "description": "5 products, 7-figure revenue, 100% AI-written code, covering AI product work, engineering tradeoffs, and product design.",
@@ -340,7 +340,7 @@
     },
     {
       "title": "I’ve run 75+ businesses. Here’s why you’re probably chasing the wrong idea. | Andrew Wilkinson (co‑founder of Tiny)",
-      "filename": "03-podcasts/andrew-wilkinson.md",
+      "filename": "podcasts/andrew-wilkinson.md",
       "word_count": 16595,
       "date": "2025-07-03",
       "description": "I’ve run 75+ businesses. Here’s why you’re probably chasing the wrong idea., covering product design, startup building, and AI product work.",
@@ -348,7 +348,7 @@
     },
     {
       "title": "Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger | David Placek (Lexicon Branding)",
-      "filename": "03-podcasts/david-placek.md",
+      "filename": "podcasts/david-placek.md",
       "word_count": 13488,
       "date": "2025-06-29",
       "description": "Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger, covering strategic decision-making, team leadership, and product design.",
@@ -356,7 +356,7 @@
     },
     {
       "title": "From ChatGPT to Instagram to Uber: The quiet architect behind the world’s most popular products | Peter Deng",
-      "filename": "03-podcasts/peter-deng.md",
+      "filename": "podcasts/peter-deng.md",
       "word_count": 22640,
       "date": "2025-06-22",
       "description": "The quiet architect behind the world’s most popular products, covering AI product work, product design, and team leadership.",
@@ -364,7 +364,7 @@
     },
     {
       "title": "AI prompt engineering in 2025: What works and what doesn’t | Sander Schulhoff (Learn Prompting, HackAPrompt)",
-      "filename": "03-podcasts/sander-schulhoff.md",
+      "filename": "podcasts/sander-schulhoff.md",
       "word_count": 17352,
       "date": "2025-06-19",
       "description": "What works and what doesn’t, covering AI product work, engineering tradeoffs, and team leadership.",
@@ -372,7 +372,7 @@
     },
     {
       "title": "How to build a team that can “take a punch”: A playbook for building resilient, high-performing teams | Hilary Gridley (Head of Core Product, Whoop)",
-      "filename": "03-podcasts/hilary-gridley.md",
+      "filename": "podcasts/hilary-gridley.md",
       "word_count": 23016,
       "date": "2025-06-15",
       "description": "A playbook for building resilient, high-performing teams, covering team leadership, product design, and career development.",
@@ -380,7 +380,7 @@
     },
     {
       "title": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
-      "filename": "03-podcasts/bob-baxley.md",
+      "filename": "podcasts/bob-baxley.md",
       "word_count": 21888,
       "date": "2025-06-12",
       "description": "Bob Baxley is a design leader who has shaped products used by billions at Apple, Pinterest, Yahoo, and ThoughtSpot. During his eight years at Apple, he led design for the online store and the App Store, and witnessed the iPhone’s transformative launch while working under Steve Jobs. A student of history turned software craftsman, Bob discovered his calling after exploring photography, filmmaking, and music, ultimately recognizing software as the most powerful creative medium of our time. Bob cha",
@@ -388,7 +388,7 @@
     },
     {
       "title": "Anthropic’s CPO on what comes next | Mike Krieger (co-founder of Instagram)",
-      "filename": "03-podcasts/mike-krieger.md",
+      "filename": "podcasts/mike-krieger.md",
       "word_count": 13926,
       "date": "2025-06-05",
       "description": "Anthropic’s CPO on what comes next, covering AI product work, product design, and engineering tradeoffs.",
@@ -396,7 +396,7 @@
     },
     {
       "title": "Growth tactics from OpenAI and Stripe’s first marketer | Krithika Shankarraman",
-      "filename": "03-podcasts/krithika-shankarraman.md",
+      "filename": "podcasts/krithika-shankarraman.md",
       "word_count": 14206,
       "date": "2025-05-25",
       "description": "Growth tactics from OpenAI and Stripe’s first marketer, covering strategic decision-making, AI product work, and B2B products.",
@@ -406,70 +406,70 @@
   "newsletters": [
     {
       "title": "How to build AI product sense",
-      "filename": "02-newsletters/how-to-build-ai-product-sense.md",
+      "filename": "newsletters/how-to-build-ai-product-sense.md",
       "word_count": 6851,
       "date": "2026-02-03",
       "subtitle": "The secret is using Cursor for non-technical work (inside: 75 free days of Cursor Pro to try this out!)"
     },
     {
       "title": "Everyone should be using Claude Code more",
-      "filename": "02-newsletters/everyone-should-be-using-claude-code-more.md",
+      "filename": "newsletters/everyone-should-be-using-claude-code-more.md",
       "word_count": 3909,
       "date": "2025-10-14",
       "subtitle": "How to get started, and 50 ways non-technical people are using Claude Code in their work and life"
     },
     {
       "title": "Essential reading for product builders—part 1",
-      "filename": "02-newsletters/essential-reading-for-product-builders-part-1.md",
+      "filename": "newsletters/essential-reading-for-product-builders-part-1.md",
       "word_count": 2841,
       "date": "2025-07-15",
       "subtitle": "7 timeless essays you likely haven’t read but should"
     },
     {
       "title": "What people are vibe coding (and actually using)",
-      "filename": "02-newsletters/what-people-are-vibe-coding-and-actually-using.md",
+      "filename": "newsletters/what-people-are-vibe-coding-and-actually-using.md",
       "word_count": 4396,
       "date": "2025-07-08",
       "subtitle": "50+ useful/fun/clever examples of what non-technical people are building—to inspire your own vibe-coding journey"
     },
     {
       "title": "An AI glossary",
-      "filename": "02-newsletters/an-ai-glossary.md",
+      "filename": "newsletters/an-ai-glossary.md",
       "word_count": 3255,
       "date": "2025-06-24",
       "subtitle": "The most common AI terms explained, simply"
     },
     {
       "title": "State of the product job market in 2025",
-      "filename": "02-newsletters/state-of-the-product-job-market-in-2025.md",
+      "filename": "newsletters/state-of-the-product-job-market-in-2025.md",
       "word_count": 1206,
       "date": "2025-05-13",
       "subtitle": "There’s a lot to be optimistic about"
     },
     {
       "title": "Beyond vibe checks: A PM’s complete guide to evals",
-      "filename": "02-newsletters/beyond-vibe-checks-a-pms-complete-guide-to-evals.md",
+      "filename": "newsletters/beyond-vibe-checks-a-pms-complete-guide-to-evals.md",
       "word_count": 3448,
       "date": "2025-04-08",
       "subtitle": "How to master the emerging skill that can make or break an AI product"
     },
     {
       "title": "A guide to AI prototyping for product managers",
-      "filename": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "filename": "newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
       "word_count": 4219,
       "date": "2025-01-07",
       "subtitle": "How to turn your idea into a working prototype in minutes"
     },
     {
       "title": "Product manager is an unfair role. So work unfairly.",
-      "filename": "02-newsletters/product-manager-is-an-unfair-role-so-work-unfairly.md",
+      "filename": "newsletters/product-manager-is-an-unfair-role-so-work-unfairly.md",
       "word_count": 4108,
       "date": "2024-11-12",
       "subtitle": "How to thrive in “the great flattening” by redefining work norms"
     },
     {
       "title": "How Duolingo reignited user growth",
-      "filename": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "filename": "newsletters/how-duolingo-reignited-user-growth.md",
       "word_count": 4714,
       "date": "2023-02-28",
       "subtitle": "The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model"
