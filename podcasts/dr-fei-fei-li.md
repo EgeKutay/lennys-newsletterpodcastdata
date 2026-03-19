@@ -31,17 +31,16 @@ I chose to look at artificial intelligence through the lens of visual intelligen
 **Lenny Rachitsky** (00:01:36):
 Today, my guest is Dr. Fei-Fei Li, who's known as the godmother of AI. Fei-Fei has been responsible for and at the center of many of the biggest breakthroughs that sparked the AI revolution that we're currently living through. She spearheaded the creation of ImageNet, which was basically her realizing that AI needed a ton of clean-labeled data to get smarter, and that data set became the breakthrough that led to the current approach to building and scaling AI models. She was chief AI scientist at Google Cloud, which is where some of the biggest early technology breakthroughs emerged from. She was director at SAIL, Stanford's Artificial Intelligence Lab, where many of the biggest AI minds came out of. She's also co-creator of Stanford's Human-Centered AI Institute, which is playing a vital role in a direction that AI is taking. She's also been on the board of Twitter. She was named one of Time's 100 Most Influential People in AI. She's also United Nations advisory board. I could go on.
 
-(00:02:29):
+**Lenny Rachitsky** (00:02:29):
 In our conversation, Fei-Fei shares a brief history of how we got to today in the world of AI, including this mind-blowing reminder that 9 to 10 years ago, calling yourself an AI company was basically a death knell for your brand because no one believed that AI was actually going to work. Today, it's completely different. Every company is an AI company. We also chat about her take on how she sees AI impacting humanity in the future, how far current technologies will take us, why she's so passionate about building a world model and what exactly world models are, and most exciting of all, the launch of the world's first large world model, Marble, which just came out as this podcast comes out. Anyone can go play with this at marble.worldlabs.ai. It's insane. Definitely check it out. Fei-Fei is incredible and way too under the radar for the impact that she's had on the world, so I am really excited to have her on and to spread her wisdom with more people.
 
-(00:03:22):
 **Dr. Fei Fei Li** (00:05:34):
 I'm excited to be here, Lenny.
 
 **Lenny Rachitsky** (00:05:36):
 I'm even more excited to have you here. It is such a treat to get to chat with you. There's so much that I want to talk about. You've been at the center of this AI explosion that we're seeing right now for so long. We're going to talk about a bunch of the history that I think a lot of people don't even know about how this whole thing started, but let me first read a quote from Wired about you just so people get a sense, and in the intro I'll share all of the other epic things you've done. But I think this is a good way to just set context. "Fei-Fei is one of a tiny group of scientists, a group perhaps small enough to fit around a kitchen table, who are responsible for AI's recent remarkable advances."
 
-(00:06:10):
+**Lenny Rachitsky** (00:06:10):
 A lot of people call you the godmother of AI, and unlike a lot of AI leaders, you're an AI optimist. You don't think AI is going to replace us. You don't think it's going to take all our jobs. You don't think it's going to kill us. So I thought it'd be fun to start there, just what's your perspective on how AI is going to impact humanity over time?
 
 **Dr. Fei Fei Li** (00:06:30):
@@ -83,25 +82,25 @@ Okay, cool. That's exactly how I saw it. But very few people know there was a lo
 **Dr. Fei Fei Li** (00:10:44):
 It is, for me, hard to keep in mind that AI is so new for everybody when I lived my entire professional life in AI. There's a part of me that is just, it's so satisfying to see a personal curiosity that I started barely out of teenagehood and now has become a transformative force of our civilization. It generally is a civilizational level technology. So that journey is about 30 years or 20 something, 20 plus years, and it's just very satisfying. So where did it all start? Well, I'm not even the first generation AI researcher. The first generation really date back to the '50s and '60s, and Alan Turing was ahead of his time in the '40s by asking, daring humanity with the question, "Is there thinking machines?" And of course he has a specific way of testing this concept of thinking machine, which is a conversational chatbot, which to his standard we now have a thinking machine.
 
-(00:12:02):
+**Dr. Fei Fei Li** (00:12:02):
 But that was just a more anecdotal inspiration. The field really began in the '50s when computer scientists came together and look at how we can use computer programs and algorithms to build these programs that can do things that have been only capable by human cognition. And that was the beginning. And the founding fathers the Dartmouth workshop in the 1956, we have Professor John McCarthy who later came to Stanford who coined the term artificial intelligence. And between the '50s, '60s, '70s, and '80s, it was the early days of AI exploration and we had logic systems, we had expert systems, we also had early exploration of neural network. And then it came to around the late '80s, the '90s, and the very beginning of the 21st century. That stretch about 20 years is actually the beginning of machine learning, is the marriage between computer programming and statistical learning.
 
-(00:13:23):
+**Dr. Fei Fei Li** (00:13:23):
 And that marriage brought a very, very critical concept into AI, which is that purely rule-based program is not going to account for the vast amount of cognitive capabilities that we imagine computers can do. So we have to use machines to learn the patterns. Once the machines can learn the patterns, it has a hope to do more things. For example, if you give it three cats, the hope is not just for the machines to recognize these three cats. The hope is the machines can recognize the fourth cat, the fifth cat, the sixth cat, and all the other cats. And that's a learning ability that is fundamental to humans and remaining animals. And we, as a field, realized, "We need machine learning." So that was up till the beginning of the 21st century. I entered the field of AI literally in the year of 2000. That's when my PhD began at Caltech.
 
-(00:14:33):
+**Dr. Fei Fei Li** (00:14:33):
 And so I was one of the first generation machine learning researchers and we were already studying this concept of machine learning, especially neural network. I remember that was one of my first courses at Caltech is called neural network, but it was very painful. It was still smack in the middle of the so-called AI winter, meaning the public didn't look at this too much. There wasn't that much funding, but there was also a lot of ideas flowing around. And I think two things happened to myself that brought my own career so close to the birth of modern AI is that I chose to look at artificial intelligence through the lens of visual intelligence because humans are deeply visual animals. We can talk a little more later, but so much of our intelligence is built upon visual, perceptual, spatial understanding, not just language per se. I think they're complementary.
 
-(00:15:37):
+**Dr. Fei Fei Li** (00:15:37):
 So I choose to look at visual intelligence and my PhD and my early professor years, my students and I are very committed to a north star problem, which is solving the problem of object recognition because it's a building block for the perceptual world, right? We go around the world interpreting reasoning and interacting with it more or less at the object level. We don't interact with the world at the molecular level. We don't interact with the world as... We sometimes do, but we rarely, for example, if you want to lift a teapot, you don't say, "Okay, the teapot is made of a hundred pieces of porcelain and let me work on this a hundred pieces." You look at this as one object and interact with it. So object is really important. So I was among the first researchers to identify this as a north star problem, but I think what happened is that as a student of AI and a researcher of AI, I was working on all kinds of mathematical models including neural network, including Bayesian network, including many, many models.
 
-(00:16:53):
+**Dr. Fei Fei Li** (00:16:53):
 And there was one singular pain point is that these models don't have data to be trained on. And as a field, we were so focusing on these models, but it dawned on me that human learning as well as evolution is actually a big data learning process. Humans learn with so much experience constantly. In the evolution, if you look at time, animals evolve with just experiencing the world. So I think my students and I conjectured that a very critically-overlooked ingredient of bringing AI to life is big data. And then we began this ImageNet project in 2006, 2007. We were very ambitious. We want to get the entire internet's image data on objects. Now granted internet was a lot smaller than today, so I felt like that ambition was at least not too crazy. Now, it's totally delusional to think a couple of graduate student and a professor can do this.
 
-(00:18:05):
+**Dr. Fei Fei Li** (00:18:05):
 And that's what we did. We curated very carefully, 15 million images on the internet, created a taxonomy of 22,000 concepts, borrowing other researchers' work like linguists work on WordNet, and it's a particular way of dictionarying words. And we combine that into ImageNet and we open-sourced that to the research community. We held an annual ImageNet challenge to encourage everybody to participate in this. We continue to do our own research, but 2012 was the moment that many people think was the beginning of the deep learning or birth of modern AI because a group of Toronto researchers led by Professor Geoff Hinton, participated in ImageNet Challenge, used ImageNet big data and two GPUs from NVIDIA and created successfully the first neural network algorithm that can...
 
-(00:19:12):
+**Dr. Fei Fei Li** (00:19:12):
 It didn't totally solve, but made a huge progress towards solving the problem of object recognition. And that combination of the trio technology, big data, neural network, and GPU was kind of the golden recipe for modern AI. And then fast-forward, the public moment of AI, which is the ChatGPT moment, if you look at the ingredients of what brought ChatGPT to the world technically still use these three ingredients. Now, it's internet-scale data mostly texts is a much more complex neural network architecture than 2012, but it's still neural network and a lot more GPUs, but it's still GPUs. So these three ingredients are still at the core of modern AI.
 
 **Lenny Rachitsky** (00:20:16):
@@ -170,7 +169,7 @@ Okay, so let me ask you this question. It feels like we're always on this precip
 **Dr. Fei Fei Li** (00:24:13):
 Yeah, this is a very interesting term, Lenny. I don't know if anyone has ever defined AGI. There are many different definitions, including some kind of superpower for machines all the way to machines can become economically viable agent in the society. In other words, making salaries to live. Is that the definition of AGI? As a scientist, I take science very seriously and I enter the field because I was inspired by this audacious question of, can machines think and do things in the way that humans can do? For me, that's always the north star of AI. And from that point of view, I don't know what's the difference between AI and AGI.
 
-(00:25:10):
+**Dr. Fei Fei Li** (00:25:10):
 I think we've done very well in achieving parts of the goal, including conversational AI, but I don't think we have completely conquered all the goals of AI. And I think our founding fathers, Alan Turing, I wonder if Alan Turing is around today and you ask him to contrast AI versus AGI, he might just shrugged and said, "Well, I asked the same question back in 1940s," so I don't want to get onto a rabbit hole of defining AI versus AGI. I feel AGI is more a marketing term than a scientific term as a scientist than technologist. AI is my north star, is my field's north star, and I'm happy people call it whatever name they want to call it.
 
 **Lenny Rachitsky** (00:26:05):
@@ -179,7 +178,7 @@ So let me ask you maybe this way, like you described, there's kind of these comp
 **Dr. Fei Fei Li** (00:26:44):
 Oh no, I definitely think we need more innovations. I think scaling loss of more data, more GPUs, and bigger current model architecture is there's still a lot to be done there, but I absolutely think we need to innovate more. There's not a single deeply scientific discipline in human history that has arrived at a place that says we're done, we're done innovating and AI is one of the, if not the youngest discipline in human civilization in terms of science and technology, we're still scratching the surface. For example, like I said, we're going to segue into world models. Today, you take a model and run it through a video of a couple of office rooms and ask the model to count the number of chairs. And this is something a toddler could do or maybe an elementary school kid could do, and AI could not do that, right?
 
-(00:27:50):
+**Dr. Fei Fei Li** (00:27:50):
 So there's just so much AI today could not do, then let alone thinking about how did someone like Isaac Newton look at the movements of the celestial bodies and derive an equation or a set of equations that governs the movement of all bodies, that level of creativity, extrapolation, abstraction. We have no way of enabling AI to do that today. And then let's look at emotional intelligence. If you look at a student coming to a teacher's office and have a conversation about motivation, passion, what to learn, what's the problem that's really bothering you. That conversation, as powerful as today's conversational bots are, you don't get that level of emotional cognitive intelligence from today's AI. So there's a lot we can do better, and I do not believe we're done innovating.
 
 **Lenny Rachitsky** (00:29:00):
@@ -200,10 +199,10 @@ Okay, so let's talk about world models. To me, this is just another really amazi
 **Dr. Fei Fei Li** (00:30:33):
 I'm very excited to see that more and more people are talking about world models like Elon, like Jensen. I have been thinking about really how to push AI forward all my life and the large language models that came out of the research world and then OpenAI and all this, for the past few years, were extremely inspiring even for a researcher like me. I remembered when GPT2 came out, and that was in, I think, late 2020. I was co-director, I still am, but I was at that time full-time co-director of Stanford's Human-Centered AI institute, and I remember it was... The public was not aware of the power of the large language model yet, but as researchers, we were seeing it, we're seeing the future, and I had pretty long conversations with my natural language processing colleagues like Percy Liang and Chris Manning. We were talking about how critical this technology is going to be and the Stanford AI Institute, Human-Centered AI Institute, HAI, was the first one to establish a full research center foundation model.
 
-(00:31:59):
+**Dr. Fei Fei Li** (00:31:59):
 We were, Percy Liang, and many researchers led the first academic paper foundation model. So it was just very inspiring for me. Of course, I come from the world of visual intelligence and I was just thinking there's so much we can push forward beyond language because humans, humans use our sense of spatial intelligence, a world understanding to do so many things and they are beyond language. Think about a very chaotic first responder scene, whether it's fire or some traffic accident or some natural disaster. And if you immerse yourself in those scene and think about how people organize themselves to rescue people, to stop further disasters, to put down fires, a lot of that is movements is spontaneous understanding of objects, worlds, human situational awareness. Language is part of that, but a lot of those situations, language cannot get you to put down the fire.
 
-(00:33:21):
+**Dr. Fei Fei Li** (00:33:21):
 So that is, what is that? I was thinking a lot. And in the meantime, I was doing a lot of robotics research and it dawned on me that the linchpin of connecting the additional intelligence, in addition to language embodied AI, which are robotics, connecting visual intelligence, is the sense of spatial intelligence about understanding the world. And that's when I think it was 2024, I gave a TED talk about spatial intelligence at world models. And I start formulating this idea back in 2022 based on my robotics and computer vision research. And then one thing that was really clear to me is that I really want to work with the brightest technologists and move as fast as possible to bring this technology to life. And that's when we founded this company called World Labs. And you can see the word world is in the title of our company because we believe so much in world modeling and spatial intelligence.
 
 **Lenny Rachitsky** (00:34:41):
@@ -227,7 +226,6 @@ And also design, humans design from machines to buildings to homes and also scie
 **Lenny Rachitsky** (00:39:08):
 This is such an example of, I think it was Chris Dixon that had this line that the next big thing is going to start off feeling like a toy. When ChatGPT just came out, I remember Sam Altman just tweeted it as like, "Here's a cool thing we're playing with, check it out." Now, it's the fastest growing product to all of history, changed the world. And it's oftentimes the things that just look like, okay, this is cool, that it's a fun to play with that end up changing the world most.
 
-(00:39:33):
 **Dr. Fei Fei Li** (00:40:51):
 Yeah, we've known each other for many years, but yes, right now they're investors of World Labs.
 
@@ -237,16 +235,16 @@ Amazing. Okay, so I asked him what I should ask you about and he suggested ask y
 **Dr. Fei Fei Li** (00:41:17):
 Well, first of all, there are many bitter lessons, but the bitter lessons everybody refers to is a paper written by Richard Sutton who won the Turing Award recently, and he does a lot of reinforcement learning. And Richard has said, if you look at the history, especially the algorithmic development of AI, it turns out simpler model with a ton of data always win at the end of the day instead of the more complex model with less data. I mean, that was actually... This paper came years after ImageNet. That to me was not bitter; it was a sweet lesson. That's why I built ImageNet because I believe that big data plays that role. So why can't bitter lesson work in robotics alone? Well, first of all, I think we need to give credit to where we are today. Robotics is very much in the early days of experimentation.
 
-(00:42:25):
+**Dr. Fei Fei Li** (00:42:25):
 The research is not nearly as mature as say language models. So many people are still experimenting with different algorithms and some of those algorithms are driven by big data. So I do think big data will continue to play a role in robotics, but what is hard for robotics, there are a couple of things. One is that it's harder to get data. It's a lot harder to get data. You can say, well, there's web data. This is where the latest robotics research is using web videos. And I think web videos do play a role. But if you think about what made language model worth a very... As someone who does computer vision and spatial intelligence and robotics, I'm very jealous of my colleagues in language because they had this perfect setup where their training data are in words, eventually tokens, and then they produce a model that outputs words.
 
-(00:43:36):
+**Dr. Fei Fei Li** (00:43:36):
 So you have this perfect alignment between what you hope to get, which we call objective function and what your training data looks like. But robotics is different. Even spatial intelligence is different. You hope to get actions out of robots, but your training data lacks actions in 3D worlds, and that's what robots have to do, right? Actions in 3D worlds. So you have to find different ways to fit a, what do they call, a square in a round hole, that what we have is tons of web videos. So then we have to start talking about adding supplementing data such as teleoperation data or synthetic data so that the robots are trained with this hypothesis of bitter lesson, which is large amount of data. I think there's still hope because even what we are doing in world modeling will really unlock a lot of this information for robots.
 
-(00:44:53):
+**Dr. Fei Fei Li** (00:44:53):
 But I think we have to be careful because we're at the early days of this and bitter lesson is still to be tested because we haven't fully figured out the data for. Another part of the bitter lesson of robotics I think we should be so realistic about is again, compared to language models or even spatial models, robots are physical systems. So robots are closer to self-driving cars than a large language model. And that's very important to recognize. That means that in order for robots to work, we not only need brains, we also need the physical body. We also need application scenarios. If you look at the history of self-driving car, my colleague Sebastian Thrun took Stanford's car to win the first DARPA challenge in 2006 or 2005. It's 20 years since that prototype of a self-driving car being able to drive 130 miles in the Nevada desert to today's Waymo and on the street of San Francisco.
 
-(00:46:17):
+**Dr. Fei Fei Li** (00:46:17):
 And we're not even done yet. There's still a lot. So that's a 20-year journey. And self-driving cars are much simpler robots, they're just metal boxes running on 2D surfaces, and the goal is not to touch anything. Robot is 3D things running in 3D world, and the goal is to touch things. So the journey is going to be, there's many aspects, elements, and of course one could say, well, the self-driving car, early algorithm were pre deep learning era. So deep learning is accelerating the brains. And I think that's true. That's why I'm in robotics, that's why I'm in spatial intelligence and I'm excited by it. But in the meantime, the car industry is very mature and productizing also involves the mature use cases, supply chains, the hardware. So I think it's a very interesting time to work in these problems. But it's true, Ben is right. We might still be subject to a number of bitter lessons.
 
 **Lenny Rachitsky** (00:47:28):
@@ -261,7 +259,7 @@ Let's talk about this product you just launched. It's called Marble, a very cute
 **Dr. Fei Fei Li** (00:48:14):
 Yeah, I'm very excited. So first of all, Marble is one of the first product that World Labs has rolled out. World Labs is a foundation frontier model company. We are founded by four co-founders who have deep technical history. My co-founders, Justin Johnson, Christoph Lassner, and Ben Mildenhall. We all come from the research field of AI, computer graphics, computer vision, and we believe that spatial intelligence and world modeling is as important, if not more, to language models and complementary to language models. So we wanted to seize this opportunity to create deep tech research lab that can connect the dots between frontier models with products. So Marble is an app that's built upon our frontier models. We've spent a year and plus building the world's first generative model that can output genuinely 3D worlds. That's a very, very hard problem.
 
-(00:49:30):
+**Dr. Fei Fei Li** (00:49:30):
 And it was a very hard process and we have a team of incredible, founding team of incredible technologists from incredible teams. And then around just a month or two ago, we saw the first time that we can just prompt with a sentence and the image and multiple images and create worlds that we can just navigate in. If you put it on Google, which we have an option to let you do that, you can even walk around. Even though we've been building this for quite a while, it was still just awe-inspiring and we wanted to get into the hands of people who need it. And then we know that so many creators, designers, people who are thinking about robotic simulation, people who are thinking about different use cases of navigable interactable, immersive worlds game developers will find this useful. So we developed Marble as a first step. It's again, still very early, but it's the world's first model doing this, and it's the world's first product that allows people to just prompt, we call it prompt to worlds.
 
 **Lenny Rachitsky** (00:51:00):
@@ -300,7 +298,7 @@ Yeah, so we do believe that world modeling is very horizontal, but we're already
 **Dr. Fei Fei Li** (00:53:59):
 Yes, in fact it has to, because we only had one month to work on this project and there were so many things they were trying to shoot. So using Marble really, really significantly accelerated the virtual production for VFX and movies. That's one use cases. We are already seeing our users taking our Marble scene and taking the mesh export and putting games, whether it's games on VR or just fun games that they have developed. We are showing an example of robotic simulation because when I was, I mean I still am a researcher doing robotic training. One of the biggest pain point is to create synthetic data for training robots. And this synthetic data needs to be very diverse. They need to come from different environments with different objects to manipulate. And one path to it is to ask computers to simulate.
 
-(00:55:10):
+**Dr. Fei Fei Li** (00:55:10):
 Otherwise, humans have to build every single asset for robots. That's just going to take a lot longer. So we already have researchers reaching out and wanting to use Marble to create those synthetic environments. We also have unexpected user outreach in terms of how they want to use Marble. For example, a psychologist team called us to use Marble to do psychology research. It turned out some of the psychiatric patients they study, they need to understand how their brain respond to different immersive things of different features. For example, messy scenes or clean scenes or whatever you name it. And it's very hard for researchers to get their hands on these kind of immersive scenes and it will take them too long and too much budget to create. And Marble is a really almost instantaneous way of getting so many of these experimental environments into their hands. So we're seeing multiple use cases at this point. But the VFX, the game developers, the simulation developers as well as designers are very excited.
 
 **Lenny Rachitsky** (00:56:39):
@@ -315,7 +313,7 @@ Because imagining all the exposure therapy stuff, this could be so good for that
 **Dr. Fei Fei Li** (00:57:46):
 World Labs' thesis is that spatial intelligence is fundamentally very important, and spatial intelligence is not just about videos. In fact, the world is not passively watching videos passing by. I love, Plato has the allegory of the cave analogy to describe vision. He said that imagine a prisoner tied on his chair, not very humane, but in a cave watching a full life theater in front of him, but the actual life theater that actors are acting is behind his back. It was just lit so that the projection of the action is on a wall of the cave. And then the goal, the task of this prisoner is to figure out what's going on. It's a pretty extreme example, but it really shows, it describes what vision is about, is that to make sense of the 3D world or 4D world out of 2D. So spatial intelligence to me is deeper than only creating that flat 2D world.
 
-(00:59:14):
+**Dr. Fei Fei Li** (00:59:14):
 Spatial intelligence to me is the ability to create, reason, interact, make sense of deeply spatial world, whether it's 2D or 3D or 4D, including dynamics and all that. So World Lab is focusing on that, and of course the ability to create videos per se could be part of this. And in fact, just a couple of weeks ago, we rolled out the world's first real time demoable, real-time video generation on a single H100 GPU. So part of our technology includes that, but I think Marble is very different because we really want creators, designers, developers to have in their hands a model that can give them worlds with 3D structures so they can use it for their work. And that's why Marble is so different.
 
 **Lenny Rachitsky** (01:00:21):
@@ -384,10 +382,10 @@ Yeah. You mentioned this point that I want to come back to that if you just look
 **Dr. Fei Fei Li** (01:05:25):
 Yeah, this is actually a great question, Lenny, because I do think about it, and obviously we talked about it's curiosity and passion that brought me to AI, that is more a scientific north star, right? I did not care if AI was a thing or not, so that was one part. But how did I end up choosing in the particular places I work in, including starting World Labs, is I think I'm very grateful to myself or maybe to my parents' genes. I'm an intellectually very fearless person, and I have to say when I hire young people, I look for that because I think that's a very important quality if one wants to make a difference, is that when you want to make a difference, you have to accept that you're creating something new or you're diving into something new. People haven't done that. And if you have that self-awareness, you almost have to allow yourself to be fearless and to be courageous.
 
-(01:06:42):
+**Dr. Fei Fei Li** (01:06:42):
 So when I, for example, came to Stanford, in the world of academia, I was very close to this thing called tenure, which is have the job forever at Princeton. But I chose to come to Stanford because... I love Princeton. It's by alma mater. It's just at that moment there are people who are so amazing at Stanford and the Silicon Valley ecosystem was so amazing that I was okay to take a risk of restarting my tenure clock. Becoming the first female director of SAIL, I was actually relatively speaking a very young faculty at that time, and I wanted to do that because I care about that community. I didn't spend too much time thinking about all the failure cases.
 
-(01:07:46):
+**Dr. Fei Fei Li** (01:07:46):
 Obviously, I was very lucky that the more senior faculty supported me, but I just wanted to make a difference. And then going to Google was similar. I wanted to work with people like Jeff Dean, Jeff Hinton, and all these incredible demists, the incredible people. The same with World Labs. I have this passion. And I also believe that people with the same mission can do incredible things. So that's how it guided my through line. I don't overthink of all possible things that can go wrong because that's too many.
 
 **Lenny Rachitsky** (01:08:33):
@@ -414,10 +412,10 @@ HAI, Human-Centered AI Institute. What are you doing there? I know this is a thi
 **Dr. Fei Fei Li** (01:10:36):
 So yes, HAI, Human-Centered AI Institute was co-founded by me and a group of faculty like Professor John Etchemendy, Professor James Landay, Professor Chris Manning back in 2018. I was actually finishing my last sabbatical at Google and it was a very, very important decision for me because I could have stayed in industry, but my time at Google taught me one thing is AI is going to be a civilization of technology. And it dawned on me how important this is to humanity to the point that I actually wrote a piece in New York Times, that year 2018, to talk about the need for a guiding framework to develop and to apply AI. And that framework has to be anchored in human benevolence, in human centeredness. And I felt that Stanford, one of the world's top university in the heart of Silicon Valley that gave birth to important companies from NVIDIA to Google, should be a thought leader to create this human-centered AI framework and to actually embody that in our research education and policy and ecosystem work.
 
-(01:12:10):
+**Dr. Fei Fei Li** (01:12:10):
 So I founded HAI. Fast-forward, after six, seven years, it has become the world's largest AI institute that does human-centered research, education, ecosystem, outreach, and policy impact. It involves hundreds of faculty across all eight schools at Stanford, from medicine to education, to sustainability to business, to engineering, to humanities to law. And we support researchers, especially at the interdisciplinary area from digital economy, to legal studies, to political science, to discovery of new drugs, to new algorithms to that's beyond transformers. We also actually put a very strong focus on policy because when we started HAI, I realized that Silicon Valley did not talk to Washington DC and or Brussels or other parts of the world.
 
-(01:13:27):
+**Dr. Fei Fei Li** (01:13:27):
 And given how important this technology is, we need to bring everybody on board. So we created multiple programs from congressional bootcamp to AI index report to policy briefing, and we especially participated in policymaking including advocating for a national AI research cloud bill that was passed in the first Trump administration and participating in state level regulatory AI discussions. So there's a lot we did, and I continue to be one of the leaders even though I'm much less involved operationally because I care not only we create this technology, but we use it in the right way.
 
 **Lenny Rachitsky** (01:14:24):
@@ -426,10 +424,10 @@ Wow. I was not aware of all that other work you were doing. As you're talking, I
 **Dr. Fei Fei Li** (01:14:52):
 I am very excited by AI, Lenny. I want to answer one question that when I travel around the world, everybody asks me is that, if I'm a musician, if I'm a teacher, middle school teacher, if I'm a nurse, if I'm an accountant, if I'm a farmer, do I have a role in AI or is AI just going to take over my life or my work? And I think this is the most important question of AI and I find that in Silicon Valley, we tend not to speak heart-to-heart with people, with people like us and not like us in Silicon Valley, but all of us, we tend to just toss around words like infinite productivity or infinite leisure time or infinite power or whatever. But at the end of the day, AI is about people. And when people ask me that question, it's a resounding yes, everybody has a role in AI.
 
-(01:16:03):
+**Dr. Fei Fei Li** (01:16:03):
 It depends on what you do and what you want. But no technology should take away human dignity and the human dignity and agency should be at the heart of the development, the deployment, as well as the governance of every technology. So if you are a young artist and your passion is storytelling, embrace AI as a tool. In fact, embrace Marble. I hope it becomes a tool for you because the way you tell your story is unique and the world still needs it. But how you tell your story, how do you use the most incredible tool to tell your story in the most unique way is important. And that voice needs to be heard. If you are a farmer near retirement, AI still matters because you are a citizen. You can participate in your community, you should have a voice in how AI is used, how AI is applied.
 
-(01:17:14):
+**Dr. Fei Fei Li** (01:17:14):
 You work with people that you can encourage all of you to use AI to make life easier for you. If you are a nurse, I hope you know that at least in my career, I have worked so much in healthcare research because I feel our healthcare workers should be greatly augmented and helped by AI technology, whether it's smart cameras to feed more information or robotic assistance because our nurses are overworked, overfatigued, and as our society ages, we need more help for people to be taken care of. So AI can play that role. So I just want to say that it's so important that even a technologist like me are sincere about that everybody has a role in AI.
 
 **Lenny Rachitsky** (01:18:17):
@@ -447,5 +445,5 @@ Thank you, Lenny.
 **Lenny Rachitsky** (01:19:06):
 Bye everyone.
 
-(01:19:09):
+**Lenny Rachitsky** (01:19:09):
 Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.

@@ -37,7 +37,6 @@ Was funny, looking back from really old decks. We were trying to do AI before AI
 **Lenny Rachitsky** (00:01:30):
 Today my guest is Melanie Perkins, CEO and co-founder of Canva. Melanie is on track to be the most successful female tech founder in history and one of the most successful founders, period. Canva is currently valued at over $42 billion, making over $3.3 billion in revenue a year. They've been profitable for eight years straight and are one of the hottest private tech companies in the world right now. But it wasn't always this way. Melanie was rejected by over 100 investors when she was trying to raise her first round. Their team spent two years rewriting their entire code base and were unable to ship any new features for over two years, something they expected to just take six months, and they even went through a big pivot early on from a yearbook publishing platform to the Canva that you know today, Melanie does not do a lot of podcasts. She shares stories that I've never heard before and lessons that I'm still thinking about.
 
-(00:02:21):
 **Melanie Perkins** (00:04:53):
 Thank you so much for having me. I'm excited to be here.
 
@@ -65,10 +64,10 @@ Let's talk about just how to actually go about building a Column B company. Say 
 **Melanie Perkins** (00:08:17):
 I really like to start by just imagining what is the future that you actually want? What is the world that you want to live in? What is the future of transportation? What is the future of healthcare? What is the future that you want to live in and exist in? And for example, right now I have a wall in my house in my office, which is my vision for what I'd like the world to look like in 2050. And so it's not necessarily that you can bring that into existence or you can will that into existence, but just to start to get clearer on what you would like that world to be like. Would you like it to be more inclusive? Would you like it? For me, one of the things I desperately want is everyone on this planet to have their basic human needs met.
 
-(00:08:56):
+**Melanie Perkins** (00:08:56):
 What are those things that you believe are so important that you would love to see exist in that future? And I think an exercise we often do is what is wild success for X, or what is wild success for Y? And then equally, what is terrible failure for those things? And you can apply that just to abstract thinking in different industries. You can do that, apply that. We do that for the whole company for different areas of the company. And I think just taking that very long timescale of 10 years and getting a really crisp idea of what you want, of what you don't want, that's sort of the first step. And I think a lot of people don't spend quite enough time imagining that. And then the next part is you don't want to just have this crazy big dream and then do nothing about turning it into reality.
 
-(00:09:43):
+**Melanie Perkins** (00:09:43):
 You kind of want to have a ladder that goes all the way up to the moon, which is your crazy, wild vision. And then you want to have rungs that just work its way up step by step. And so you want to get that really clear picture of the future that you would like and then just take little step, after little step, after little step. And it doesn't matter how small that first step is or how seemingly inconsequential if it is working towards that future that you want to will into existence, then you'll keep on climbing up that ladder in the right direction.
 
 **Lenny Rachitsky** (00:10:10):
@@ -77,7 +76,7 @@ I think a lot of people hearing this might feel like, "I do this. Yeah, I have a
 **Melanie Perkins** (00:10:23):
 I think it is easy to be discouraged by the two, because they're completely two complete odds. They're completely different ends of the spectrum. So one is dreaming about the future, not that you think you can will into existence, it's just the future that you want. And then the next part is taking the tiny step that might be extremely microscopic and it feels a little embarrassing to be like, "I want a future that is," whatever it might be. And then to take such a microscopic step because I think you often have the future in one side or don't spend much time thinking about that. You're just thinking about the bricks before you. And so I think it's also naturally we all get distracted by day-to-day. It's your email, your Slack, the things that are kind of in your face, the reality that lives around you every day that kind of pulls you into this moment right now.
 
-(00:11:14):
+**Melanie Perkins** (00:11:14):
 And so I think actually just making time to spend thinking about that is probably one of the most critical pieces. Just literally dreaming what is wild success in 10 years, what is terrible failure in 10 years is a really great place to start, is just spending some time there. And then even if that is so big and so vast and so wild, having that very first step is so important because then you take that little tiny first step and then the next step then that compounds for us, it's been compounding over a decade as we continue to work towards that same mission and vision.
 
 **Lenny Rachitsky** (00:11:49):
@@ -98,7 +97,7 @@ I talked to Melissa, I talked to a bunch of other people that work at Canva, tha
 **Melanie Perkins** (00:15:08):
 Yeah, so right from the start of Canva, it was truly a crazy-big goal. We're like, "We want to empower the world of design and take all these things that are super complicated and put them into one platform and make it accessible to the whole world. And we want to, rather than it be super expensive and unaffordable, we want to empower everyone everywhere in the world to design." So I mean, that was the epitome of a crazy big goal. And if we macro out even further, we've got this two-step plan, build one of the world's most valuable companies and do the most good we can do. So again, a rather crazy big goal. And I think the thing that I love about a crazy big goal is that you feel completely inadequate before it. Another crazy big goal. We'd love to see everyone's basic human needs met on the planet. Completely crazy big, that truly shouldn't be. It's kind of absolutely absurd that that's the case, but we can go into that later.
 
-(00:16:02):
+**Melanie Perkins** (00:16:02):
 But I think with a crazy big goal, then you want to work really hard to will it into existence. And so if you start with a reasonable goal or a realistic goal, then you kind of get to it and you're like, "Oh cool, whatever." Or more importantly, if something happens, all the problems and roadblocks come along as they always do, then you're like, "Okay, I won't bother with that." And then you can just go and choose another course. And so a crazy big goal is both crazy big, but it's also something that you think is incredibly important that you actually want to will into existence because it is so much work to will a crazy big goal into existence. So it better be one that you want to actually achieve.
 
 **Lenny Rachitsky** (00:16:45):
@@ -107,7 +106,7 @@ Is there a crazy big goal that you set that comes to mind maybe as a good exampl
 **Melanie Perkins** (00:16:53):
 Yeah, I mean so many things. So we have our mission to empower the world to design and we break it down into mission pillars. So empower everyone to design anything with every ingredient in every language on every device, obviously a mouthful. But then what we do is we take successive goals every year towards this mission. And so for designing anything, we started off with social media and presentations and docs and websites and whiteboards and video. And so every year we're just launching more and more things to fulfill that part of the mission of empowering everyone to design anything. And then equally in every language we started in English and then it was Spanish and then it was 20 languages and then a hundred languages and then hard languages like Arabic and Hebrew and Urdu and right to left languages. And now we're in a hundred plus languages now and now we're really doubling down on the localization experience to make it feel truly local in every market around the world.
 
-(00:17:47):
+**Melanie Perkins** (00:17:47):
 And so you can see how having these very big, audacious goals that you then just take a step after step towards helps then will it into existence or on every device. We started off obviously just with a web platform and then we launched our iPad app and then iPhone and then Android and then we spent years investing in cross-platform. So we have the same feature set across every device. And so you can see how these big amorphous things that seem very outlandish, you can then just will into existence after continual investment for a decade and it compounds over time.
 
 **Lenny Rachitsky** (00:18:20):
@@ -134,7 +133,7 @@ Whether you like him or not, Elon, this is similar to his, if you watch him, he 
 **Melanie Perkins** (00:20:18):
 So when we have these Crazy Big Goals, we also have couple them with really fun celebrations. And so we attempt to make the Crazy Big Goals happen in a moment in time. So then when we achieve them, we actually have a really fun moment because if you're just trying to plod towards the top of the mountain always and you never take a little moment to pat yourself on the back, it would feel a little arduous. And so over the years we had all sorts of fun little celebrations where we have smashed great plates and released doves and had a La Tomatina festival.
 
-(00:20:51):
+**Melanie Perkins** (00:20:51):
 All sorts of fun things just to take a moment with the team to celebrate that huge achievement. And so I think that you want to celebrate what you want to really focus on and what you want everyone to take that moment. So when you achieve that crazy big goal when we launch in Spanish, when we hit a hundred languages and then the so forth across the company, taking that moment to actually pat yourself on the back and pat the teams on the back and say, "Hey, we did this thing. That thing that seemed really hard, we've now achieved." And the mission is often each of the different mission pillars, they're obviously a long area of investment that's going to take a long time to get to, but being able to celebrate each of the rungs on that on the way there I think is extraordinarily important. And then everyone works extraordinarily hard to bring them to life and then it gives everyone a little moment to feel proud of themselves.
 
 **Lenny Rachitsky** (00:21:43):
@@ -149,10 +148,10 @@ That's a good one. I just love how concrete you're making this. So it's set thes
 **Melanie Perkins** (00:22:35):
 I think it's just a constant evolution. Every time the company doubles in size, pretty much all your systems break, all the things that were working don't work. A little example, in the early days we'd stand up and everyone would present their goals, what they're working on every day, every week. And then it kind of moved every month and then it was just taking too long because we've got so many people. And then it was sort of like we'd started doing these things called season openers and season openers were really fun where we got the entire company together, we talked about the goals that we'd achieved. And it was so funny because ahead of season openers, everyone would launch everything because they wanted to do it ahead of the season opener. And then we'd also set the goals for the coming cycle for the coming season at that point in time.
 
-(00:23:17):
+**Melanie Perkins** (00:23:17):
 But then they started to become six hours long because we had so many people and so many teams. And so trying to find that right with the same philosophies of deep context for everyone with the same philosophies of the celebrations and the goals and trying to find that right flavor at every stage of scale is definitely hard. And so I think it's just a constant work in progress. Or back to your earlier point about timing of things, we were doing a front-end rewrite and we thought it would take about six months. It was really important because it was critical for cross-platform. It was critical for right to left. It was critical because we could only have five people working in our editor at any point in time because of the way the code base was structured and we thought it was going to take six months and then it took two years and it was two years of not shipping any product, two years of a product company not being able to ship product.
 
-(00:24:14):
+**Melanie Perkins** (00:24:14):
 And that is such a core motivation for our team. He's shipping something, seeing great customer feedback and that kind of makes everyone feel happy and you've got momentum and it just felt like we're in a dark, dark tunnel that we could hardly see the end of the tunnel. And we didn't really know how long it was going to take because it just had to take as long as the tunnel was going to take. And it was a very hard time because other people would be launching this and that. And it was eventually we got out of that tunnel and it was extremely important that we did that work. We've now got two and a half thousand engineers and we're able to deliver amazing things that would've just been completely infeasible and simultaneous collaboration, so many things were baked into this. But yeah, it was not a fun period of time. A product company not shipping product is not really a recipe for fun.
 
 **Lenny Rachitsky** (00:25:15):
@@ -179,7 +178,7 @@ Okay. Speaking of investors, speaking of other hard times, there's a very famous
 **Melanie Perkins** (00:27:06):
 I don't know. It was really clear in my mind that it was the future and I thought the investors were wrong, frankly. But investors also gave really helpful feedback and feedback often in the form of rejection. So they would say, "Oh, your market's not big enough." And I would say, "It's going to be huge." And I'd add a new page in my pitch deck that said how big the market I believe was. And then they'd say, "You're the same as some other company," coupled with rejection, and I would say, "Hey, now I've got a new slide in my pitch deck that shows all the players and the huge gap in the market that we believe we're going to fill." Or most investors just knew absolutely nothing about design or the industry that we're in. And so we then ended up with the first few slides saying, "Here's the lay of the land today. Here's the problem that we're going to solve."
 
-(00:27:53):
+**Melanie Perkins** (00:27:53):
 And so while it was extraordinarily frustrating, their feedback made us stronger and made our pitch deck stronger. And it was sort of from that chaos to clarity. At the start it was this idea and then through the copious amounts of rejection, the pitch deck got stronger and more refined. So then when people, the first time I remember I spoke to someone for hours and they eventually got it. They were really committed to understanding what we were trying to do, but then not everyone has six hours to understand a concept. And so being able to take all the gems of wisdom from that conversation and have that understood really clearly in a really short period of time and have all of the reasons that people were rejecting us pre-answered in that initial pitch deck was really important. And I think that's probably one of the reasons why when I look back at our 2012 pitch deck, it's so valid and really still captures what we're doing today. And so I think that rejection in some ways makes you stronger if you can persist through.
 
 **Lenny Rachitsky** (00:28:50):
@@ -197,13 +196,13 @@ I mean, I can only go on my experience, but I think it's sort of the dark tunnel
 **Lenny Rachitsky** (00:30:47):
 As an investor, this is really interesting to hear because it tells you there are companies like Canva there that everyone's turning down, a hundred investors passed on, that you might still be able to invest in.
 
-(00:30:58):
+**Lenny Rachitsky** (00:30:58):
 Talking about your growth as a leader, say if you compare Melanie of today to Melanie of, I don't know, 12, 13 years ago when you were just starting Canva, what would you say is most different in terms of leadership?
 
 **Melanie Perkins** (00:31:11):
 I don't really know. Probably if you ask other people around me, they'd probably be more observant. But it is funny because there's some things that I think that I need to change and then I realize you go into it the same as some other company. And sometimes we even try that for a while and then we try that out and we're like... It didn't really work for us. And it's kind of building a house that you want every brick in the house to match. And if you go and try and take some bricks from someone else's house and stick it in your house, it's probably going to not look very matched. And so trying to find things that are authentic to us and are authentic to everything that's come before it, is just that constant, constant thing. And then each scale of each stage of scale of the company rather than going, taking someone else's bricks and trying to stick that in your house, trying to build the thing that's authentic.
 
-(00:31:59):
+**Melanie Perkins** (00:31:59):
 So I think there's many things that are the same, but obviously the stage and scale and we're constantly having to give away hats. And so you kind of think about it in the very early days. We just a few of us, two of us in Fusion and then three of us in a little tiny group, and you kind of wear a hundred hats and then you have to be able to give away those hats to other people that can then do that way better than yourself. And so I'm sure there's been a few skills I guess I would've had to have developed over the last decade to be able to give away those hats. But yeah, I think there's a lot of things that we've had to do and double down on that was more authentic to the way we did it in the early days actually.
 
 **Lenny Rachitsky** (00:32:37):
@@ -221,7 +220,7 @@ Yeah, very much so.
 **Lenny Rachitsky** (00:33:50):
 Did you know that I have a whole team that helps me with my podcast and with my newsletter? I want everyone on that team to be super happy and thrive in the roles. JustWorks knows that your employees are more than just your employees, they're your people. My team is spread out across Colorado, Australia, Nepal, West Africa and San Francisco. My life would be so incredibly complicated to hire people internationally to pay people on time and in their local currencies and to answer their HR questions 24/7. But with JustWorks, it's super easy whether you're setting up your own automated payroll, offering premium benefits or hiring internationally. JustWorks offer simple software and 24 7 human support from small business experts for you and your people. They do your human resources so that you can do right by your people, JustWorks, for your people.
 
-(00:34:38):
+**Lenny Rachitsky** (00:34:38):
 Is there anything else that is a good example of how you did something pretty different from how other companies operate? Anything else that comes to mind as a fun example?
 
 **Melanie Perkins** (00:34:48):
@@ -245,7 +244,7 @@ I want to come back to this closing the loop process. Let's say that you have wh
 **Melanie Perkins** (00:38:17):
 Oh, it's one of my favorite things. We've been doing it for years now, and so we get more than a million requests from our community every year and we've got a whole incredible team that then tallies them, breaks them down, and then delivers them to all of our product teams and then those actually get closed. So this year we've closed more than 200 loops, but we know that each one of those things is going to be loved and needed by so many more people that don't bother to actually fill out the request form. So many things from gradient text, like little things like gradient text to really big things like our Sheets product. There's just been countless products. In the early days with our AI products, we didn't release them to teachers because we knew there was a lot of hesitancy for teachers using AI in the classroom.
 
-(00:39:03):
+**Melanie Perkins** (00:39:03):
 And we got so many requests from teachers saying, "Can I please use this MagicWrite in the classroom?" And so with them we unlocked that and put on safety controls for teachers. And so it's just constant, actually. It's just part of our product process. I think there's two parts to product. One is building the future and towards the mission and the mission pillars as I was saying before. And the other is actually listening to our community and building what they want. And so I think that that's the two core pieces of product in my mind. And the closing the loop comes in so many different forms. There's the explicit asks, and then the other thing that we double down on all the time is user testing and watching people use it. And if people hesitate clicking a button or people don't quite understand how something works, it's amazing to me how you can find 10 random people on the internet and they can give such astute feedback that then is so representative for such a large number of people. I've personally run hundreds if not thousands of user tests myself and it's been deeply embedded in our product teams also.
 
 **Lenny Rachitsky** (00:40:03):
@@ -266,10 +265,10 @@ All right, go user testing. Okay. Something else that I know is really important
 **Melanie Perkins** (00:40:50):
 Yeah, so when you were asking about Crazy Big Goals, I think this is our most macro, most crazy biggest goal. Step one, build one of the world's most valuable companies and step two, do the most good we can do. And in our early days I thought I'd do step one and then step two and realize that actually step one can fuel step two and step two can fuel step one. And so that's been a really big part of Canva for some years now. In the early days we took the 1% pledge, which I think is an incredible program. Every single person, every single company should take that where you give 1% of time, money, equity and profitability. And I think that's a really easy thing to do in the early days that then can compound greatly over time. We also knew that Canva's equity was obviously going to be a really key part of it.
 
-(00:41:35):
+**Melanie Perkins** (00:41:35):
 So Cliff and I owned a little over 30% of Canva, and so we decided we were going to take 30% of Canva and use it to do the most good we can do. And we are doing that. So we're doing all of our donating through the Canva Foundation. We've just, over the last few years, we've donated $50 million to GiveDirectly, where they give money directly to people in Malawi who are in extreme poverty and then they can use that money on their family to go to school, to get healthcare, to start small businesses, to get a roof so they can sleep in without being wet. Just real truly basic human needs things. And we've just announced that we're going to be giving another a hundred million dollars over the next four years to people in extreme poverty. And it's just like when you go and sit with people and you hear about how they're spending, what's very microscopic amount at $550 doesn't buy us that much, but it's a life-changing amount of money for people in extreme poverty and it's truly transformational what it can do.
 
-(00:42:39):
+**Melanie Perkins** (00:42:39):
 And you meet people and you hear their stories and it's truly the best money I could ever imagine spending. And that crazy big dream I was mentioning earlier of everyone having basic human needs met, it's so completely insane that isn't the case today. There's no specific reason why people don't have their basic human needs met on our planet, but we just haven't got to act together as humanity. And so that is a truly crazy, big dream. But back to the two-step plan. Step one, build one of the world's most valuable companies and step two do the most good we can do. And finding ways to do that at the same time I think is extraordinarily important.
 
 **Lenny Rachitsky** (00:43:17):
@@ -284,7 +283,7 @@ Okay. So speaking of product, coming back to that, you guys are launching someth
 **Melanie Perkins** (00:45:24):
 We are extraordinarily excited about what we are launching. I guess the whole mission of Canva is to empower the world to design. And so what has been enabled by new technology with all of AI has been just really profound. Enabling people to take their idea and turn it into design a design and have as little friction between those two points. So we are doubling down radically on our video product and bring some incredible capabilities to our mobile and desktop platform. We are launching email, which has been one of our most hotly requested features from enterprise customers around the world and business customers around the world who want to be able to design with Canva's drag and drop ease and to be able to create an email. We are launching forms, we are launching, probably one of the most exciting things is the way we're embedding AI across the entire product suite.
 
-(00:46:12):
+**Melanie Perkins** (00:46:12):
 And so you can actually use AI to design a presentation, a video, a email, a website. All of these things can actually now be done inside the core editor, inside the design tab, which is used by 170. It's used 170 million times a month. And then on our elements tab, which is used 900 million times a month, we are also embedding AI. So you can actually generate a video, you can generate a canvas code and you can generate photos all directly inside that platform. And then we're also launching comments as lots of our customers use Canvas to comment and collaborate. And now you can actually just tag at Canvas and you can collaborate. You can just say, "Hey, can you make this title shorter? Can you do this? Can you do that?" And it has all of the context of the design so in situ, you can actually just have a collaborator that can help get your work done. So we are pretty excited about all of this.
 
 **Lenny Rachitsky** (00:47:12):
@@ -353,7 +352,7 @@ Something I wasn't planning on asking about, but I think it's on everyone's mind
 **Melanie Perkins** (00:50:38):
 One of the most important things that we did was we didn't really worry about competitors at all. We actually just saw where is there a gap in the market that we can uniquely fill, and what can we solve a problem, a core problem that people currently have today? And so with our first company that was yearbooks in Australia and there wasn't great tools and these yearbook coordinators got thrown in to have to design something and they'd have no design experience. And we spoke to every single customer. We gave them an over the phone tutorial, we understood all of their pain points, we got continuous customer feedback, and then we tried to iterate and improve.
 
-(00:51:12):
+**Melanie Perkins** (00:51:12):
 And then when we were thinking about Canva, a few years into that, actually one of the schools said, "I love this product so much. Can I use it to design newsletters?" And they had all sorts of other things that they wanted to use it for, and we kind of looked around and were like, "Oh, there's still nothing on the market." This was a few years into it, that actually does the thing that we're doing, but for all these other things. And so it was much more like where is the gap in the market that people are currently having a pain point? And if you can solve that pain point really well and solve it in such a way that people actually want to pay for it because it is truly solving a real pain point that they have, I think that kind of sets it up for success rather than be a problem or a solution looking for a problem.
 
 **Lenny Rachitsky** (00:51:53):
@@ -410,13 +409,13 @@ Can you share something from that vision board?
 **Melanie Perkins** (00:55:35):
 I'll tell you why the vision board came about because it's only been in recent months. I did feel like as humanity, we are on a bit of a freight train and that freight training is, I think if we take a lot of visions for a lot of different companies and a lot of things that are happening and you just fast-forward 50 years or you do 2050 and you say, "Are we in a safer world? Is the world the place that we want our kids to grow up in? Is this the humanity that we want?" I didn't feel that the train that we are headed on always feels great. In fact, it scared me quite greatly for a whole host of reasons. And so I sat with that feeling for a little and then I kind of got to work on my 2050 walls and back to the chaos to clarity.
 
-(00:56:22):
+**Melanie Perkins** (00:56:22):
 The first thing was riding my 2050 wall and I've really been loving, I've got a whole on the 2050 wall, started with a lot of quotes. Everything good was once imagined and many other quotes were along those similar lines. And then rather than just being fearful of the things that I'm worried about for society and for humanity, I started to think what would the alternative be? What is that vision that I would love to see us have basic human needs for all global education being a basic human right that everyone experiences all the really important things that we want as humanity. And again, using vision and using imagination and just dreaming about the future. And I find it really fascinating in my day-to-day by literally having it beside me as I work every day, the little tiny decisions that can kind of help to angle towards that future that we want and can I help will any of that into existence? I honestly don't know.
 
-(00:57:24):
+**Melanie Perkins** (00:57:24):
 But I feel like just by starting to write it down some little brainstorm exercise with a number of other people and starting to just etch out, how do we get closer and closer to that. On my vision of the future, it's community. It's the whole of humanity trying to dream bigger and to dream bigger goals. And then us actually rising to that occasion in the world. We don't want, I think loneliness is rife, purpose is gone. What we teach people in schools is pointless. And in my vision for 2050, it's none of those things. Communities are bound to fall. We all have deep purpose. And that deep purpose springs from having bigger dreams that we collectively go out and achieve. Something that we're doing at our Canva world to a keynote in two weeks time, which I think is going to be after this is released, we've been asking people what is one goal you'd like to see the world achieved in our lifetime?
 
-(00:58:25):
+**Melanie Perkins** (00:58:25):
 And then people literally writing it down I think is pretty powerful. And then people sharing that with other people I think is pretty powerful. And then us actually figuring out how the hell do we turn? That reality that we all deeply desperately want into existence, I think is genuinely one of the biggest questions of our time. But then again, rather than trying to tackle that entire thing by yourself, how do you take that first tiny step that starts to see that in your own life, in your own family, in your own community? And I think that's where we'll get purpose from and I think that is one of the key answers to loneliness is actually working towards something bigger than yourself.
 
 **Lenny Rachitsky** (00:59:02):
@@ -497,7 +496,7 @@ You're right. I wonder what that metaphor is for figure skating. I don't know. A
 **Melanie Perkins** (01:04:12):
 Really great questions. So you can find me on LinkedIn. That's where I post the most. And you can go to and I can get the URL to give us your wishes and we want to hear them and we literally listen to them. It doesn't just go into a suggestion box. And then how can they be helpful? Use Canva, spread Canva, teach Canva. We're doing a Canva World Tour through October, which is probably going to be updated when this is posted.
 
-(01:04:43):
+**Melanie Perkins** (01:04:43):
 Come to our events. We do events all around the world and we'd love to see you and to hear from you. And if you are in a company, starting a company, try and do the 1% pledge. Try and figure out your own version of the two-step plan and try and build products and in every decision that you make that actually makes the world that you want to live in. I think there's this kind of belief sometimes that the world is created by other people, but we all have a very active hand in creating the world that we live in. And every decision that you make for investors, every company that you fund, is that contributing the world to the world that you want to live in? Or is it creating the freight train that none of us want to be on?
 
 **Lenny Rachitsky** (01:05:27):

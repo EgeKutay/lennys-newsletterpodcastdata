@@ -40,10 +40,9 @@ I look for four things, I call it my lock algorithm.
 **Lenny Rachitsky** (00:00:56):
 Today, my guest is Brian Halligan, co-founder and longtime CEO of HubSpot. I asked Brian to come on this podcast because he is, more than anyone I've met, a student of the job of a CEO. After leaving HubSpot last year, he became the in-house CEO coach at Sequoia, where he brings together dozens of top CEOs to learn from each other, he does one-on-one coaching with some of the world's top CEOs, he also hosts a popular podcast, called Long Strange Trip, where he interviews some of the world's most successful CEOs. In this conversation, we unpack what it takes to be a successful CEO in today's era.
 
-(00:01:32):
+**Lenny Rachitsky** (00:01:32):
 Let's get into it, after a short word from our wonderful sponsors. Applications break in all kinds of ways, crashes, slowdowns, regressions, and the stuff that you only see once real users show up. Sentry catches it all. See what happened where and why. Down to the commit that introduced the error, the developer who shipped it, and the exact line of code, all in one connected view. I've definitely tried the five tabs and Slack thread approach to debugging, this is better. Sentry shows you how the request moved, what ran, what slowed down, and what users saw.
 
-(00:02:07):
 **Brian Halligan** (00:04:02):
 Thanks for having me, Lenny.
 
@@ -59,7 +58,6 @@ Okay, I have a bunch of questions along these lines, because one, you've been a 
 **Brian Halligan** (00:06:11):
 The adults are really focused on, all they really want to talk about is their exec team. Their direct reports, how do you build our exec team, that next level down, org design... You would be surprised how much they think about that. And on average, I would say the adults are spending half their time just recruiting and interviewing. It's pretty all consuming. And I remember that from that phase in HubSpot's growth. And it surprises people like, wow, my job is really just to interview and hire, I didn't know that was going to be the case. So, that is one that they are making that transition, and I would just say in general, people are very bad at this, and HubSpot was too.
 
-(00:06:57):
 I think CEOs and everyone dramatically overrates their ability to interview, and overrates their gut feeling, and underrates a really high quality blind reference. And I interviewed Dave, the CEO from MongoDB the other day, and he had an interesting [inaudible 00:07:22]. On average over his 10-year lifespan as a CEO of Mongo, there were two C-levels turned over per year. That's a lot of turnover at the top, and I didn't keep track of it like Dave, but I think HubSpot was kind of similar. And all of these startups are kind of similar too. And so, people are working on that, and struggling with it, is one thing in common with all of them.
 
 **Lenny Rachitsky** (00:07:49):
@@ -68,10 +66,10 @@ What do you do when you coach someone on that? When you're like, okay, you think
 **Brian Halligan** (00:07:59):
 I think even me, I've been doing this for 150 years, I still think I overrate my ability to interview someone, and really know if they're a good fit. I give a couple pieces of advice. Parker Conrad has a good hack that I liked. Before he's got a C-level interview, CFO, chief product officer, whatever, he has some sign an NDA, and sends them the last board deck, or the board memo, or some important doc, and he schedules a half hour interview with them, and he just has a chat about the decks. And if they're just very complimentary, and it's so great, and you're doing this amazing thing, it's a major red flag to him because he wants someone that will challenge him and not a yes person. And I thought that was a pretty good hack to get inside someone's head and how they think and how they'll interact with you.
 
-(00:08:53):
+**Brian Halligan** (00:08:53):
 Getting on a whiteboard and working through a problem I think is always a good thing. I think the standard interview of walking through your background, I don't think is all that valuable. And I coach people to do blind references, find someone you know that work with them... VCs are good at this by the way. And I get a lot of these, and you can tell some of them are like, we've already decided we're checking the box, versus they're asking me hard questions about this person. And one of my favorite questions people ask is, would you enthusiastically rehire this person for that role? Which I think is a really good question. On a scale of one to 10, how likely is it that you'll try to rehire this person back from me down the road?
 
-(00:09:37):
+**Brian Halligan** (00:09:37):
 I think those types of questions are good, so not mailing an in on those blind references I think is really good. My other piece of advice, and no one listens to me on this, is hire slow and fire fast. People hire fast and fire slow. If I had to guess, Lenny, with 18 months after you hire a C-level exec, at least 50% of the time they're gone. High mortality rate on them, it's harder than people think.
 
 **Lenny Rachitsky** (00:10:10):
@@ -80,7 +78,7 @@ And so, what you're saying here is there's only so much you can actually do to i
 **Brian Halligan** (00:10:15):
 I think you can, I think the blind references are key, I think doing real interactive, working on a project together is key. I'll tell you one of the things we learned at HubSpot about this. We would have a candidate come in, let's say a head of engineering, and we'd have eight people interview them. And our scale's one to four. And let's say four people were four out of four, and four people were two out of four. So, that's candidate A. And then the next candidate comes in, eight people interview them, and everyone's a three out of four. Almost every time we hired the three out of four, the person with the least amount of weaknesses. And we changed it, and we went with the spikier people, we went with people with weaknesses, we with people who would challenge stuff, and that has worked out quite well.
 
-(00:11:04):
+**Brian Halligan** (00:11:04):
 Our hit rate at HubSpot's improved. We also have shrunk the pool of people on that interview panel from eight to four. We just hired a head of product, and there were just four of us that interviewed them. I think that worked too. So, I think there's things you can do to get better at it, for sure.
 
 **Lenny Rachitsky** (00:11:21):
@@ -89,7 +87,7 @@ Okay. This is incredibly tactical and useful. On the references piece, the tough
 **Brian Halligan** (00:11:38):
 Well, I can just say I don't do this a lot anymore, but when people call me, I can tell if they've already decided, and when they're really just looking for... When they ask me for the strengths and weaknesses I'm like, oh, they've already decided. When they ask me something hard, like on a scale of one to 10, how likely you're to hire them again? Stuff like that, that kind of gets at the core. Or were they the top 1% of your employees? That's a good question. Oh, were they top 10? Oh. That type of question is pretty good. So, when I'm on the other side of it, I like when those types of questions come up.
 
-(00:12:16):
+**Brian Halligan** (00:12:16):
 I tell you the other mistake everyone makes, and all the CEOs we're making now, is you're hiring for that whatever, head of engineering, and you're blown away by the resume. Like you're 50 employees and you're hiring this person, who's been at Microsoft the last 10 years, and has a fancy title, and is a fancy division in Microsoft, and you hire them, there's just a massive impedance mismatch when you hire them on what their expectations are, and what your expectations are, in the extent that you get your shit together. It's just you don't. You definitely don't, if you're 50 or 500 employees. And they expect you to have your act together. So, that is another... Avoid the big company hire. We hired so many people from Salesforce, and Google, and Microsoft, like 100% attrition rate on all those folks.
 
 **Lenny Rachitsky** (00:13:11):
@@ -134,7 +132,6 @@ And so, is there any tips here for doing this well, is it just give people a cha
 **Brian Halligan** (00:15:36):
 I tend to give people a chance. It's like, if you're interviewing someone that's homegrown, and they're VP for that C-level job, versus hiring someone from the outside. I hire someone from the outside, they're very good at interviewing, from a big company, they look fancy, they're shiny, you haven't seen their warts, hard to figure out their warts unless you're very good at line referencing, and so you tend to overrate them and underrate your homegrown. So, if it's pretty close, I think you give your homegrown a shot at it.
 
-(00:16:03):
 What's interesting to me, Lenny, is Brian Chesky sort of rethought a lot of this stuff, and he's like everyone's over-rotating to the homegrown to the experienced talent and management teams and delegation, I think he's mostly right about that. People haven't really followed that. People are, they're hiring people from the outside quite a bit. That's kind of the standard part of the playbook that all of them are following now. It's a little different, it's actually quite different than what Brian [inaudible 00:16:32].
 
 **Lenny Rachitsky** (00:16:32):
@@ -143,7 +140,7 @@ Going back to the conversation around CEOs, a lot of people listening to this po
 **Brian Halligan** (00:17:02):
 Go ahead and meet all these CEOs coming in, and I have a little algorithm in my head, and I look for four things. I call it my LOCK algorithm. L is for lovable, and Steve Jobs you would say is kind of rough and maybe not lovable, but he would inspire followership. You would want to follow him. And so, could I envision a 28-year-old me, graduating from business school, going to work for this person? Would I crawl across broken glass? That's question one. Two is just obsession. Are they deeply obsessed with this problem? I'm a little negative on people who came up with this problem to solve six months ago and started a company, I like people with deep founder market fit, who've been thinking about it for a long time, and have evidence in their lives of going deep down, obsessively down a rabbit hole because that's kind of what it takes to be a founder/CEO.
 
-(00:18:02):
+**Brian Halligan** (00:18:02):
 The C is something I wouldn't have thought of, but this is a Sequoia thing, like chip on the shoulder. Pretty much all of them have a boulder on their shoulder, and I have a bit of a chip on my shoulder too. And the K is just for deeply knowledgeable about the domain. And so, I look for that. If I were to stick an S on it, I would say student. I look at Winston Weinberg from Harvey, or James from Profound, or Gabe from Rogo, some of these new very fast growing companies, they're students of the game. They're not just learn it alls, they're deep, deep, deep students of the game. And they're like LLMs, they're constantly, constantly learning, and it's not just learning stuff for me and their peers, but they go way back in time, and have a lot of history on stuff. So, those are some of the, kind of my little criteria I use when I'm evaluating CEOs. What do you look for, by the way, you've interviewed a ton of folks like me, what do you think is in common?
 
 **Lenny Rachitsky** (00:19:11):
@@ -152,7 +149,7 @@ Of what successful founders? Oh my god. I wish I had the... My succinct answer, 
 **Brian Halligan** (00:19:40):
 [inaudible 00:19:40]. Is it learnable? I notice some of, a lot of the CEOs struggling with a couple of things. Like let's say you're Winston, you're late 20s, you've never managed a team, you're probably never even captain of a sports team before, and in order to scale, you have to give people feedback constantly. It's very unnatural. It's like, I'm going to give this VP I hired a bunch of feedback, positive and negative. And if you don't get good at that, you really pay the price later. That's something I think they have to learn. They all have to learn to get a good bullshit detector. They're constantly being spun, everyone's trying to sell to them, the org is always trying to sell to them. So, that's sort of something they have to develop over time.
 
-(00:20:29):
+**Brian Halligan** (00:20:29):
 They have to all get good at the inspiration thing over time. Like, you're Winston, you've never had to inspire anyone in your entire life. You went to school, and you're a lawyer for a few years, and you started this thing... Inspiration wasn't your thing. So, there's certain things you have to learn on that startup to scale up path, and the best ones learn it very fast.
 
 **Lenny Rachitsky** (00:20:50):
@@ -167,7 +164,7 @@ Okay, so when you're helping Sequoia decide should we invest in this company, wh
 **Brian Halligan** (00:21:44):
 I don't think anyone can do it, I don't think it's just anyone. I will say, I've noticed... So, another little rubric I have, and I don't see a lot of these, but Brett Taylor's one, there's a few out there that are in Sequoia's portfolio. I call them back to the baseball thing, a five tool player. In baseball when you rank a player it's, can they hit? Can they hit with power? Can they run? Can they catch a ball? Can they throw the ball? And they rate them one to 10 at each. And it's very rare that you have a five tool player, extremely rare. And the thing that's kind of new now, are there are five tools CEOs, like Brett Taylor's one.
 
-(00:22:24):
+**Brian Halligan** (00:22:24):
 You can code, you have taste, you have vision, you can sell the product, you can convince employees. This kind super CEO. And there's a bunch of them now. And I don't know, I didn't see a lot of those. That certainly wasn't Steve Jobs, he wasn't programming. It wasn't Jeff Bezos. I think there's kind of a new breed that's quite impressive.
 
 **Lenny Rachitsky** (00:22:49):
@@ -182,7 +179,7 @@ I love this list you shared of things that you find CEOs most have to learn. BS 
 **Brian Halligan** (00:24:00):
 It's that feedback thing. All of the CEOs are building their teams, and so many are like, I have a co-founder that runs product and engineering, but I need that co-founder to step aside and be the CTO, and the thinker, and the labs person, and I need to hire somebody who can actually run the engineering machine. So many of the CEOs are going through that right now. That's a tricky transition. So many of the CEOs are layering folks, like you hired that early head of sales, he hired 10 people, but just can't quite figure out the sales profile, can't quite unpack the sales process, can't quite forecast accurately. We need to layer the person.
 
-(00:24:46):
+**Brian Halligan** (00:24:46):
 Those types of conversations are very tricky and quite unnatural for homo sapiens to have if you're 25 and you've never done anything like that before. So, I see the best ones getting really good at that and studying it, and it's super uncomfortable, but they have to suck it up and get good at it.
 
 **Lenny Rachitsky** (00:25:05):
@@ -209,7 +206,7 @@ That's absolutely true.
 **Brian Halligan** (00:26:18):
 And the flip side of that is, how many companies... The number of companies formed is going to mushroom over the next 10 years relative to the last 10 years, and the last 10 years compared to the previous 10 years is mushroomed. I just think in my life, I'm old, and when I was a kid I'd walked into CVS corner drug store and I wanted to buy a toothbrush, there are four or five there, you pick one. And in the 90s or 2000s you go to Amazon, there are four or 5,000 toothbrushes. Four or 5,000 companies bringing us toothbrushes. It got much, much easier to make stuff.
 
-(00:26:58):
+**Brian Halligan** (00:26:58):
 And even technology. AWS just made it easier to start a software company. So, it's like a huge jump, back then when we started HubSpot in 2006, but now it's going to be an even bigger jump. So, it's easier to start. Now, there's so much noise and competition, it's just going to be hard to stand out and really accelerate and scale. So, that's why I say it's never been easier to start, there's never been more competition, it's never been harder to scale.
 
 **Lenny Rachitsky** (00:27:22):
@@ -224,13 +221,13 @@ Along these lines, I saw you tweet this recently, where people talk about which 
 **Brian Halligan** (00:27:53):
 Well, if you look inside a typical enterprise, where's AI really working? Let's say inside of HubSpot. Software development is working incredibly well. Customer support, incredibly well. Legal starting to work incredibly well. But there really aren't apps in the rest of the org that have really changed things a lot. And in the go-to-market side has been kind of slow, really just support. There isn't a canonical marketing, or sales, or... Maybe the BDR is the first one. But I think ye old enterprise sales, where there's actual trust built up between two carbon-based life forms, I think will be very, very, very late to go in the white collar world.
 
-(00:28:42):
+**Brian Halligan** (00:28:42):
 I think a lot about the go-to-market. I think the go-to-market is going to get turned on its head. When we started HubSpot, if I think of the way the funnel worked, you want to get found in Google, someone clicks on a blue link, they land on your website, they go down the rabbit hole, they clicked on contact sales, they wait until that sales rep's ready, go down that rabbit hole, and I think it's going to get turned on its head, where people are evaluating a product, they start in Gemini or they start in Anthropic, or they start in ChatGPT,
 
-(00:29:12):
+**Brian Halligan** (00:29:12):
 And for example, ChatGPT knows everything on your website, everything beyond that, knows all your competitors. So, they will stay in there and do lots more research, and be incredibly well-educated. So, your website's a lot less important. And then they go to your site, I think sites will change where you're going to have a really high quality avatar that knows everything about your products, knows everything about your company, and your pricing, and packaging, and you can have a high quality conversation with that person. That person that will get stored in your CRM, and will get scored.
 
-(00:29:46):
+**Brian Halligan** (00:29:46):
 Is this is good quality conversation? And then the sales rep will follow up. But that sales rep will bring an avatar with them on every sales call. You won't have to wait for their SC, they'll have their own SC that's all knowing, that will follow them through the process. So, go-to-market hasn't changed much yet, but I think over time it's going to change a lot.
 
 **Lenny Rachitsky** (00:30:03):
@@ -329,10 +326,10 @@ How is just being a CEO different than it was? So, you've been doing this for 20
 **Brian Halligan** (00:34:39):
 One of my... It was actually Winston from Harvey, said this a year ago, and I was like, that's bullshit, but I actually think he was right. He, he's like, "You can just do a lot more." You've got AI agents doing stuff, everyone's more productive, the software developers are more productive. Something that used to take you a year takes two months now. And so, the amount of projects and the amount of stuff you can do is much, much more, I think he's right. I think that's a little dangerous. Let's say you found your beachhead market, and that beachhead market is really good, and it's very deep, there's a lot of work to do, I think what's dangerous for companies is they hop to that second act too quickly, and they lose focus on that first act.
 
-(00:35:21):
+**Brian Halligan** (00:35:21):
 And this isn't a completely perfect analogy, but you think of OpenAI and ChatGPT, and its consumer app is doing incredible, and they're doing lots and lots and lots and lots of other things, and then Gemini comes out and they've kind of focused back on the core. I think there's a lot of competition, everything is moving fast. I do think people get more done, and I think that impacts everything. The planning cycles used to be a year, I think the planning cycles now are three months long. Yeah, that's a big change. I think it puts pressure on the CEOs to be faster and better decision makers.
 
-(00:36:01):
+**Brian Halligan** (00:36:01):
 I just think of times in HubSpot when things slowed down and there was churn, it was usually my fault. It was because there were some hard one-way door type decisions on my desk, and maybe every year I would sit down and I'd open that one-way door or close it, and it just freed everyone up and we just started moving so much faster. I think people need to be making those decisions and walking through those doors much more quickly than they used to. I think that's new and different. I was someone who always valued optionality, I think there's a massive tax in optionality when you can move this fast and try a lot of things. So, I do think the job's changing a lot.
 
 **Lenny Rachitsky** (00:36:45):
@@ -350,22 +347,22 @@ I know. Yeah, it's hard to keep up.
 **Lenny Rachitsky** (00:37:03):
 [inaudible 00:37:04]. Luckily we got some sweet podcasts to check out, to keep up to date with what's happening. We'll link to yours, of course.
 
-(00:37:10):
+**Lenny Rachitsky** (00:37:10):
 Here's a puzzle for you. What do OpenAI, Cursor, Perplexity, Vercel, Plat, and hundreds of other winning companies have in common? The answer is they're all powered by today's sponsor, WorkOS. If you're building software for enterprises, you've probably felt the pain of integrating single sign-on, SCIM, RBAC, audited logs, and other features required by big customers. WorkOS turns those deal blockers into drop-in APIs, with a modern developer platform built specifically for B2B SaaS. Whether you're a seed-stage startup trying to land your first enterprise customer, or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise-ready and unlocking growth.
 
-(00:37:49):
+**Lenny Rachitsky** (00:37:49):
 They're essentially Stripe for enterprise features. Visit WorkOS.com to get started, or just hit up their Slack support, where they have real engineers in there who answer your questions super fast. Workos allows you to build like the best, with delightful APIs, comprehensive docs, and a smooth developer experience. Go to WorkOS.com to make your app enterprise-ready today.
 
-(00:38:10):
+**Lenny Rachitsky** (00:38:10):
 Let's talk Halliganisms. Essentially these are nuggets of wisdom and advice that you find yourself sharing often, you've written about a bunch of these online, and so let me just go through them and then just share the synopsis of the advice and the lesson around this Halliganism. The first is, "When you have to eat a shit sandwich, don't nibble."
 
 **Brian Halligan** (00:38:30):
 Okay. Completely stole this from Ruth Porat, the CFO of Google. I saw her quote somewhere, I'm like, that's it, she's put a perfect thing on it. And I'll give you an example where I think this will play out over the next couple of years. I think within the next couple of years there'll be a real retrenchment in valuations, and some will live up to valuations a lot [inaudible 00:38:54]. Like, if I look at the public markets, they're very tight right now, it's like the anti-bubble. And I look at private valuations, it's like a real bubble. I think there's a reckoning somewhere down the road. And a lot of companies are going to have to do layoffs. A lot. It's never fun, it's usually the worst thing in the history of your life, and the temptation is to do, well, just do a little one now and we'll grow into it, and then they do another one in six months, and then another one.
 
-(00:39:20):
+**Brian Halligan** (00:39:20):
 I think with everything, including this type of thing, it's just rip the darn Band-Aid off, tell everyone the bad news, they're adults, they can handle it, and get it done. And I think people avoid that. I think that's good advice Ruth Porat is giving. Because you're going to have bad news to deliver, bad shit is going to happen to your company, even though it looks like it's going amazing right now, weird stuff's going to happen. And you're going to have to deal with it. And we had a lot of weird stuff happen at HubSpot. There's a basketball coach named Mike Krzyzewski, he's Duke's basketball coach. All time winningest college basketball coach ever. If you go to a Duke basketball game, you can hear him yelling from the sidelines, "Let's play, let's play."
 
-(00:40:13):
+**Brian Halligan** (00:40:13):
 And what's going on there is when a college basketball player is playing in the game and takes a shot and clanks it off the rim and misses it, they have a strong tendency to go play overly aggressively on defense in the back court, and many times compound their error by making a foul or something like that. And what he wants to do is people to make their error, forget about it, and move back down the other side of the court and run the play. And so, actually there were times in HubSpot's history where we had the Mike Krzyzewski's face on a huge slide in front of the company meeting, saying, "Next play," because there was an unforced error, and we need to deal with it and move on.
 
 **Lenny Rachitsky** (00:40:54):
@@ -386,7 +383,7 @@ Oh man. Okay, so next Halliganism, "Never waste a good crisis." That's something
 **Brian Halligan** (00:42:16):
 I'll just follow on to, most of the good things that happened in HubSpot came out of a crisis because we would take pretty drastic measures to fix it and make sure we didn't do the same thing again. And so, in this particular case, we really rethought how we deployed software, how we thought about making software in a way that was incredibly healthy. And we haven't had a serious outage since. The quality is much better. And kind of an interesting thing with HubSpot is we started as a marketing software company, and we pivoted, had Salesforce came into our market, we pivoted into CRM. And one thing that... If your marketing software goes down, if your workflow, if there's a bug in the workflows or something like that, it's bad, but you survive it, you wait a little bit.
 
-(00:43:06):
+**Brian Halligan** (00:43:06):
 If your CRM goes down, particularly on the last day of the quarter, you're really impacting your customer's ability to do business. So, that was a mindset shift that we hadn't quite come to terms with of how important we were to our customers. And so, we made a lot of changes based on that crisis. Usually very good things came out of crises.
 
 **Lenny Rachitsky** (00:43:26):
@@ -407,10 +404,9 @@ Okay, another Halliganism, "If you want to kill a plant, have two people water i
 **Brian Halligan** (00:43:55):
 I love this one, it's very true. Let's say, Lenny, you bought a new beautiful plant for your office, and then you went away for a month to Turks and Caicos because your AI agent's doing your podcast, and you asked two of your friends, "Hey, would you mind watering my plant?" And there's one of two outcomes what happens to the plant. The plant would either be over-watered and die, or not watered at all and die. And every CEO in the adults' table has gone through this, and they are religious about the DRI. Everyone talks about DRI in the kids' table, but once it gets to the adults' table, people get deep religion on it.
 
-(00:44:32):
 And I think it makes sense. When you're small, and you're in startup mode, everyone's in the room, everyone knows exactly what's going on. So, let's say you're running a pilot project with a big account. You're running that pilot project, everyone's on the same page, the sales person, the service person, developer, everyone's on the same page, and you go out and do it and you execute well. When you get it scale, you've get a sales organization, you've get your [inaudible 00:44:56] deployed engineer organization, you've got your product management organization, you've got some developers working on it.
 
-(00:45:00):
+**Brian Halligan** (00:45:00):
 Everyone's kind of separate, no one knows really what's going on in the other departments. And so, let's say you want to really have a good pilot process, you want to rethink it because you're scaling. Everything important happens cross-functionally inside a company at scale, and you need someone powerful to own it. So, let's say it's a sales person, they need the power to tell people in other divisions what to do, even if they don't own it. So, almost every CEO I deal with is like a zealot on the DRI idea, and it doesn't bite you until you get to some sort of scale.
 
 **Lenny Rachitsky** (00:45:34):
@@ -443,7 +439,7 @@ Awesome. Okay, another Halliganism, I don't know if you put it this way, the way
 **Brian Halligan** (00:46:24):
 Yeah, I always thought, incorrectly, that we would have one hire or one investor or one event or one product release that would... I was wrong about this, but it'd be a silver bullet. And the reality inside the HubSpot machine, the way it felt to me, it looks from the outside, over a long time up into the right, and smooth, but inside it was two steps forward, one step back, two steps forward, one step back, two steps forward, one step back. And a lot of times it was a crisis that caused that step back. So, we just didn't have that.
 
-(00:47:02):
+**Brian Halligan** (00:47:02):
 The thing about being a founder/CEO is no one, especially when you're in your 20s, there's no one there to rescue you. Your parents aren't going to rescue you, your VC is not going to rescue you, your teacher, your thesis advisor, you're on your own and you got to figure it out. And that hits you when you hit your first crisis, it's on you. You can get some help, but it's on you.
 
 **Lenny Rachitsky** (00:47:23):
@@ -458,7 +454,7 @@ Do you feel like too many people start companies just like... When someone comes
 **Brian Halligan** (00:47:44):
 Yes. Yes. I heard Jensen Huang say that. "I wouldn't have start started Nvidia if I had it to do over." If someone asked me that question, I would start HubSpot over. It was very hard, there were a lot of sacrifices, it wasn't glamorous at all. But in the end of the day, I'm incredibly proud of it. And on my deathbed, I can look back and really enjoy it. And the Dalai Lama's got a good expression like, "Live a good life so you can live it again on your deathbed." And I'm really glad I did it. But I do talk a lot of founders out of it. The obsession is real, you have to be deeply obsessed. And all these founders and CEOs I talk to, people talk about 9-9-6, it's way more than that. The founders are seven days a week, they're always on, I [inaudible 00:48:40] on Sunday nights, it's full contact.
 
-(00:48:43):
+**Brian Halligan** (00:48:43):
 And I think what's going on there, particularly now, is people just see this massive platform change, massive opportunity, they don't want to waste the opportunity. So, I think that mindset's right. But people today are much, much more hardcore than they were in my year. I worked hard, and I was probably, I was 60 to 70 week hours a week the entire time, never really turned it off. But that's kind of how I thought about it. It's different now. People are much more focused, and I think Elon's inspired people.
 
 **Lenny Rachitsky** (00:49:09):
@@ -491,10 +487,10 @@ So, it is a good lesson. Okay, a few more here. One is, it's a math formula. "EV
 **Brian Halligan** (00:50:44):
 Okay, EV is enterprise value, TV is your team's value, MEV is your value. And as HubSpot was scaling, and we had a lot of people who were VPs in different roles, and they started to get good-sized organizations, where they would fall down was they didn't solve for MEV, but they'd solve for TV over EV. They'd solve for their own team. So, let's say they ran sales, and say, I just want bookings to be as high as possible because I get paid on bookings, and the service team can handle all the downstream problems I created. Marketing to sales... Between every department that's happened. And the kind of immature managers who didn't scale, really solved for themselves, and as they solved for themselves kind of sub-optimize for their peers. And their employees would notice it and complain about it, it would be fine in the short term, but it would show up.
 
-(00:51:44):
+**Brian Halligan** (00:51:44):
 And the place it would show up, Lenny, was, we did, and I think a lot of companies do this now, but we did a quarterly employee net promoter. We did a quarterly customer net promoter survey and a quarterly employee one. And we would have people rate it by the department they're in. And one interesting thing about that, so it's like sales and service and engineering, all the different departments, and we had an overall net promoter score, and then each department had a net promoter score. And let's just take sales. Sales net promoter score was like, 65, 62, 68, 30. Ooh, that's a big drop. And then you read the comments and it was not good, a lot of complaints about the leader of that. And a lot of the complaints were a little bit of this TV thing.
 
-(00:52:34):
+**Brian Halligan** (00:52:34):
 And then, we give feedback to that VP, would help them, we give them all the comments, be like, you got this. And then a quarter later from 30 to -5. And they almost never actually recovered. When you lose, your team can't... It's hard to get them back. And that's why I say hire slow, fire fast. And this doesn't show up in the first 100, 150 employees, everyone's solving for EV, but as it gets bigger, and the CEO doesn't know anyone, and there's a couple layers between you and the employees, they tend to solve for TV. So, we always put on the wall, "Solve for EV over TV over MEV," and then we added CV in front of EV, solve for the customers first, then for HubSpot, then the employee, then yourself. That was be very helpful to us.
 
 **Lenny Rachitsky** (00:53:22):
@@ -521,10 +517,10 @@ Okay. That's a good segue to another Halliganism where you talk about how compan
 **Brian Halligan** (00:55:35):
 Okay. We were very employee-centric, more than customer-centric in the first several years of HubSpot. So much so that the company was number one on Glassdoor's best place to work, I was the number one CEO on Glassdoor, and as I look back at that, I'm not sure that's a good thing. Wanting to be liked I don't think is a good feature of a CEO, and wanting to be the best place to work probably isn't the right way to go. If you look at Toby from Shopify, his scores aren't that good, but that company is doing really, really well. And so, we over-indexed on it, and part of the reason we over-indexed on it is my co-founder was really strong in this, and we had an incredibly powerful head of HR, named Katie Burke, and we just worked on it. We spent a lot of time on it. And when we'd have a management team meeting, and let's say it's four hours long, two of the four hours would be on employee stuff.
 
-(00:56:28):
+**Brian Halligan** (00:56:28):
 And at some point I was like, why are we spending so much time on employee net promoter scores? Let's say our employee net promoter score was 60, and our customer net promoter score is 25, I was like, we need to take... I would give up 10 points of employee net promoter score to get 10 points of customer net promoter score. And so, over some time we shifted the center of gravity to customers, and we still of course, worried about employees, but the center of gravity from HubSpot moves very much to customers. And we did that in a few ways. Every time we had a management team meeting... We had our management team meetings once a month, not once a week, and we would have a customer panel come on, and that customer panel, I would run the panel, and ask very tricky questions to the customers, and pull out the bad news from that.
 
-(00:57:22):
+**Brian Halligan** (00:57:22):
 And then, we still do this, we have a customer panel at our board meetings. Our whole board can ask questions. And my favorite question is, what do you love about HubSpot? And then... And then, what do you hate about HubSpot? And they kind of look at their shoes. And you're like, come on. And it's a great way... So, the employee's voice is here, those company meetings, we have the customers at the company meetings. We changed the comp plan, so the management team got paid not on revenue but on retention and net promoter score. And so we worked very hard and swung the pendulum to customer-centric. But I do think companies have one center of gravity or another.
 
 **Lenny Rachitsky** (00:58:00):
@@ -533,7 +529,7 @@ There's a really interesting thread throughout this conversation of just, when d
 **Brian Halligan** (00:58:15):
 Yes. And the bigger it is, the more obvious you have to make it. And the other thing about being a CEO, Lenny, is you got to say the same thing over and over and over and over and over again. It just doesn't sink into people's heads, you have to just be incredibly repetitive on it before it sinks in. Same thing with marketing, but internally, and that happens. The other weird thing about being a CEO, Lenny, is as it gets bigger... When it's small, everyone's giving you shit, and you're all on the same level. But as it gets bigger, you didn't interview everyone, you have thousands of employees, you don't know everyone, and people put you on a pedestal that you don't deserve.
 
-(00:58:53):
+**Brian Halligan** (00:58:53):
 And let's say you're in the hallway, and you're just kind of shooting the shit with a bunch of people, and you're like, ah, it'd be cool if we had a product that did... Somebody inevitably would go home and build that thing, and be like, Brian wants this as a big initiative. So, people really lock in on what you said. And it turns out you have to be very repetitive and you have to be very careful what you say.
 
 **Lenny Rachitsky** (00:59:12):
@@ -710,7 +706,7 @@ Yeah. To that point, I haven't promoted this feature of it, but it's trained on 
 **Brian Halligan** (01:09:52):
 This isn't lightning, but four years ago I had a very bad snowmobile accident, drove a snowmobile off a cliff. The snowmobile smashed into a million pieces at the bottom of the cliff, so did I. and I laid at the bottom of that cliff for a while, I was unconscious for a long time. I woke up. And I didn't think I had my phone, so I sat there for a long time, like, I'm probably going to die tonight, no one knows where I am, it's frigid out. It's in Vermont. And I'm going to freeze to death. And I'm sitting there for a couple hours, I finally was like, oh, I do have my phone, dialed 911. By the way, 911, amazing service. And so, the helicopters came in and took me out, took me to the hospital. And lots of surgeries, and I was kind out of commission for a year. And you can't see it but I got metal over me, all in me.
 
-(01:10:49):
+**Brian Halligan** (01:10:49):
 Life's short. Life's short. And I made some decisions at the bottom of that cliff... One of the decisions I made at the bottom of that cliff was, I don't really like being CEO of an 8,000 person company, doesn't really suit me. My harmonic motion is off. I don't love the day to day, if I make it out of here alive, I'm out. And so, that's exactly what happened. The first big thing that happened coming out of that was I gave the job to Yamini, who's still the CEO, doing a great job. So, life's short, don't waste it.
 
 **Lenny Rachitsky** (01:11:23):
@@ -758,5 +754,5 @@ Appreciate you, appreciate you. Thank you.
 **Lenny Rachitsky** (01:14:12):
 Bye everyone.
 
-(01:14:14):
+**Lenny Rachitsky** (01:14:14):
 Thank you so much for listening, if you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at Lenny'sPodcasts.com. See you in the next episode.

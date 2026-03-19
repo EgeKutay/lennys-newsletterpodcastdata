@@ -13,16 +13,15 @@ word_count: 14088
 **Nicole Forsgren** (00:00:00):
 Starting with what is your problem or what is your goal? I would say this is a bigger challenge than most people recognize or realize. 80% of the folks that I work with, this is their biggest problem. Even at executive levels, teams will have gone off for several months, and they're tackling something, and they'll come back with uncertainty, and they'll say like, "Well, you told me to improve developer experience."
 
-(00:00:20):
+**Nicole Forsgren** (00:00:20):
 I'm like, "Okay, what do you mean by this? Are you talking about inner and outer loop? Are you talking about friction? Are you talking about culture? But if you're talking about culture, this is totally different than if you're talking about friction in toolchains. If you're on different pages, you're heading in completely different directions."
 
 **Lenny** (00:00:37):
 Welcome to Lenny's Podcast where I interview world-class product leaders and growth experts to learn from their hardware experiences, building and growing today's most successful products. Today my guest is Nicole Forsgren. This is actually my first recording back since going on pat leave for the past couple months, and what an awesome episode to get back into the swing of things. Nicole is the developer productivity expert, having written the award-winning book Accelerate, and she's been the co-author of the State of DevOps Report year after year.
 
-(00:01:06):
+**Lenny** (00:01:06):
 She's currently a partner at Microsoft Research, leading developer productivity, research, and strategy, and she's helped some of the biggest companies in the world move faster, improved product quality, and transform their cultures. In our conversation, we get into the weeds of how to go about measuring and improving your engineering team's productivity and experience. We talk about the DORA framework and the SPACE framework and how to actually implement them to understand how your engineering team is doing.
 
-(00:01:32):
 **Nicole Forsgren** (00:02:54):
 Thank you so much. I'm excited to be here.
 
@@ -32,13 +31,13 @@ I'm excited to have you here. I actually skip this question usually with guests,
 **Nicole Forsgren** (00:03:15):
 Sure, and I appreciate the question because you're right. I sort of had this choose your own adventure background. So I started as a software engineer at IBM. I was writing software for large enterprise systems, which meant I ended up running them. So I was also a CIS admin. I was racking the stacking. I was running these really, really large labs, and then I kind of stumbled into this seven-day march for several years, and I was like, "There has to be a better way." And we're hearing rumors of it, but management was not buying in. And so I decided to win this battle with data, and I was like, "I should go do a Ph.D."
 
-(00:03:55):
+**Nicole Forsgren** (00:03:55):
 And so ended up kind of taking a slight pivot into Ph.D. and management information systems, which some people are less familiar with, but it's basically a cross between tech and business. And I ended up getting a fairly technical Ph.D. So I went to a school, I went to University of Arizona, which has a very, very technical degree, but I liked that it crossed with business because then I had the ability to make these strong business case statements, right. So it was like, how is or is the way that we develop and deliver software tied to outcomes at the individual level, right?
 
-(00:04:33):
+**Nicole Forsgren** (00:04:33):
 Can I be more productive? Can I have better work-life balance? And the team level, is the team more productive? Is the team more efficient? And the organizational level, right. This is what I was really interested in originally. Do I see better ROI? Do I see better efficiency because then I could sell it to people, right? And so that was really kind of what I originally went into. And then I was a professor for a handful of years because if you're doing research, traditionally, that's the job in academia. I also had a master's in accounting because that really helped me make that kind of financial tie and understanding financial statements.
 
-(00:05:07):
+**Nicole Forsgren** (00:05:07):
 And then, after a handful of years kind of walked away from tenure because academia was not convinced that DevOps was a thing, right, that DevOps wasn't real, and State of DevOps Report who I was doing with DORA, DevOps research and assessment in collaboration with Jez Humble and Gene Kim. And we started that work with Puppet. So shout out to Alanna Brown for starting that, and Nigel Kersten and the team there. We kind of pivoted away. And Chef, that little configuration management startup at the time, hired me, and they're like, "We'll give you halftime to do research and halftime to help our engineering practices improve."
 
 **Lenny** (00:05:45):
@@ -47,10 +46,10 @@ That's cool.
 **Nicole Forsgren** (00:05:46):
 Yeah. I mean, they were incredible because what startup is going to be like, "Yeah, do research." So I was there for a year and a half and then left to do DORA full-time. We actually had a SaaS offering, so we continued the State of DevOps Report just under the DORA banner, and we had a SaaS offering because so many large companies were like, "I want my own customized measurement, reading, and report." And then the joke there when we met with Gartner, they were like, "Your superpower here was that you tricked people into strategy," which was not only how do I benchmark? That was kind of our top-of-the-funnel. Everyone wants to know how they compare.
 
-(00:06:22):
+**Nicole Forsgren** (00:06:22):
 But the important thing is what should you do next? What's the most important next step? So it's how do I measure? What do I do next? And that gave me this incredible view into advising large organizations into this transformation journey. And then, we built out this amazing partner network. We weren't actually consulting. We just had this SaaS piece, but then how do you act on it? We were then acquired by Google, so I was CEO. And so I kind of led that acquisition and then the integration and building out these teams in Google. And after that point, I joined GitHub, which is the largest developer network.
 
-(00:07:01):
+**Nicole Forsgren** (00:07:01):
 So I had this amazing opportunity to do more grounded and applied research again. I was VP of research and strategy and then went over to MSR, where I kind of wear a couple of hats. So right now, I have a research lab there with an incredible team. It's the developer experience lab where we do a bunch of work across productivity, community, and wellbeing. And then I also help with Microsoft's kind of cross company effort to improve their developer infrastructure. So it's sort of this round effort into how do I really remain engaged in measuring, applying, thinking about this work, both in very applied concrete pieces and incredibly forward-looking work with MSR.
 
 **Lenny** (00:07:48):
@@ -71,7 +70,7 @@ Okay, cool. So you've shared a couple of these terms, DevOps, developer producti
 **Nicole Forsgren** (00:08:10):
 I really love that you asked this question because I think they're very related concepts that people sometimes conflate, but I see them as being different. So related, but different. So productivity, I think, is basically how much we can get done and how much we can do over time. And I think that's why it's so important to have this holistic measure because we can't just brute force it, right. And so that's why when my team and a bunch of my peers study productivity, we include this community effect because software is a team sport. We joke, right.
 
-(00:08:40):
+**Nicole Forsgren** (00:08:40):
 And also why wellbeing is so important, right. Because we see that when you do productivity the right way, we see sustainability, we see wellbeing, we see reductions in burnout. Now, developer experience is very related and very tied to this, and it contributes to productivity. But developer experiences, if you think about who your users are, developers really are you your users in this software engineering, in the software development piece. And so developer experience is sort of like what is it like to write software? Is this a friction-free process? Is this a very predictable and certain experience? Can we reduce this uncertainty and increase the predictability here to contribute to productivity?
 
 **Lenny** (00:09:26):
@@ -86,16 +85,16 @@ So what I love about this topic is that I've never met a founder or a leader who
 **Nicole Forsgren** (00:10:32):
 You know what, I'll say yes and, right. So and it kind of goes back to why I got into this because, on the one hand, you won't say anyone who's saying, "Uh, we don't really need to go faster. Everything's fine." But at the same time, very often, I will come into scenarios where I'll find myself in scenarios where people are like, "I mean, it would be nice if we were going faster, but do we really need to. Show me the business case. What's the ROI?" Or if we go too fast, we'll have an instability, right. What are our safety measures? Are we going to lose reliability? What is happening?
 
-(00:11:13):
+**Nicole Forsgren** (00:11:13):
 And when I first started ITIL and ITSM, right, the old school kind of change management processes, the common knowledge was that you had to have at least a two-week wait for change approvals in order to get that stability. Turns out that's not right. It was just kind of an old wives' tale, right. And so we kind of have this weird balance of I want to move faster, but is it worth the investment? What am I going to get for it? Are you sure this is the priority? Or I've been in meetings where it's like, "Oh yes, absolutely, right. This is a priority, but it's the lowest priority."
 
-(00:12:00):
+**Nicole Forsgren** (00:12:00):
 And I'm like... Right. So then what we want to do is we want to have these kind of pointed conversations or these kind of Socratic type questions and conversations where it's like, "Help me understand more what your concerns are. Are your concerns around reliability when you move faster?" We're not just trying to all the guardrails down and sprint for no purpose of sprinting. And this is where kind of the DORA and DevOps research program comes into play where it's we don't just want to move fast and take all guardrails down.
 
-(00:12:33):
+**Nicole Forsgren** (00:12:33):
 We want to implement good technical practices like automated testing, good architectural practices so that when you move fast, you are also more stable, right. We want to be thinking about improving the developer experience so that when we are faster, we are also saving time. And then, we can highlight a handful of statistics. Like, what is your typical time for feature delivery? What is your typical time to first PR? What is your typical time to steady state productivity?
 
-(00:13:04):
+**Nicole Forsgren** (00:13:04):
 What is your typical time for code review and PR process? And if we are to do back-of-the-napkin math, what sorts of time are you spending here? And if we do a rough look at industry, what are your peers spending here? And are we losing time, right? And if we could turn this into a value calculation, what does that look like? So that we can think about the priority and the strategy here. And I think that's where it becomes a more focused conversation.
 
 **Lenny** (00:13:43):
@@ -104,25 +103,25 @@ This is a great segue too, something I was going to get to a little bit later, b
 **Nicole Forsgren** (00:14:01):
 Sure, sure. Absolutely. And I'm so glad you brought this up. So DORA is, it's an entire research program. Now, many people, when they hear DORA now they think of the Four Keys or the DORA four or the four metrics, and I think that's what the research program and the company ended up becoming most known for. And so that was the software delivery performance metrics, and those are, there's two speed and two stability metrics. So the speed metrics are lead time, so how long does it take to get from code committed to code running in production? Deployment frequency. How often do you deploy code?
 
-(00:14:40):
+**Nicole Forsgren** (00:14:40):
 And then the stability metrics are MTTR, mean time to restore. So if something happens, how long does it take you to come back? And then change fail rate. For every change that is pushed, what's the rough percentage of incidents or that require human intervention, right? Now the thing that was really interesting is when we started measuring these, we found that they move in tandem now with very strong significance from a statistical standpoint. Now what this means is now, we say speed and stability move together.
 
-(00:15:19):
+**Nicole Forsgren** (00:15:19):
 Most people only think about this from the speed standpoint, which means when you move faster, you are more stable, which means you're pushing smaller changes more often, right. Because if you're pushing all the time, it's going to be very, very small changes, which means you have a smaller blast radius, which means when you push, you have an error in production. It's going to be easier to debug, right. It's going to be much easier to figure all of that out your mean time to restore and mitigate. It's going to be much faster.
 
-(00:15:44):
+**Nicole Forsgren** (00:15:44):
 But that also means is the reverse. When you push changes less frequently, you will have more unstable systems because when you push less frequency, you will have very, very large batch changes, which means you'll have a very high, very large blast radius, which means when you do have a resulting bug error, you will have to disentangle this big ball of mud and figure out which piece actually caused the error, figure all of that out. That ended up being a big surprise because, refer to my prior comment about ITIL and ITSM, if you're forcing a two-week pause for change approvals, you're causing this batching up of changes.
 
-(00:16:36):
+**Nicole Forsgren** (00:16:36):
 And sometimes people were waiting, "If two weeks is good, a month must be better, or three months must be better, or six months must be better." And I mean, just think about the merge conflicts you're causing, right. You're just causing so many challenges in figuring out how to push this code into production. So many people think of those four metrics, one, because we found that speed and stability move together, and two because we started publishing benchmarks on what this looks like for low, medium, high, and then elite performers for many times.
 
-(00:17:06):
+**Nicole Forsgren** (00:17:06):
 This, I believe, may have been interesting. I'm not sure if it was useful or helpful, but I think it was interesting because it gave people at least something to shoot for, something to aim for. I will definitely say what's most important is knowing where you are and the progress that you're making, right. It doesn't matter if, frankly, you're a high performer or you're an elite performer. It matters that where you are and you're making progress, right. Can you push daily or on demand, or is your only technical capability that you can push twice a year, right? Just know where you are, and is it a business decision or a technical capability? That's basically what it comes down to.
 
 **Lenny** (00:17:47):
 I'm going to jump in real quick just to highlight what you're talking... what you just said, which I think is extremely important and powerful, and people might kind of move on too quickly. I also want to ask you what actual benchmarks are, if you can share those, whatever you want to share there.
 
-(00:18:01):
+**Lenny** (00:18:01):
 But before I ask that, essentially, what you're sharing right now is just I feel like the 64,000 dollar question of this episode is just how do I move faster as a team? And what I'm hearing is essentially it's ship smaller things is kind of at the core of it. And also, if we're... if quality is low, you're also saying the answer is ship more often, ship smaller things. Is that roughly the message?
 
 **Nicole Forsgren** (00:18:26):
@@ -146,7 +145,7 @@ Yeah.
 **Nicole Forsgren** (00:19:00):
 Yeah. So I will admit I only have the 2019 benchmarks top of mind. The team at Google has continued that work since I left. It's been led by Dr. Dustin Smith. Nathen Harvey continues the work, so huge shout out to that team. Many others participate. You can go to dora.dev and find all of the continued reports. They've integrated all of this work.
 
-(00:19:26):
+**Nicole Forsgren** (00:19:26):
 But I will say they've remained fairly consistent. So really quickly, I'll share the elite performance. So deployment frequency, you can deploy on-demand, lead time for changes takes less than a day. Time to restore is less than an hour, and your change fail rate is between zero and 15%.
 
 **Lenny** (00:19:44):
@@ -173,10 +172,10 @@ Mm-hmm. And this is from committing code into the repo and it going out into pro
 **Nicole Forsgren** (00:20:51):
 Mm-hmm. To about ring zero. So you don't... Don't worry if it's like, "Oh, well, now we need to think about the global deploy and which is the final endpoint." And it's like, how long does it take to get through your deployment pipeline? Because are you going to be surprised? Do you have fast feedback loops? How does your deployment pipeline work? Does your deployment pipeline work, right? Or are you going to commit code? Are you going to wait for that final review for about three months?
 
-(00:21:27):
+**Nicole Forsgren** (00:21:27):
 Is something going to happen or break? And when it comes back to the developer because something happened or broke because that kind of happens, are they going to have to insert themselves back in the code, re-review all the things that happened three months ago, all... so many other things happened that's incredibly difficult. Which to your prior question, this is how it relates to the developer experience. If something happened less than a day and it's a surprise, and it's not great, but whatever, something happened downstream, and I got to fix it, I'm still sitting in my code in my head.
 
-(00:22:01):
+**Nicole Forsgren** (00:22:01):
 I've got that mental model. I know what happened. Maybe it's not great, but it's fine. If it happened three months ago and I get interrupted. First of all, interruptions suck. That's not fun. Second of all, now I've got to re-remember, reread all of this code, maybe reload an entire new workspace and set up libraries and everything because I... maybe it's a whole quarter ago, and we thought we were done, and I got to do the whole thing all over.
 
 **Lenny** (00:22:33):
@@ -191,7 +190,7 @@ Wow.
 **Nicole Forsgren** (00:23:30):
 So it's either way. And on days when I was feeling real snarky, I'd be like, "Pick your excuse. You've got your dropdown." Now when I say, "Retail was a bit of an outlier," they had a statistically significant difference. Their difference was that they were actually better. Why? Now, I can't tell you why. I can... In a research paper, we'd have a discussion section, and this is where you get to guess. I would surmise, and we do this in the report, that it's probably because retail went through the retail apocalypse, right.
 
-(00:24:09):
+**Nicole Forsgren** (00:24:09):
 If you didn't survive, if you weren't just killing it, you did not survive. So many retail firms just did not make it through. You had to be at the top of your game. There was no such... Black Friday, there's no such thing as not having systems that are performing incredibly well. There's no such thing as not being in the cloud because if you cannot make it through bursting on demand, bursting like magic, sometimes I joke, right, you're not going to make it. And so I suspect if I were to guess, if you're not already a high performer in the retail space, natural selection got rid of you.
 
 **Lenny** (00:24:53):
@@ -206,10 +205,10 @@ Yeah. And then, their mean time to their fail rate is less than 10%, and their m
 **Nicole Forsgren** (00:25:29):
 And if you're not doing it through brute force and killing yourself. Now can I jump in here, please? Because then people are like, "But how do I do this?" So let's say that you're not in that category, and you're like because this is the next... this is the piece of criticism I'll get about DORA, right. People are like, "Well, all you've done is make me feel bad. You gave me these metrics. You've judged me. Now I feel bad." And then I'm like, "So there's DORA there." I wrote a book called Accelerate, which is the first four years of the research compiled and put together and expanded in a few things.
 
-(00:26:06):
+**Nicole Forsgren** (00:26:06):
 And I'll joke, "There's a whole rest of the book, right." DORA is best known for the four metrics, but there's an entire research program supporting it. So it's not just these four metrics. What we find is that if you improve a set of capabilities... I loved your question around what is DevOps? DevOps is not a toolchain you buy. Marketing teams labeled toolchains DevOps because they wanted your money. DevOps is a set of capabilities. They're technical capabilities. They're architectural capabilities.
 
-(00:26:34):
+**Nicole Forsgren** (00:26:34):
 They're cultural capabilities. They are lean management practices that predict speed and stability. And then speed and stability gives you money, right, because it's your ability to create these features that give you money. So when you work backwards, if you want money, you get the features fast. If you want the features fast and stable, you do the things. And the things are technical capabilities like automated testing, CI/CD.
 
 **Lenny** (00:27:04):
@@ -218,10 +217,10 @@ And CI/CD is continuous integration/continuous deployment, is that right?
 **Nicole Forsgren** (00:27:08):
 Yes. Mm-hmm. Trunk based development using a version control system, right. So do you have good technical practices? Do you have good architectural practices? Do you have a loosely coupled system? Are you using the cloud? Or if you're not in the cloud for whatever reason, are you using the underlying architectural pieces that enable good cloud to do the cloud, right? Or if you're in the cloud and you're not realizing benefits, is it because doing the cloud wrong, right? Do you have a good culture?
 
-(00:27:48):
+**Nicole Forsgren** (00:27:48):
 So you don't just magically go fast and have stability. So working backwards, which pieces are you struggling on? Now you kind of noted down the benchmarks. If you go to dora.dev, the team at Google was lovely. We worked really closely with the team, and they're keeping this updated. You can take a quick check. There's a button there that says, "Quick check." And you can plug in where you kind of think you are.
 
-(00:28:13):
+**Nicole Forsgren** (00:28:13):
 Like I said, you can hunch it, and it'll tell you where you are in the benchmarks today and what industry you're in. And then the cool part is it'll say... Now you'll want to ask yourself, "Where am I struggling?" But it'll say, "For your performance profile and for the industry that you're in, statistically over the last several years, these are probably your constraints, AKA, these are probably the things that you're struggling in right now." For people in finance who are high performers, they tend to struggle with these four things, whether it's like culture or continuous integration or whatever.
 
 **Lenny** (00:28:54):
@@ -248,13 +247,13 @@ Okay. So we were talking about DORA. This may be a good time to talk about SPACE
 **Nicole Forsgren** (00:29:31):
 Okay, so SPACE is a way to measure, we say productivity, developer productivity, but it's a little bit more than that. SPACE is a good way to measure any type of complex creative work. Now, how do they relate? Let's say you go through the quick check. It points out four things, and you decide you want to improve continuous integration and culture, right. Well, now you're like, "Cool, but how am I going to actually measure them?" This is where SPACE comes in because SPACE helps you figure out SPACE gives you a framework to pick the right metrics.
 
-(00:30:12):
+**Nicole Forsgren** (00:30:12):
 Now some people are like, "Well, SPACE you didn't give me the exact metrics." People love DORA because it's like, "Here's the exact four you need." Well, SPACE is like when you want to measure something that's complex, creative work, maybe like developer productivity. There's also an example at the bottom for incident management. When you have something you want to measure, it says, "Within your context, within the metrics you have available to you, here's how to pick."
 
-(00:30:40):
+**Nicole Forsgren** (00:30:40):
 That's what SPACE is good for. Now we called it SPACE because it stands for the five dimensions that you want to measure. So S is satisfaction and wellbeing. So satisfaction wellbeing is kind of self-explanatory. Now, some people might jump in here and say, "Oh, well, you're just touchy-feely." This actually matters because we find that satisfaction wellbeing ends up being incredibly highly correlated with all of the other dimensions of productivity and doing things well.
 
-(00:31:09):
+**Nicole Forsgren** (00:31:09):
 And as soon as satisfaction and wellbeing, things like sustainability, if you're satisfied, as soon as that starts falling off, other things start to break. So this can be an incredibly strong and important signal. P is performance. This is going to be the outcome of a process. So reliability within DORA, the MTTM or change fail rate. Those are both performance metrics.
 
 **Lenny** (00:31:34):
@@ -263,7 +262,7 @@ And so you pick one to kind of measure as performance.
 **Nicole Forsgren** (00:31:37):
 Yep. A is activity. Anytime you have a count or a number of something. And these we see all the time because they're super easy to instrument and automate, right. Number of pull requests, number of check-ins, number of something, that's A. C is communication and collaboration. This can be how people work and talk together. It can be meetings. It can be collaboration. It can also be how our systems communicate together. It can be the searchability of a code base. And then ease efficiency and flow. So this is going to be the flow through the system.
 
-(00:32:11):
+**Nicole Forsgren** (00:32:11):
 It can be the time through the system. If we think about SRE or incident management, it can be the number of hops a ticket takes until it reaches the right person. Now, to use SPACE correctly, we want to use at least three dimensions at a time because that helps us balance. Turns out DORA is actually implementation of SPACE. So DORA would be SPACE for mostly that outer loop. So again, once you've found something that you want to improve, find the metrics that make sense to you, try to have them be in balance or intention so you don't throw something out of whack, but pick three.
 
 **Lenny** (00:32:52):
@@ -272,7 +271,7 @@ So when you say DORA is an implementation of SPACE, one has five buckets, one ha
 **Nicole Forsgren** (00:32:59):
 So SPACE is there to help you think about how you want to pick metrics, right. So a lot of time I see people... So [inaudible 00:33:06] half step back. I used to advise people on how to pick metrics. For years people would pull me in to advise on DORA or Accelerate. They would ask me questions, but it ended up being metrics questions a lot. "How do I pick the right metrics to improve what I'm doing?" Like I said, they had the DORA numbers. They would pick their constraints, and they wanted to improve.
 
-(00:33:29):
+**Nicole Forsgren** (00:33:29):
 "But how do I improve? How do I measure this? How do I show improvement?" And so we would start thinking really critically about which metrics were the right metrics to pick. And I would always say make sure you pick balanced metrics. Make sure you pick metrics that are intention. And I could say it, but people have a hard time wrapping that around their heads because they kept picking things like number of lines of code, never picked number of lines of code.
 
 **Lenny** (00:33:29):
@@ -293,7 +292,7 @@ I see.
 **Nicole Forsgren** (00:34:28):
 ... bingo. We're not playing blackout bingo. You don't need all of them but try to have at least three across different dimensions. Now one example here. I was working with a group that wanted to improve their pull requests very generally. They just said improve pull requests. So they were thinking about pinging someone every 15 minutes, and I was like, "Oh, this is going to be bad."
 
-(00:34:48):
+**Nicole Forsgren** (00:34:48):
 Because we know from other literature and research like nursing, you'll get alert fatigue, where people will just start tuning out alerts. Either they'll turn them off, or they will just stop hearing them. So number of alerts, right. They're like, "Let's just think about number of alerts." And I said, "Well, but if we think about efficiency and flow, how much time do you have to work on your coding?" So those two are balanced. So we need to protect time to work as well as code review time.
 
 **Lenny** (00:35:25):
@@ -320,7 +319,7 @@ Awesome.
 **Nicole Forsgren** (00:36:05):
 And don't discount what people say, right. Sometimes I hear... Actually not sometimes. A lot of times, I hear people say, "Oh, but people lie." First of all, what is their incentive to lie? Why would they lie about having a bad system? Because it's bad, and they want it fixed, right. If it's absolutely a hostile work environment, they might lie and then tell you it's good. Then you have bigger problems, right. Also, do we ever see bad data from our systems or incomplete data from our systems? That's a lie, but we find ways to deal with it. We see it. We acknowledge it. We look for holes in our system data.
 
-(00:36:46):
+**Nicole Forsgren** (00:36:46):
 We try to deal with it, right. That's also a lie. So I think there are better ways to think about and deal with that and then try to work with it because and I wrote a paper with Mik Kersten on this several years ago on how data from people and data from systems are really important compliments because we can get certain insights from people that we'll never get from systems. Let's look at lead time from changes, for example, from commit to deploy. The speed might be fine, but people might tell you it's taking absolute heroics. It's some ridiculous Rube Goldberg machine.
 
 **Lenny** (00:37:27):
@@ -335,34 +334,34 @@ I can see why people come to you asking for advice on metrics because you have t
 **Nicole Forsgren** (00:38:17):
 One, I hate to be this person, but I'll point to a few of my papers. I will say I write things down because I get asked them so often, and I want to make sure it is broadly applicable or broadly available, I guess. This SPACE paper, for sure. It's an ACM, and I think the year we published, it was the most read paper at ACMQueue. Yeah. So we tried to make it as readable as possible. So the SPACE paper is nice because it outlines this framework and it gives examples of metrics in every single category. And so hopefully people can look at this and they can [inaudible 00:38:54], "Okay, here's an example to use here, right. Here are some of the things that I could possibly use."
 
-(00:39:00):
+**Nicole Forsgren** (00:39:00):
 And we're seeing that SPACE is being used lots and lots of different places. Another good one could be the paper that I mentioned with Mik Kersten, and it was about... we talked about using data from people and data from systems. We wrote it up in the DevOps context. I want to say this was written in 2016 or 2017 or something. But it helps you think through what types of data are good in which situations because you will never find yourself in a situation when you don't want both types of data. Even teams that I've worked with that are the most advanced. They have absolute instrumentation in every possible scenario.
 
-(00:39:46):
+**Nicole Forsgren** (00:39:46):
 In the most detailed way, they will still survey their developers at least once a year because you can get new insights, right. One book that I love. It's a little dense, but it's really interesting that I love is How to Measure Anything. And it's by Hubbard, and there are parts of it that are real stats heavy, but he has this portion in the front that's in covering intangibles. So it's like, what happens when you don't have data? You have no data. You're starting from nothing. What are good ways to hunch data? And I really love that because he covers some really good ground there.
 
 **Lenny** (00:40:34):
 Today's entire episode is brought to you by DX, a platform for measuring and improving developer productivity. DX is designed by the researchers behind frameworks such as DORA, SPACE, and DevX, including Nicole Forsgren, who is my guest for this very episode. If you've tried measuring developer productivity, you know that there are a lot of basic metrics out there and a lot of ways to do this wrong, and getting that full view of productivity is still really hard.
 
-(00:40:59):
+**Lenny** (00:40:59):
 DX tackles this problem by combining qualitative and quantitative insights based on the very research Nicole and her team have done, giving you full clarity into how your developers are doing. DX is used by both startups and Fortune 500 companies, including companies like Twilio, Amplitude, eBay, Brex, Toast, Pfizer, and Procter & Gamble. To learn more about DX and get a demo of their product, visit their website at getdx.com/lenny. That's getdx.com/lenny. You also mentioned offline that you might be working on a book that will answer a lot of these questions. Is that something you're up for chatting about?
 
 **Nicole Forsgren** (00:41:36):
 Yeah, absolutely. So as I mentioned, I tend to write things down when I get asked questions on it a lot. And so this is one in particular. So we'll be covering... I'm starting to go through, and I'm covering some of these, and I think some of the important topics in particular are starting with what is your problem or what is your goal and being super, super crisp on it, right. What is it that we're trying to answer? And I would say this is a bigger challenge than most people recognize or realize.
 
-(00:42:11):
+**Nicole Forsgren** (00:42:11):
 I'm making this set up, right. 80% of the folks that I work with, this is their biggest problem. Even at executive levels, they'll ask their team, or teams will come back with uncertainty, and they'll say like, "Well, you told me to improve developer experience." I'm like, "Okay, great. What do you mean by that?" And then teams will have gone off for several months, and they're tackling something, and they'll come back, and they'll be like, "Oh, well, wasn't what I meant."
 
-(00:42:38):
+**Nicole Forsgren** (00:42:38):
 And I'm like, "Okay, what do you mean by this? Are you talking about inner and outer loop? Are you talking about friction? Are you talking about culture?" Because sometimes they're talking about culture. "And if you're talking about culture, this is an incredibly valid answer. But if you're talking about culture, this is totally different than if you're talking about friction in toolchains, right. And if you're on different pages, you're heading in completely different directions."
 
-(00:43:05):
+**Nicole Forsgren** (00:43:05):
 So that's one thing we cover, which seems obvious, but trust me, it's not. And then even how do you... We're going to do kind of a rough version of how do you start measuring from nothing and also the measurement journey, right. How do you think about the trade-offs between and the proportion of measurement between subjective data, right, data from people. So you have Azure interviews, and you have surveys and objective data, stuff you get from systems. Because when you first start off, you'll be relying much more on data from people.
 
-(00:43:42):
+**Nicole Forsgren** (00:43:42):
 You can get a relatively quickly. But as you kind of transition through this measurement journey, you'll get more and more data from your systems because it's scalable. It can be engineered. You can be doing much more with it. And also, you should be thinking about, "Don't let the perfect be the enemy of the good." So how do we think about this very, very strategically? How do we transition through this? How do we think about what each piece of data is for?
 
-(00:44:09):
+**Nicole Forsgren** (00:44:09):
 And also lots and lots of examples. So I have included example interview scripts. How do you select people? How do you screen people? Example survey scripts. What are some of the analyses we should do? And trying to make this incredibly accessible, so basically anyone can do this. So you do not need to be a data scientist, but if you have one on staff, you can hand them some of this and just let them run.
 
 **Lenny** (00:44:32):
@@ -383,7 +382,7 @@ If people want to be notified when it's out, can they sign up on your site for n
 **Nicole Forsgren** (00:44:49):
 Oh, yeah, absolutely. Yeah, I'll add a link for that. Also, if anyone is doing some of this work now, if they have major questions that they would love to [inaudible 00:45:00] me to answer if they have success stories, if they have case studies, if they have anything that they would love to be included.
 
-(00:45:08):
+**Nicole Forsgren** (00:45:08):
 I remember when I wrote Accelerate before, there were a couple folks that reached out after, and they were like, "Oh, I wanted to have something included." Now I've learned. Today I've learned, right. If there's anything that folks would love to be in discussion with me about, I'm always eager to chat and nerd out about DevX and especially measurement and measurement journeys.
 
 **Lenny** (00:45:28):
@@ -410,10 +409,10 @@ What are the most common pitfalls that companies run into when they're trying to
 **Nicole Forsgren** (00:45:53):
 I think one I just mentioned, right. Not being clear or not understanding what it is that they're looking for because then you can have a thousand flowers bloom, and everyone's kind of running in a different direction. I think another one is not pursuing this in both a top-down and a bottom-up structure, right. And I think that can really help drive success, and having good communication throughout is super, super important, right.
 
-(00:46:26):
+**Nicole Forsgren** (00:46:26):
 So getting your ICs bought in and helping them understand that this is for them. We want to understand what they're doing. Knowing what vocabulary they use, what terminology they use is super important. And then chatting with leaders and understanding what their motivations are or helping them understand what the motivations could be. This kind of hearkens back to one of our earliest chats on why I even got into this and how I see two different sides to the conversation on why is DevOps even a thing? Why should we even ship faster?
 
-(00:47:03):
+**Nicole Forsgren** (00:47:03):
 There are so many people that I talk to that are super passionate about DevX right now, and they're like, "How can I convince my executive team this is important?" Because their developers are just completely burning out, or they use computers and anger every day. And so it's like, "How can we have the right tools to socialize this to our leaders as well?" Because this should be a priority. This needs to be a strategic piece, and how can we help pull together the right value points to communicate this and to understand what their priorities are so that we can see how this fits in, right.
 
 **Lenny** (00:47:43):
@@ -422,10 +421,9 @@ You've been working in this space for a long time, probably longer than anyone t
 **Nicole Forsgren** (00:47:58):
 We have these increasingly large complex systems, right. So 10 or 15 years ago, the internet was around, but things were really different. Now, almost every company has a really large complex system, right. We also have a shortage of developers, or at least a reported perceived shortage of developers. More companies are technology-driven, or at least they understand they're technology driven. It's like I understand a handful... I remember a handful of years ago when I met with a financial institution whose CTO insisted to me that he was not a tech company like that. That's not real anymore. That doesn't happen anymore, at least very, very rarely.
 
-(00:48:39):
 So all of these things come together, and suddenly, many more companies are like, "We have to be better at this." And that was not always the case five to 10 years ago. I used to have to really explain why this was a pressing concern and why it would continue to be a oppressing concern. And now, in the last six to nine to 12 months, we have this AI moment happening, and it just poured gas on top of everything because now what's important... We've always said that [inaudible 00:49:14] execution's important, but now this is absolutely true because it's not just about what it is that you build.
 
-(00:49:23):
+**Nicole Forsgren** (00:49:23):
 It's about creating absolutely novel, incredibly new experiences and doing them at a speed that no one has seen before. And the only way to do this is to have this software pipeline that is fast and is safe and is stable, and is reliable. And that's where we're seeing this really interesting convergence, and pressure isn't quite the right word, but it's really forcing the discussion and strategy and prioritization, right.
 
 **Lenny** (00:50:07):
@@ -437,7 +435,7 @@ Perfect.
 **Lenny** (00:50:12):
 Yeah, obviously productivity, AI, engineering, something that's top of mind for a lot of people. There's a lot of layoffs that have been happening. There's a lot of talk of we don't need as many engineers. I actually had dinner not too long ago with few, I'd say 10 X engineers, and those are folks that people sometimes say they don't need Copilot. They're not going to use any of these tools. They're already amazing. And they were the opposite.
 
-(00:50:34):
+**Lenny** (00:50:34):
 They're like, "This is making me 100% more effective and efficient and I love it." So clearly good things are happening there. I don't know what the question is specifically, but I guess have you seen the impact of AI on engineering productivity? And has that shifted how you think about developer experience and productivity beyond what you already just shared?
 
 **Nicole Forsgren** (00:50:54):
@@ -455,16 +453,16 @@ Absolutely.
 **Nicole Forsgren** (00:51:04):
 We're absolutely seeing an impact, and we continue to explore this. So I have an interesting question to see how it'll change the SPACE framework. What's open here? I think a few things will remain, right? Satisfaction's still going to be there, performance is still going to be there, activity's still going to be there. How you communicate with people and with the tool efficiency and flow is still going to be there. I believe it will change and add a dimension like trust or reliability. How do I rely? Can I rely on it?
 
-(00:51:35):
+**Nicole Forsgren** (00:51:35):
 Will I have an over-reliance on it? And what we're seeing is that, probably unsurprisingly, people really fundamentally shift the way they work when they work with an AI-enabled tool like GitHub, Copilot, or Tabnine or others because now, instead of just writing code or having a short auto-complete, you spend more time reviewing code than writing code, right. There's this wonderful paper out that uses the Cups model. I'll share it with you. A team at MSR did it. Defines it, "About 50% of your time now is spent reviewing versus writing." But it'll be interesting to see how that changes things longitudinally, right.
 
-(00:52:20):
+**Nicole Forsgren** (00:52:20):
 Because other... Some of my colleagues also did a paper that showed that you can do certain tasks, like build an HTTP server 50% faster, but I don't think that's what productivity's about when you're using an AI tool, frankly. Anyone who's looking at that and dear CEOs or whoever who are like, "Now I can lay off half my workforce." That's not what this is about, right. It's not about taking a task and cutting your time in half because now what we've enabled is your ability to do certain things faster and then free up some of your cognitive space so that you can do harder things with this new co-pilot sidecar or something, right.
 
-(00:53:03):
+**Nicole Forsgren** (00:53:03):
 But also, because now you're accepting text and then reviewing it, we've changed what your mental model is. So we've changed the friction model that you expect. We've changed the cognitive load of what you expect. We're changing reliance on code. So what does this mean for reliance or overreliance? What does this mean for learning? What does this mean for novices versus experts? How do we measure productivity, right? There are a handful of us that are having these discussions on what does this mean and how do we communicate it thoughtfully?
 
-(00:53:35):
+**Nicole Forsgren** (00:53:35):
 Again, we really need to have these kind of holistic, balanced metrics because if it's an oversimplification, we really risk losing the forest for the trees, right. But it's also super interesting and super compelling, I think. How can we think about learning or onboarding to new code bases or new languages for folks who already know computational learning? I think it's also very different for folks who are just learning programming languages and don't already know things like computational thinking.
 
 **Lenny** (00:54:05):
@@ -473,7 +471,7 @@ If someone was excited to kind of go down this road of, "We're going to focus on
 **Nicole Forsgren** (00:54:22):
 I think if you're walking away from this podcast and you're like, "I'm already working on this, or I think this is a thing that's happening," I would say just go check your work basically, right. Has this been written down? Is there a clearly defined challenge, problem, something? Start there.
 
-(00:54:45):
+**Nicole Forsgren** (00:54:45):
 Absolutely because that is going to be the thing that reduces confusion the best, right. Absolutely. And then see if there's any data. And data can be very loosely defined, right. Is there any signal that is related to the problem? I'd start there. And you can do that. You can do that in a week. You can hunt something down.
 
 **Lenny** (00:55:09):
@@ -488,7 +486,7 @@ Are there any companies that you look at as good models of, "They do this really
 **Nicole Forsgren** (00:55:20):
 I think Google does this incredibly well, and sometimes I hesitate to mention Google because they're like... some people are like, "Well, we can't be Google, and we aren't really advanced." But the thing I love about Google's approach is that they've really taken kind of this measurement phase approach to things, even when they roll it out in new places. They're very systematic in how they measure things.
 
-(00:55:41):
+**Nicole Forsgren** (00:55:41):
 They have incredible telemetry and tooling and instrumentation, and they continue to invest time in developer experience surveys and they triangulate them. And one thing that I also love being able to point out here is if there is ever a disagreement between the surveys and the instrumentation, which is incredibly advanced, almost every time, every that I've ever heard of the surveys are correct and not the instrumentation.
 
 **Lenny** (00:56:11):
@@ -497,7 +495,7 @@ Amazing. I have just a couple more questions unrelated to this topic. Is there a
 **Nicole Forsgren** (00:56:22):
 I would say that thinking about what it is you want to do is always important, right. Like getting crisp, the ability to communicate clearly is always one of the best things. I think one of my superpowers and one of the things that I've been working with my teams on doing and kind of teaching them is, and one of the things that's really leveled up our work in general, is making your work incredibly accessible.
 
-(00:56:49):
+**Nicole Forsgren** (00:56:49):
 And accessible, not necessarily in the accessibility definition of the word, but making it very easy to understand what you're doing for your key audiences. And so thinking about doing that for anything that... anyone who's listening for all of your work is super important, right. So who is it that your audience is? What's their role? What words resonate with them? And then always being able to translate your work into a few sentences or a paragraph or left... or less.
 
 **Lenny** (00:57:21):
@@ -512,7 +510,7 @@ Perfect.
 **Nicole Forsgren** (00:57:53):
 Yes. I love this four-box framework. I've used it for years. I actually pulled it out first when I was a professor, and I still to this day get LinkedIn messages from my students saying that it's like the most useful thing they've ever used. So here's what it is. I literally pull this out on napkins, at bars, at conferences to this day.
 
-(00:58:12):
+**Nicole Forsgren** (00:58:12):
 So here we go. Draw four boxes on a piece of paper, two on the top, two on the bottom. So they'll be kind of aligned. The first two to the left of them write the word words. And below them, write the word data and then between the two on the top, draw an arrow between them. So it'll say words, box, arrow, box, right. Is that making sense?
 
 **Lenny** (00:58:12):
@@ -527,10 +525,10 @@ Mm-hmm.
 **Nicole Forsgren** (00:58:47):
 Okay. So on the top half, this is where, if you want to think about measuring something or testing something, you have to start with words. So as an example, let's just say, I think that customer satisfaction gets us more money or customer satisfaction gets us return customers. Let's do customer satisfaction. So the first box, you'll put customer satisfaction inside the box, and you'll put return customers in the second box. Now always start with words. You do not start with data. You always start with words.
 
-(00:59:22):
+**Nicole Forsgren** (00:59:22):
 And then you'll go around to a couple of people, stakeholders, managers, others, and you'll say, "Do you agree with this? Is this actually what we're doing?" And it can turn into a sentence. And then, in the boxes below it, this is your data. How are we going to measure customer satisfaction? It could be a survey.
 
-(00:59:44):
+**Nicole Forsgren** (00:59:44):
 And so this is where you'll go, and you'll say, "What data points do we have that could proxy for? What could be our data points for customer satisfaction?" And this is where it gets tricky. You could say, "Well, customer satisfaction could be return customers. But we think it leads to return customers, so we can't use that here." But return customers could be... So that's where you kind of roll this out. So how else would we measure customer satisfaction? I made this hard on myself.
 
 **Lenny** (01:00:10):
@@ -557,10 +555,10 @@ Mm-hmm.
 **Nicole Forsgren** (01:00:21):
 Okay. Now, return customers. Let's go to the next box. How are we going to measure return customers? Depending on our context, let's say that this is an online business. We could say that it's return customers as measured through the website. We could say that it's returned customers. We could just ask them, right. Maybe we have a follow-up survey. Return customers. Maybe we're going to do a stretch here. Maybe we say it's a referral link. This helps us get super clear on what it is we're going to measure. Now, the reason I like this is because if some of our... Now this data analysis. We'll just do correlations here, right.
 
-(01:01:00):
+**Nicole Forsgren** (01:01:00):
 If we have longitudinal overtime, that's fine. You can hand this to a data scientist. You can hand this to someone and you can say, "What data do we have? Let's go run this." If something here falls apart, now you can point to the data boxes, and we can get mad about the things in the data boxes, and we can say, "What's wrong? Is the data poor quality? Are we missing data? Was this a bad proxy?" Proxy stands in for something else. "Was this ridiculous?" One of the things I made up. It was just a bad idea.
 
-(01:01:32):
+**Nicole Forsgren** (01:01:32):
 Instead of getting mad at Lenny for his really stupid idea or getting mad at Nicole because this was a really bad idea, we can say, "This was problematic. What's wrong here?" Or we can go back up to the words at the top, and we can say, "This is not actually something that is probably going to hold, or this is not something we want to test right now, or this is something instead..." And it makes things incredibly clear. It helps you communicate what it is you want to do fairly quickly.
 
 **Lenny** (01:02:04):
@@ -581,10 +579,10 @@ I'll Zoom in, right. Okay.
 **Nicole Forsgren** (01:02:10):
 Now I will say advanced mode. You can start with the same four-box framework and you can say, "What data do we have available? What do we think the relationships are?" But then you have to go back up to words and then say, "For these data points..." And we think that they represent something, and we think this is the relationship between them. "What do they represent? If I turn this into a sentence, what do they represent?"
 
-(01:02:39):
+**Nicole Forsgren** (01:02:39):
 And then you want to double check because spurious correlation's one of my favorite websites instead of charts. So you'll want to go chat with someone, interview, make sure things are actually right. But the challenge is I will see people run every correlation they could think of, but they haven't turned it into a word or a sentence that you can communicate to someone else.
 
-(01:03:01):
+**Nicole Forsgren** (01:03:01):
 They don't do the check, and they don't do that before... one, before running the correlations. And two, if it's there, right. All of our data is so interrelated that we quite often will find spurious correlations. But it can be really helpful just to have that laid out, even if it's just on a post-it, to say, "What are the things I expect to see? What is this actually testing? What relationship do I suspect is there?"
 
 **Lenny** (01:03:27):
@@ -623,7 +621,6 @@ What are the different things-
 **Nicole Forsgren** (01:05:05):
 ... you should do. It is. Well, it's funny, though, because what's interesting is many times I will... I'll share it with someone, and I've got a couple that are just funny, right. But walking through the spreadsheet is often all you need to do in order to know what the decision is. And by that, I mean, so we walked through the decision. I had one where it was like, "Where should I move next, or what job should I take?" So when I started DORA, I did this. Starting DORA, I thought, was my lowest. Once I walked through the spreadsheet, it became my high. So what you do is you outline of all of your options. What do you want to do? And then you say, "What are the criteria that are important to me?" So if it's for a job, is it something like total comp, cash money, prestige, team, job predictability, work-life balance. Identify the criteria that are most important to you.
 
-(01:06:02):
 Now it's really interesting because sometimes I will only get that far when I'm working with someone I'm mentoring or coaching, and they will say, "I know what my answer is." We don't even get to the next step. But just identifying the criteria that are important is it... Now, when I was thinking about where I wanted to move next, it was proximity to an airport, the relative tech scene, the food scene. That was real high for me, a handful of things that was important. Now the next thing I do is, for each criteria, what's their relative weight, what's their importance? And I make it add up to 100%. And then I... This is the easy part, right. You just put it in a little spreadsheet, and then I give everything [inaudible 01:06:51] score, and I just multiply it out. Now this is where I'm data informed, and I'm not data driven.
 
 **Lenny** (01:06:56):
@@ -632,7 +629,7 @@ Mm-hmm.
 **Nicole Forsgren** (01:06:56):
 There have been times I make a decision where the whole flip a coin and whatever it's... wherever it lands on, what your reaction is tells you what it should actually be. There have been times where I multiply it out, and then I'll actually fudge the numbers to get what I want, but it's still slightly off. That's per your data informed. Same thing in business. There are many times where you actually run the numbers, and it'll give you a class or a category of things, and then you choose. Now this is where one of my favorite quotes I heard somewhere about strategy comes into play and that's that, "The key to having a good strategy is knowing what not to do."
 
-(01:07:40):
+**Nicole Forsgren** (01:07:40):
 And the key to executing a good strategy is actually not doing it. So you can have many options, right. As a leader and as an executive, we have many options, and we only fund some of them. If you fund everything, things are going to fail. So being able to think through and identify what your criteria are, identifying that criteria, what's your selection criteria, what's your evaluative criteria, ranking them, and then deciding what the cutoff is is important. You can't fund everything. You don't get to pick everything.
 
 **Lenny** (01:08:19):
@@ -785,7 +782,7 @@ And we're going to be in computers, living [inaudible 01:13:16]-
 **Nicole Forsgren** (01:13:16):
 Yeah. AI has completely upended how we kind of think of Horizons. And so when we're thinking really ambitiously and very, very, very forward-looking, what's our check-in? How do we evaluate this? And then how can we easily communicate it to our core audience? And so here, who's our audience, and how do we bring the far near?
 
-(01:13:37):
+**Nicole Forsgren** (01:13:37):
 And then for the other hat I'm wearing, I'm working with OCTO kind of across all of Microsoft to take a data-informed approach to really improve and uplevel our central developer infrastructure. And so, as we're thinking very, very tactically, what is our long-term vision, and how do we align with several of our broad stakeholders? And so there it's who's our audience, and how do we bring the near, far?
 
 **Lenny** (01:14:04):
@@ -800,7 +797,7 @@ Also, pick up a copy of Accelerate on Amazon or your local retail establishment.
 **Nicole Forsgren** (01:15:02):
 I am on Twitter and Bluesky, Nicolefv. And my website is nicolefv.com, and my... all my contact information is there. And as we mentioned previously, I'm working on a new project and a new book digging into exactly these ideas, right. How can we measure better? How can we improve? And what does that measurement process look like?
 
-(01:15:24):
+**Nicole Forsgren** (01:15:24):
 Both for kind of one time, really quick unofficial measurement pieces, and if we want to do kind of very formal longer term measurement pieces. So if anyone is interested in that or has any success stories they'd love to share, I would love to hear more about it. So please reach out and share. I'd love to hear more.
 
 **Lenny** (01:15:44):

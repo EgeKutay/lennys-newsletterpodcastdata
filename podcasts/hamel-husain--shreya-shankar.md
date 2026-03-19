@@ -43,13 +43,12 @@ When you're doing this open coding, a lot of teams get bogged down in having a c
 **Lenny Rachitsky** (00:01:09):
 Today, my guests are Hamel Husain and Shreya Shankar. One of the most trending topics on this podcast over the past year has been the rise of evals. Both the chief product officers of Anthropic and OpenAI shared that evals are becoming the most important new skill for product builders. And since then, this has been a recurring theme across many of the top AI builders I've had on. Two years ago, I had never heard the term evals. Now it's coming up constantly. When was the last time that a new skill emerged that product builders had to get good at to be successful?
 
-(00:01:41):
+**Lenny Rachitsky** (00:01:41):
 Hamel and Shreya have played a major role in shifting evals from being an obscure, mysterious subject to one of the most necessary skills for AI product builders. They teach the definitive online course on evals, which happens to be the number one course on Maven. They've now taught over 2,000 PMs and engineers across 500 companies, including large swaths of the OpenAI and Anthropic teams along with every other major AI lab.
 
-(00:02:07):
+**Lenny Rachitsky** (00:02:07):
 In this conversation, we do a lot of show versus tell. We walk through the process of developing an effective eval, explain what the heck evals are and what they look like, address many of the major misconceptions with evals, give you the first few steps you can take to start building evals for your product, and also share just a ton of best practices that Hamel and Shreya have developed over the past few years. This episode is the deepest yet most understandable primer you'll find on the world of evals. And honestly, it got me excited to write evals, even though I have nothing to write evals for. I think you'll feel the same way as you watch this.
 
-(00:02:41):
 **Hamel Husain** (00:05:04):
 Thank you for having us.
 
@@ -68,13 +67,13 @@ So that's a really good broad way of thinking about it. If you go one level deep
 **Hamel Husain** (00:06:36):
 Let's say you have a real estate assistant application and it's not working the way you want. It's not writing emails to customers the way you want, or it's not calling the right tools, or any number of errors. And before evals, you would be left with guessing. You would maybe fix a prompt and hope that you're not breaking anything else with that prompt, and you might rely on vibe checks, which is totally fine.
 
-(00:07:11):
+**Hamel Husain** (00:07:11):
 And vibe checks are good and you should do vibe checks initially, but it can become very unmanageable very fast because as your application grows, it's really hard to rely on vibe checks. You just feel lost. And so evals help you create metrics that you can use to measure how your application is doing and kind of give you a way to improve your application with confidence. That you have a feedback signal in which to iterate against.
 
 **Lenny Rachitsky** (00:07:44):
 So just to make very real, so imagining this real estate agent, maybe they're helping you book a listing or go see an open house. The idea here is you have this agent talking to people, it's answering questions, pointing them to things. As a builder of that agent, how do you know if it's giving them good advice, good answers? Is it telling them things that are completely wrong?
 
-(00:08:04):
+**Lenny Rachitsky** (00:08:04):
 So the idea of evals, essentially, is to build a set of tests that tell you, how often is this agent doing something wrong that you don't want it to do? And there's a bunch of ways you could define wrong. It could be just making up stuff. It could be just answering in a really strange way. The way I think about evals, and tell me if this is wrong, just simply is like unit tests for code. You're smiling. You're like, "No, you idiot."
 
 **Shreya Shankar** (00:08:29):
@@ -86,7 +85,7 @@ Okay. Okay, okay, tell me. Tell me, how does that feel as a metaphor?
 **Shreya Shankar** (00:08:35):
 Okay. I like what you said first, which is we had a very broad definition. Evals is a big spectrum of ways to measure application quality. Now, unit tests are one way of doing this. Maybe there are some non-negotiable functionalities that you want your AI assistant to have, and unit tests are going to be able to check that. Now, maybe you also, because these AI assistants are doing such open-ended tasks, you kind of also want to measure how good are they at very vague or ambiguous things like responding to new types of user requests or figuring out if there's new distributions of data like new users are coming and using your real estate agent that you didn't even know would use your product. And then all of a sudden, you think, "Oh, there's a different way you want to kind of accommodate this new group of people."
 
-(00:09:24):
+**Shreya Shankar** (00:09:24):
 So evals could also be a way of looking at your data regularly to find these new cohorts of people. Evals could also be like metrics that you just want to track over time, like you want to track people saying, "Yes. Thumbs up. I liked your message." You want very, very basic things that are not necessarily AI-related but can go back into this flywheel of improving your product. So I would say, overall, unit tests are a very small part of that very big puzzle.
 
 **Lenny Rachitsky** (00:09:56):
@@ -95,19 +94,19 @@ Awesome. You guys actually brought an example of an eval just to show us exactly
 **Hamel Husain** (00:10:06):
 Yeah, let me just set the stage for it a little bit. So to echo what Shreya said, it's really important that we don't think of evals as just tests. There's a common trap that a lot of people fall into because they jump straight to the test like, "Let me write some tests," and usually that's not what you want to do. You should start with some kind of data analysis to ground what you should even test, and that's a little bit different than software engineering where you have a lot more expectations of how the system is going to work. With LLMs, it's a lot more surface area. It's very stochastic, so you kind of have a different flavor here.
 
-(00:10:47):
+**Hamel Husain** (00:10:47):
 And so the example I'm going to show you today, it's actually a real estate example. It's a different kind of real estate example. It's from a company called Nurture Boss. I can share my screen to show you their website just to help you understand this use case a little bit, so let me share my screen. So this is a company that I worked with. It's called Nurture Boss, and it is a AI assistant for property managers who are managing apartments, and it helps with various tasks such as inbound leads, customer service, booking appointments, so on and so forth. It's like all the different sort of operations you might be doing as a property manager, it helps you with that. And so you can see kind of what they do. It's a very good example because it has a lot of the complexities of a modern AI application.
 
-(00:11:40):
+**Hamel Husain** (00:11:40):
 So there's lots of different channels that you can interact through the AI with like chat, text, voice, but also, there's tool calls, lots of tool calls for booking appointments, getting information about availability, so on and so forth. There's also RAG retrieval, getting information about customers and properties and things like that. So it's pretty fully fleshed in terms of an AI application. And so they have been really generous with me in allowing me to use their data as a teaching example. And so we have anonymized it, but what I'm going to walk through today is, okay, let's do the first part of how we would start to build evals for Nurture Boss. Why would we even want to do that?
 
-(00:12:36):
+**Hamel Husain** (00:12:36):
 So let's go through the very beginning stage, what we call error analysis, which is, let's look at the data of their application and first start with what's going wrong. So I'm going to jump to that next, and I'm going to open an observability tool. And you can use whatever you want here. I just happen to have this data loaded in a tool called Braintrust, but you can load it in anything. We don't have a favorite tool or anything in the blog post that we wrote with you. We had the same example but in Phoenix Arize, and I think Aman, on your blog post, used Phoenix Arize as well. And there's also LangSmith. So these are kind of like different tools that you can use.
 
-(00:13:29):
+**Hamel Husain** (00:13:29):
 So what you see here on the screen, this is logs from the application, and let me just show you how it looks. So what you see here is, and let me make it full screen, this is one particular interaction that a customer had with the Nurture Boss application, and what it is is a detailed log of everything that happened. So it's called a trace, and it's just the engineering term for logs of a sequence of events. The concept of a trace has been around for a really long time, but it's especially really important when it comes to AI applications.
 
-(00:14:12):
+**Hamel Husain** (00:14:12):
 And so we have all the different components and pieces and information that the AI needs to do its job, and we are logged all of it and we're looking at a view of that. And so you see here a system prompt. The system prompt says, "You are an AI assistant working as a leasing team member at Retreat at Acme Apartments." Remember, I said this is anonymized, so that's why the name is Acme Apartments. "Your primary role is to respond to text messages from both current residents and prospective residents. Your goal is to provide accurate, helpful information," yada, yada, yada. And then there's a lot of detail around guidelines of how we want this thing to behave.
 
 **Lenny Rachitsky** (00:14:56):
@@ -128,22 +127,22 @@ That's amazing because it's rare you see a actual company product's system promp
 **Hamel Husain** (00:15:08):
 Yeah. Yeah, it's really cool. And you see all of these different sort of features that are different use cases, so things about tour scheduling, handling applications, guidance on how to talk to different personas, so on and so forth. And you can see the user just kind of jumps in here and asks, "Okay, do you have a one-bedroom with study available? I saw it on virtual tours." And then you can see that the LLM calls some tools. It calls this get individual's information tool, and it pulls back that person's information. And then it gets the community's availability. So it's querying a database with the availability for that apartment complex.
 
-(00:16:01):
+**Hamel Husain** (00:16:01):
 And then finally, the AI responds, "Hey, we have several one-bedroom apartments available, but none specifically listed with a study. Here are a few options."
 
-(00:16:12):
+**Hamel Husain** (00:16:12):
 And then it says, "Can you let me know when one with a study is available?"
 
-(00:16:16):
+**Hamel Husain** (00:16:16):
 And then it says, "I currently don't have specific information on the availability of a one-bedroom apartment."
 
-(00:16:23):
+**Hamel Husain** (00:16:23):
 User says, "Thank you."
 
-(00:16:25):
+**Hamel Husain** (00:16:25):
 And the AI says, "You're welcome. If you have any more questions, feel free to reach out." Now, this is an example of a trace, and we're looking at one specific data point. And so one thing that's really important to do when you're doing data analysis of your LLM application is to look at data. Now, you might wonder, "There's a lot of these logs. It's kind of messy. There's a lot of things going on here. How in the hell are you supposed to look at this data? Do you want to just drown in this data? How do you even analyze this data?"
 
-(00:17:07):
+**Hamel Husain** (00:17:07):
 So it turns out there is a way to do it that is completely manageable, and it's not something that we invented. It's been around in machine learning and data science for a really long time, and it's called error analysis. And what you do is, the first step in conquering data like this is just to write notes. Okay? So you got to put your product hat on, which is why we're talking to you, because product people have to be in the room and they have to be involved in sort of doing this. Usually a developer is not suited to do this, especially if it's not a coding application.
 
 **Lenny Rachitsky** (00:17:47):
@@ -164,7 +163,7 @@ And as we watch this happening, it's like you mention this and you'll explain mo
 **Hamel Husain** (00:19:30):
 Yeah, and you don't have to do it for all of your data. You sample your data and just take a look, and it's surprising how much you learn when you do this. Everyone that does this immediately gets addicted to it and they say, "This is the greatest thing that you can do when you're building an AI application." You just learn a lot and you're like, "Hmm, this is not how I want it to work. Okay." And so that's just an example.
 
-(00:19:58):
+**Hamel Husain** (00:19:58):
 So you write this note, and then we can go on to the next trace. So this is the next trace. I just pushed a hot key on my keyboard. Let me go back to looking at it.
 
 **Lenny Rachitsky** (00:20:09):
@@ -203,10 +202,10 @@ And I like that, I like that you're using the word janky. It shows you just how 
 **Hamel Husain** (00:21:56):
 Yeah, it's supposed to be chill. Just don't overthink it. And there's a way to do this. So the question always comes up, how do you do this? Do you try to find all the different problems in this trace? What do you write a note about? And the answer is, just write down the first thing that you see that's wrong, the most upstream error. Don't worry about all the errors, just capture the first thing that you see that's wrong, and stop, and move on. And you can get really good at this. The first two or three can be very painful, but you can do a bunch of them really fast.
 
-(00:22:38):
+**Hamel Husain** (00:22:38):
 So here's another one, and let's skip the system prompt again. And the user asks, "Hey, I'm looking for a two- to three-bedroom with either one or two baths. Do you provide virtual tours?"
 
-(00:22:51):
+**Hamel Husain** (00:22:51):
 And a bunch of tools are called and it says, "Hi Sarah. Currently, we have three-bedroom, two-and-a-half-bathroom apartment available for $2,175. Unfortunately, we don't have any two-bedroom options at the moment. We do offer virtual tours. You can schedule a tour," blah, blah. It just so happens that there is no virtual tour, right?
 
 **Lenny Rachitsky** (00:23:16):
@@ -215,7 +214,7 @@ Mm-hmm. Nice.
 **Hamel Husain** (00:23:16):
 So it is hallucinating something that doesn't exist. Then you kind of have to bring your context as an engineer, or even product content, and say, "Hey, this is kind of weird. We shouldn't be telling a person about virtual tour when it's not offered."
 
-(00:23:32):
+**Hamel Husain** (00:23:32):
 So you would say, "Okay, offered virtual tour," and you just write the note. So you can see there's a diversity of different kinds of errors that we're seeing, and we're actually learning a lot about your application in a very short amount of time.
 
 **Shreya Shankar** (00:23:55):
@@ -227,7 +226,7 @@ Mm, great question.
 **Shreya Shankar** (00:24:04):
 And I loved Hamel's most recent example because what we usually find when we try to ask an LLM to do this error analysis is it just says the trace looks good because it doesn't have the context needed to understand whether something might be bad product smell or not. For example, the hallucination about scheduling the tour, right? I can guarantee you, I would bet money on this, if I put that into chat GPT and asked, "Is there an error?" it would say, "No, did a great job."
 
-(00:24:34):
+**Shreya Shankar** (00:24:34):
 But Hamel had the context of knowing, "Oh, we don't actually have this virtual tour functionality," right? So I think, in these cases, it's so important to make sure you are manually doing this yourself. And we can talk a little bit more about when to use LLMs in the process later, but number one pitfall right here is people are like, "Let me automate this with an LLM."
 
 **Lenny Rachitsky** (00:24:55):
@@ -260,7 +259,7 @@ Amazing.
 **Hamel Husain** (00:25:41):
 And so benevolent dictator is just a catchy term for the fact that when you're doing this open coding, a lot of teams get bogged down in having a committee do this. And for a lot of situations, that's wholly unnecessary. People get really uncomfortable with, "Okay, we want everybody on board. We want everybody involved," so on and so forth. You need to cut through the noise. And a lot of organizations, if you look really deeply, especially small, medium-sized companies, you can appoint one person whose tastes that you trust. And you can do this with a small number of people and often one person, and it's really important to make this tractable. You don't want to make this process so expensive that you can't do it. You're going to lose out.
 
-(00:26:36):
+**Hamel Husain** (00:26:36):
 So that's the idea behind benevolent dictator, is, "Hey, you need to simplify this across as many dimensions as you can." Another thing that we'll talk about later is when it goes to building an LLM as a judge, you need a binary score. You don't want to think about, "Is this like a 1, 2, 3, 4, 5?" Like, assign a score to it. You can't. That's going to slow it down.
 
 **Lenny Rachitsky** (00:26:59):
@@ -290,7 +289,7 @@ Yeah. Okay, cool. Let's go back to your examples.
 **Hamel Husain** (00:28:09):
 Yeah, no problem. So this is another example where we have someone saying, "Okay. Do you have any specials?" And the assistant or the AI responds, "Hey, we have a 5% military discount." User responds, and it switches the subject, "Can you tell me how many floors there are? Do you have any one-bedrooms available or one-bedrooms on the first floor?" And the AI responds, "Yeah, okay. We have several one-bedroom apartments available." And then the user wants to confirm, "Any of those on the first floor and how much are the one-bedrooms?" And then also, it's a current resident, so they're also asking, "I need a maintenance request."
 
-(00:28:56):
+**Hamel Husain** (00:28:56):
 You could see the messiness of the real world in here, and the assistant just calls a tool that says transfer call, but it doesn't say anything. It just abruptly does transfer call, so it's pretty jank, I would say. It's just not-
 
 **Lenny Rachitsky** (00:29:13):
@@ -299,7 +298,7 @@ Another jank.
 **Hamel Husain** (00:29:14):
 Another kind of jank, a different kind of jank. So when you write the open note, you don't want to say jank, because what we want to do is we want to understand, and when we look at the notes later on, we want to understand what happened.
 
-(00:29:24):
+**Hamel Husain** (00:29:24):
 So you just want to say, "Did not confirm call transfer with user." And it doesn't have to be perfect. You just have to have a general idea of what's going on.
 
 **Lenny Rachitsky** (00:29:39):
@@ -308,7 +307,7 @@ Cool.
 **Hamel Husain** (00:29:39):
 So, okay. So let's say we do, and Shreya and I, we recommend doing at least 100 of these. The question is always, "How many of this do you do?" And so there's not a magic number. We say 100 just because we know that as soon as you start doing this, once you do 20 of these, you will automatically find it so useful that you will continue doing it.
 
-(00:30:07):
+**Hamel Husain** (00:30:07):
 So we just say 100 to mentally unblock you, so it's not intimidating. It's like, "Don't worry, you're only going to do 100." And there is a term for that, so the right answer is, "Keep looking at traces until you feel like you're not learning anything new." Maybe Shreya should talk about-
 
 **Shreya Shankar** (00:30:30):
@@ -320,7 +319,7 @@ Yeah. So there's actually a term-
 **Shreya Shankar** (00:30:31):
 ... in data analysis and qualitative analysis called theoretical saturation. So what this means is when you do all of these processes of looking at your data, when do you stop? It's when you are theoretically saturating or you're not uncovering any new types of notes, new types of concepts, or nothing that will materially change the next part of your process.
 
-(00:30:57):
+**Shreya Shankar** (00:30:57):
 And this kind of takes a little bit of intuition to develop, so typically, people don't really know when they've reached theoretical saturation yet. That's totally fine. When you do two or three examples or rounds of this, you will develop the intuition. A lot of people realize, "Oh, okay. I only need to do 40, I only need to do 60. Actually, I only need to do 15." I don't know. Depends on the application and depends on how savvy you are with error analysis for sure.
 
 **Lenny Rachitsky** (00:31:25):
@@ -353,10 +352,10 @@ Just reviewing traces. At least there's one job left for now. Great.
 **Hamel Husain** (00:32:06):
 So, yeah. Exactly. And so, okay. You have all these notes. Now, to turn this into something useful, you can do basic counting. So basic counting is the most powerful analytical technique in data science because it's so simple and it's kind of undervalued in many cases, and so it's very approachable for people.
 
-(00:32:33):
+**Hamel Husain** (00:32:33):
 And so the first thing you want to do is take these notes, and you can categorize them with an LLM, and so there's a lot of different ways to do that. Right before this podcast, I took three different coding agents or AI tools in how to categorize these notes. So one is, "Okay, I uploaded into a cloud project, I uploaded a CSV of these notes, and I just exported them directly from this interface." There's a lot of different ways to do this, but I'm showing you the simple, stupid way, the most basic way of doing things.
 
-(00:33:13):
+**Hamel Husain** (00:33:13):
 And so I dumped the CSV in here and I said, "Please analyze the following CSV file." And I told it there's a metadata field that has a note in it, but what I said is I used the word open codes, and I said, "Hey, I have different open codes," and that's a term of art. LLMs know what open codes are and they know what axial codes are because it is a concept that's been around for a really long time, so those words help me shortcut what I'm trying to do.
 
 **Lenny Rachitsky** (00:33:46):
@@ -368,7 +367,7 @@ Yes. Creating axial codes, so what it does is-
 **Shreya Shankar** (00:33:54):
 So maybe it's worth talking about what are axial codes or what's the point here? You have a mess of open codes, and you don't have 100 distinct problems. Actually, many of them are repeats, but because you phrased them differently, and that you shouldn't have tried to create your taxonomy of failures as you're open coding. You just want to get down what's wrong and then organize, "Okay, what's the most common failure mode?"
 
-(00:34:19):
+**Shreya Shankar** (00:34:19):
 So the purpose, axial code basically is just a failure mode. It's the label or category. And what our goal is, is to get to this clusters of failure modes and figure out what is the most prevalent, so then you can go and run and attack that problem.
 
 **Lenny Rachitsky** (00:34:36):
@@ -383,7 +382,7 @@ Absolutely.
 **Hamel Husain** (00:34:49):
 Yeah. Great idea. And so Claude went ahead and analyzed the CSV file and decided how to parse it, blah, blah, blah. We don't need to worry about all that stuff, but it came up with a bunch of axial codes. Basically, axial codes are categories, like Shreya said. So one is, okay, capability limitations, misrepresentation, process and protocol violations, human handoff issues, communication, quality. It created these categories.
 
-(00:35:18):
+**Hamel Husain** (00:35:18):
 Now, do I like all the categories? Not really. I like some of them. It's a good first stab at it. I would probably rename it a little bit because some of them are a bit too generic. Like what is capability limitation? That's a little bit too broad. It's not actionable. I want to get a little bit more actionable with it so that if I do decide it's a problem, I know what to do with it, but we'll discuss that in a little bit. So you can do this with anything, and this is the dumbest way to do it, but dumb sometimes is a good way to get started, so-
 
 **Lenny Rachitsky** (00:35:49):
@@ -392,7 +391,7 @@ And this is what LLMS are really good at, taking a bunch of information and synt
 **Shreya Shankar** (00:35:53):
 Absolutely. Synthesizing for us to make sense of, right? Note that it's not automatically proposing fixes or anything, that's our job, but now, we can wade through this mess of open codes a lot easier.
 
-(00:36:05):
+**Shreya Shankar** (00:36:05):
 Another thing that's interesting here in this prompt to generate the axial codes is you can be very detailed if you want, right? You can say, "I want each axial code to actually be some actionable failure mode," and maybe the LLM will understand that and propose it, or, "I want you to group these open codes by what stage of the user story that it's in." So this is where you can be creative or do what's best for you as a product manager or engineer working on this, and that will help you do the improvement later.
 
 **Lenny Rachitsky** (00:36:40):
@@ -425,7 +424,7 @@ And just to double-click on this point, this is not a thing everyone does or kno
 **Shreya Shankar** (00:37:23):
 Well, I want to caveat that we didn't invent error analysis. We don't actually want to invent things. That's bad signal. If somebody is coming to you with a way to do something that's entirely new and not grounded in hundreds of years of theory and literature, then you should, I don't know, be a little bit wary of that.
 
-(00:37:42):
+**Shreya Shankar** (00:37:42):
 But what we tried to do was distill, "Okay, what are the new tools and techniques that you need to make sense of the LLM error-out analysis?" And then we created a curriculum or structured way of doing this. So this is all very tailored to LLMs, but the terms open coding, axial coding, are grounded in social science.
 
 **Lenny Rachitsky** (00:38:04):
@@ -440,7 +439,7 @@ Hamel pulled up a video. What do you got going on here?
 **Hamel Husain** (00:38:22):
 Yeah. So I pulled up a video just to drive home Shreya's point. We are not inventing anything, so what you see on the screen here is Andrew Ng, one of the famous machine learning researchers in the world who have taught a lot of people, frankly, machine learning. And you can see this is an eight-year-old video, and he's talking about error analysis.
 
-(00:38:45):
+**Hamel Husain** (00:38:45):
 And so this is a technique that's been used to analyze stochastic systems for ages, and it's something that it was just using the same machine learning ideas and principles, just bringing them into here, because again, these are stochastic systems.
 
 **Lenny Rachitsky** (00:39:01):
@@ -461,16 +460,16 @@ Yes. Here we go. Hope you click on that. Don't screw my algorithm. Okay, cool. S
 **Hamel Husain** (00:39:31):
 Okay. So you can do this through anything, and the same thing works just fine in ChatGPT, the same exact prompt. You can see it made axial codes. I really like using Julius AI. It's one of my favorite tools.
 
-(00:39:45):
+**Hamel Husain** (00:39:45):
 Julius is kind of this third-party tool that uses notebooks. I personally like Jupiter notebooks a lot, and so it's more of a data science thing, but a lot of product managers that are kind of learning notebooks nowadays, and it's kind of cool. It's like a fun playground where you can write code and look at data. But we don't have to go deeply into that. Just wanted to mention, you can use a lot. AI is really good at this.
 
-(00:40:10):
+**Hamel Husain** (00:40:10):
 So let's go to the fun part. Here we go. So now we have these axial codes. So the first thing I like to do, I have these open codes, and I have the axial codes, let's say, that we assigned from the cloud project or the ChatGPT. And so what I do is I collect them first and I take a look, like, "Does these axial codes make sense?" And I look at the correspondence between the different axial codes and the open codes, and I go through an exercise and I say, "Hmm. Do I like these codes? Can I make them better? Can I refine them? Can I make them more specific?" Instead of being generic, I make them very specific and actionable.
 
-(00:40:59):
+**Hamel Husain** (00:40:59):
 So you see the ones that I came up with here are tour scheduling, rescheduling issues, human handoff or transfer issue, formatting error with an output, conversational flow. We saw the conversational flow issue with the text messages. Making follow-up promises not kept.
 
-(00:41:18):
+**Hamel Husain** (00:41:18):
 And so basically, what I can do, what you can do now is you have these axial codes, and so I just collect them into a list, so this is an Excel formula. Just collect these codes into a list, and now we have a comma-separated list of these codes. And then what you can simply do is you could take your notes that you have, those open codes, and you can tell an AI, and this is using Gemini and AI just for simplicity, this is, again, we're trying to keep it simple, categorize the following note into one of the following categories as always.
 
 **Lenny Rachitsky** (00:41:56):
@@ -545,25 +544,25 @@ Most people. Yeah. We'll talk about that. There's a whole debate around this stu
 **Hamel Husain** (00:44:40):
 Okay. So here's sort of the big unveil. This is the magic moment right now. So we have all these codes that we applied, the ones that we like on our traces. Now, you can do the ta-da, you can count them.
 
-(00:44:56):
+**Hamel Husain** (00:44:56):
 So here's a pivot table, and we just can do pivot table on those, and we can count how many times those different things occurred. So what do we find? Find on these traces that we categorized? We found 17 conversational flow issues. And I really like pivot tables because you can do cool things. You can double-click on these. You can say, "Oh, okay. Let me take a look at those," but that's going into an aside about pivot tables, how cool they are.
 
-(00:45:25):
+**Hamel Husain** (00:45:25):
 But now, we have just a nice, rough cut of what are our problems? And now, we have gone from chaos to some kind of thinking around, "Oh, you know what? These are my biggest problems. I need to fix conversational issues, maybe these human handoff issues." It's not necessarily the count is the most important thing. It might be something that's just really bad and you want to fix that, but okay. Now, you have some way of looking at your problem, and now you can think about whether you need evals for some of these.
 
-(00:46:07):
+**Hamel Husain** (00:46:07):
 So there might be some of these things that might be just dumb engineering errors that you don't need to write an eval for because it's very obvious on how to fix them. Maybe the formatting error with output, maybe you just forgot to tell the LLM how you want it to be formatted, and you didn't even say that in the prompt. So just go ahead and fix the prompt maybe, and we can decide, "Okay, do you want to write an eval for that?" You might still want to write an eval for that because you might be able to test that with just code. You could just test the string, does it have the right formatting potentially? Without running an LLM.
 
-(00:46:53):
+**Hamel Husain** (00:46:53):
 So there's a cost-benefit trade-off to evals. You don't want to get carried away with it, but you want to usually ground yourself in your actual errors. You don't want to skip this step. And so the reason I'm kind of spending so much time on this is this is where people get lost. They go straight into evals like, "Let me just write some tests," and that is where things go off the rails.
 
-(00:47:24):
+**Hamel Husain** (00:47:24):
 Okay. So let's say we want to tackle one of these things. So for example, let's say we want to tackle this human handoff issue, and we're like, "Hmm, I'm not really sure how to fix this. That's a kind of subjective sort of judgment call on should we be handing off to a human? And I don't know immediately how to fix it. It's not super obvious per se. Yeah. I can change my prompt, but I'm not sure. I'm not 100% sure."
 
-(00:47:56):
+**Hamel Husain** (00:47:56):
 Well, that might be sort of an interesting thing for an LLM as a judge, for example. So there's different kinds of evals. One is code-based, which you should try to do if you can because they're cheaper. LLM as a judge is something, it's like a meta eval. You have to eval that eval to make sure the LLM that's judging is doing the right thing, which we'll talk about in a second.
 
-(00:48:25):
+**Hamel Husain** (00:48:25):
 So, okay. LLM as a judge, that's one thing. Okay. How do you build an LLM as a judge?
 
 **Lenny Rachitsky** (00:48:31):
@@ -572,16 +571,16 @@ Before we get into that actually, just to make sure people know exactly what you
 **Shreya Shankar** (00:48:46):
 Yeah. Maybe eval is not the right term here, but think automated evaluator. So when we find these failure modes, one of the things we want is, "Okay. Can we now go check the prevalence of that failure mode in an automated way without me manually labeling and doing all the coding and the grouping, and I want to run it on thousands and thousands of traces, I want to run it every week." That is, okay. You should probably build an automated evaluator to check for that failure mode.
 
-(00:49:12):
+**Shreya Shankar** (00:49:12):
 Now, when we're saying code-based versus LLM-based, we're saying, "Okay. So maybe I could write a Python function or a piece of code to check whether that failure mode is present in a trace or not." And that's possible to do for certain things like checking the output is JSON, or checking that it's markdown, or checking that it's short. These are all things you can capture in code or you could approximately capture in code.
 
-(00:49:38):
+**Shreya Shankar** (00:49:38):
 When we're talking about LLM judge here, we're saying that this is a complex failure mode and we don't know how to evaluate in an automated way. So maybe we will try to use an LLM to evaluate this very, very narrow, specific failure mode of handoffs.
 
 **Lenny Rachitsky** (00:49:56):
 So just to try to mirror back what you're describing, you want to test what your, say, agent or AI product is doing. You ask it a question, it gets back with something.
 
-(00:50:05):
+**Lenny Rachitsky** (00:50:05):
 One way to test if it's giving you the right answer is if it's consistently doing the same thing, that you could write a code to tell you this is true or false. For example, will it ever say there's a virtual tour? So you could ask it.
 
 **Shreya Shankar** (00:50:18):
@@ -590,7 +589,7 @@ Yes.
 **Lenny Rachitsky** (00:50:18):
 "Do you provide virtual tours?" It says yes or no, and then you could write code to tell you if it's correct based on that specific answer.
 
-(00:50:27):
+**Lenny Rachitsky** (00:50:27):
 But if you're asking about something more complicated and it's not binary, in one world, you need a human to tell you this is correct. The solution to avoid humans having to review all this every time automatically is LLMs replacing human judgment, and you'd call it an LLM as judge. The LLM as being the judge if this is correct or not.
 
 **Shreya Shankar** (00:50:47):
@@ -626,32 +625,31 @@ Awesome. Okay. Hamel's got an example of an actual LLM as a judge eval here, so 
 **Hamel Husain** (00:52:16):
 I love how Shreya really teed it up for me, so thank you so much. So what we have is a LLM as a judge prompt for this one specific failure. Like Shreya said, you would want to do one specific failure and you want to make it binary because we want to simplify things. We don't want, "Hey, score this on a rating of one to five. How good is it?" That's just in most cases, that's a weasel way of not making a decision. Like, "No, you need to make a decision. Is this good enough or not? Yes or no?"
 
-(00:52:50):
+**Hamel Husain** (00:52:50):
 It can be painful to think about what that is, but you should absolutely do it. Otherwise, this thing becomes very untractable, and then when you report these metrics, no one knows what 3.2 versus 3.7 means, so.
 
 **Shreya Shankar** (00:53:03):
 Yeah. We see this all the time also, and even with expert-curated content on the internet where it's like, "Oh, here's your LLM judge evaluator prompt. Here's a one-to-seven scale."
 
-(00:53:15):
+**Shreya Shankar** (00:53:15):
 And I always text Hamel like, "Oh, no. Now, we have to fight the misinformation again because we know somebody is going to try it out and then come back to us and say, 'Oh, I have 4.2 average,'" and we're going to be like, "Okay."
 
 **Lenny Rachitsky** (00:53:31):
 It's wild how much drama there is in the evals space. We're going to get to that. Oh, man.
 
-(00:53:37):
 **Lenny Rachitsky** (00:54:00):
 Meticulously designed to be an intuitive and simple experience, and Mercury brings all the ways that you use money into a single product, including credit cards, invoicing, bill pay, reimbursements for your teammates and capital. Whether you're a funded tech startup looking for ways to pay contractors and earn yield on your idle cash, or an agency that needs to invoice customers and keep them current, or an e-commerce brand that needs to stay on top of cash flow and access capital, Mercury can be tailored to help your business perform at its highest level. See what over 200,000 entrepreneurs love about Mercury. Visit mercury.com to apply online in 10 minutes. Mercury is a fintech, not a bank. Banking services provided through Mercury's FDIC insured partner banks. For more details, check out the show notes.
 
 **Hamel Husain** (00:54:45):
 Okay, so this is your judge prompt. There's no one way to do it. It's okay to use an LLM to help you create it, but again, put yourself in the loop. Don't just blindly accept what the LLM does, and in all of these cases, that's what we did. With the axial codes, we iterated on this. You can use an LLM to help you create this prompt, but make sure you read it, make sure you edit it, whatever. This is not necessarily the perfect prompt. This is just the stupid, keeping it very simple just to show you the idea. It's like, "Okay, for this handoff failure," I said, "Okay, I want you to output true or false," it's a binary judge. That's what we recommend. Then I just go through and say, "Okay, when should you be doing a handoff?" And I just list them out.
 
-(00:55:33):
+**Hamel Husain** (00:55:33):
 Okay, explicit human requests ignored or looped, some policy-mandated transfer, sensitive resident issues, tool data, unavailability, same day walk-in or tour requests. You need to talk to a human for that, so on and so forth. The idea is, now that I know that this is a failure from my data, I'm interested in iterating on it, because I know this is actually happening all the time. Like Shreya said, it would be nice to have a way not only to evaluate this on the data I have, but also on production data, just to get a sense of, what scales is this happening? Let me find more traces, let me have a way to iterate on this. We can take this prompt and I'm going to use the spreadsheet again. The first step is, okay, when I'm doing this judge... I wrote the prompt.
 
-(00:56:28):
+**Hamel Husain** (00:56:28):
 Now, a lot of people stop there and they say, "Okay, I have my judge prompt. We're done. Good, let's just ship it," and the prompt says... If the judge says it's wrong, it's wrong. They just accept it as the gospel, be like, "Okay, the LLM says it's wrong, it must be wrong. Don't do that, because that's the fastest way that you can have evals that don't match what's going on, and when people lose trust in your evals, they lose trust in you. It's really important that you don't do that, so before you release your LLM as a judge, you want to make sure it's aligned to the human. How do you do that? You have those axial codes and you want to measure your judge against the axial code, and say like, "Hey, does it agree with me? My own judge, does it agree with me?" Just measure it.
 
-(00:57:18):
+**Hamel Husain** (00:57:18):
 What we have here is, okay, I say, "Assess this LLM trace." Again, I'm using just spreadsheets here, "Assess this LM trace according to these rules," and the rules are just the prompt that I just showed you. I ask it, "Okay, is there a handoff error, true or false?" Then this column, let me just zoom in a bit. Column H, I have, "Okay, did this error occur?" Column G is whether I thought the error occurred or not. You can see-
 
 **Lenny Rachitsky** (00:57:53):
@@ -660,7 +658,7 @@ You're going through manually, you do that.
 **Hamel Husain** (00:57:55):
 Yeah, yeah, which we already did. We already went through it manually. It's not like we have to do it again, because we have that cheat code from the axial coding, we already did it. You might have to go through it again if you need more data, and there's a lot of details to this on how to do this correctly. You want to split your data and do all these things, so that you're not cheating, but I just want to show you the concept. Basically, what you can do is measure the agreement. Now, one thing you should know, as a product manager, is a lot of people go straight to this agreement. They say, "Okay, my judge agrees with the human some percentage of the time."
 
-(00:58:41):
+**Hamel Husain** (00:58:41):
 Now that sounds appealing, but it's a very dangerous metric to use, because a lot of times, errors, they only happen on the long tail and they don't happen as frequently, so if you only have the error 10% of the time, then you can easily have 90% agreement by just having a judge say it passes all the time. Does that make sense? 90% agreement look good on paper, but it might be misleading.
 
 **Lenny Rachitsky** (00:59:15):
@@ -759,7 +757,7 @@ Give us just a quick sense of what comes next and then let's talk about the deba
 **Shreya Shankar** (01:07:48):
 What comes next after you've built your LLM judge? Well, we find that people just try to use that everywhere they can, so they'll put the LLM judge in unit tests and they will build, "Here are some example traces where we saw that failure, because we labeled it. Now we're going to make those part of unit tests and make sure that, every time we push a change to our code, these tests are going to pass." They also use it for online monitoring. People are making dashboards on this, and I think that's incredible. I think the products that are doing this, they have a very sharp sense of how well their application is performing, and people don't talk about it, because this is their moat. People are not going to go and share all of these things, because it makes sense. If you are an email-writing assistant, and you're doing this and you're doing it well, you don't want somebody else to go and build an email-writing assistant and then get you out of business.
 
-(01:08:41):
+**Shreya Shankar** (01:08:41):
 I really want to stress the point that it's try to use these artifacts that you're building wherever possible online, repeatedly use them to drive improvements to your product. Oftentimes, Hamel and I will tell people how to do this up to this very point, and it clicks for people and then they never come back again. Either they have, I don't know, quit their jobs, they're not doing AI development anymore, or they know what to do from here on out. I think it's the latter, but I think it's very powerful.
 
 **Lenny Rachitsky** (01:09:15):
@@ -774,7 +772,7 @@ Okay, great segue to a debate that we got pulled into that was happening on X th
 **Shreya Shankar** (01:10:19):
 Yeah. All right, I'll be a little bit placating and I say I think everyone is on the same side. I think the misconception is that people have very rigid definitions of what evals is. For example, they might think that evals is just unit tests or they might think that evals is just the data analysis part and no online monitoring or no monitoring of product-specific metrics, like actually number of chats engaged in or whatnot. I think everyone has a different mindset of evals going in, and the other thing I will say is that people have been burned by evals in the past. I think people have done evals badly. One concrete example of this is they've tried to do an LLM judge, but it has not aligned with their expectations. They only uncovered this later on and then they didn't trust it anymore, and then they're like, "I'm anti evals."
 
-(01:11:14):
+**Shreya Shankar** (01:11:14):
 I 100% empathize with that, because you should be anti Likert scale LLM judge. I absolutely agree with you, we are anti that as well. A lot of the misconception stems from two things, like people having a narrow definition of evals and then people not doing it well and then getting burned and then wanting to avoid other people making that mistake. Then, unfortunately, X or Twitter is a medium where people are misinterpreting what everybody is saying all the time, and you just get all these strong opinions of, "Don't do evals, it's bad. We tried it, it doesn't work. We're Claude Code," or whatever other famous product, "And we don't do evals." There's just so much nuance behind all of it, because a lot of these applications are standing on the shoulders of evals. Coding agents is a great example of that, Claude Code. They're standing on the shoulders of Claude base model... Not base, but the fine-tuned Claude models have been evaluated on many coding benchmarks. Can't argue against that.
 
 **Lenny Rachitsky** (01:12:24):
@@ -789,7 +787,7 @@ Of the Claude foundational model.
 **Shreya Shankar** (01:12:47):
 Absolutely, right? We know that they report those numbers, because we see the benchmarks, we know who's doing well on those. The other thing is they are actually probably very systematic about the error analysis to some extent. I bet you that they're monitoring who is using Claude, how many people are using Claude, how many traps are being created, how long these chats are. They're also probably monitoring in their internal team, they're dogfooding. Anytime something is off, they maybe have a cue or they send it to the person developing Claude Code, and this person is implicitly doing some form of hair error analysis that Hamel talked about. All of this is evals, right? There's no world in which they're just being like, "I made Claude Code, I'm never looking at anything," and unfortunately, when you don't think about that or talk about that, I think that the community...
 
-(01:13:39):
+**Shreya Shankar** (01:13:39):
 Most of the community is beginners or people who don't know about evals and want to learn about it, and it sends the wrong message there. Now, I don't know what Claude Code is doing, obviously, but I would be willing to bet money that they're doing something in the form of evals.
 
 **Hamel Husain** (01:13:53):
@@ -903,7 +901,7 @@ Amazing. Okay. What are a couple of just tips and tricks you want to leave peopl
 **Shreya Shankar** (01:26:37):
 Tip number one is just don't be alarmed or don't be scared of looking at your data. The process, we try to make it as structured as possible. There are inevitably questions that are going to come up. That's totally fine. You might feel like you're not doing it perfectly. That's also fine. The goal is not to do evals perfectly, it's to actionably improve your product. We guarantee you, no matter what you do, if you're doing parts of these process, you're going to find ways of actionable improvement, and then you're going to iterate on your own process from there.
 
-(01:27:14):
+**Shreya Shankar** (01:27:14):
 The other tip that I would say is, we are very pro-AI. Use LLMs to help you organize any thoughts that you have throughout this entire process. This could be everything ranging from initial product requirements. Figure out how to organize them for yourself. Figure out how to improve on that product requirements doc based on the open codes that you've created. Don't be afraid to use AI in ways that present information better for you.
 
 **Lenny Rachitsky** (01:27:44):
@@ -918,7 +916,7 @@ Right. Okay, great. There's still jobs. It's great. Hamel.
 **Hamel Husain** (01:27:55):
 Yeah. Let me actually share my screen, because I want to show something. To piggyback of what Shreya said is, if you heard any phrase in this podcast, you've probably heard look at your data more than anything else. It's so important that we teach that you should create your own tools to make it as easy as possible. I showed you some tools when we're going through the live example of how to annotate data. Most of the people I work with, they realize how important this is and they vibe code their own tools, or we shouldn't say vibe code. They make their own tools, and it's cheaper than ever before because you have AI that can help you.
 
-(01:28:40):
+**Hamel Husain** (01:28:40):
 AI is really good at creating simple web applications that can show you data, that can write to a database. It's very simple. For the Nurture Boss use case, we wanted to remove all the friction of looking at data. What you see here is just some screenshots of what the application that they created looks like. It's just, "Okay, they have the different channels, voice, email, text. They have the different threads, they hid the system prompt by default." Little quality of life improvements. Then, they actually have this axial coding part here where you can see in red the count of different errors. They automated that part in a nice way and they created this within a few hours. It's really hard to have a one size fits all thing for looking at your data. You don't have to go here immediately, but something to think about is make it as easy as possible because, again, it's the most powerful activity that you can engage in. It's the highest ROI activity you can engage in. With AI, yeah, just remove all the friction.
 
 **Lenny Rachitsky** (01:29:56):
@@ -933,7 +931,7 @@ Amazing. A question I didn't ask, but this is I think something people are think
 **Shreya Shankar** (01:30:45):
 I can answer for myself for applications that I work with. Usually, I'll spend three to four days really working with whoever to do initial rounds of error analysis. A lot of labeling, feel like we're in a good place to create the spreadsheet that Hamel had and everyone's on-board and convinced, and even a few LLM judge evaluators. But this is one-time cost. Once I figured out how to integrate that in unit tests, or I have a script that automatically runs it on samples and I'll create a Cron Job to just do this every week. I would say it's like, I don't know, I find myself probably spending more time looking at data because I'm just data hungry like that. I'm so curious.
 
-(01:31:23):
+**Shreya Shankar** (01:31:23):
 I'm like, I've gained so much from this process and it's put me above and beyond in any of my collaborations with folks, so I want to keep doing it, but I don't have to. I would say maybe 30 minutes a week after that.
 
 **Lenny Rachitsky** (01:31:41):
@@ -948,7 +946,7 @@ Amazing. Is there anything else that you wanted to share or leave listeners with
 **Hamel Husain** (01:32:06):
 I would say this process is a lot of fun, actually. It's like, okay, you're looking at data. Oh, it sounds like you're annotating things. Okay. Actually, I was just looking at a client's data yesterday, the same exact process. It's a application that sends emails, recruiting emails to try to get candidates to apply for a job. We decided to start looking at traces. We jumped right into it. "Hey, let's look at your traces." We looked at a trace, the first thing I saw was this email that is worded, "Given your background, blah, blah, blah, blah, blah." I asked the person right away, and this is where putting your product hat on and just being critical, and this is where the fun part is.
 
-(01:32:55):
+**Hamel Husain** (01:32:55):
 I said, "You know what? I hate this email. Do you like the email, given your background?" When I receive a message given your background, comma, I just delete that. I'm like, "What is this, given your background with machine learning and blah blah?" I'm like, "This is a generic thing." I asked the person like, "Hey, can we do better than this? This sounds like generic recruiting." They're like, "Oh, yeah, maybe." Because they were proud of it, they're like, "The AI is doing the right thing, it's sending this email with the right information, with the right link, with the right name, everything." That's where the fun part is, is put your product hat on and get into, is this really good?
 
 **Lenny Rachitsky** (01:33:38):
@@ -963,7 +961,7 @@ But I think we did it. But you guys teach a course that goes much, much deeper f
 **Shreya Shankar** (01:34:07):
 Yeah, I can talk about the syllabus a little bit, and then Hamel can talk about all the perks. We go through a lifecycle of error analysis, then automated evaluators, then how to improve your application, how do you create that flywheel for yourself? We also have a few special topics that we find pretty much no one has ever heard of or taught before, which is exciting. One is, how do you build your own interfaces for error analysis? We go through actual interfaces that we've built and we also live code them on the spot for new data. We show how we use Claude code cursor, whatever we're feeling in the moment that day to build these interfaces.
 
-(01:34:49):
+**Shreya Shankar** (01:34:49):
 We also talk about broadly cost-optimization as well. A couple of people that I've worked with, they get to a point where their evals are very good, their product is very good, but it's all very expensive because they're using state-of-the-art models. How can we replace certain uses of the most expensive GPT-5, with 5-nano, 4-mini whatnot and save a lot of money, but still maintain the same quality? We also give some tips for that. Hamel, you're on. We also have many perks.
 
 **Lenny Rachitsky** (01:35:23):

@@ -50,7 +50,6 @@ There's probably three archetypes of folks that are really interesting to me rig
 **Lenny Rachitsky** (00:01:20):
 Today's guest is Jenny Wen. Jenny was head of design for Claude, is now leading design for Claude Cowork. Prior to that, she was director of design at Figma, where she led the design teams behind FigJam and Slides. She was also a designer at Dropbox and Square and Shopify. And what I love about this conversation is that Jenny is living in the future of where design as a profession is heading, and she's here to give us a glimpse into what that looks like, and how much things are going to be changing for designers. It is pretty wild and extremely interesting. A huge thank you to Noah Levin and Emily Lynn Hasham for suggesting topics and questions for this conversation. Don't forget to check out Lennysproductpass.com for an incredible set of deals available exclusively to Lenny's newsletter subscribers. Let's get into it after a short word from our wonderful sponsors.
 
-(00:02:08):
 **Jenny Wen** (00:04:21):
 Yeah, excited to be here.
 
@@ -60,19 +59,19 @@ I've been looking forward to this conversation because I spend a lot of time on 
 **Jenny Wen** (00:04:59):
 It's changing a lot. I think it's still also got a long way to go in terms of the way it's changing. I think we've actually seen engineering change a lot more in the past little while than design actually has, but I think the result of engineering changing a bunch is that design is sort of forced to change. And so I think some context around this, is I did a talk at a conference in Berlin a few months ago in September, and I called it Don't Trust the Design Process, where I basically just said, "Hey, you know this design process that designers have been taught, where you go and you go off and you do a bunch of research and discovery, and then you diverge, you converge, diverge, converge." And it's like this process that we sort of treated as gospel and tried so hard to preserve and we were like, "Trust the process." That's basically dead.
 
-(00:05:52):
+**Jenny Wen** (00:05:52):
 I think it was sort of dying before the age of AI, but given now that engineers can go off and spin off their seven Claudes, I think as designers, we really have to let go of that process. And I think that's the big thing that's changing. But I think even in the past three to four months since I did that talk, that talk actually starts to feel pretty ... It kind of feels outdated to me, which is a little embarrassing, but especially with the big shift of Opus 46 and a bunch of folks just really discovering and using Claude Code over the holiday break, I think we're seeing this force to change our process happen even more. The way I see it now is there are basically two types of design work, and design work is becoming really stratified in this new world.
 
-(00:06:42):
+**Jenny Wen** (00:06:42):
 So there's the first one, which is really just supporting the implementation and execution. So this is the one where engineers are using their seven Claudes to create all these features, and anybody can put an idea out there, and you can just talk about an idea and somebody, usually actually an engineer because they're still better at implementing this stuff than we are, they will just make a scrappy version of it and you can try it out. And you as a designer actually do not have the time to make these beautiful mocks anymore, or to lead in this way.
 
-(00:07:16):
+**Jenny Wen** (00:07:16):
 And then I think there's the second kind of work that feels also really important, which is creating the sort of vision or direction for things. This one feels like the hardest to make time for, and it's one that we still did before, but I think the shape of it's very much changing, because I think we used to go off and say, "We're going to do this design vision. We're going to go off and make this two-year, five-year, whatever, 10-year vision even, and we're going to point us towards something." But the way that the technology is changing now, we don't know what's going to happen in two years. There's too much changing, and it usually becomes a vision that's three to six months out, and isn't necessarily something that is creating this beautiful deck that's beautifully story told. It's sometimes just creating a prototype that points people in the right direction.
 
-(00:08:06):
+**Jenny Wen** (00:08:06):
 And I think this kind of work is still really important in this world because in a world where people can spin off their seven Claudes, make whatever features they want in any kind of direction or in implementation, you need to point them towards something. And in order to make sure that we're all making something that makes sense together and is also done in a way where it's efficient. If we're all working towards something that has one greater cause, it's much more efficient to do that than just random things.
 
-(00:08:35):
+**Jenny Wen** (00:08:35):
 And so that's the big shift that I'm seeing. And I think I have opinions about it now, but ask me in three months and it might actually change even more.
 
 **Lenny Rachitsky** (00:08:43):
@@ -105,7 +104,7 @@ The other thing I always hear, and building on what you just said is just you do
 **Jenny Wen** (00:13:11):
 A good amount of time at Anthropic is actually just catching up on what's happening at the company. I think this is the company where ... I've worked at a few other companies around this size where I think there's just a lot of information and a lot of things going on, but I feel really compelled to keep up with it. There's stuff that is model developments on the research side. And then at any given time, there are just so many different teams prototyping and trying different ideas out, and there's a bunch of different code names and stuff like that. And a lot of time I'm just trying to navigate and figure out what those projects are, because I think I'm just trying to spot and see, hey, what's coming up ahead for me? Because there's stuff from both the research team, but also some of our labs teams that are closer to research, and trying out and prototyping stuff.
 
-(00:14:01):
+**Jenny Wen** (00:14:01):
 And then there's just stuff I want to try out. We have a bunch of prototypes and products internally that we can use, and I am just curious and I want to try those things out. And then I think there's also a lot of folks who internally have a lot of insights and opinions on where the industry's going. And some of those are just really interesting to read, because a lot of these are philosophical debates or directions of the company and stuff like that. And yeah, I feel like I just want to keep up with these things. Whereas I think in a normal company, I'm like, "It's fine. This is stuff that's happening outside of my reach. I don't really care as much." Where here, I think that it's both the volume and the kinds of things that are happening that I'm really interested in keeping up with. And then aside from that sort of keep up, that's not a huge part of my job, but I do think it's a really interesting part of it.
 
 **Lenny Rachitsky** (00:14:53):
@@ -126,7 +125,7 @@ Yeah. Just problem keeps getting harder. I'm just keeping track of what's going 
 **Jenny Wen** (00:15:48):
 There is still some of the traditional, let me think about what's happening in the future and let me make some designs for that. That's something that, for example, this week I've allotted some time to, where I'm like, "Okay, cool. We have been in a lot of execution mode for Cowork, and now I want to set aside some time to think about, hey, what does the next three months look like, and where could that actually go given where the market's at, where the models are at, and what could that be?" Because I think it still really helps to visualize that and show that to the team, and point everyone in the same direction. And then I also spend a bunch of my day just jamming on stuff with engineers. A lot of it is just a conversation, or white boarding, or going through something that they built and giving them feedback on it and being a designer in that kind of way, we're really consulting.
 
-(00:16:39):
+**Jenny Wen** (00:16:39):
 And then I spend a part of my day in code, polishing, implementing stuff. Sometimes what happens is an engineer and I have worked through something and they've implemented a first version of it, and I just go in and polish it with them. And that's a really fun part of my job that I think didn't exist as much a few months ago.
 
 **Lenny Rachitsky** (00:16:59):
@@ -153,10 +152,10 @@ Amazing. So kind of following that thread, what's in your AI stack? What do you,
 **Jenny Wen** (00:18:57):
 What is in my AI stack? Well, we work at Anthropic, so we're going deep on the Claude stack. I'm using, obviously, chats, Claude Chat, but increasingly more and more Claude Cowork. I've basically shifted all of my chat use cases over to Cowork, because I've been finding that it sort of is better at these longer running tasks. And most of the things I was asking Claude for are these longer running tasks.
 
-(00:19:24):
+**Jenny Wen** (00:19:24):
 And then there's Claude Code, of course. I use it mostly with VS Code and the IDE because I'm usually tweaking front-end stuff, and it helps to just be able to see the code and then talk to Claude as well. I've been trying to actually use Claude Code more remotely, through both mobile and through Slack as well. It's really fun for somebody to say, "Oh yeah, this one icon's off or something," and you just at-mention Claude and Claude does it, and then you pick up the PR and it's done. That's been really, really fun too.
 
-(00:19:56):
+**Jenny Wen** (00:19:56):
 And yeah, I think we're a fully Claude house here. So yes, that's basically my stack.
 
 **Lenny Rachitsky** (00:20:04):
@@ -177,7 +176,7 @@ Yeah. Yeah. Okay. So I know there's this big debate on Twitter, just like, is co
 **Jenny Wen** (00:20:27):
 I mean, as a former Figmate, maybe I'm biased in that way, but I think there is still ... When I use Figma, I'm like, "Yes, this is what I should be using." And it still fills a very good gap for me. I think a lot of that is actually just, one is exploring a lot of different options. I think that's a really important part of the design process, to be able to just think about 8 to 10 different ways to do something. I think the best design happens when you're able to just throw a bunch of ideas at the wall, and curate and push yourself to come up with a bunch of these different directions. Right now, coding, or right now working with some of these coding tools doesn't lend itself super well to that, because it's super linear, you get super invested in one direction and you just iterate with Claude on them, for example.
 
-(00:21:15):
+**Jenny Wen** (00:21:15):
 So Figma has been really great at just exploring all these different options, and I think it's still going to exist that way to some extent. And then I think there's really fine visual and interaction details that are also really great to be able to just try out in Figma. Again, it's a lot of different directions, but it's micro directions. It's being able to think about different typography or styles. Having those in a canvas where you can just explore that specifically is still so, so helpful, and is not something that I always want to go directly to code in.
 
 **Lenny Rachitsky** (00:21:51):
@@ -198,7 +197,7 @@ Okay. So a lot of your time you spend working with engineers, giving feedback, n
 **Jenny Wen** (00:23:04):
 Whenever I do work with engineers on projects, and it's more on a consulting basis, I do just try to explain why I'm thinking a way that I'm thinking, to help them extract principles. As opposed to me just being like, "No, I don't think this should go here." It's like, "No, I think we should have a button here because not everybody realizes you can prompt this." And here's an example where it comes from research and whatnot. So I also just try to point engineers to our design system and stuff like that in code, because right now Claude is writing a lot of the code and it's not always picking up stuff in the design system and whatnot. So as much as I can equip them with stuff that they can use in the future without me, if that's helpful.
 
-(00:23:47):
+**Jenny Wen** (00:23:47):
 And then on your point of trying not to go crazy, I think it's hard. I think it's really hard right now. And I see this a lot from actually both engineers and designers, where it's like now that we're sort of capable of doing so much, we want to do more. And so I think it's not just designers who are feeling like, oh yeah, we have to keep up with engineers. I think even engineers are like, "How do we keep up with ourselves right now?" So that's something I'm hearing a lot.
 
 **Lenny Rachitsky** (00:24:13):
@@ -213,10 +212,10 @@ Okay. So then as a designer where in this profession, craft and great experience
 **Jenny Wen** (00:24:46):
 It's not that there's no designer involved. It's more just like it's almost that there's too much for one designer to handle. But I think with this, I think about where the features or products are, where they are in the cycle of adoption versus early preview. So for example, we sometimes will launch things and we will say, "Hey, this is a research preview. It's early. It's going to have a bunch of these flaws," and we caveat that a bunch. I think Claude Cowork is actually a good example of this, where we labeled it a research preview and we put it out there knowing that, "Hey, this is similar to our models. This is the worst it's ever going to be, but we're going to put it out there because we believe, internally we've tried it a bunch, and there's something really powerful here that some people will benefit from. It might not yet be the easiest to work with. It might not be the highest quality. It might have some issues with it, but we're going to put it out there because we believe the benefits outweigh the cons."
 
-(00:25:49):
+**Jenny Wen** (00:25:49):
 I think that is okay to do, especially when there is something really valuable with the product already, and it's worth putting it out there. But I think the promise you sort of have to make your users is like, "Hey, we're going to put it out there, but we're going to iterate. We're going to take your feedback and we're going to iterate and we're going to make it better." And you have to commit that. You have to show that to the world, you have to respond to people's feedback, and you have to show that you are continuously shipping and improving it. Because I think the way that you really lose trust around quality and releasing something early, is if you release it early and then nothing ever happens. That is something that degrades a brand.
 
-(00:26:25):
+**Jenny Wen** (00:26:25):
 But whenever you put something out early, it's possible to do that and maintain the brand of your company. And I think that's something that we've been doing pretty well. And I think anyone who's listening can take away from it, it's like, yeah, well, we're continuing to do that. And I think that is actually really fun for me as a designer, because you put something out there and you actually learn and you get feedback about it immediately, and you know what to do next.
 
 **Lenny Rachitsky** (00:26:55):
@@ -228,22 +227,21 @@ Yeah, for sure. Yeah, it's building trust through speed, but also just making pe
 **Lenny Rachitsky** (00:27:11):
 Yeah, it's clear when the labs launch stuff, and you all are very good at this, everyone on the team is tweeting and just responding to tweets and comments and then shipping, "Hey, we fixed this yesterday and this is happening." So there's a clear sense of, "This is just today and we know this is broke and we will fix it." And then because Claude Code can code very quickly, the fixes come very fast.
 
-(00:27:36):
 Okay. So another big question that people are asking that I ask a lot on this podcast, is around just what skills become valuable? And another way I've been thinking about it, Lex put it this way recently, is where will human brains continue to be valuable as AI gets smarter? So we've gone through this progression of tab completing [inaudible 00:27:56] segments of code, to 100% of code is written by AI now, it's crazy, to now AI is reviewing its own code.
 
-(00:28:04):
+**Lenny Rachitsky** (00:28:04):
 Boris on the podcast recently was saying Claude Code is now helping them come up with ideas and decide what to build, which is like, okay, wow, look at that. Look at it go. The whole product workflows, the product development process slowly get eaten up by AI. So the question is just where will human brains still be useful, at least until we have super intelligence? Do you think AI is going to get very, very good at taste, judgment, design?
 
 **Jenny Wen** (00:28:30):
 I think it will get better at taste and judgment and design. Yeah, I think we might be holding onto that a little bit too much and saying, "Oh yeah, a designer or somebody will always know the best thing to ship or the best version of this." But I do think AI's sense of taste will get better. At the end of the day, someone has to decide what is actually going to get built and what actually matters. And when I think about people saying, "Oh, AI is just going to build this software for us," a lot of the hard parts of building software are actually not building it. If you think about the hardest times that you've had at work, Lenny, it's probably things like, oh, you and some other person disagreeing about what should go into this feature or what shouldn't go into this feature.
 
-(00:29:20):
+**Jenny Wen** (00:29:20):
 And those things still feel like, yes, AI can weigh in, but it can't necessarily solve this dispute between you and somebody else. And so there is something about deciding what actually goes into the things we build, which I guess is taste in some way, but maybe not taste in the way we think about aesthetic taste or whatnot. There's some sort of, it's judgment around what to do next.
 
 **Lenny Rachitsky** (00:29:45):
 Just watching how quickly AI took over coding, which, I think a year ago, definitely two years ago, most people are like, "I don't think so. I don't think AI will get this good." And that the best engineers in the world trusted so much, they're not even looking at the code anymore. That's where we've gone. It just made me reevaluate all these assumptions I've had about, okay, AI will never be as good as really good PMs, designers, at judging what is great and deciding what to build. But I'm just starting to think, I think it will get there. Even an example you've shared, it could give these two people trying to make a decision, "Here's all of the data you need to make a decision and here's why this is the right answer and just press yes, press one, and I'll go ahead and build this."
 
-(00:30:31):
+**Lenny Rachitsky** (00:30:31):
 So I think to your point, I think we undervalue just how good it'll get at this stuff. Okay. So your sense is it'll get better, but your sense is we'll still need awesome designers to be involved, us and PMs, to help make these decisions, engineers, of course?
 
 **Jenny Wen** (00:30:46):
@@ -261,7 +259,7 @@ Okay. Another ongoing question in AI and design is just, it feels like chatbots 
 **Jenny Wen** (00:32:08):
 There will likely be a combination of both, both UIs and interfaces that you are interacting with, clicking with, and that feel more tactile., We are already seeing this and playing with this within Claude, the chatbot. So we recently released a bunch of these widgets that let Claude elicit and ask you questions, and also show you things like the weather and stocks and whatnot in interactive ways. And I think those have had a really good reception, because people still like to see UIs and touch them and click them, and they are much more efficient than typing something to Claude. But at the same time, when we really leaned into this chatbot paradigm, I think that just gave us this whole world of flexibility that we didn't get with these sort of baked-in UIs. So my read here is I don't think Chat is ever going away because this opened up this new way of infinite ways to work with the model, and to talk to the computer, that we just didn't have before.
 
-(00:33:17):
+**Jenny Wen** (00:33:17):
 But I think that it will still be most direct for very specific things to exist in this UI. And I think that what will probably happen here, is that a lot of those UIs will be generated more and more often by the models, as opposed to something that we're hand coding each instance. But I think we're in this space where I don't think chat ... And maybe even talking to the terminal is going to go away.
 
 **Lenny Rachitsky** (00:33:41):
@@ -280,10 +278,10 @@ Yeah, that totally makes sense. Yeah.
 **Jenny Wen** (00:35:49):
 Yeah, I have takes on this. Yeah. So this past year at Anthropic, I joined as an IC at first, and then I managed a team for a few months in an org structure that sort of needed it, and now I'm actually back to doing full-time IC work. And I joined Anthropic as an IC because I was just really excited about the kind of work that there was to be done as an IC here, but also because I was feeling like I sort of want to be closer to the work, and I think this feels like a really important time to do it, before I ascend the corporate ranks. And I was having these questions and doubts about, is middle management, is that safe in the future? Is the way that we're working actually, is this going to be a job that persists in the future? Or should I try something else and get my hands dirty kind of thing?
 
-(00:36:47):
+**Jenny Wen** (00:36:47):
 And to be totally fair, I actually love both sides of the coin. I love managing people. I love setting up teams and being at that level, but I also just really love IC work. I was sort of a reluctant manager when I did it, and I was like, "Okay, I'll do it." So I love both sides of the coin pretty equally. But I think actually what being an IC across this past year has taught me, is that it actually just gave me a lot of skills that I don't think I would've gained if I was just managing throughout this year. Like I mentioned, the design process has changed so, so much in this past year, and I feel like I've just picked up so many hard skills that I wouldn't have necessarily had the time to do if I was just managing a team. So that's actually the best thing it's afforded me.
 
-(00:37:31):
+**Jenny Wen** (00:37:31):
 And I think at any point if I'm managing a team again, I think it will give me the empathy and understanding of how the design process has changed. And I think that's actually a really important thing right now because the teams are working so differently. And I think it's actually pretty hard to empathize if you are not working in that way, or you're not always testing all the tools and trying stuff. But yeah, it's an interesting time to be a designer. And if I had not worked in this environment, I don't know if I would've totally understood it or knew what to do or how to guide my teams. So that's sort of what this year really gave me.
 
 **Lenny Rachitsky** (00:38:05):
@@ -352,7 +350,7 @@ I think it was 10 days, 10 days of building.
 **Jenny Wen** (00:41:53):
 Yeah, it was definitely longer than that overall. It was 10 days to get it from what we had internally to something that we were ready to ship externally. So we'd been building it for a while, but we weren't really sure about the actual form it was going to take. And so the way it got there is actually, there was a lot of different other explorations that we had internally on top of different agent harnesses and whatnot. And we just had prototyped little parts of the different interactions that ended up in cowork. So things like when Claude gives you a to do list, we tried a bunch of different form factors for that. We tried a bunch of different form factors for the way it presents you different multiple choice questions. We tried a bunch of different ways to teach people what the use cases are and whatnot.
 
-(00:42:38):
+**Jenny Wen** (00:42:38):
 And I don't know if we landed on the best form factor ever, but essentially it was stuff that was already working internally that people liked, that we just thought we were going to get some more signal on by releasing it. So I think forcing ourselves to release it within that 10 days that we did, it was just sort of like, whatever we had, let's put it out there and then let's go out there and iterate from there, which is what we're doing.
 
 **Lenny Rachitsky** (00:43:02):
@@ -391,13 +389,13 @@ I've done that many times. Okay. Coming back to managing and being a manager and
 **Jenny Wen** (00:46:26):
 Well, I do think working specifically in the kind of environment that I do, there's just a sense of resilience and roll with it, kind of thing, that I think is really important because so much is changing around us and you have to be really willing to adapt, to try out new methods, to try out new tools and learn stuff, as opposed to just be stuck in the old processes and the old ways. But then I think about also, there's probably three archetypes of folks that are really interesting to me right now. And I think these folks were already interesting to me before, but I feel like in this era feels especially important.
 
-(00:47:05):
+**Jenny Wen** (00:47:05):
 So the first one I would call is strong generalists. So not just regular generalists where they're kind of good at a lot of things, but people that are almost block shaped, in that T-shaped framework, where it's like they're really good at a few core skills, like 80th percentile good. I think this is pretty rare and hard to hire for, to be honest, but I like this because the design role we've already seen is stretching and spanning. We're all becoming more PM shape, we're all becoming engineering shaped. And so if you already have strong skills in a few different buckets, it's really easy for you to flex around and expand your role. So that's really exciting to me. It's just somebody who is really good at a bunch of things, again, a huge ask.
 
-(00:47:56):
+**Jenny Wen** (00:47:56):
 And then the other person that's really exciting to me, is in that T-shaped framework, a deep specialist, someone who is T-shaped, but the tip of the T probably goes down farther than most other people. So folks that are maybe the top 10% in the industry and whatnot. Again, super hard to find. And I feel very lucky that working at some of these places, folks like these, you could sort of afford to hire them and actually bring them on board.
 
-(00:48:27):
+**Jenny Wen** (00:48:27):
 And then my last one is probably the one that I think we're all overlooking, which is what I call the craft new grad. It's just somebody who's early career and feels, like, wise and experienced beyond their years, but is also just very humble and very eager to learn. And I think this person is really interesting right now because I think most companies are just hiring senior talent, folks that have done things before, are super experienced, but given how much the roles are changing and what we're expected to do is changing, I think having somebody who almost has a blank slate, and is just a really quick learner and is really eager to learn new tactics and stuff like that, and doesn't have all these baked in processes and rituals in their mind, that's super valuable. So I think those are the folks that I think a lot of us are just overlooking, but I'm really excited about.
 
 **Lenny Rachitsky** (00:49:24):
@@ -436,7 +434,7 @@ If someone's a young designer trying to break in, trying to be successful, what 
 **Jenny Wen** (00:50:56):
 I would just say just build a bunch of stuff, try a bunch of stuff out, build actual things. I think that can feel ... I don't really know what the state of design education or education is these days, but at least from back when I was in school, everything was very theoretical, and here, we're going to teach you some approaches and whatnot. But the best crack new grad folks I know are just people who just use the technology, build actual things, don't feel limited by how little experience they might have. I think that sometimes they're actually unburdened by that, because we have expectations of ourselves after being in the industry for so long, but they actually don't and they sort of feel like anything is possible. And so just building a bunch of stuff and sharing it with people, and finding a community of folks that also do that.
 
-(00:51:50):
+**Jenny Wen** (00:51:50):
 Yeah. I think my one call it here too, is I went to a school that started something called Socratica a few years after, actually a while after I graduated. And basically their whole thing is building stuff and showcasing it almost like a science project. And I think there's just been a really cool movement there of folks who just build things and do things. For example, somebody built this Claude robot project, this was a few years ago too, where they were just assembling robots that were running on Claude, and then somebody else did something where she just wanted to put Googly eyes on a bus in Boston or something. And there's just a sense of both agency in terms of, yeah, we can just do stuff, but then also this community where people were just trying and building things and sharing things with each other. So whatever that looks like, given the school that someone's from or graduating from, doing that kind of stuff is the stuff that will make people stand out.
 
 **Lenny Rachitsky** (00:52:51):
@@ -463,10 +461,10 @@ There's a couple management, I don't know, rituals or takes you have that I've h
 **Jenny Wen** (00:55:02):
 Yeah. Yeah. I remember first becoming a manager, and I think one of the pieces of advice that I either got from a course or a book or something, is like, yeah, "Now that you're a manager, you have to really prioritize your time and categorize your work." And there was this two by two of ... I don't remember what it was in it, but you essentially say, "Oh, these are the things that only I can do. These are things anybody else can do, and everything else, it's low leverage and you shouldn't do that anymore." And a lot of the low leverage things were just things that are really nitpicky in the weeds, or just literally, yes, probably somebody else could do those tasks. But when I think about leaders and managers that I respect the most, I actually think some of their best traits is that they choose low leverage tasks that they take on themselves, and that actually ends up being actually a very high leverage thing, because it's them who's doing it.
 
-(00:56:00):
+**Jenny Wen** (00:56:00):
 So one example is whenever you have senior leaders who just test the shit out of the product, and they're just so in tune with it, and they dog food it, they repro the bugs, they spend a bunch of time with engineers sharing the logs and nitpicking and stuff like that. And I think that ends up being super actually high leverage, even though it's a lot of time, of nitty-gritty time, because it creates this familiarity with the product, which I think is really good. It also creates this vibe where it's like, oh yeah, this senior leader really cares deeply and they actually know the ins and out of the product, and they're rolling up their sleeves and they're giving this feedback and working with the team on it.
 
-(00:56:39):
+**Jenny Wen** (00:56:39):
 And I think similarly to what I've seen is when a senior leader is able to fix a bug now. I think I've actually seen Mike Krieger before put in PRs himself, and it's really nice because it's like, okay, cool, we're all on this team together and nothing is below this person. And I think another thing that I love that's a little bit more cultural, is when somebody goes out of the way to make somebody's anniversary card or something, and vibe code them something super nice, or make them something, a super nice card, because I think it just shows that it's like an EA or somebody can put together the card, but this leader is just somebody who cares so much about their team that they put in the effort. So that's something I try to embody, is choosing the seemingly low leverage tasks that are worth my time.
 
 **Lenny Rachitsky** (00:57:32):
@@ -481,7 +479,7 @@ Amazing. Another, I don't know, ritual and way of running teams that I heard abo
 **Jenny Wen** (00:58:18):
 Yeah, I think it's not that I'm like, "Yo, you should roast each other." I'm not forcing it in that way or anything, but when I think about the psychological safety, and teams and people that just get along with each other, when you think about your friends, you're always willing to push the boundaries a little bit and roast them. You're roasting your friends a lot, but you actually might not be roasting your coworkers a lot, because it's all just about comfort and safety. So it's not that I'm like, "Oh, I want my teams to roast each other." But I think it can be a really good sign when the people on your team feel comfortable just poking fun at each other a little bit. And I think that also can be a good sign when folks also feel the same way about you as a leader, where it's like there's just an element of they don't fear you as much, and they feel like there's a sense of safety where if they say something, they're not going to get fired.
 
-(00:59:14):
+**Jenny Wen** (00:59:14):
 So an example of this is, with my last team, I feel like they would make fun of things that I would say at crits sometimes, certain phrases I would say.
 
 **Lenny Rachitsky** (00:59:23):
@@ -490,7 +488,7 @@ What's an example of that?
 **Jenny Wen** (00:59:26):
 Oh, I would always be like, "Okay, what are next steps, and how do we follow up on this?" And then they'd be like, "Okay, what are next steps?" And they would sort of channel me in that way. Yeah, I just think it shows a level of like, okay, these people are not necessarily afraid of me, they know that they trust me, they can trust me, and then they sort of know enough about each other, and me personally and our personal lives, to be able to know where those boundaries are. But at the same time, I think the thing that you err into in that territory, is as a manager, are you friends with your reports? Which is I think a thing people tell you not to do. And so the way I think about balancing this out is you have to create this baseline of psychological safety, and people feel comfortable both with each other and with you, but you also have to make sure that they know that you have really high standards.
 
-(01:00:24):
+**Jenny Wen** (01:00:24):
 And I think these two things can feel like they're at tension, but I think they work really well together, because it's like once you have that psychological safety, you have people trusting each other and you, applying the high standards actually I think becomes potentially easier because you can do it without fear, I think. And I sort of think about this from the approach of being a tough parent a little bit. It's like, "Oh yeah, my team, I work with them in a way where they know I'm always going to be there and I'm not just going to fire them on a whim or something. But at the same time, they also know that I want the best for them, and that I have high standards, and that I'm working with them to make the best work possible." And so yeah, that's the balance I think you just strike is like, can you create this environment of one where your team feels comfortable roasting you, but at the same time they know they have to be doing great work, and they will do great work with you.
 
 **Lenny Rachitsky** (01:01:24):
@@ -505,13 +503,13 @@ That's so interesting. Okay. Maybe a final question. I'm always looking for inte
 **Jenny Wen** (01:02:03):
 Yeah. This framework, I think I saw it on Twitter, maybe last year or something, and it was Evan Tana, who's a partner at SPC. He's a VC. So it basically is this two by two. I don't think it got so much attention, but once I started seeing it, I actually couldn't stop thinking about it. So on the two by two, he basically has founders. Founders can be either illegible or legible, and then ideas can either be illegible or legible. And basically he was saying that, "Okay, if both the founder and idea is super legible, the idea is probably not that novel, and somebody's already like, they're already going to implement it or do it and you're actually not finding something new." But then where it gets really interesting is where the idea itself is illegible. And by illegible, he means, "Oh, it's sort of really on the frontier, people might not get it yet," or the way it's being told, it's not being told in the way that makes the most sense to people.
 
-(01:03:06):
+**Jenny Wen** (01:03:06):
 And I think this is obviously a good way for a VC to operate, because you're trying to look for the opportunities that people don't see and put them out there in the world. But I also think that part of the role of the designer, at least, at least at a frontier lab at Anthropic, is spotting the ideas that are illegible, and trying to understand what's there, and how to take that and transform it, whether it's through storytelling, or whether it's through the actual UX and the form factor, and put it out there. And I think when I mentioned going through Slack and looking at all the stuff that people are making, that's kind of what I'm doing. I'm trying to see, oh yeah, what are the ideas that there's some energy there around, but might not make sense yet, that are worth me thinking about more in my work?
 
-(01:03:57):
+**Jenny Wen** (01:03:57):
 There's one good example, actually, that ties to cowork where there was this internal prototype that we called Claude Studio that I think somebody built partway through last year, and it essentially was just this really kind of dense, powerful interface that was built on top of some agentic harness. It might've been Claude Code at that point in time too. And it had all these displays where it was showing you all this knowledge and all these skills and things Claude was doing, and previewing its outputs. And I think, to a designer, I looked at it and I was like, "I don't know what's going on. I don't really get it." But then I sort of saw the folks in research, the folks building it and just folks internally, there's just a lot of energy around it. And I was like, "Cool, I think there's something here, but I just don't understand it yet." And I think that really was an example of an illegible idea.
 
-(01:04:56):
+**Jenny Wen** (01:04:56):
 And ultimately what came from it was the skills framework and the markdown files that instruct Claude on how to do something. So that came out of that specific prototype. That was not something I was directly involved in, and that was more of, the folks working this prototype extracted that out of it. But when it did come to work on Claude cowork and I was thinking about, oh yeah, what is the form factor for those things? Seeing that prototype and seeing the kinds of information that people found really helpful, seeing Claude's plan and to-dos, seeing Claude's context and the files that it was going through, those kinds of things are things that I ended up pulling out of that prototype into Claude cowork. So yeah, I think about how can designers almost be more like VCs in this way, internally when we're looking at prototypes.
 
 **Lenny Rachitsky** (01:05:46):
@@ -568,7 +566,7 @@ Here we go. What are two or three books that you find yourself recommending most
 **Jenny Wen** (01:09:23):
 The first one is The Power Broker by Robert Caro, which is an incredibly aggressive recommendation, given that it's like 1100 pages. But I think, in this era, when our attention spans are so short, I think this is actually worth reading end to end, because I think there are very few collections or memoirs where it spans through someone's entire life, and you sort of see how somebody changes throughout those decades. And it's also somebody who's really controversial too. And it's nice to read a really nuanced view of somebody, Robert Moses. And I think we just lose out on some of this long arc thinking, because we're thinking so much about right now. So it's just an important reminder that careers are long, and is also really good for understanding how somebody just gets things done really well. So Power Broker.
 
-(01:10:19):
+**Jenny Wen** (01:10:19):
 The second one that I recommend to a lot of people is a book called Insomniac City, which is written by Bill Hayes, who was the partner of the scientist, Oliver Sacks, around the time that Oliver Sacks died. And it's just this really beautiful, ethereal memoir of Oliver Sacks' last days, and their sort of love story. I think this has very little to do with the stuff on your podcast, Lenny, but it's just a book that I really love, and just makes you think about mortality, but also love and life and stuff like that. So that's one of my favorite books.
 
 **Lenny Rachitsky** (01:10:54):
@@ -631,7 +629,7 @@ There's so much depth then. I was like, okay, smarter than I even thought. Okay.
 **Jenny Wen** (01:14:28):
 One thing I really like is just introspection. And so I have this folder, basically, of local notes that I have that I use IA writer for. And I basically just write whatever, and over the years have collected it with a bunch of different notes, and they span all different things like one-on-one notes, random thoughts, tiny memos, interview notes, et cetera. And my favorite, it's cool to me, is just using cowork to analyze that and have insights out of it, and actually create things out of it. So anytime I can learn something new about myself, I love that. But I think a very practical thing I did with it the other day was along the lines of hiring, I was like, "Oh yeah, I want to sort of articulate what it is that I look for when I look for in design craft," because I think actually a lot of people struggle to articulate that.
 
-(01:15:21):
+**Jenny Wen** (01:15:21):
 And I just had it read through all of my notes, both interview notes and other things that I cared about, and memos and stuff like that I've written in the past. And then it made me this rubric for evaluating that. So that kind of introspection where it's like, oh, I wouldn't have realized even these things about myself that I'd been putting out there implicitly. That's been really cool for me.
 
 **Lenny Rachitsky** (01:15:43):
@@ -667,5 +665,5 @@ Yeah, of course. It was great chatting Lenny.
 **Lenny Rachitsky** (01:16:58):
 It was wonderful. Jenny, thank you. Bye everyone.
 
-(01:17:02):
+**Lenny Rachitsky** (01:17:02):
 Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.

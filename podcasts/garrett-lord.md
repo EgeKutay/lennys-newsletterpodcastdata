@@ -34,10 +34,9 @@ That's not what we're hearing from our employers, this is just enabling human be
 **Lenny Rachitsky** (00:01:05):
 Today my guest is Garrett Lord. Garrett is the co-founder and CEO of Handshake, which is one of the most interesting and incredible AI success stories that you probably haven't heard of. Handshake has been around for over 10 years, they're essentially LinkedIn for college students, it's a place for students to connect with companies to find a job. They are the platform of choice for every single Fortune 500 company. Over 1,500 colleges, over 20 million students and alumni, and over 1 million companies use them to hire graduates. At the start of this year, Garrett and his team realized that their huge proprietary network of students, including tens of thousands of PhDs and master's students, is extremely valuable to AI labs to help them create and label high quality training data. So, they launched a new business from zero to one in January. Four months later, they hit 50 million ARR. They're now on pace to blow past 100 million ARR within just 12 months. They'll exceed the revenue that they're making with their decade old business in under two years. 
 
-(00:02:04):
+**Lenny Rachitsky** (00:02:04):
 This is a truly incredible and rare story, and one that I think a lot of teams can learn from because AI is creating a lot of opportunity but also a lot of potential disruption, and this is an amazing story where the company basically disrupted themselves. This episode is packed with insights, including a primer on what the heck are people actually doing when they're labeling and creating data to train models? A huge thank you to Garrett for making time for this, his wife just had a baby this week. He's also in the middle of scaling this insane new business. So thank you, Garrett. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. 
 
-(00:02:39):
 **Garrett Lord** (00:05:07):
 Yeah, thanks for having me. A long-time subscriber.
 
@@ -47,10 +46,10 @@ I appreciate that. Okay, so before we get into the insane trajectory that your d
 **Garrett Lord** (00:05:55):
 Yeah. So, I think it's helpful to take a step back of what does training a model look like? So, there's really two primary functions. There's a pre-training and a post-training process in training a model, and for a long time these AI providers, or LLMs, or Frontier Labs we're focused on basically sucking up more and more information on the pre-training side of the house. And that's basically the entire corpus of written human knowledge. So, that's not just written, but every YouTube video, every book, basically the pursuit of sucking up everything that was on the internet, and that was the pre-training side. And there was a lot of gains from pre-training, like models continue to get better. And about 18 months ago, 24 months ago, we started to really see an asymptoting of gains coming from, because they had essentially sucked up all of the knowledge on the internet. And so, labs really shifted towards most of the gains now coming from the post-training side of the house. 
 
-(00:06:50):
+**Garrett Lord** (00:06:50):
 And what post-training is, is it's augmenting and improving the data they have across every discipline or capability area that they care about. So take coding, or mathematics, or law or finance, they are focused on collecting high quality data that really improves the state of our capabilities, their models, and you can see a lot of these popular benchmarks on what are called model parts. When Llama IV is released, you'll see the benchmarks across various domains, and each one of the research teams inside of the labs have different use cases. Basically they're running experiments, almost think like the scientific process. They have a hypothesis around how to improve the model. They're trying to collect small pieces of data to see if that hypothesis works out. If that hypothesis is proving true, then they expand the overall collection of the data in that advert. And it could look like reinforcement learning environments, it could look like trajectories, it could be audio and multimodal, it can be text-based like prompt-response pairs. 
 
-(00:07:58):
+**Garrett Lord** (00:07:58):
 It can also be reinforcement learning with human feedback, which is like preference ranking data. And so, that's the state of the art of models. And most of the gains that are happening from models right now are coming from the post-training side of the house. And there's just an incredible amount of demand to stay at the absolute frontier of where models are going.
 
 **Lenny Rachitsky** (00:08:20):
@@ -65,7 +64,7 @@ What I'm hearing is there's other ways to post-train. Which of these are you guy
 **Garrett Lord** (00:09:48):
 Our real unique proposition as a business is the fact that we have an engaged audience. We have 18 million professionals across, we have 500,000 PhDs, we have 3 million master students, we're a global platform. And so, depending on what you're looking for across any area, academic knowledge, what is the definition of a PhD? How do you get your PhD? You defend your thesis. Defending your thesis means, generally speaking, you have proven that you have extended the world's knowledge in a particular domain. And so, the ability to hyper-target this audience into chemistry, math, physics, biology, coding and really touch parts of human knowledge that have never before made it to the internet is really where we excel. And I would say that when you talk about the labeling market, something to make it more abstract is like it used to be generalists' work. 
 
-(00:10:52):
+**Garrett Lord** (00:10:52):
 A lot of the market before the model started to get better was leveraging talented international lower cost labor to do basic generalist tasks. But really what's happened is the models have gotten so good that the generalists are no longer needed. What they really need is experts, experts across every area that the models are focused on. And really, you could think about these model builders as they're focused on the most economically valuable capability areas in the economy. And so that, generally speaking, right now is focused on advanced STEM domains, advanced science and math domains, and then the derivative functions of accounting, law, medicine, finance, where they want to make the models more capable. And then the work that we're doing, I think to come full circle to your question, we're doing work across so many domains. I mean, we have millions of bachelor students that are being used for work in audio, work in customizing a model depending on the voice and tone, where you are geographically in the country, what do women versus men prefer? All the way to the most advanced PhD STEM domains out there.
 
 **Lenny Rachitsky** (00:12:08):
@@ -80,10 +79,10 @@ So, essentially it's just catching mistakes that the model has made. Okay. So, w
 **Garrett Lord** (00:13:22):
 A great example is a public paper called GPQA. So, for the engineers out there that want to read about it, essentially the crux of the paper is you break the model, you provide a ground truth, the right answer to the question, you provide the step-by-step a reasoning steps. So, you might imagine because models are non-deterministic, the model can get the answer right once, but it might not get the answer right three out of five times. So, you actually prove where the model's failing. You actually break down into where is it failing? Maybe it can get, it knows the question, it can get the right answer, but the actual steps to get there are wrong and they really focus on the steps to get there. Say there's 10 steps in a math problem, step 6 through 10 is wrong. So, how do you fix the actual steps? 
 
-(00:14:11):
+**Garrett Lord** (00:14:11):
 And what are they doing? So they're going in, we're really focused on calling this branding the experience and treating people like experts. PhD students expect to be treated different than a lower cost international labor with a different work expectation. And so, these PhDs come into a community, we have a instructional design team and an assessments team that's going through and basically iteratively helping them understand how to use the tools that we built, and how to interact with the latest models. Then they go in and start actually creating data. And that process is, on our side the model builders, they want to know that the data we're producing is high quality. Som we have our own research team, our own post-training team. 
 
-(00:14:53):
+**Garrett Lord** (00:14:53):
 I hired a gentleman from Meta that went along on the post-training over there, and I-
 
 **Lenny Rachitsky** (00:14:57):
@@ -104,7 +103,7 @@ Is that a simple way to think about it? And please correct anything I'm saying t
 **Garrett Lord** (00:16:08):
 Yeah. I mean, a great example, let's take a non-verifiable domain like education. So there's a PhD student, Rachel on the network, she got her PhD from the University of Miami, spent two decades as a teacher teaching students in the eighth grade. And she was an adjunct professor at a local community college in the field of education. And so, she is interacting with the state-of-the-art models in educational design. So, actually trying to understand what is the best way to teach people, and how do you spot incorrect issues in a model in the way that they're training people, and help the models understand the forefront of educational design with the hands-on experience of being an eighth grade teacher for 10 plus years and having a PhD in education? So, that's an example of you can have that all the way down to a verifiable engineering problem that you're seeing the latest models fail on.
 
-(00:17:12):
+**Garrett Lord** (00:17:12):
 Yeah, I think that gives you the gamut. You also have, we talk about professional domains like these reinforcement learning environments, there's a bunch of papers out there that basically speak to people narrating over their step-by-step tool use. So, as they go to solve a problem from start to finish, interact with multiple different service areas, interact with multiple different tools, they're like, there's papers that talk about this, talking over what they're doing, actually following and screen recording where their mouse is going, how they're problem solving. When they run into a roadblock, what do they do? So, they really want to understand how humans think.
 
 **Lenny Rachitsky** (00:17:50):
@@ -137,10 +136,10 @@ And you would think, why would you trust this one teacher's opinion that this is
 **Garrett Lord** (00:19:52):
 I didn't get a PhD in AI, or math, or physics, and I haven't trained myself, we have frontier models, but there is a lot to each unit of data whether it's improving. There's a ton of science and research out right now around how do you make sure that the data that you're producing is improving the model? And it's very hard for model builders to understand. They really care about, to zoom out, they care about three things. They care about quality first and foremost. You have to have high quality data. And if you imagine you're training a model, like teaching a student and you're giving it the wrong data, it's extremely challenging to overcome that. So, quality is first and foremost. And then, the other huge problems you have is volume. How do you generate thousands of pieces of data in the most advanced domains of chemistry, and mathematics, and physics, and how do you ensure that it's high quality?
 
-(00:20:48):
+**Garrett Lord** (00:20:48):
 Well for us, say in physics, we just reach out to students at Stanford, and Berkeley, and MIT, and they're at the top GPA at the best physics schools in the country. And so, our ability to get to scale or volumes of data, to produce very high quality data, is something they care deeply about. And then, the other thing I would say model builders care about is speed, because they have all these hypotheses and they're constantly testing different pipelines. And so, you might have three or four bets going at once, and then as soon as one is actually showing a gain, imagine you're a researcher or you're assigned to the processes, once you're running a gain then you're trying to grow that pipeline and grow that piece of data that's actually improving it, and you're maybe ditching two or three other projects you had that weren't showing improvement. 
 
-(00:21:31):
+**Garrett Lord** (00:21:31):
 So, your ability to quickly turn around for them in a period of days, and then get to high volumes of data that are high quality is the number one thing they care about. And so, there's quite a bit of technology we built on our side to assess each unit of data. We have our own post-training teams, we're renting our own GPUs, and we're trying to make sure that we can sit directly with these researchers and help share what we're seeing with the data that we're creating and how it could improve their model, how they could best train with it. So, hopefully that helps.
 
 **Lenny Rachitsky** (00:22:03):
@@ -173,7 +172,7 @@ So, let me ask you about this. There's this tension, I imagine, people might fee
 **Garrett Lord** (00:24:42):
 I'm probably in the camp of like GDP growth over universal basic income. I very much believe that this is going to improve and accelerate every human's ability to create an impact in the economy in the world, and that we're hearing from, there's like a million companies that use Handshake. 100% of the Fortune 500 uses Handshake, so we basically power the vast majority of how young people find jobs, and a lot of people are hyperbolic at saying that all young people won't have jobs, and that's not what we're hearing from our employers. What we're hearing is pick social media marketing, before you needed somebody that could do Photoshop, and take pictures, and create the videos. Then you needed somebody that understood marketing analytics platforms to track your posting on different social media forms. It's like now one person, one young, talented, AI native, Iron Man suit enabled young person can get on and they can build their own videos, produce their own creative assets, post across multiple social media platforms, run all of their own analytics. They don't need a data science degree to be able to do that.
 
-(00:25:47):
+**Garrett Lord** (00:25:47):
 Or take an intern in our company, he had his first PR up I think the afternoon he started. You were a PM, you realize how challenging that would've been historically to get your dev environment set up and figure out where to add value. You just took a bug and squashed it. And so, I'm really a believer this is just enabling human beings to be even more productive and create more impact. And yeah, of course, hundreds of millions of jobs, the jobs will evolve. People will become displaced, they'll have to upscale and rescale, and I think Handshake has a huge role to play in helping knowledge workers evolve.
 
 **Lenny Rachitsky** (00:26:24):
@@ -206,17 +205,17 @@ Will only get better, just boggles the mind, and now we know why things are gett
 **Garrett Lord** (00:29:50):
 Yeah. I mean, kudos to the whole Scale team, a lot of respect for what they built, just many great companies operating the space. I think to the core of your question, I think if you viewed your research team and your model building team, and the experiments they're running to be really the cornerstone of how you're improving, you probably wouldn't want the latest research of what you're trying to work on being invested in by a peer. I mean, that's just generally what we hear in this space. And so, we have seen an incredible search and demand, and are I think extraordinarily well positioned. We like to say the only moat in human data is access to an audience. Basically, there are many, many small players in this space, some midsize players in the space, and they're basically running TikTok ads, running Instagram ads, paying money for Google Search display ads, YouTube ads, and they will be like, "Can you get me 200 physics PhDs?"
 
-(00:30:58):
+**Garrett Lord** (00:30:58):
 What do they do? They only can do one thing. They have 100 recruiters on staff, they all get on LinkedIn, they all send messages, they spend a couple million bucks on performance advertising campaigns. Somebody's scrolling their Instagram feed that's a physics PhD of which you can't target them that well and they like see, "Come train a model." It's like, "I've never heard of this brand before." The huge advantage that we've had and why we've resonated so fast in the marketplace is we built a decade of trust with 18 million people, and they trust us, and we built a ton of brand affinity, and they use Handshake, and they have an active profile, and we have a ton of information around their academic performance and what they've done in school. And so, we're able to really target people really effectively, and get to scale and volume of high quality data faster than anyone else. And I think that competitive advantage of access to an audience is really resonating in the marketplace. 
 
 **Lenny Rachitsky** (00:31:49):
 **Garrett Lord** (00:33:40):
 Yeah, I think it's been a pretty natural extension from helping people jumpstart, restart or start their career. Monetizing your skills and this new employment ecosystem is going to look very different in the future, and to zoom into how we discovered it, it's like because we have such a large access to this audience, and as the world shifted from generalists to experts, we're the largest expert network in the world. We have more PhDs, 500,000 of them use Handshake than any other platform. We have three million master students who are in school or alumni. And so, we started to see all what I would call middleman companies reaching out to us saying, "Can we recruit your PhDs and master's students?" And like any great marketplace we started sending them to these different platforms, and started to really realize that from hearing from our users that the experience was really frustrating. 
 
-(00:34:38):
+**Garrett Lord** (00:34:38):
 Training was very transactional, it was very amorphous how you could get paid. There was immense amount of drop-off in the process to actual project like completion on these other platforms. So, we started to think the company was making tens of millions of dollars from helping these other platforms, and we started to realize what really kicked it off was hearing also from the Frontier Labs, they started to reach out to us and started to go direct and trying to almost cut out the middleman. And we started to realize, well, we could really serve our fellows, our PhDs, our experts, we could treat them. We just believe there will need to be a platform, an experts first platform in the pursuit of ASI and advancing AI, and there will need to be a place that everyone in the world could go to, to monetize their skills and their knowledge as these labs are focused on improving in all these multidisciplinary. And yeah, we entered the business in, really I started doing it over Christmas and New Year's. That's when I started flying around.
 
-(00:35:48):
+**Garrett Lord** (00:35:48):
 My family thought it was a little wild that I was on planes trying to chase different leaders, but we built an incredible team of people that came from the human data world, and really started building out our platform in January, and then started really monetizing the relationships about five months ago. Fast-forward to today, we're working with seven of the Frontier Labs, basically every lab that's doing work and building the best large language models, and the team has exploded and revenue's exploded, and it's been really a incredible ride running back new company inside of a company for the second time over again. 
 
 **Lenny Rachitsky** (00:36:28):
@@ -249,7 +248,7 @@ Okay.
 **Garrett Lord** (00:37:20):
 So, we have 600-ish super passionate teammates that work on the core business, which I would separate those. These aren't two businesses, I think it's one business, but what is that business? If you're a young person in America that's graduated in the last five, six, seven, eight years, you probably have Handshake on your phone. You definitely know what Handshake is. It's a verb with young people in America, it's a verb with people that are in college in their PhD or master's program, and it is, I call it an unconnected graph, meaning you don't need to ... LinkedIn is very focused on who you know and what your experience is. The first question on LinkedIn is what's your job? And a lot of young people start off, they've never had a job before. They don't have 500 connections to add to their graph. 
 
-(00:38:13):
+**Garrett Lord** (00:38:13):
 Whereas on Handshake, you start off trying to discover, and explore, and figure out how to navigate through school and figure out, "Oh, I'm an engineer. Maybe I want to be a PM, maybe I want to work at a startup, maybe I want to go to a larger company." What are the pros and cons you want to learn from your peers and young alumni? And so, Handshake's this I call a very social platform with groups, and messaging, and profiles, and short-form video and feed, all focused on your interests and helping really build your confidence in your early career to find your first job, your second job, and to manage 18 to 30, I would say.
 
 **Lenny Rachitsky** (00:38:49):
@@ -288,16 +287,16 @@ And it's experts mostly at this point.
 **Garrett Lord** (00:41:43):
 Yeah. And then they put them onto an experience that is treating them like they're drawing boundary boxes around stop signs in the Philippines. The frontier tax accountants don't want to be treated like low cost international labor, and I don't think anyone enjoys that process. And so, the ability to build a experience that's rooted in community, that's rooted in high quality training. If you're getting your PhD at MIT, chances are you're just not being taught well enough on how to use the tools.
 
-(00:42:15):
+**Garrett Lord** (00:42:15):
 It's not you can't break the models, it's just like the other platforms, they're spending thousands of hours to acquire an individual user and they're put right into a project with no training. So, we just started from day one at building this expert ... We believe there'd be a deep network effect here that's very connected to our core business of starting, jumpstarting or restarting your career. And you come in, you build a profile, you see the community, there's groups and a feed of here's how people are learning. You come into actual individual cohort with peers that look like you and have your similar background. You're being taught on how to interact, and there's a trial and error, and we have an instructional design piece so you can't do it. Then you're put on the projects where building ... There's certain swim lanes where we're actually pre-building data and selling that data to all the labs. 
 
-(00:43:03):
+**Garrett Lord** (00:43:03):
 So, we can do this thing where we produce one unit of data ourselves. We pay for it, almost like a movie production. We pay for a unit of data, and then we make sure it's very high quality. We run our own post-training on it, and then we produce a bunch of specifications of the data, and we actually sell that individual package of data to many different labs. And so, you get put on a project like that. Once you're doing a really, really good job on our projects, oftentimes then we'll put you on customer projects where they only want the best of the best people in machine learning. And then they go from our projects to their projects. And so, there's a huge customer acquisition. You love going deep on your podcast, so just to talk about it, it's like you really have a couple of things that matter.
 
-(00:43:46):
+**Garrett Lord** (00:43:46):
 You have a cost to customer acquisition, your CAC, and then you have your LTV, like the lifetime value of a user. And an LTV is calculated pretty simply in this business. It is based on the retention of a person, and how many projects they can participate in. So, if you treat people really well, you train them really well, well, A, we have no customer acquisition costs because we partner with 1,600 universities, power 92% of the top 500 schools in the country. We power almost every institution and community college in the country. We have no customer acquisition cost to acquire the people. We have a ton of brand and trust with them built up, so they convert at really, really high rates. And then, if you treat them really well, because what they expect from us, they know Handshake, their school buys Handshake, we care about treating these people well but the universities would not tolerate our partnership with these fellows unless we treated them well. 
 
-(00:44:41):
+**Garrett Lord** (00:44:41):
 So, you put them into this process where our LTVs and repeat engagement rate and retention rate on different projects is really high. And so, these structural advantages are quite significant when you contrast a leading provider that has 200 individual contributing recruiters, and are spending tens of millions of dollars a month on performance marketing. So, that's I think why we've seen so much success.
 
 **Lenny Rachitsky** (00:45:07):
@@ -318,7 +317,7 @@ Yeah. So, let me follow that thread. That's where I wanted to go. What was just 
 **Garrett Lord** (00:46:09):
 Tactically we were working with many of the middleman companies doing work. We started to see the demand, as I talked about earlier. We started to see direct outreach from the Frontier Labs reaching out to us, trying to cut out the middleman in their pursuit of getting higher-quality data. When we started to put together the dots on we could build a way better experience for our fellows, we could serve them directly to the labs and build a direct customer relationship with the labs, and basically cut out the middleman. And provide a better experience to the labs, provide a better experience to our fellows and provide a better experience to our million companies in the network.
 
-(00:46:48):
+**Garrett Lord** (00:46:48):
 And you might think about just upskilling and reskilling, what's going to happen there. So, we walked into this space. We started in really December, exploring and learning more about it, like on expert calls and hammering down. I hired three expert firms, AlphaSights and GLG, and started doing a bunch of calls with the latest researchers, because we had resources. One of the cool things about being a larger company is our core business is $200 million ARR, so it's like we had resources to be able to accelerate the learning curve here. And then, we started working with arguably the number one lab about five months ago. 
 
 **Lenny Rachitsky** (00:47:34):
@@ -339,31 +338,30 @@ You said it's also been really hard to start those business within an existing b
 **Garrett Lord** (00:48:50):
 I think I just followed a lot more of my intuition around this, doing this. The story of Handshake was we had to sign up 1,600 universities, so I had to learn how to be the best ... We are the fastest growing higher education company in history. So, we signed up six 1,600 schools. Then we had to build an employer business, where we had to figure out how to sell the 100% ... All these Fortune 500 companies use it and 70% of it pay for it, so I had to learn about upmarket sales to Goldman Sachs, and General Motors, and Google and the biggest companies in the world, which is totally different than selling universities. And then we had to learn how to build an incredible student social network. What does the best feed look like? What does group messaging look like? So, I felt a little bit of familiarity in those zero to ones. 
 
-(00:49:39):
+**Garrett Lord** (00:49:39):
 Oftentimes marketplaces are like many zero to ones. Sometimes I dream that we just, I actually don't dream, but I make a joke that I just wish we were a cybersecurity company and we had one buyer and just one product, and it was just like we had to ... In a marketplace, you have to serve three different sides, you know from your time at Airbnb. And so, one of my learnings in spinning up these three different businesses in starting Handshake was I was pretty hands-on. So, everyone reported directly to me. I really said in a lot of meetings, "I'm not trying to be the boss, I'm just trying to get another smart guy in the room." We've hired an incredible team of people that have spent a lot of time in the space and have been big leaders at a lot of the human data companies in the space.
 
-(00:50:27):
+**Garrett Lord** (00:50:27):
 And so, everyone saw very clearly the structural advantages that we had, and a lot of the focus was on making sure that we could deliver high-quality data to one customer before we expand to anyone else. You had to say no to a lot of things. And then, you also had a lot of people in the core part of the business that, rightfully so, there's just checks and balances that there's a lot of people that try to get involved. Everyone wants to say, not everyone, this is a stretch, but it's easy to say no. It's easy to be like, "I can't prioritize that this week or this month. I have an existing set of priorities." So essentially, with the exception of a few things, everyone just came straight into this new org that I built, everyone did not have any responsibilities in the existing part of the business. It was extremely clear who was the directly responsible individual across each area of the new co. And now we've got deeper coupling and integration points across the rest of the business, but we sat in a separate part of the office. 
 
-(00:51:35):
+**Garrett Lord** (00:51:35):
 Everyone's in the office five days a week, a lot of weekends. There's a totally different expectation in hiring talent too, where it's like, "Hey, this is a 24/7 job. This is an early-stage company." The compensation was also different too, and based on hurdles in this new business so people felt owners creating the new co. And yeah, it's still extremely nimble, very, very flat. Just because you run one function doesn't mean you're the directly responsible individual on a project. We pick the best person who's most capable of driving an initiative forward, regardless of the function to be the DRI. We're a lot more metrics-oriented. When I built Handshake, we resisted this operating cadence for a long time, this weekly, monthly, quarterly operating cadence. With Handshake AI, we've been way more focused on operating with data, and metrics, and rigor from an early stage. There's a gentleman named Sahil on our team who's been doing an incredible job with that. Shout out Sahil, shout out young, shout out Paco. Yeah.
 
 **Lenny Rachitsky** (00:52:42):
 Okay, this is incredible. So, a few elements of what allowed this to succeed within a decade-old company. And by the way, so you're at 200 million a year in revenue with the traditional business. You're going to, as you said, blow past 100 million in the first year of this new business. So, it's wild that in the first couple years, if things continue to go this way, you'll exceed the run rate of a business that took you 10 years to build. Incredible. To make this successful, a few of the things I noted as you were talking, one is clearly you were just in founder mode. You're the lead of this new business. You weren't delegating it to someone, "Hey, go start this thing." You dedicated people, "Here, we're going to pick people. You have nothing else going on, this is your new job. You're going to work on this stuff." 
 
-(00:53:28):
+**Lenny Rachitsky** (00:53:28):
 You worked in different part of the office. There's a metrics-based cadence. It's just like, let's stay really diligent about here's how it's going, here's where we're going, here's our track, here's our KPIs, things like that. Anything else there that you felt really important to making this work? Because a lot of companies are going to try to do this, I imagine, and so I'm curious what else you found important to make this work.
 
 **Garrett Lord** (00:53:50):
 Yeah. I mean, I just really believe in separate and everything. Separate engineering team, separate design team, separate accounts and operations team, separate finance team. Early on, everything was separate. People only had one job and one job only, and that was making Handshake AI successful. We had a couple integration points more, and I had an incredible executive team and a core part of business, and now there's becoming more and more involvement. But our executives that have built Handshake for a long time ran the core business, and I focused 80 plus percent of my time and attention on just this. And we hired an incredible engineering leader like Avery, who ... We have a lot of entrepreneurs, people that have started companies inside the company. Or pardon me, people that started companies before. That was huge. A lot of familiarity with hiring talent that have only worked at early stage companies so [inaudible 00:54:44] that feels super comfortable with ambiguity. 
 
-(00:54:46):
+**Garrett Lord** (00:54:46):
 We were also way more upfront around this is going to be chaotic. Just owning that narrative in front of all hands at the core company, owning it directly with the team. We have a separate all hands, we have separate onboarding, we have a separate recruiting team. I had some connection points, but mostly separate. And I think that was absolutely critical. We took some of the top people, I mean, we have great people in the core business, we took some great people from the core businesses and basically said, "Sorry, I know you love your old team. I know you love what you're doing. Will you join us in Handshake AI?" And they completely forego their historical responsibilities and came over. That became really critical with engineering when things started to scale and topple, and we're growing so quickly we took some of our top senior engineers, who were very entrepreneurial, and principal engineers, staff of engineers, parachute them in. It's been awesome to ask some of the most talented people in the core business like, "Hey, do you want to come over here and do this?"
 
-(00:55:49):
 And sometimes they say no. They're like, "I don't want to work most of the weekends." The number of 2:00 AM, 3:00 AM nights we done in this business, I mean, it's quite regular. People sometimes don't want to commit to that, but we've been up front, like here are the expectations for this team. It's an insane pace. If you want to be a part of one of the fastest growing businesses in Silicon Valley, you can join it. The ownership too has also been huge, like owning this outcome, and we have this motto to leave nothing to chance. For a while there we drew the number of days in the year on the whiteboard and it was like, there will never be a time like this. I've never seen anything like it, I doubt I'll ever feel anything like this in business again where there's unlimited demand and it's just our ability to execute against it.
 
-(00:56:39):
+**Garrett Lord** (00:56:39):
 And so, we had this motto like leave nothing to chance. How do you make sure that three months are not six months? You have no regrets. Get on the plane to go talk to a customer, make the late night push, check the data six times over again, ship the extra feature that helps. And really, a huge celebratory culture too. It's very flat so there really isn't this principle of ... There's so many people putting up points, directly calling out the people that are putting up points and creating a really fun environment around impact I think has been awesome.
 
 **Lenny Rachitsky** (00:57:14):
@@ -372,10 +370,10 @@ The leave nothing to chance piece I imagine speaks partly to the value of trust 
 **Garrett Lord** (00:57:44):
 No. Yes, Handshake should be a ... Business does billions dollars revenue as a public company, we should be able to continue to ... I mean, and it also helps our core business. The longer term opportunity that we see is it's connecting, it's building the best job mashing marketplace on the internet. It's probably one of the largest problems in the world like labor supply mashing. It's where people spend most of their time and energy, just hours of their life they spend it at work. The process of searching for a job, applying to a job is going to be completely reinvented with AI. We've been leading the charge there. An AI interviewer that's collecting skills and actually asking about your experiences, doing work simulation experiences that help employers find the best candidates. I mean, I don't know the last time you've done this, but the hiring manager process, reviewing 200 resumes, are you kidding me? 
 
-(00:58:49):
+**Garrett Lord** (00:58:49):
 I'm going to sit there and review 200 resumes? Not a chance five years from now. Students manually making cover ... Not a chance. So, there will need to be a marketplace that wins in connecting supply and demand, and talent with opportunity, and we think and get psyched about the opportunity for impact here. That's my story, I went to community college, I paid my way through school. I went to a no name school in Upper Peninsula of Michigan. I worked at Palantir as an intern, it totally changed my life, and I started Handshake because I wanted to make it easier for anyone regardless of who you knew, what your parents did, what school you went to, to find a great opportunity. And I think AI, totally step function improvement in matching. And I think that our human data business is really serving as the foundation for improving matching. 
 
-(00:59:44):
+**Garrett Lord** (00:59:44):
 A lot of things that we're doing in the human data business are being integrated to our core business. I think that's going to improve outcomes for employers, save them in the aggregate like billions of dollars over time. And I think it makes the experience way better for students. So, it's just like we have to meet the moment. We still have the stamina, and the excitement, and the passion internally in our core and in the new business to go charge after this. And that's a lot of the message we've been sharing internally is it's time to amp it up. This is a once in a lifetime opportunity to be positioned as well, and we are going to make the moment as a team.
 
 **Lenny Rachitsky** (01:00:19):
@@ -492,7 +490,7 @@ Okay. So the last question, I was researching you in prep for this podcast and t
 **Garrett Lord** (01:06:13):
 Yeah, so it was a tough one. I mean, I almost got arrested at Princeton, because I mean, I guess for entrepreneurs that are traveling around all the time, we were sleeping out of our car. We had this Ford focus, we would put 20, 30,000 miles on it, sleep in the back of like McDonald's parking lots because they're well lit and had good wifi back in the day. And instead of staying in a hotel, a way to freshen up ahead of your meeting is every university has a pool and the pool's almost always, it is always open. We never had a situation where it's always open for people to swim in the morning, like fitness. Faculty, students. And every pool, what do they have? They have a shower. 
 
-(01:06:49):
+**Garrett Lord** (01:06:49):
 So, you could go to any pool at any university in the country, and you can get a free shower and freshen up. So, the Princeton campus security did not appreciate me showering as a non-student, but I think it meaningfully helped us because the Princeton campus security called the career service center director we were selling to, being like, "Who's Garrett Lord? Is he really here to pitch you software for your career center?" And it made the start of the meeting with the career center really stimulating and exciting, because they were like, "You showered in our pool, you drove here?" "Yeah, we drove here from Michigan." And so, I think that showed a level of commitment that was exciting for them.
 
 **Lenny Rachitsky** (01:07:29):
@@ -522,5 +520,5 @@ Of course.
 **Lenny Rachitsky** (01:09:24):
 Bye everyone. 
 
-(01:09:26):
+**Lenny Rachitsky** (01:09:26):
 Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at Lennyspodcast.com. See you in the next episode.

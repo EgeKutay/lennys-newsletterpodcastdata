@@ -37,7 +37,6 @@ Lenny, let's try it. So, I want you to tell me a challenge, something that you'r
 **Lenny Rachitsky** (00:01:34):
 The main thing I struggle with these days is just... Today, my guest is Rachel Lockett, an executive coach and former longtime HR leader at Pinterest and at Stripe. She works with CEOs, and founders, and leaders at tech companies on both ways that they are, emotional and positive intelligence, resilience and courage, and what they do, setting vision and strategy, prioritizing, and building trusted and accountable teams. She's someone I've heard a lot about over the years from other podcast guests, and this conversation is powerful. It's jam-packed with advice, and tips, and frameworks that'll make you a better leader and also a better person. We even do a couple live coaching sessions to demonstrate some of Rachel's approaches. And as you'll see, I had a number of epiphanies during this conversation. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It helps tremendously.
 
-(00:02:26):
 **Rachel Lockett** (00:05:03):
 Thank you so much for having me, Lenny. I am honored to be here.
 
@@ -59,7 +58,7 @@ I think the hardest part of this for people is just there's the knowing this can
 **Rachel Lockett** (00:06:37):
 Yeah, that's true. I mean, it's vulnerable to seek help, but I think your audience, I know to be incredibly committed to growth. I hear of people who come on your podcast and they've spent decades focused on self-improvement. And I actually want to tell you a story about one of my clients who loves your podcast, and I was talking to him last week. He's a client I've seen for 10 years, and he's a person who exemplifies a commitment to personal growth.
 
-(00:07:08):
+**Rachel Lockett** (00:07:08):
 I started working with him when he was a frontline engineering manager at Coinbase, and we talked about who he is, what his strengths are, and his bigger picture why. And he talked about this dream of creating a global movement one day. He was really focused on building community, and he thought the path for creating possibility in the world around him was creating a strong community around him. And he continually worked on his leadership capacity. And over the 10 years, at some point, he created a tattoo on his arm that's a sun with a redwood grove around it that reminded him of his core strengths and his purpose. And today, guess what he's doing, Lenny?
 
 **Lenny Rachitsky** (00:07:59):
@@ -86,10 +85,10 @@ This story reminds me of just why I love these sorts of conversations because th
 **Rachel Lockett** (00:09:24):
 I think that most leaders, especially technical leaders, assume they have to have all the answers. People have climbed the ladder in whatever realm they're in because they've been dependable, reliable, the smartest person in the room. But when you're leading a quickly-scaling company, you quickly have less context than the people you're around. And the way you were operating before doesn't work because you don't have the ability to wrap your arms around every problem in a deep way. So, I've seen leaders at every phase from frontline managers up to running an 8,000-person company struggle with knowing when do I have to have the answer, and when I don't have the answer, what options do I have?
 
-(00:10:12):
+**Rachel Lockett** (00:10:12):
 But great leaders know that when you try to advise and have the answer all the time, you're not actually equipping your team to go solve the hard problems. You're training your team to come to you with all of the hard problems. And coaching is a different way. It's an alternative path that unlocks brilliance in your team and is way more motivating for the people around you. So, coaching is actually a learnable skill, obviously, because there's tons of coaches around Silicon Valley, but you don't have to coach in the same way that an executive coaches. You can shift your energy into curiosity when someone brings you a hard problem to solve, and create space to get curious, and help them solve their own problem.
 
-(00:10:59):
+**Rachel Lockett** (00:10:59):
 So, obviously, sometimes advising is the right path. If there's an urgent issue, the person coming to you doesn't have the skill they need, that's a time to advise and help. But leaders over-rotate, assuming the people that they've hired who are experts in their domain need them to solve the problem. So, I think it's useful for your listeners to actually know that coaching's an alternative, and I can help them learn some basic skills around this.
 
 **Lenny Rachitsky** (00:11:31):
@@ -140,7 +139,7 @@ Absolute-
 **Rachel Lockett** (00:13:49):
 This is rampant in tech. And great leaders flip that script and tune in. They're the kinds of leaders who walk into a room, and they can see the elephants. They can name them. They can ask the hard questions to get people collaborating. So, there's actually three levels to listening. So, the first level listening, level one is internal. Let's say you're talking to me about a problem. I'm thinking about the implications of that problem on me. I'm completely distracted with my own inner dialogue. That's level one. Most people go through their world rushed and in level one. Level two listening is focused. So, you're talking to me, and I can repeat back what you're saying. So, I am listening to the words you're describing, and that's typically what happens in a good one-on-one. We're problem solving together and focused on your words.
 
-(00:14:46):
+**Rachel Lockett** (00:14:46):
 Level three listening is global listening. So, that's what I'm hearing beneath the words. I'm hearing what you're communicating, not just what you're saying. I see your body language. I notice your tone of voice. I know the context around what you're talking about, and I can reflect back more insight about what's happening than you're aware of because I'm understanding everything you're communicating. So, dropping into level three listening is what great leaders do when they're influencing, when they're selling, when they're pitching a vision, and definitely when they're coaching. So, do you want to try it?
 
 **Lenny Rachitsky** (00:15:22):
@@ -197,7 +196,7 @@ Awesome. Okay, so this is a core skill of coaching is active listening.
 **Rachel Lockett** (00:18:37):
 Yes. So, that's listening. Second skill, powerful questions. So, asking powerful questions means I'm curious about what's really going on, and there's not one right answer. So, a powerful question helps you gain insight and it takes you to a new solution set you didn't have before. But it's not me leading the witness. I'm not trying to guide you to a specific answer. That wouldn't be a powerful question. So, something that I like to equip leaders with is four kinds of questions that you can ask to unlock insight.
 
-(00:19:17):
+**Rachel Lockett** (00:19:17):
 So, the first kind is I use a GROW model. So, the GROW model just is four different categories of kinds of powerful questions. So, the G in grow is goal. So, what does success look like? What's the outcome that you want to have? Any question that's around defining the best case scenario. The R in the GROW model is about your current reality. Where are you stuck? What are your current challenges? What have you tried? The O is about your options. So, let's expand the opportunities that you can understand of the choices you have in front of you. What are the various paths you could take? And the W in the GROW model is the way forward. What are you going to do next? So, this sounds simple, and it is simple if you take the time and space to listen carefully and ask any of these questions. The people on your team will appreciate the space and time to unlock an option that they didn't think of before and walk away with a concrete next step.
 
 **Lenny Rachitsky** (00:20:21):
@@ -254,7 +253,7 @@ To close the loop on this piece of advice, is there an example you could share t
 **Rachel Lockett** (00:24:55):
 Well, I'm going to give you an example of a client, I'm going to call him Jeff, who runs an AI company. And he was essentially playing the role of the head of product also. And he had a growing number of engineers and designers, and his customer base was growing rapidly. And he started to feel completely overwhelmed. So, he came to me and we started coaching together. And soon, he realized that he was the blocker on every decision, every business decision, every product decision. And he was resenting it. He wanted his team to take more ownership. But with some coaching, he realized he was training his team to come to him with every decision because he had always operated that way. So, he decided to create squads and have small pods of engineers, product leaders, and designers focus on subsets of the team. Very normal as you have a small startup scaling. But he didn't have an engineering manager and a product leader for every one of them.
 
-(00:26:00):
+**Rachel Lockett** (00:26:00):
 So, this was a little bit earlier than he was equipped for because he did it out of necessity. And he also realized he needed to create some behavior change for the way he was interacting with that tech lead on each project so that they would take more ownership. So, we really invested in this idea of I'm going to start to set the system up so we have a product review every two weeks, they each have clear KPIs they're driving to that we co-design, and for this next quarter, I'm shifting from the role of deciding on everything to coaching. I'm going to really ask good questions in our check-ins. I'm going to align to the KPIs, ask how things are going, ask where they're stuck. And I just had a session with him last week. It's amazing to see him because he's so much more energized. He said, "The squads are moving so much faster. The teams feel more empowered and motivated." And he has time to pick his head up and plan for 2026...
 
 **Rachel Lockett** (00:27:01):
@@ -281,7 +280,7 @@ So I want you to tell me a challenge. It could be a personal challenge, a profes
 **Lenny Rachitsky** (00:27:51):
 Whoa. The main thing I struggle with these days is just endless work. I feel like this newsletter, I started this newsletter six, seven years ago at this point, and originally it was like, I'm just going to build this chill newsletter, do this on the side. Just kind of chill out for a while. And now it's just like, it just grows. I couldn't help but make it more awesome and bigger and have this podcast now and other stuff I got going on. So it's always this.
 
-(00:28:18):
+**Lenny Rachitsky** (00:28:18):
 So I'm in a world now where it's just this ... the way I think about it is the Indiana Jones boulder is constantly in my back rearview mirror just coming at me. Because I need to get a newsletter post out, get podcast episodes out, do all the things associated with that. I'm also just in the middle of ... I have this large Slack community at Twitter and LinkedIn, so I'm just constantly being barraged with small little asks and things and all these little things that never ... it's hard to just ignore and say no to. So what I struggle with just endless work. I joke that be careful working for yourself if your boss is a workaholic.
 
 **Rachel Lockett** (00:28:53):
@@ -407,7 +406,7 @@ That's right. Exactly.
 **Rachel Lockett** (00:35:18):
 Okay. So you're stuck in this kind of addiction to doing more and signing up for more, which is so normal in our world, and probably most listeners can relate to that. That's kind of the soup we swim in. So we have to be conscious of what inputs we have around us.
 
-(00:35:34):
+**Rachel Lockett** (00:35:34):
 So let's explore your various options that you have in front of you. One that you mentioned already you tried was to make a list of the things you don't want to be doing anymore, like things you want to say no to. And really committing to that and sticking to that. What are the other kinds of things you could do to help you prioritize and create that sacred 25% of extra time for yourself?
 
 **Lenny Rachitsky** (00:36:01):
@@ -419,7 +418,7 @@ Yeah.
 **Lenny Rachitsky** (00:36:28):
 Which felt huge. The problem is I still like every week I'm like, "Oh, I want to write about this thing. Oh, every week there's nothing's happening, I got to put this out." So I'm almost not taking advantage of that opportunity. So something I could do is actually not publish every week.
 
-(00:36:45):
+**Lenny Rachitsky** (00:36:45):
 Another is just bring on some more help. Which is difficult because I've got a lot of good help and there's only so many things other people can do for me that isn't writing an awesome newsletter and recording conversations like this. But I'm always thinking about, and I should think deeper about where can people take more load off my plate?
 
 **Rachel Lockett** (00:37:04):
@@ -551,16 +550,16 @@ So peaceful and so wonderful. But I think that's just people go so hard sometime
 **Rachel Lockett** (00:42:47):
 Yeah. Well first of all, I'm glad you brought it up. It's a huge problem. I remember when I was coaching top talent at Stripe, Patrick Collison is really committed to retaining top talent. And I created a program with my team for the top 50 executives in the tech side of the house. And we looked at their engagement scores, we did coaching circles. And it was so sad to see how exhausted that group of incredibly creative and committed leaders was in that moment.
 
-(00:43:19):
+**Rachel Lockett** (00:43:19):
 And it's so common that people who start with incredible inspiration and incredible capacity start to feel like they've been pushing and pushing and pushing for years. They're parenting, they're leading, crazy things are happening to the business. And they just can't muster the same kind of motivation they once had. And I see this with my clients all the time.
 
-(00:43:44):
+**Rachel Lockett** (00:43:44):
 So I've also witnessed people who are still inspired and continually energetic and seem to have some secret well of some diesel battery, or I guess I should say a Tesla battery that helps them through really hard challenges, and they're still having a good time. And so what I make of that is that when people are in their gifts and their strengths firmly, most of the time, they have more energy. We all have more energy when we're operating from the things we naturally are good at and the things we innately love doing.
 
-(00:44:25):
+**Rachel Lockett** (00:44:25):
 So I try to help my leaders see that they can design their lives so they're spending 80% of their time in their gifts. That seems really ambitious because you're stuck within a context that requires a lot of you. Especially when you're executive at a huge company. But I also interact with founders who started a company with great inspiration, an entrepreneurial vision, and their job has obviously changed every six months. Once you fundraise, once you grow a team. And sometimes, especially technical founders will start solving a technical problem they're absolutely obsessed with. They spend three years doing it, the product ships, and then they're stuck managing a board and a team. And they don't even realize they're doing a completely different job than the one that played to their strengths.
 
-(00:45:17):
+**Rachel Lockett** (00:45:17):
 So one tool I like to give is for people to actually take two weeks and every night reflect on, what are the five things today that gave me the most energy? And what are the five things that depleted my energy the most? If you do that for two weeks and you look at patterns, you can tell, what are the natural gifts that I'm living in? And what are the things that I'm stuck doing that are exhausting? And they're just slowly ... it's like a slow leak in your gas tank that over time shows up in your daily amount of energy.
 
 **Lenny Rachitsky** (00:45:52):
@@ -590,13 +589,13 @@ There's always more tuning you can do to your gifts. You're in this amazing ... 
 **Lenny Rachitsky** (00:47:05):
 I love that insight, that just blew my mind.
 
-(00:47:08):
+**Lenny Rachitsky** (00:47:08):
 So very tactically, the way you would do this is for two weeks every night is the idea, reflect back on that day and write down five things that gave you energy, five things that sap you of energy.
 
 **Rachel Lockett** (00:47:19):
 Yeah, there's so many different activities you could use. So that's one. I like an activity of actually asking five to ten people in your life with a very simple email. When I walk in the room, what shows up? What are my strengths? What are the gifts? If you really don't know them and you haven't spent a lot of time in this realm, that's also an opportunity of actually asking the people who know you best, what your core gifts are? And when do you have the most inspiration?
 
-(00:47:46):
+**Rachel Lockett** (00:47:46):
 You can also look through your calendar and note themes. Okay, over the last month, what are all the things I look at on my calendar that I'm excited to do? What are the things I dread? Okay, why do I dread those things? What do those things have in common? So there's various ways you can get to what is your zone of genius? But what my invitation is to take that really seriously. It actually takes risk taking, it takes intention to design your life around your gifts.
 
 **Lenny Rachitsky** (00:48:15):
@@ -605,10 +604,10 @@ Is there any advice for actually doing this? Say someone's just like, "Yeah, I g
 **Rachel Lockett** (00:48:28):
 That's a good question. Yeah, I love your ideas. I think that the people around you need to be on board and know what are your gifts. So for example, when I was an HR business partner, my boss bought into this and I explained to her, "Hey, I started at Stripe because I actually know I'm going to be a coach. I'm not going to be Head of HR. But I love working with leaders. So I'm going to do all the compensation strategy and all the org design, and I'm going to help product and engineering leaders. But what I have in the back of my mind is I'm honing my coaching skills."
 
-(00:48:56):
+**Rachel Lockett** (00:48:56):
 And so when this opportunity to work on top talent retention came about, it was very aligned in the realm of coaching and L&D, background that I had. So she put me on that. So it's useful to name it to the people around you. What are your gifts? What are your interests? What skills are you really excited to hone? So that they are in a contract with you to help you and really apply your gifts to the business's needs. So that's one thing.
 
-(00:49:23):
+**Rachel Lockett** (00:49:23):
 When you're a founder, a CEO, when you have the autonomy to consider, what are the role scopes around me? Then you can really hire around it. So I have some CEOs that I work with who are incredible visionaries, great strategists, really good at managing the board, hiring, et cetera. Terrible at managing their team. They hate it. So they hire a COO. And they work in partnership, they have one person who's really internally focused, they get to be externally focused. That works well, it's a symbiotic relationship. If you're honest about your strengths and you're weaknesses, then you can start to manage around them.
 
 **Lenny Rachitsky** (00:49:59):
@@ -645,19 +644,19 @@ My litmus test is 80%, that's the goal.
 **Rachel Lockett** (00:52:48):
 That's the aspiration. You're always going to have 20% of things you don't love doing. There's just the logistics of getting into the zone that you need to be in. But I really try to push people to think aspirationally, that if you're 80% of the time in your gifts, how much energy you have to give to the world. It's so much more inspiring.
 
-(00:53:09):
+**Rachel Lockett** (00:53:09):
 So I want to tell you why I'm passionate about this topic because it actually is how I ended up as an Executive Coach. So 10 years ago, I was working at a small company called Remind, and I was running the UX Research team. And the CEO asked me to move into the Product Manager role for the Core Product team. And I was excited for the opportunity. I had non-technical background, but I thought, "Hey, all these strategists are up there creating the roadmap. I can do that. I know exactly what our users need." So I was excited for this.
 
-(00:53:44):
+**Rachel Lockett** (00:53:44):
 I came into the team, there was I think 12 senior engineers, very opinionated, very skeptical, this non-technical PM, but we worked together. And what I did was I listened. I learned what do our users need? What does this team need? What's working and not working? And with-
 
 **Rachel Lockett** (00:54:00):
 What does this team need? What's working and not working? And within a month, this team was working well together. They were reviewing each other's code base. They were really disagreeing in a healthy way in our team meetings. They felt more connected to users. And I felt like, "Okay, this rhythm is working." But what I was also doing as I was at home stressing in the middle of the night about the new user experience, I couldn't decide which of the designs to go with. I was always over leveraging our data scientists, and I found myself swirling on decisions that didn't need to have so much stress involved. And one day I went for a walk with my colleague Zach Abrams, and he was a great product manager and he was listening to me ask all these questions about how to sell the vision of what this product would look like in the future.
 
-(00:54:55):
+**Rachel Lockett** (00:54:55):
 And he said, "Rachel, you're a zone of genius or your gift is not being a product strategist, but I've watched you over the last few months, and you have gotten the team more motivated than I ever could, and you've influenced the entire executive team behind your ideas, and that's impressive. You're a people person." And at first I was offended. What? You think I don't have the ability to be a great product leader? And yet I sat with what he said, and I knew he was right. Both my parents are therapists. I never wanted to be a therapist. Here I am. I'm basically a work therapist. I love entrepreneurial energy, I love big vision, but I'm a people person. 
 
-(00:55:40):
+**Rachel Lockett** (00:55:40):
 And I left that, and I realized I love what my coach does. I got trained as a coach. I went into HR leadership. And Zach, who was a gifted product strategist, went on to lead product at Coinbase and BREX and most recently Bridge, which was acquired by Stripe, and he's still my client. And we've watched our journeys over the last decade, and we've both been honing our gifts. Life is more fun when you're in your gifts, and you have more inspiration and capacity to offer the world. So I just want to share that story because it's helpful to be honest with the people you care about when they seem energized and when they seem depleted because sometimes it's a wakeup call for people to really think about what is their spark and to protect it and to feed it.
 
 **Lenny Rachitsky** (00:56:36):
@@ -696,16 +695,16 @@ And then you not working well together is just a huge issue because that all tri
 **Rachel Lockett** (01:00:56):
 Yeah, thanks for asking this. I love working with co-founders because I think your core values as a person come out when they interact with someone else's core values. Conflict, healthy conflict or otherwise, is actually where your core values come out. So it's fascinating to watch people try to do something incredibly hard in the context of someone else's vision, someone else's strengths and weaknesses and navigate that together. So there's so much energy in the co-founder dynamic for me and for co-founders themselves. It's actually something that people don't feel comfortable going to their board about or talking to that many people about because it's a private matter. It's almost like in a marriage you go see a couples' therapist, but you don't tell all your friends that you can't stand your partner, but it keeps you up at night. So it's a really tender, important relationship, and there aren't enough supports for co-founders to navigate it. It's very normal. 
 
-(01:01:50):
+**Rachel Lockett** (01:01:50):
 In fact, I know you probably know this stat, 65% of startups fail because of co-founder conflict, and co-founders are in a moment where they're trying to build the future for their business, but also trying to build their own livelihood. So there's so much at stake to get along with your co-founder. I think the core at its core, what you need in a healthy relationship is, one, self-awareness. What do I bring into this dynamic, and how am I being experienced by the other person? What does this other person bring into the dynamic, and how am I reacting to that? So the first is just collective awareness about what is our dynamic. I like to use the Enneagram for this, but there's all kinds of tools, self-awareness tools that you can use to give a common language to what is my thing and what is your thing.
 
-(01:02:46):
+**Rachel Lockett** (01:02:46):
 A very classic one has to do with roles. CTOs tend to be skeptics. They love facts, they seek knowledge. They want depth of awareness and understanding, and they also like to be self-sufficient. This is a total generalization, but I've seen this pattern over and over again. The CEO is the person who had to sell the vision. They're a person who loves big picture vision strategy. They often are great at influencing others. They love to sell ahead of the reality of what the company's actually built. This creates an inherent tension between blind optimism and skepticism, and it's a dance that these two roles play together. So the first part is knowing the dance you're in, so you're not just stepping on each other's toes blindly. 
 
-(01:03:34):
+**Rachel Lockett** (01:03:34):
 The second step is actually being conscious about the commitment you're making to your relationship. In a marriage, for example, I talk about co-founder vows and recommitments and renewals because in a marriage you get married, and a lot of times people build a family and then they think, "Oh, the relationship will just continue around each other all the time. We're doing this thing together." But just like couples need a date night, co-founders need time and space to connect with each other to come together and say, "How's this working for you? Are we still aligned on our vision and our strategy? How are we working together? What am I doing that's pissing you off? What are the things that have gone unsaid and that we need to talk about?" 
 
-(01:04:20):
+**Rachel Lockett** (01:04:20):
 But if you're just in the hustle and bustle of running and scaling your startup, you don't make time for that conversation. So I think it's incredibly important for co- founders to make space for their relationship, whether that's a dinner every other week, whether that's going out to lunch regularly, whether that's just touching base business-wise, but having an in-person quarterly check-in. That space is critical for the health of a co-founder relationship.
 
 **Lenny Rachitsky** (01:04:50):
@@ -714,7 +713,7 @@ On that second piece, the vows idea is such a good idea. Is that something you a
 **Rachel Lockett** (01:04:56):
 Yeah, here's what I commit to do. So recently I actually wrote an article with First Round, and we created a document to help co-founders think about what to integrate into their check-in. So we put out weekly check-in, monthly check-in and annual and just questions to sit down and ask each other. Active listening skills will come in handy in those conversations, but it's about taking space out of hustling and running the business to think about the business from a like to say, instead of being on the dance floor, you need time on the balcony to look down at what's happening. How are we doing? Is this still working for both of us? And the vows are really about, how are we going to be together? How are we going to show up? What's our culture that we're creating? 
 
-(01:05:43):
+**Rachel Lockett** (01:05:43):
 Even if you don't want to go through a whole culture exercise early on in building your company, you should have some sense of how you want to show up for each other. How are we going to make decisions? How are we going to deal with conflict? These are things you can go into intentionally and design with your co-founder.
 
 **Lenny Rachitsky** (01:06:03):
@@ -729,16 +728,16 @@ What do you recommend people do when they are just like, "Our relationship isn't
 **Rachel Lockett** (01:07:27):
 Co-founders typically come to me either in this early phase where they want to intentionally build something great and they want to set it up for success. More often co-founders come when they're really frustrated with one another. They feel the tension is palpable. They can't stand it anymore, but they're still really deeply committed to the business so they don't see an out. And they knew that at some point they really loved this cofounder, so they see a possibility of recovering, and that's why they want to go get a coach. I'm going to give you an example of this PR duo running a fierce business scaling really fast. And at one point when they started, you had the visionary who was great at selling business. They were both incredible with PR, and the partner was incredible operationally. 
 
-(01:08:17):
+**Rachel Lockett** (01:08:17):
 So as the business scaled, one took on a lot more business development and the other took on all the internal things, but was exhausted by all this people management and all of the elements of running a scaled team that she didn't expect to have to do. And when they came, I think both of them weren't sure, can we figure this out? Do we want to just sell this thing? Do we want to keep going? And I think someone said, "End it or send," was what one co-founder said to me. They're coming at this decision point. And what I saw them do is, one, they named current state really well. They were both able to share. We did use a 360. So they got feedback from their teams and then shared it with one another, but they were able to be open and vulnerable in what was working and what wasn't working. Not immediately, but over time. 
 
-(01:09:16):
+**Rachel Lockett** (01:09:16):
 And they realized they used to love being partners in this work, but as they began to lead different teams, they grew very distant from one another. They were living on opposite sides of the country and actually just coming together and realizing what each other was missing and how lonely it is to lead this scaling company without each other's support and how they actually needed the counterbalance to their strengths and didn't have it was a important start to their healing.
 
-(01:09:48):
+**Rachel Lockett** (01:09:48):
 And over our coaching, they turned back towards each other and they created more of a rhythm of how they would get together without me involved. And they ended coaching after our arc feeling renewed and really recommitted. They made some changes on their leadership team to fill their gaps. They also started, I think, meeting once a week virtually, and they started a cadence of getting together in person quarterly. And I don't mean to say that just that time means you're going to heal, sometimes coming together and really grappling. I had one last week where we all came together, we had a great full day in-person discussion about how they were making this co-founder duo, how they were making decisions. 
 
-(01:10:36):
+**Rachel Lockett** (01:10:36):
 And after that conversation, it was really clear that one of the co-founders was unhappy and didn't appreciate the other one and was not going to change and realized he was a big part of the problem and I think is going to leave the business. But that's still success because it's clarity. You're not muddling in the dark, frustrated, unconscious about the interpersonal dynamics you're in, you're making a choice based on your strengths and what the business needs and this relationship dynamic that you're in to either be in it or to lovingly step out of it.
 
 **Lenny Rachitsky** (01:11:16):
@@ -759,13 +758,13 @@ Outside of the co-founder relationship, do you have any just tactical tips for p
 **Rachel Lockett** (01:12:50):
 First of all, people when they want to have a conflict or they want to engage in something that's not working, they come in armored and ready to prove their point. It's natural. You've been thinking about this, perseverating over whether you should mention it. You finally get to the point of engaging, and often there's a misguided view that the goal is to convince the other person that what they're doing is wrong. Actually, the goal of any conflict is to create mutual understanding. So when I go in to have a conversation with, let's say my husband who's not doing his share of the parenting, my goal is to help him understand what I'm struggling with so that he can empathize, see clearly what's happening, and perhaps meet my needs in some way. But it's not for me to prove to him how little he's doing in the house because he might have a totally different story about what's happening. 
 
-(01:13:54):
+**Rachel Lockett** (01:13:54):
 So I'm going to give you a framework that I like that many of my clients use. It's from Marshall Rosenberg's Nonviolent Communication. It is a book and a framework. So it's four steps. The first step is observations. So my job is to note what is happening factually. For example, I noticed that in the last three sprint planning meetings, you didn't invite me to those conversations or share with me the roadmap. That's an observation. It's a fact. I could take a picture of it, and no one would argue with it. The next step is feelings. So I'm going to express my feelings without blame. So I felt anxious not knowing what was on the roadmap for the week. I felt confused about whether that meeting happened or not because I wasn't included. So this is me sharing my feelings so the other party can empathize and understand what I'm going through without being defensive.
 
-(01:14:59):
+**Rachel Lockett** (01:14:59):
 The third step is needs. What are my universal human needs related to this topic? We all have needs. This is not requiring anything of the other person, just helping them understand my needs that are not met. So I have a need for clarity, I have a need for collaboration, I have a need for connection, whatever that is. And lastly, the step is to make a request. Now, in this model, the request is an olive branch to help the other person meet you and see you. It shouldn't be something that's impossible to do. It should be actually something quite small and easy to achieve for the other person to feel successful in connecting to you and understanding you. So in this case, I might make a request. I'd like to ask you next time you have a sprint planning meeting to include me as optional or to send me the roadmap afterwards that you align on. 
 
-(01:15:54):
+**Rachel Lockett** (01:15:54):
 Now, the other person doesn't have to meet my request. They might make a counter proposal, but the most important thing of this model in this conversation is that the other person understands what I'm going through and they don't feel reactive so that we can have a mutual conversation about what's going on.
 
 **Lenny Rachitsky** (01:16:12):
@@ -831,13 +830,13 @@ So she said, "Rachel is exceptional at making difficult decisions clear and maki
 **Rachel Lockett** (01:21:11):
 Yeah. Well, first of all, difficult conversations makes you want to run away. The marketing on conflict is poor, so I want to reframe that. My belief is when we feel internally ambivalent, we have two inner parts at war. And there's something really beautiful and important to pay attention to, there's something to learn, when we have ambivalence. When we are in conflict, something important is at stake. We care deeply about what we're building, about the person that's letting us down. So the reason it's hard, is because there's such an emotional component to it. And there's something to learn from it.
 
-(01:21:57):
+**Rachel Lockett** (01:21:57):
 So first, I want leaders who are listening to think, "This is hard, because I have something to learn here, and because it matters. So instead of avoiding it and running away, I'm going to lean into this moment. And I'm going to come out of it not just having solved this dynamic, and not just having said my piece, but having built a skill." The reason I focus on interpersonal dynamics is because the quality of our relationships determines the quality of our life. I really believe that. And if you cannot have conflict, you can't have healthy relationships. We are going to disagree with the people we love, or care about, or are building a business with. So first, I just want listeners to reframe ambivalence and interpersonal challenge, think of them as a growth opportunity.
 
-(01:22:56):
+**Rachel Lockett** (01:22:56):
 Second, there is always something that we're doing to contribute to the conflict, even if it feels like the other person is insane, and is driving us crazy, and we're the innocent party. So entering any conflict conversation with humility, and curiosity about the other person's experience, is critical to setting the table for a commitment to come out better and stronger. So no model, NVC or otherwise, can fix a person who's coming in rigid and full of blame. I really love the 15 Commitments to Conscious Leaders, I don't know if you know that book, but one of the concepts is about taking a hundred percent responsibility. Not being in the world of blame, being a victim, or being a hero. And I see many leaders, when they're in a challenging interpersonal conflict, being in victimhood, being in blame, or being in hero. "I'm just going to do it for them, and forget it. They're having such a hard time getting this done, I'm just going to do it."
 
-(01:24:10):
+**Rachel Lockett** (01:24:10):
 Instead, take responsibility for your part. "What is my piece in making this dynamic happen and how can I address it?"
 
 **Lenny Rachitsky** (01:24:18):
@@ -852,7 +851,7 @@ And there's so many, there's three parts to that whole question, I won't get int
 **Rachel Lockett** (01:24:58):
 Yeah, no, I think that's a great framework for when you want to go interact with someone around something that's not working for you. I think typically a difficult conversation arises because some feelings are coming up for you, and you have a need that's not being met. And so, that's the instigator to know, "Okay, I need to talk to this person. We need to clear this up."
 
-(01:25:17):
+**Rachel Lockett** (01:25:17):
 For example, I was working with a CEO whose co-founder was constantly undercutting his decisions, and criticizing him. And there was something happening, where they'd gone from being this great dynamic duo, fundraised, hired a few leaders, and then all of a sudden he was getting daggers thrown at him all the time. And it was exhausting, and frustrating, and confusing. That was a time where he used NVC to address, "What is happening, here?" And it turned out that the co-founder was really frustrated with how he was spending his time. He didn't want him to be off selling, he wanted him to be helping him with product vision. And they had a totally different conception of how the CEO should be spending his time.
 
 **Lenny Rachitsky** (01:26:02):
@@ -891,7 +890,7 @@ No tattoos. I just want to highlight the first point you made in this answer, of
 **Rachel Lockett** (01:26:58):
 I love that. Yeah. It's like, "What's important here? What do I have to learn here?" Is a question you can ask yourself when you're avoiding something. I often see this in talent management situations. A CEO has an underperforming COO. They're avoiding a conversation, because they keep getting let down, and actually they kind of know deep down, this is not working out. They don't want to face it. It's too much work. They need to just keep plowing forward.
 
-(01:27:27):
+**Rachel Lockett** (01:27:27):
 And when we really take space to think about their feelings and needs, they realize, I ask them, "Would you enthusiastically rehire this person for the same role?" Which is the question we always asked at Stripe. And when the answer is no to that, no matter how many difficult conversations you have, this is not going to work. So then you have to take action. And even engaging in the hard conversation, and seeing what happens, can lead you to the clarity that you need to take action on talent that's not working.
 
 **Lenny Rachitsky** (01:28:01):
@@ -924,13 +923,13 @@ A final area I want to spend a little time on is, something that I've heard from
 **Rachel Lockett** (01:32:17):
 Yeah, thanks for asking that question. I think, typically, companies have complicated the process of aligning their vision, their strategy, their goals, and the way people behave with each other, their values. So that all of these things live in different places, are talked about to a different degree, resonate to employees differently. And if you asked anyone at the company, "What are your top three priorities, and how do they relate to the vision?" It's not an easy answer.
 
-(01:32:50):
+**Rachel Lockett** (01:32:50):
 So the reason I like the one-page plan concept is, it's simplifying. It's a way for the leadership team to come together and align around, " What are we doing here? What is our role in it? And how do we communicate it, so that the whole company has clarity, and knows how the work they're doing ladders up to our big picture vision that we're all committed to?"
 
-(01:33:14):
+**Rachel Lockett** (01:33:14):
 So I actually got this idea of the one-page plan from Alpine Investors. They have something called the People First Operating Rhythm, and they've successfully implemented that at their portfolio companies. And I work in concert with Alpine, so I work with some of their portfolio CEOs. To execute this rhythm. So it's not just about a one-page plan. It puts your vision and your values on the first column, your strategic intentions and your KPIs on the second column, your annual goals on the third, and your quarterly goals on the fourth. So that no matter what you're talking about, in terms of, "What are we doing for the next year, or the next quarter? How do we prioritize?" It's always in tandem with your core KPIs, your strategy, and your vision.
 
-(01:34:04):
+**Rachel Lockett** (01:34:04):
 And I love how they instituted that with their portfolio, and I saw the power of it. They've collected some data that their portfolio companies that actually institute the People First Operating Rhythm result in higher returns. So they're very committed to this strategy, and after operating with CEOs in their rhythm, I took some of those ideas and started to help other founders and other leaders with some of the same concepts, in my own way.
 
 **Lenny Rachitsky** (01:34:30):
@@ -951,16 +950,16 @@ Okay, so let's do that. And then, what kind of impact do you see from companies 
 **Rachel Lockett** (01:34:41):
 Yeah. What I see is clarity and alignment. And I also see more connection. So I want to name that it's not just about having a plan, it's about how you create it, how you reflect on it, and how you come together around it to celebrate wins.
 
-(01:34:57):
+**Rachel Lockett** (01:34:57):
 So in my opinion, a very under- attended to part of building a business is an operating rhythm. When do you come together to kick off the year, and share your strategy and vision again, and talk about the goals? When do you come together to reflect on what's working and not working, and how do you do that? And in what groups? And are you honest, or are you just kind of doing it as a quick exercise to move on to what's pressing?
 
-(01:35:25):
+**Rachel Lockett** (01:35:25):
 So just like I said in co-founder dynamics, a key is to step out of the dance floor and to get onto the balcony. Executive teams leading a complex business need time away from being in the business to work on the business. So around this one-page plan, the reason I like a rhythm, is you can kick off the year with the plan. That's really simple, easy to understand. Everyone can have it accessible and every quarter, you can get together to reflect, "What worked, what didn't work?"
 
-(01:35:56):
+**Rachel Lockett** (01:35:56):
 I really like the question, "What's an inconvenient truth?" Air the things that need to be talked about, that no one's talking about because you're too busy. That's the power of combining a simple plan, whether it's one page or not, that aligns you from the top to the bottom, your vision all the way down to your quarterly goals. And a time where you stop, pause, discuss, reflect, have a little spacious energy.
 
-(01:36:26):
+**Rachel Lockett** (01:36:26):
 It's not unlike what you said about your own time. You are the executive team. You want a little bit of spacious time to tinker, reflect, create, and come back to the meaningful work you're doing more energized. And leadership teams need that too.
 
 **Lenny Rachitsky** (01:36:45):
@@ -981,16 +980,16 @@ One free year of Granola, for becoming an annual subscriber of Lenny's Newslette
 **Rachel Lockett** (01:37:29):
 There you go.
 
-(01:37:29):
+**Rachel Lockett** (01:37:29):
 So I use Granola to take notes in our session so I can be fully present with my clients, and I can give them a synthesis of what happened and the next steps they committed to after our session. I also use it, I put them in a folder for every client, and so I can look at insights across our work together. What are the deeper things that are happening? What are the patterns that are taking place? I have these in my head, but actually it's a great tool, to see over time. "Oh yeah, we talked about that in our first session. Let's bring that back, because that's what you're struggling with now." So it helps me create the kind of transformation that I want for all my clients.
 
-(01:38:08):
+**Rachel Lockett** (01:38:08):
 Secondly, I just use ChatGPT to help me plan my retreats. I run a women's organization, and we have eight retreats a year, and it's a great tool to think expansively about new activities. Once I've gotten the core objectives down, and I have a bunch of ideas about what I want to do, it gives me new creative ideas. So I can put in like, "Here's my objective, here's my goal, here's my audience, here's my last retreat that I ran. I kind of want three new ideas for this session." So it'll give me creative energy that I otherwise would need to get together with other coaches to discuss. And I do that, too.
 
-(01:38:50):
+**Rachel Lockett** (01:38:50):
 Finally, I'm experimenting with AI in a way to support my clients between sessions. So I've gotten some feedback from my clients that they would like more interaction between our sessions, and they're always allowed to email me, or text me. I'm available to them. But I think they want to be really respectful of my time, and so some people do reach out and ask me questions, and other people wait for our session.
 
-(01:39:17):
+**Rachel Lockett** (01:39:17):
 So I'm curious about the future of coaching, how in between sessions, clients can get access to more of an AI support, where the bot has all of their context, their development plan that we create at the beginning. So that's their goals, for our work together, how they want to grow. Some of my core frameworks, and my beliefs, and my training. And the Granola notes from all of our sessions, so that they can access between, just some extra spot support. They're going into this conversation, how should they approach it? They're anxious about this team meeting. How can they make the most of it? More tactical support. I see personal coaching as still critical for, "What is your vision of your life? How do you want to shift your core behavior to align with that vision?" But then, AI can play a real helpful role in between, on the tactics.
 
 **Lenny Rachitsky** (01:40:15):
@@ -1098,8 +1097,8 @@ Thanks for having me. Take care, Lenny.
 **Lenny Rachitsky** (01:44:52):
 Bye, everyone.
 
-(01:44:55):
+**Lenny Rachitsky** (01:44:55):
 Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating, or leaving a review, as that really helps other listeners find the podcast.
 
-(01:45:09):
+**Lenny Rachitsky** (01:45:09):
 You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.

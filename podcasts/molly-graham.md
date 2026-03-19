@@ -31,7 +31,6 @@ So Chamath, when he pitched me on this job, actually drew me a picture on a whit
 **Lenny Rachitsky** (00:01:08):
 Today, my guest is Molly Graham. Molly was an early employee at Google, also at Facebook, where she worked closely with Zuck on building the Chan Zuckerberg initiative. She also worked with Brett Taylor on scaling Quip, which he sold to Salesforce. She's also worked with hundreds of companies and founders helping them grow into the leaders that they want to become. Today, she leads Glue Club, which is a community for leaders operating in changing, growing environments who want to develop themselves as quickly as their companies. Molly is maybe most known for her advice to give away your Legos, which we chat about. Along with basically all of her favorite frameworks and mindsets and pieces of advice that she's developed and collected over time. For leaders who are going through rapid scale and growth and are just struggling to keep up. I think of this episode as a high growth handbook for leaders who are experiencing rapid scale.
 
-(00:01:58):
 **Molly Graham** (00:04:36):
 Thanks, Lenny. I'm excited to be here.
 
@@ -47,16 +46,16 @@ And so I sourced what I think are the greatest hits from a lot of colleagues tha
 **Molly Graham** (00:05:29):
 So first of all, Ami Vora, who you have had on your podcast, once said to me that all advice is just someone telling you what they did. And I always think about that. Because I really think that basically what I tell people is I've made every single mistake in the book. And then I got to the end of the book and I started inventing new mistakes. So mostly what I feel is that I like sharing my stories because I want to help people. I want to help people not make the same mistakes I did. And I also want to help people make sense of what they're experiencing. But I started in tech in 2007. I actually started at Google the week the iPhone launched and a lot of my scaling battle scars come from a couple of experiences. They come from a year and a half at Google, which is not very long.
 
-(00:06:17):
+**Molly Graham** (00:06:17):
 And Google was pretty big when I was there. It has thousands of employees. But my department, which was the communications department, was 25 people when I joined and it grew in nine months to 125 people. And that was really my first experience with just all the sort of things that I still talk about today. In terms of what it feels like to grow really, really fast and sort of all the tools that I started developing from there. After Google, I left and followed Cheryl Sandberg and Elliot Schrage to Facebook. And I spent five years at Facebook. And I joined Facebook in 2008, and it's important context because it was 80 million users at the time. We were smaller than MySpace. It was 270 million in revenue, 500 employees. It did not feel inevitable. Most people thought we were going to sell it to Microsoft. When I told people I was going there, they were like, isn't that place just like a site for college kids? And so I was there for five years and it was a crazy five years.
 
-(00:07:22):
+**Molly Graham** (00:07:22):
 When I left, it was 5,500 employees, five billion in revenue, over a billion users. So a huge amount of what I experienced, what I write about, what I talk about in Glue Club, which is the community that I run, comes from that rapid scale at Google and Facebook. But I also, I left Facebook right after we went public, about six months after we went public. And I only like doing jobs that I'm highly unqualified for. I like being on learning curves so steep that I'm scared I'm going to fall off. And so I left and I wanted to learn what it took to build something from nothing. And so I joined this little startup founded by Brett Taylor, a startup called Quip. I joined a couple of months before we launched and ran everything that wasn't product and engineering there for him. And that was such a valuable experience to me because the experience of building something from nothing is actually quite different than the experience of holding on for dear life while things are scaling so fast around you.
 
-(00:08:27):
+**Molly Graham** (00:08:27):
 And it really taught me about all the tools and skills you need to go from zero to one and then from one to two and how lonely it can be to build something. And we eventually sold that company to Salesforce. And then again, only take jobs I'm highly unqualified for. But the last really chaotic scaling experience I had was actually helping Mark Zuckerberg and Priscilla Chan start their philanthropy, the Chan Zuckerberg Initiative. And I basically helped them for the first two years of its existence or its sort of like first full existence. And philanthropy sounds calm. You know what I mean? We're like, oh, giving money away. Must be so peaceful over there. And CZI grew from, I think the week I joined, it was 30 people and we bought two companies that week and it grew to 250 people that year. And it was like using every single tool in my toolkit that I had taken from every other job that I'd had.
 
-(00:09:22):
+**Molly Graham** (00:09:22):
 So my advice and frameworks, like I said, come from having made a lot of mistakes. But I've also sort of made a personal study over the last 18 years, believe it or not. Essentially what does it take to thrive inside growing and changing companies, not just to hang on for dear life. What does it take to lead in the face of constant change? And really the other piece that I find truly fascinating is what genuinely makes the difference between a business that grows but then plateaus versus these generational businesses. The ones that go on forever. Sort of the difference between a Twitter or MySpace and a Facebook. Billions in revenue versus hundreds of billions in revenue. So what I like to do is take my experience and use it to help other leaders. I want to give people tools that work. And I also want to be honest about how hard all of this stuff really is.
 
 **Lenny Rachitsky** (00:10:24):
@@ -83,16 +82,16 @@ Okay. So let's actually dive into some of your greatest hits of frameworks. And 
 **Molly Graham** (00:11:47):
 So this definitely started in my experience at Google. And then Facebook was a masterclass in giving away the Legos. But the way I like to talk about it is basically when I watch leaders and employees go through rapid scale, I like to think of somebody putting down a giant pile of Legos in front of a bunch of kindergartners and then just being like, build something. And that's sort of what it feels like when you start. It's like, well, there's so many Legos and it's so fun. There's a lot of opportunity, but it's also kind of scary and overwhelming. And you're like, there's so many Legos. What do I do? Isn't there an instruction manual hidden under this pile somewhere? But then you start building and you're like, oh, okay. You build something and then you take it apart and then you put it back together.
 
-(00:12:33):
+**Molly Graham** (00:12:33):
 And then eventually you start to get momentum and you're like, okay, it's like I'm building a house. I got this. It's a house. All right, great. And then you're like, I'm good at building houses. I was put on earth to build houses. And almost assuredly inside of scaling companies, as soon as you're like, I feel good at this and I should do this forever. Somebody's going to show up and be like, okay, it's not a house. It's a neighborhood. And you need to take this house that's kind of half built and you're going to pass it off to this other person that we just hired. And you are going to go build dog parks and streets and other things that are entirely unhouse-like. And what happens when someone does that to you is you're like, wait a minute. First of all, I'm not done with this house. And I'm worried that this person's going to screw it up.
 
-(00:13:18):
+**Molly Graham** (00:13:18):
 I'm also worried that building houses is actually the most fun thing and that I'm going to give the Legos to that person and they're going to have all the fun work and I'm going to hate building dog parks. Or that dog parks are irrelevant eventually and it's going to turn out we're in the house building business. So there's this incredible set of emotions that come territorialistic, paired with excitement. Fear paired with joy. But eventually you pass the house off and then you go work on neighborhoods and you're sort of like, okay, dog parks, I'm good at dog parks. I got this. And then again, you get to the like, I'm great. I was put on earth to build neighborhoods. And immediately someone shows up and says, it's not a neighborhood. It's a country or a city or a world. And it just goes on and on and on.
 
-(00:14:03):
+**Molly Graham** (00:14:03):
 And for me, learning this muscle of both learning to give away what you've gotten good at and move on to the next shiny pile of Legos. And learning that the emotions associated with that are inevitable. I've been doing this for 18, 20 years, I still get attacked by these emotions all the time, but that doesn't mean that you shouldn't give them away and move on to the next thing.
 
-(00:14:33):
+**Molly Graham** (00:14:33):
 That is both the torment of scaling companies, which is that the ground is moving under your feet. And as soon as you're comfortable, someone will make sure that you are uncomfortable, but it's also the opportunity, which is that you can go from being someone that's good at building houses to someone that knows how to build entire worlds. And that is where the Legos metaphor came from.
 
 **Lenny Rachitsky** (00:14:55):
@@ -113,7 +112,7 @@ A whole thing. And just to be clear, the advice is give away your Legos, this is
 **Molly Graham** (00:15:40):
 I have watched a lot of people over many years struggle with feeling like they should hang on to the thing that they've been good at. And it almost always... Because, you know, essentially the nature of a scaling company is that the Lego pile is just getting bigger and bigger and bigger however fast that graph is going up into the right. I always say that's the graph of how fast your business is growing. It's the graph of how fast your company is expanding. And it's the graph of how fast your job is getting bigger. That means that if you actually just stay and build houses, eventually you're literally buried under a pile of Legos. Do you know what I mean? You held onto something that's down here and the opportunity is actually to stay on top of that pile and to learn to just give away your job every so often.
 
-(00:16:27):
+**Molly Graham** (00:16:27):
 At Facebook, I got to a place where I was literally giving away my job every three weeks. I was constantly rehiring myself essentially because you have to sort of grow as fast as your company is growing if you really want to take advantage of the opportunity that comes with companies that are growing and changing quickly.
 
 **Lenny Rachitsky** (00:16:45):
@@ -122,13 +121,11 @@ So people are hearing this, they're like, okay, my rational brain's like, I shou
 **Molly Graham** (00:17:07):
 So like I said, my brain works in weird metaphors. It's a weird brain. I was raised on The Muppets, and I like to think that this one came from, I guess, growing up watching weird animals. But basically, at some point I realized that this emotional rollercoaster that comes with scaling, with growing. With going through change, any kind of change. People feel that. Was never going to go away. And that no matter how good I got... Sometimes I think it gets worse the more senior you get, actually. Because you sort of feel like you're supposed to know what you're doing, and then you just get attacked by this monster that's like, who even gave you this job in the first place? So basically I externalized all these emotions that come with change into this little tiny monster. I named my monster, Bob. Your monster can be named whatever you want him to be named or her or them.
 
-(00:17:56):
 And Bob's job... I like to think his job is basically to make me the worst version of myself. He's the one that's like, oh, that person took all the fun Legos and you should go push them over and grab them back. Bob's job is... Bob's the one that wants to send the rage emails at 9:00PM and burn the house down. And the thing to learn about Bob is that, like I said, Bob never goes away. Bob is someone that you have to learn to deal with. But Bob's job is to make you the worst version of yourself. So your job is to let Bob do his thing, but not act on the emotions. Basically, all these emotions are normal and they are not useful. They are not the compass that should be telling you what to do.
 
-(00:18:46):
 But the other rule I have for managing Bob is a lot of people are like, oh, you're feeling off or tired or whatever. Go to bed and wake up tomorrow morning and you'll feel better. And the truth is that you're like, I want to send the rage email at 9:00PM. You still want to send it at 8:00AM. And a lot of these emotions just do not go away in 24 hours. So my rule of thumb from Facebook was give it two weeks. And the emotional, the sort of Bob... Bob is like these waves and they just roll through. So you made a new hire or somebody came in or you got layered or whatever. You'll have a set of reactions. And those reactions, again, they're normal, but they're not useful. They're not the ones that you should listen to. They are Bob.
 
-(00:19:29):
+**Molly Graham** (00:19:29):
 And typically they go away in a couple of days, you get something new. Some new wave. But anything that lasts longer than two weeks is actually something you should pay attention to. It's something that if it's been around for two weeks, it's something you should go talk to someone about. Whether it's a manager or a friend or a coach or someone like that. That's the real stuff. Everything else is just Bob.
 
 **Lenny Rachitsky** (00:19:50):
@@ -137,7 +134,7 @@ Is there a rule of thumb for when it actually, when you shouldn't give away your
 **Molly Graham** (00:20:00):
 No rule of thumb. In general, I would actually say embracing change is far better than fighting it. And almost invariably, you cannot see what is around the corner, but it is almost always the thing to focus on. A lot of times I think inside of change, we get focused on the past, and one of the most valuable things you can do as a manager and a leader is help people focus on the future. I think... I'm sure there are times when people have done it and regretted it and it has led them somewhere.
 
-(00:20:42):
+**Molly Graham** (00:20:42):
 I think being layered, for example, is one of the hardest things for people inside these experiences where someone brings in a manager above you. And I've also seen so many stories of that ending up being a great thing for someone. Even though they couldn't see it at the time. So in general, I would just say, step into the future and let the past go and see what you're going to learn. And sometimes you'll learn that it's time to leave or that this isn't the right pile of Legos for you. But it'll end up taking you somewhere that's worth exploring. Holding onto things almost always leads us to the worst version of ourselves.
 
 **Lenny Rachitsky** (00:21:24):
@@ -182,25 +179,25 @@ This is a great segue to another framework that I've heard from folks you've wor
 **Molly Graham** (00:23:46):
 I actually gave a TED Talk about this one a couple of years ago because I am so passionate about it, but you can listen to the very packaged eight-minute version of this, but I will tell you the real story because it's very relevant to a lot of folks that listen to your podcast. I was at Facebook for five years. Like I said, the first two years I was in HR and I was doing employment branding and culture work and I was ready to stay there. I think I had in my head I was going to stay there until we went public, that was my plan just because I wanted to help the company through that moment, again, in my head.
 
-(00:24:21):
+**Molly Graham** (00:24:21):
 This guy that many people know, Chamath Palihapitiya, came to me and Chamath ran growth and mobile at the time. And he came to me and we had lunch and he said in his very Chamath way, "You're useless. What are you doing in HR? This is stupid. You should come work for me." And anybody that knows Chamath is like, "Yes, that is actually what he said." He managed to insult you and compliment you in one sentence.
 
-(00:24:47):
+**Molly Graham** (00:24:47):
 He gave me all these options on his team. And then the last one he said to me was like, "I'm going to go build a mobile phone. Do you want to come do that with me?" And I had four simultaneous reactions. The first was like, " That is incredibly stupid. Why are we doing that?" And then it was like, "Is that actually a thing that we're doing?" And then it was like, "Whoa, I think that sounds kind of fun." And so I left the conversation at Chamath and I went and asked my boss, Lori Goler, who's the head of people at Facebook for a very long time, like, "Is this actually something we're doing?" And she was like, "I can't believe he offered you that, whatever."
 
-(00:25:21):
+**Molly Graham** (00:25:21):
 And I basically just could not get it out of my head, but it didn't make any sense, A, that Chamath had asked me because I was in HR. Like, "What am I doing? I don't absolutely jack shit about mobile." But I had worked on a project with him and I guess he thought I was smart. And I talked to Cheryl and she was like, "Well, that project will be dead in two months, but you can do it because you'll still have a job here." My dad was like, "Well, don't do that. " And anyway, a lot of very wise people being like, "Don't do that."
 
-(00:25:51):
+**Molly Graham** (00:25:51):
 But I kind of couldn't get out of my head. And my friend said to me, "You've proven you're really good at this sort of company-wide project management and HR. Why don't you go show yourself how actually good you are? Is this transferable?" So, I took the job and I spent the next six months feeling like an absolute idiot. I basically felt like a total jackass all the time. I was sitting in rooms with these brilliant people asking the dumbest questions of my life and at the end of the six months, Chamath, I think, took a lot of pride in giving me the lowest performance rating I've ever gotten in my life, and it just felt like falling off a cliff. Then, slowly, I remember I had been doing all these trips to Taiwan because we were actually working on hardware and I, at some point, came back from Taiwan and I drew on a whiteboard for him the layout of a mobile phone and trying to explain to him why something he wanted to do was not possible. I so vividly remember walking out of that meeting being like, "Oh, I actually know things." And slowly then, over the following three years, I became an expert in mobile. And I basically... The phone itself was a giant failure, massive, costly failure for Facebook, but it was not a failure for me. It was a huge job that taught me that I was capable of things that I never could have dreamed of if I had stayed in HR. It set me up to be capable of taking on things that I didn't know about.
 
-(00:27:28):
+**Molly Graham** (00:27:28):
 Chamath, when he pitched me on this job, actually drew me a picture on a whiteboard. He said, "Look, you can stay..." The way a lot of people do careers is a set of stairs. "You can be boring." To use Chamath, "And stay on these stairs. Just walk up the stairs and you'll get promoted every two years and your title will change from manager to senior manager to director to senior director, whatever." And he was like, "But that is boring." And he's like, "The much more fun careers are like jumping off cliffs." Basically, that you jump off this thing and you do fall for a period of time. I always like to say it's about six to nine months, but then this thing happens where you climb out.
 
-(00:28:05):
+**Molly Graham** (00:28:05):
 And the picture he drew had this J-curve sort of basically leading you to places that are way beyond where the stairs could ever get you. And to be totally honest, that has been my experience. That taking risks, accepting the sort of terrible fall and that experience of falling has been more than worth it. Part of the reason why Sarah mentions it is that I do give this sort of talk to people that are inside of really fast-growing companies, because it's such an important place to let go of Legos and jump off cliffs because there's so much opportunity. And it is a place where if you prove to people that you're actually good, if they believe that you are the kind of person that they can use to do lots of things, you can get these opportunities that you are just so deeply unqualified for, but they can take you to places that you could never have imagined.
 
-(00:29:01):
+**Molly Graham** (00:29:01):
 You can come out of those companies with skills that no one would ever have reasonably hired you to do. But I ended my time at Facebook in product and did business development and hardware and a whole bunch of the stuff along the way. And again, nobody would've hired me to do that at the beginning, but it's just because I kept saying yes to things.
 
 **Lenny Rachitsky** (00:29:22):
@@ -215,13 +212,13 @@ It does. I want to ask, jumping off a cliff, sometimes you fall, really fall and
 **Molly Graham** (00:29:46):
 Yeah. I just think there are different kinds of fear. We talk a lot about this in Glue Club because one of the thing, there is a financial fear, right? Leaving a job and taking a job that has financial risk associated with it, or leaving a job and taking time off, which is something that I spend a lot of time talking to people about, you got to do the math and you got to... Sometimes there is a type of fear that is telling you like, "This is not the right time." Or, "I don't want to be financially anxious for months and months and months."
 
-(00:30:21):
+**Molly Graham** (00:30:21):
 I use finances because it's the most concrete example of a type of fear that you should actually listen to. And sometimes you can do the math. I always counsel people through that. I'm like, "What is the number that you need to hit so that you're not constantly terrified financially?" And that number is wildly different for people based on their background and their life. "Can you do that? Can you consult, can you whatever in order to take this leap?" But a lot of times fear is just you saying, "I'm scared I can't do this. I'm scared I'm not capable of it. Yeah, I'm scared I'll fail."
 
-(00:30:56):
+**Molly Graham** (00:30:56):
 And that's the kind of fear that I think of as a flashing green light because... And it sounds like Matt McGinnis said this too, where it's like, "That's the kind of fear that's saying, 'Why don't you go prove to yourself that you are actually capable of this?'" Or if you fail, like, "You'll have learned something, too." You know what I mean? You'll have learned, like, "I took this job in product at Facebook as my last chapter there, and let me tell you things that people should never fucking hire me to do." I was like, "I am not a good product manager." But I've got a great product mindset. I can sit in a bunch of chairs and hang with the product folks, but I'm not the person that cares about the button. Do you know what I mean?
 
-(00:31:38):
+**Molly Graham** (00:31:38):
 And I would never have learned that. I wouldn't have known who I was if I hadn't taken that risk and failed or at least learned that it's not something I wanted to do again. So, there's many different lessons that come from facing down those fears and jumping off the cliff, but mostly what it is is knowing yourself better and knowing where you go next from there.
 
 **Lenny Rachitsky** (00:32:03):
@@ -254,10 +251,10 @@ The other part of this J- Curve that I think is really important to touch on is 
 **Molly Graham** (00:34:49):
 I mean, the most valuable thing that happens as you fall is learning. And even on the other side of failure, you've learned a shit ton. I always say, "The most important thing to do in the falling phase and the risk taking land is to learn to embrace being a professional idiot." Basically, being the one that shows up at the meeting and is like, "What are we talking about? What does that word mean?"
 
-(00:35:18):
+**Molly Graham** (00:35:18):
 For a bunch of reasons. Number one, you can learn so much. And again, even in the face of failure, no one can take away your learning. Do you know what I mean? But the other thing is that it turns out that a lot of the questions in the world that, you're sitting in the meeting and you're like, "This is a dumb question. Everyone's going to think I'm an idiot." But then you get brave and you ask it and it turns out it wasn't a dumb question. Do you know what I mean? Turns out that everyone had that question in their mind, but no one was brave enough to ask it.
 
-(00:35:48):
+**Molly Graham** (00:35:48):
 So, from a skills' perspective, again, regardless of outcome, being the person that sort of takes their learning in their own hands, learning no matter what and learning to ask those dumb questions, it's a superpower. I always say that, "Actually, my superpower is being a professional moron." Because I'm the one that shows up in a room and is like, "Do we have goals? What are we doing? Why are we talking about this? Why are we having this meeting?" And most of the time it's actually what I was hired to do, which is bring clarity.
 
 **Lenny Rachitsky** (00:36:19):
@@ -266,7 +263,7 @@ It's so funny. I just recorded a podcast episode with a PM named Zevi who joined
 **Molly Graham** (00:37:05):
 Yeah. Well, I was having a conversation last night with a friend of mine who has a senior in high school and I was like, "What is the plan? What are we telling this senior in high school to think about relative to their career given everything that's going on with AI?" And we talked about it a bunch, but what we both circled back to was this idea of soft skills and that actually the only thing you can really anchor on right now is that teaching kids grit, teaching them hard work, teaching them learning, right? Learning how to learn, loving learning, being able to fall, in a world that's changing this fast. And I say this inside of companies too, right? I always say, like, "What you know today is way less valuable than what you can learn by tomorrow." If you're inside of a company where the growth curve is like this, what you know today is irrelevant.
 
-(00:37:52):
+**Molly Graham** (00:37:52):
 Somebody once told... I'm sure this is faster now, but they rewrote the entire code base at Google every eight years, which means that if you're not learning, if you're not evolving, then you become irrelevant and extinct. It's actually the whole underlying point of the Legos stuff is that evolution is the way you stay on top, and I think that's more true today than it's ever been.
 
 **Lenny Rachitsky** (00:38:14):
@@ -287,19 +284,19 @@ Yeah. Okay. I feel like I could be talking about this specific topic for a whole
 **Molly Graham** (00:38:50):
 Okay. Yeah. Well, first of all, the Waterline Model is not mine. It's from some business book somewhere, but I actually learned it. My first job out of college was leading wilderness trips. I led 75-day wilderness trips in Patagonia and Alaska for a school called NOLS, the National Outdoor Leadership School. NOLS basically teaches essentially leadership and communication skills to students.
 
-(00:39:15):
+**Molly Graham** (00:39:15):
 I was mostly leading college age kids through wilderness expeditions. So, by having to lead a group of your peers that you don't know. Anyway, the Waterline Model is something that we taught on NOLS. It's a really, really helpful model for understanding how to diagnose when something is not working on a team, so I teach it inside of Glue Club and I'll just quickly explain it. Basically, the way to think about the Waterline Model is that a team is a boat and it's a boat on an ocean trying to get somewhere, getting somewhere is goals, right? "What are we trying to build or ship or do?" Essentially, that is going to be harder or easier based on whatever the shape of the ocean is, right? If it's really choppy, it's harder, if it's smooth and calm, it's going to be easy to get to your goals.
 
-(00:40:02):
+**Molly Graham** (00:40:02):
 So, the Waterline basically asks the question like, "What is going on under the water? What is going on that's making it harder or easier to get to your goals?" And there's essentially four things underneath the water and they are in a descending order. The surface level is what's called structural things. Basically, structural things are like goal setting, vision, roles, expectations, kind of the structures you put in place to make a team and a company and a business make sense, that touch every single member of the team.
 
-(00:40:37):
+**Molly Graham** (00:40:37):
 Right below that is something called dynamics, which is essentially how the team works together. It's culture, it's decision making, it's how we resolve conflict, all the sort of like interwoven pieces of how teams work together. And then below that is interpersonal, so basically relationships between two people and all the things that come with us being humans. And then the bottom is intrapersonal, meaning within one person, challenges and issues there.
 
-(00:41:08):
+**Molly Graham** (00:41:08):
 The interesting thing about this model is that most people, when something's going wrong on a team, a lot of times we always go to the bottom. We go to the people. We're like, "The people aren't getting along, that person's having a rough moment." We go to the humans, but the rule with the Waterline Model, which is very memorable, is you snorkel before you scuba. So, 80% of problems on teams actually happen because of structural issues or dynamics issues. So, when there are problems on your team, where you start is at the top, you start structural issues.
 
-(00:41:44):
+**Molly Graham** (00:41:44):
 And one of my biggest things that I say all the time over and over again inside of Glue Club is, "Your only goal as a manager, if you do nothing else, is clear roles and clear expectations. That's it." Because honestly, I've taken over a lot of teams in my life and almost always I show up and it turns out that no one knows what their job is and no one knows what success looks like. And if you can make those two things clear, which again is at the snorkel level, it will fix a huge percentage of other issues on a team. But the main thing is where you start and just always sort of starting at that structural level or the dynamics level and not sort of immediately going to the people and all that. Because yes, people cause all sorts of problems, but a lot of times the problems are happening because they're existing inside of a structure that's confusing.
 
 **Lenny Rachitsky** (00:42:32):
@@ -308,7 +305,7 @@ Another very vivid metaphor and just, I love how it builds on it with the snorke
 **Molly Graham** (00:43:08):
 Every company I've worked with or advise, I often start with like, "What are the goals?" And usually what you get the hack is, "Uh, not clear." And that in and of itself is a structural issue, right? How can someone show up and decide what they're going to do with their day all day if the goals aren't clear, if they don't actually know what the priorities are? And then it goes to, okay, role, right? "Do I know what my job is? Do I know what number I was hired to own and drive?" And then, "Do I know what success looks like? How does my role tie to that overall goal that the company has?" Just literally right there. You got probably 80% of problems inside of companies because this is the hard work of company building. It's the stuff that's not intuitive. "How do you organize a group of people to know which direction to row?"
 
-(00:43:52):
+**Molly Graham** (00:43:52):
 And that equation, again, I would say 80% of problems that I see, performance issues. I always start with, "Does this person actually know what you expect of them?" If not, go back to step one. Do you know what I mean? Clarify expectations, so the Waterline Model is just helpful for reminding us, like, "Start at the top."
 
 **Lenny Rachitsky** (00:44:11):
@@ -317,7 +314,7 @@ So what would you do there? Say you're a manager, you're having an issue with a 
 **Molly Graham** (00:44:24):
 So a lot of times what I do is two-sided, right? So it's like, "Hey, here's what I'm seeing and tell me what's going on for you. Do you know X, Y, Z?" When I take over a team, when I'm doing my listening tour, part of what I'm asking is, "What do you think your job is? What number were you hired to drive?" Because what you'll find is often their picture is different than your picture. You think you've been clear, you described an elephant and they spat out a tiger and that coming back to like, "Okay, no, we're building an elephant. You're in charge of the trunk." Will, in some percentage of cases, actually make a huge difference to the person's work and time and performance. In plenty of cases it doesn't, but that's always where I would start because it so often is just a more fundamental problem that then would lead you to look at other things across the team.
 
-(00:45:20):
+**Molly Graham** (00:45:20):
 But yeah, I would say two-way dialogue, but re-clarifying roles and expectations, re-describing the elephant over and over and over again, is one of the hardest parts about being a leader because you feel like a broken record, right? You feel like an idiot. You're like, "I've said this 45 times." Turns out no one heard you the first 43 and you have to. You have to re-describe it in order for people to hear you and to re-understand their sort of role in what they're doing.
 
 **Lenny Rachitsky** (00:45:45):
@@ -339,25 +336,25 @@ Totally.
 **Molly Graham** (00:47:30):
 Yeah, totally. I feel like there should be less than six but it's where we're at. I would say, at a high level, two things before I get to the six. One is that I definitely have a bone to pick with OKRs, I feel like it's obviously been a really helpful framework for Google and others and, a lot of times, when I show up inside a company or I'm talking to a leader and I'm like, "What are your goals?" what I get back is this spreadsheet that has 100 lines and feels like it's written in Greek and, when I look at it, I'm like, " This doesn't create clarity for anyone." And it brings me back to what is the point of goals, why do we have them and, at the end of the day, goals are a communication tool, that's what they are. They're a communication tool designed to create clarity, to help people know I'm going to show up at my desk, what should I work on, what's the most important thing and your 100-line spreadsheet doesn't help anybody.
 
-(00:48:23):
+**Molly Graham** (00:48:23):
 And the second thing I would just say is you really have to ask the question what is right for me at this company and this stage, what is right for a seed stage company is not what is right for a company that's got an established business and a clear go-to-market machine. So, when I'm building in seed stage, I'm setting goals every two months in a very iterative way. When I have an established business, I can actually set annual goals but annual goals for early stage companies is just a waste of time. So, anyway, a lot of my goal setting stuff actually comes from Facebook which I think was very, very good at this.
 
-(00:48:58):
+**Molly Graham** (00:48:58):
 So, the first role is that no company needs more than three company goals and the point of company goals is to help people know what the most important things are to success. So, Facebook basically had three goals for the entire time I was there, it was five years and we did six-month goal setting, I think we did annual goal setting that ended up getting reset every six months but whatever. So, the three goals were this, there was growth which was measured as monthly active users, that was the externally reported number eventually, MAUs. The second goal was engagement meaning how often do people come back and use the site and the third was revenue and we literally had three goals for the five years that I was there. If you can govern that business with three goals, you can govern literally any business with three goals. So, no company needs more than three goals.
 
-(00:49:52):
+**Molly Graham** (00:49:52):
 The second thing is that one goal needs to win in a fight. So, if I'm sitting down and asking how do I prioritize my time on a given day I need to know what is the most important thing. At Facebook, we had growth and there's a lot of different ways you can add monthly active users to a social media site including you can go buy a whole bunch of bots in Indonesia and that would add to your MAU number but it would not add to your engagement number and it was very clear for the entire time that I was there that engagement was the most important thing. Acquiring users that were going to use the site all the time, that's what drives revenue, it's also what drove the heart of that site. So, if you had to prioritize something, you prioritized engagement, that goal won in the fight.
 
-(00:50:35):
+**Molly Graham** (00:50:35):
 The third I'll say is, I call it the explain it to me like I'm five goal, but an intern that started on Monday should be able to look at your goals and understand them and, if they can't, then you are failing because they are not a communication tool that's effective. You have to be able to understand the goals, you have to explain the acronyms, you have to have numbers that make sense to average people, otherwise, again, it fails as a communication tool.
 
-(00:51:03):
+**Molly Graham** (00:51:03):
 The fourth one is ... Actually, I stole a phrase from Claire Hughes Johnson who you've had on your podcast but wrote a book called Scaling People and in it she says this sentence that I love which is strategy should hurt. And my role used to be set non-goals, basically, make it as clear what you're not going to do as what you are going to do but strategy should hurt is a much better way to explain it to people which is, if you're not making trade-offs that are painful, you are not actually helping people prioritize their time. Because the nature of work is that people will show up every day and do something and either you are very clear with them about what the priorities are or they're going to prioritize for you because they're going to choose what they work on every day. And we see this so much with founders where they can't cut things off the list, they just have to have the 10 goals and I'm like, "Cool. Six of these goals are not going to get done so either you pick which four it is or other people are going to pick for you." So, strategy should hurt. If your goal setting process is not painful, then you're not prioritizing heavily enough.
 
-(00:52:09):
+**Molly Graham** (00:52:09):
 Okay, ready? We're on number five. This is more of an organizational point but it's really important for the waterline model too which is that one goal has one owner. You have a number, that number has a name next to it. If you cannot do that work, you haven't done the most important work to actually make sure that these goals get accomplished. And it's organizational work and it's very painful because sometimes it feels like, oh, this person can own it or this, maybe they'll just own it together, two people owning a goal is no one owning a goal. One person owns the goal, who is it? It's not you as the CEO, it's someone that works for you so one goal, one owner. And then the last, which is the hardest, is that goals by themselves are not enough. I've spent a lot of time with founders that are like, "I did it. I set the goals. Why not working? I don't understand." And I'm like, "What did you do after you set the goals?" And they're like, "I don't know, I set the goals." Goals ...
 
-(00:53:10):
+**Molly Graham** (00:53:10):
 James Clear who wrote Atomic Habits has this really lovely sentence which is winners and losers have the same goal. Goals by themself are not enough, you have to have a process by which you follow up on the goals and you hold people accountable to the goals and you learn from the goals because so much of goal setting, particularly if you're earlier in building your company, is about learning from trying to do something. You set a goal, can we do it, how hard is it to move this number, that is the ... You might be wrong all the time but you're learning what it takes to move the number. So, setting the goal by itself, not enough, you have to build a process in the system to actually learn from the goal.
 
 **Lenny Rachitsky** (00:53:53):
@@ -414,7 +411,7 @@ I love how ... This is very much what I wanted this chat to be. It feels like ev
 **Molly Graham** (00:57:45):
 Yeah. So, for leaders that are leading through change and growth, the list is probably long but I always say to people don't come to me for management 101, I'm not the person to ask on how to run the most effective one-on-one with your people. What I think is not talked about enough is what it takes to manage and lead through change and that is a very particular set of feelings. And the first thing I learned, when someone makes you a manager or when you take a job as a leader inside a company, you really do feel like, "Oh, who gave me this job?" and you feel like you're supposed to know the answer to things. People come to you and ask questions and you're like, "I'm supposed to know. I'm a leader, I am supposed to have answers."
 
-(00:58:35):
+**Molly Graham** (00:58:35):
 And I think, particularly inside of rapid change and scale and growth, it's really important to understand that your job as manager and a leader is not to have all the answers. It is not to have all the answers, it is to get good at finding them, it is to get good at bringing people together to find the answers. And that is hard because it requires saying, "I don't know, let's go figure it out," a whole bunch and it's scary as a leader to say I don't know because you think, "Oh, gosh, people are going to see through me." But again, the more you travel in life, the more you realize that the most experienced leaders are the ones that say, "No, no, no," all the time.
 
 **Lenny Rachitsky** (00:59:13):
@@ -477,7 +474,7 @@ It's true.
 **Molly Graham** (01:04:00):
 It's drag people that are sitting around not pushing the team forward. So, it's painful and it's horrible because it is humans but, when someone doesn't fit, you ... No one is right all the time when it comes to hiring, I actually say most people are wrong half the time. The best people in the world in hiring will tell you they have about a 50% average in terms of being right. That means half the hires don't work out. That means, half the time, you're going to need to fire the person. So, it's such an important skill to get good at particularly when you're going through a lot of change. And the last one is humans are messy and it's very emotional. And when you're a leader, particularly if you have any kind of anagram too or just if you like to make people happy and you want to be liked, it can be so hard to lead teams because you get tangled in the people. Firing people is a painful experience, reorganizing things, layering people, all these things are emotionally painful for the people and they're emotionally painful for you as a manager.
 
-(01:05:05):
+**Molly Graham** (01:05:05):
 But my mantra that almost always leads in the best direction is serve the business, not the people meaning everyone is better off if this company is wildly successful. Everyone looks smart and makes lots of money or whatever if this company grows and does what we all dream it can. So, at the end of the day, the best decisions, the ones that are always going to be right are the ones that are like, "How do we do the right thing for this business?" And it also helps in political situations. Someone's acting weird or their Bob is raging all over the company, technically, everyone has the same goal. The goal is to build the biggest business possible, that's the answer. The answer is always what's the right thing for the business. And the people stuff can fall away when you actually focus on what's the right thing for the business.
 
 **Lenny Rachitsky** (01:05:55):
@@ -519,10 +516,10 @@ As a leader, as a manager, you're running these teams and someone's struggling a
 **Molly Graham** (01:09:00):
 There's two things here. One is it's really important to realize that our tendency is to actually spend time on low performers and it is not a good use of your time. See the point about firing people. But the other thing is that actively investing in and developing high performers is something that's important to get good at as a leader because that is how you create these little rocket ships that end up... You'll manage someone who's just like a project manager and all of a sudden they're running a whole function inside the company eventually, but it's because you took time and energy to invest in them. And my basic way of doing that, not to... I could spend a long time on this, but I would just say is I run experiments. I basically develop a theory about someone, "I think this person is capable of this kind of thing." And then piece by piece, it doesn't have to be a whole job or whole project. It can just be an incremental experiment, "I'm going to see if they can do this with less guidance or support from me."
 
-(01:09:52):
+**Molly Graham** (01:09:52):
 I'm going to give them a bigger project. I'm going to give them something with more visibility. I'm going to manage them less, oversee them less, whatever. All of those are experiments to basically test your theory and deepen your theory in terms of this person's potential and their ability to help the company. And you're basically, for me, what I'm doing is deeply getting to know that person and then trying to pair them with company needs. What do we need? This person is great at zebra farming. Where do we need zebra farming? So how do I get them working on bigger and bigger and more and more critical things?
 
-(01:10:27):
+**Molly Graham** (01:10:27):
 And to be honest, this is what people have done for me. At Facebook in particular, I've benefited from people being like, "Ooh, come help me with this thing." They saw potential in me and they asked me to help with something and it unlocked a huge amount for me. And so, it is such a powerful tool for getting more out of people that might be a little bit stuck if you leave them in this box. But if you start to expand the box, you can really unlock people.
 
 **Lenny Rachitsky** (01:10:55):
@@ -531,13 +528,13 @@ So speaking of high performers, you've worked with many very high performing fou
 **Molly Graham** (01:11:26):
 That list is very long, but I'll give you a couple. The first one that I think is kind of counterintuitive is... So I said I worked at Facebook. I worked on culture, which is one of those words that doesn't really mean anything. So I define it as the way we do things around here. And I thought my job was to shape the culture. I thought it was to push the culture. And the most humbling lesson I learned is 80% of the culture of a company is literally defined by the personality of the founder. Facebook is Mark. Google is Larry and Sergei. Google, when I was there, it felt like a university. It's where ideas are more important in a lot of ways than what's shipped. And there's a campus and they basically wanted people to live there when I was there. It was designed to basically be a two PhD students' paradise.
 
-(01:12:29):
+**Molly Graham** (01:12:29):
 Facebook felt like a 19-year-old hacker's dorm room when I was there. And it was shipping above all and all else. And it seeped with Mark's DNA. And I spent ages trying to create various changes inside the company or trying to push a point. And Mark would say literally one thing in an all hands, and it was like somebody threw a boulder into the pond. So our job as operators or as leaders around founders is to help articulate the culture that they're creating and to help extend it. My version of founder mode, which I know you've spent some time on on this podcast is your job is to build a company that would make a decision the way the founder would when they're not in the room. That is the work of building a company around a founder, but your job is not to shape culture.
 
-(01:13:24):
+**Molly Graham** (01:13:24):
 That is mostly defined by the literal personality strengths and weaknesses of the person at the top. And that's been true of Mark and it's been true of Brett. Everywhere I go, that's who it is. You don't need a consulting firm to tell you, just go do a personality diagnosis on your founder. And the weaknesses thing is real. I've seen and watched friends try to shape a set of values at a company and it just doesn't match who the founder is. You say, "Move fast and break things," or whatever your version of that is. And your founder loves ambiguity and is perfectly happy with not making decisions. All that leads to is cultural dissonance. It leads to people being like, "Wait, what? I thought we said we care about moving fast and making aggressive decisions and it turns out..." So being really careful about what you say, because what people actually feel when it comes to culture is what you do and how you act every day.
 
-(01:14:18):
+**Molly Graham** (01:14:18):
 You can never write anything down and you will still have a culture. It will be created through the actions and the decisions that you make and that your founder makes. So that would be a huge one.
 
 **Lenny Rachitsky** (01:14:28):
@@ -582,7 +579,7 @@ Awesome. Keep going.
 **Molly Graham** (01:16:04):
 I'll give you two more that are helpful. This one is a Mark Zuckerberg classic, but he has this very strong feeling that people don't escalate enough. And he was very adamant about it at Facebook. And he brought it to CZI too where he was like, "Escalation is a tool." And he's like, "People get stuck. They get stuck with two people with equal power trying to solve a problem. You can spend so much time bashing heads, going back and forth. And actually what you just need to do is go up. You need to go." The problem is that we think of escalation as, "I'm A and B and I are disagreeing. And so, I'm going to go up to C and tell on B. I'm going to go tattle to the teacher." That is not what escalation is. What escalation is, "We disagree. Neither one of us has enough power to make this decision. Let's go to someone who does." My boss, my boss's boss, whoever it is.
 
-(01:16:59):
+**Molly Graham** (01:16:59):
 As soon as you are stuck, escalate. Go together, go make your case to whoever it is, go together up. That is unlocking. It's saving you a whole bunch of time. And it's something that I've found as I've worked with companies and leaders in Glue Club. It's not a muscle that's very comfortable for people, but it's so smart. And Mark has a lot of these, but that one I really took away because again, I think so many people think of escalation as bad, a failure, like, "I failed, so I had to escalate." No, it's a tool. It's what management is for. They're there to unblock you. Let them unblock you. Stop arguing over something you can't decide.
 
 **Lenny Rachitsky** (01:17:36):
@@ -591,13 +588,13 @@ And they'll be so happy knowing you did not waste a week debating this and then 
 **Molly Graham** (01:17:44):
 Exactly. You lack context or you lack power. And then the last one actually is from Cheryl Sandberg, who I learned an enormous amount from, huge, was like going to business school without going to business school working with her. But I say it a lot right now, so I'm going to say it on your podcast so maybe some people will hear me. Growing more than 100% every year is a bad idea. The happiest growth rate is 50%, 100% is manageable. Anything more than doubling and you are signing yourself up for a world of pain. And I have seen this over and over and over again. I had to scream way louder about it five years ago than I do now because we've been through collectively a lot of pain and a lot of layoffs. And obviously the combination of 2021 and then AI has led us to talk about unit economics and scaling with tools, not people.
 
-(01:18:47):
+**Molly Graham** (01:18:47):
 But I still see companies and I'm still talking to founders that are like, "Yeah, we're 50 people and we're going to be 150 people next year." And I'm like, "Could you possibly do that with 100 people?" But here's what basically happens if you grow at more than 100%, which is you're growing too fast to de-dupe all the issues. So somebody posts this role, it actually turns out that that role is also being hired for on this other team. So you're hiring two people who more or less have the same job description and are assigned to the same number or the same problem, but nobody talked to each other. And those two people both show up and they're like, "I am doing this." And the person's like, "Wait, I thought I was doing that." Anyway, so then you've got all this... And think about all the time and all the energy and all the money that goes into de-duping that.
 
-(01:19:32):
+**Molly Graham** (01:19:32):
 If you slow down, if you hire for quality and for real need versus the panic hiring, whatever your sales model spits out or whatever, you'll actually find leverage. You find, "Oh, I didn't need that person," or, "I didn't need this whole team," or, "I didn't need this whole function," or, "I can wait for that." So slow down. And again, these are all just guidelines in terms of the 50% is happy and 100% is manageable. But having seen enough of this, I can tell you these are good rules and you should pay attention to them. And sometimes you're like, "I have to double or I have to more than double or I have to triple," or whatever. I'm like, "Okay, just ask a whole lot of questions as you open roles. Ask a whole lot of questions as you hire because you will find duplication, you will find chaos coming in the front door."
 
-(01:20:16):
+**Molly Graham** (01:20:16):
 More people does not actually make you faster. Do you know what I mean? We think it does. It does not. It makes it harder. It makes it harder to get work done. It makes it slower. So you should be scared of adding people, not like, "Oh, this is the answer to all my problems."
 
 **Lenny Rachitsky** (01:20:27):
@@ -654,13 +651,13 @@ That I've chatted with over the last few months because he knows so many people 
 **Molly Graham** (01:22:22):
 Eric is actually better at metaphors than I am, and I regularly rip his metaphors. But yes, Eric Antonow, the least well-known, but most brilliant person in my life. So I gave a talk at a company recently and somebody asked the question, "What's something you've changed your mind about?" And I was like, "Woof." But I actually talked about this because... So my brain is developing this model that is not done yet, but it's basically this idea that everybody has a proving phase to their career where you're proving to yourself and probably to your parents and some other people that you're good at stuff. You're like, "I'm going to prove." And it's an important phase because you need to learn. All the stuff we talked about. You need to learn what you're good at. You need to learn that you are good at things and that people should hire you for things and what are those things?
 
-(01:23:22):
+**Molly Graham** (01:23:22):
 But part of that phase is also doing what you think matters, what you think you should do. Family programming or career books tell you this is what you should do, titles and all that stuff. And then, I think everybody has a moment and I think this moment varies wildly in terms of when it hits people, where you hit some sort of wall or I don't know what it is, speed bump, something, and the world forces you to say, "Okay, I've proven myself and I'm good at this thing. What do I want to do with it?" And for me, I spent 10 or 15 years proving to myself and to others that I was really good at this thing, basically working with brilliant founders to help bring their vision to life, "That's what you should hire me to do." That's what I was known for.
 
-(01:24:20):
+**Molly Graham** (01:24:20):
 And it turned out that that wasn't what I love doing anymore. And it was really, really hard to walk away from because there was a lot of shoulds. It was like, "You should take this job with this fancy title. People are going to think you're so cool." And you get to... I call it a LinkedIn crush where you're really excited to post the job on LinkedIn, but you're deeply unexcited about doing the job. So you have all these LinkedIn crushes and you're like... And I vividly remember this one job that I turned down where I had to go for many walks. And what I was repeating over and over again to myself was, "What does this get you that you don't already have? What does this get you that you don't already have?" And I think, for me, it was this realization that these things that fed me early in my career just didn't feed me anymore, that I didn't get joy and excitement out of doing these jobs anymore, and I wasn't scared.
 
-(01:25:20):
+**Molly Graham** (01:25:20):
 So it led me actually on a very long, windy journey, a founder journey, even though I have trouble with that title, just like the influencer title, to figure out what I wanted to build. And what I would've told you I wanted to build three years ago is actually not what I'm doing today, but through a lot of really fun experiments and a journey that never ends, what I've discovered is that what I love doing is building safe spaces for leaders to learn and grow, but also to find sanity and connection in a world that's kind of insane, whether it's working in a startup or some other kind of insanity, but that feeds me and there's nothing I love more than that, and I could not have told you that three years ago, but, to Eric's point, it really took a lot of work to switch currents or switch myself from a dog to a cat or whatever his metaphor is. And I think it's the work of it's ongoing work, but it's that thing of what do I want versus what do I think people expect of me?
 
 **Lenny Rachitsky** (01:26:32):
@@ -669,10 +666,10 @@ There's so much depth there. This could be another entire podcast conversation t
 **Molly Graham** (01:27:07):
 Part of what I think is so important to realize inside of scaling and changing companies and the world is some things will always be true. And part of what I was saying to Sarah in the "get to know the customer, they have the answer" is, whatever bullshit is going on around you and whatever walls and ceiling are being rearranged this week, the customer is never going to change. That's a thing that will never change. And I think finding those immovable objects, those compasses in the face of a storm, which being inside of a scaling company in a startup feels like a tornado. And I think OpenAI is extra special on that front. You have to find these guiding lights that get you through that storm. And I think it's sort of the same thing as "Serve the business, not the people." What are the things that will always be true? We are here to do this. We are here to serve the customer.
 
-(01:28:09):
+**Molly Graham** (01:28:09):
 And then the other piece of the three things that she wrote down is, I think that we, as humans, we seek stability. Our brains would like things to stop changing. We would like things to stay the same. And that is just not a reality inside of companies that are growing and changing as fast as OpenAI or a lot of the companies today that are being built. So actually, you need to start to expect instability. You need to start to just assume things are going to change. Assume you're going to have a new boss in six months. I talk about this a lot when I talk to folks at OpenAI, "You need to stop expecting that anything's going to be the same in six months or a year. You will have a different job. You will have a different boss."
 
-(01:28:55):
+**Molly Graham** (01:28:55):
 How do you prepare for that? Do you know what I mean? How do you almost see the instability as stability because it's the only thing that is definitely going to be true. And part of that is to just keep going. You know what I mean? To just find these lights and these compasses or whatever metaphor sticks with you and focus on those because whatever is happening around you, you just got to keep moving forward and keep learning as much as you can because that's the real opportunity. Whatever happens to the company, however successful it is, all that you take away from it... I always say all that you take away from it is people that like working with you and want to work with you again and what you learned. That's it. You might hopefully take a bunch of money, but you might not. So people and what you learned, that's it. Focus on that.
 
 **Lenny Rachitsky** (01:29:41):

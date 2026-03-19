@@ -31,7 +31,6 @@ You need to be vulnerable. I would be very open and honest with where you are. H
 **Lenny Rachitsky** (00:01:12):
 Today my guest is Jen Abel. Jen is the co-founder of Jellyfish, where her and her team help early stage founders learn how to sell, do early customer discovery, and set up a repeatable sales motion. Prior to Jellyfish, Jen was an enterprise sales director at the Muse and a general assembly, and she's obsessed with helping founders in the zero to one stage of their journey. In our conversation, we get extremely tactical and in the weeds on how to actually do sales as a founder. We talk through each step of the sales process, and Jen shares what you should be doing and saying at every step. We go through how to find your first set of leads, how to reach out to them, what to say in your message, how to structure your first sales call, how to get through procurement, and how to get that final signature.
 
-(00:01:55):
 **Jen Abel** (00:02:27):
 Thanks, Lenny.
 
@@ -47,14 +46,14 @@ It's my pleasure. Many people have recommended you come on this podcast. I'm exc
 **Jen Abel** (00:03:29):
 Founder led sales is really that first milestone that a startup goes through on the commercial side, which is, how do I go out and get my first few customers? Some people might say zero to one, which is, how do I get my first million? Others might say, how do I go out and get my first 10 customers? It's all kind of in the same vein. And founder led sales is really, really, really important because in the very, very, very early days, when there is no brand equity, when there is no marketing engine running, when there is limited to no reference ability, the founder is the product, right? Because the product is still, could be abstract, could be an MVP or in it's really early formation. So the founder is the product. When people say, well, what does that even mean? It means that you are a subject matter expert on something highly specific.
 
-(00:04:23):
+**Jen Abel** (00:04:23):
 You have studied, you have experienced something that most of the market hasn't even had a chance to maybe see or visualize yet. So you have this novel insight that you are building a business around. And it's that novel insight and the way you see the world that gets the market excited, in absence of a product. And that's actually happens even before you even show the product. So founder led sales is how do you bring the founders vision into the world and have the market, and understand what part of the market accepts it, and then what part of that vision are they accepting? So it's aligning the founders vision with the market reality.
 
 **Lenny Rachitsky** (00:05:01):
 **Jen Abel** (00:07:06):
 Absolutely. I mean, it is the competitive advantage. I don't think people realize how much of a competitive advantage the founder led sales motion is, for three specific reasons. One is that the founder is the visionary. No one's going to be able to speak to it like they can. No salesperson, really no non-founder. The second is that they are the highest order in the hierarchy of the startup. It's the founder. So the market is excited to talk to a founder because they usually know something that the market doesn't know. And they want to learn and maybe they want to experience something differently. So being able to speak to the person that's running the vision, speak to the person that's crafted the vision.
 
-(00:07:50):
+**Jen Abel** (00:07:50):
 And then that third piece is that the founder can see something budding in a conversation that a salesperson won't be able to see. And it's those budding moments that's where all the gold lives. And I don't think a lot of founders realize that. Their day one market vision is never the same vision that takes them in a product market fit. And I say that all the time. It's these little budding moments where it's like I was able to get to that budding insight because I went deeper and deeper and deeper and deeper through these calls and these conversations, to fully refine how we want to go out and sell it. And only a founder is going to be able to see those things.
 
 **Lenny Rachitsky** (00:08:26):
@@ -93,10 +92,10 @@ Got it. So there's this intra call step. So kind starting about where it begins.
 **Jen Abel** (00:12:19):
 Yeah. And this is why that founder led sales piece is so important. One is when it's coming from the founder, it's an entirely different weight. You're like, oh, interesting. This founder is reaching out to me. Okay, I'm going to seek to go a layer deeper, knowing who is sending me this note. The second piece is this is why that novel insight, that technical insight, that business model insight that you've uncovered needs to lead here. People are inspired by a new way of thinking, usually something counterintuitive, something that's really different. I really try and stay away from better, because that's really hard to define, and better means something different to everyone. So if you can focus the messaging in a way that speaks to something that has a bit of shock value, or is counterintuitive, you'll get them to continue reading. So first and foremost, I usually like to open it with, which is why is this relevant for me in my role?
 
-(00:13:20):
+**Jen Abel** (00:13:20):
 Why are you reaching out to me? So first and foremost is relevancy. I think that matters even more so than personalization right now. I think it's so easy to personalize anything, and it can also come across as really stressed when you're like, hey, I noticed you were on such and such podcast, and that was when they were previously two roles behind. So I always say relevancy. If you can get to relevancy, that's the most important piece. The second most important piece is really getting to that level of differentiation or counterintuitive nature. So say something that would literally make them say what? Or that makes no sense. Maybe not that makes no sense, but what or how could that be? Or I've never thought about it that way. Or I actually don't fully understand what they're saying, but there's something there that's interesting. Get them to pause for a minute.
 
-(00:14:13):
+**Jen Abel** (00:14:13):
 And the most important piece is getting this done where, if they get it on their mobile phone, which everyone is looking at their mobile phone and on email, they don't have to scroll. So usually three to four sentences max. That also, that's how a founder writes. That's how an executive writes if you're selling top down. But most importantly, leave them wanting more. Don't say everything, don't even talk about the solution. Talk about the problem that you want to solve, and why it needs to be solved or why it's not good enough today. So those are the four main components. Just to reiterate, relevancy, bring some level of counterintuitive or really different approach to the conversation, focusing in on a problem that's predicated to them, and really concise.
 
 **Lenny Rachitsky** (00:14:59):
@@ -135,7 +134,7 @@ While we're on this topic. What's a good conversion rate of these sorts of cold 
 **Jen Abel** (00:16:51):
 Conversion rate is interesting. Because everyone's so focused on conversion rate. I get that in the beginning until you have some wins, you have to focus there. But I just want to reverse engineer it backwards a bit. Once you kind of have this, and I'll talk about it in a sec, which is win rate. Win rate is if I got Lenny on a phone call, and he went through the sales process, and I signed him up. And I spoke to 10 Lenny's and only Lenny R was the one that signed. That's one out of 10, that's a 10% win rate.
 
-(00:17:23):
+**Jen Abel** (00:17:23):
 So if you have a really high win rate, let's say 30 or 40%, you actually don't need as high of a conversion rate on the outbound, because you know if you get someone in the funnel, the throughput is very healthy. If your win rate is really low, you need that conversion rate to be much, much higher, because you need more and more and more at bats. So conversion rate is a funny thing. In the beginning I get it because you don't have a lot of customers going through the pipeline yet. But there's people focus on it in a little bit of a false sense because interest rate truly is also dictated by win rate. So I just want to specify that.
 
 **Lenny Rachitsky** (00:18:03):
@@ -144,7 +143,7 @@ That's a really good point.
 **Jen Abel** (00:18:05):
 I would say if you're doing a win rate around 15 to 30% and you need to carry, oh I don't know, a million dollar quota. I would say a healthy conversion rate from outbound probably sits around, when it's mature, around five to 7%. Sometimes it could be two to 3%. Sometimes I've seen eight to 15% because it's coming from the founder, and they're solving a really heartfelt problem. So interest rate is also predicated on the problem that the founder has decided they want to solve for, and their insight on that problem.
 
-(00:18:51):
+**Jen Abel** (00:18:51):
 And everyone wants to keep going back to, well, email rate is really low, email doesn't work anymore. LinkedIn, I'm not getting the connects I want. Yes, you can argue that the game has changed a little bit, but when a problem is truly being felt by the market, people will get on a call. People will respond. And if I can compare two engagements at a time that we're running, I see one where it's a 2% interested rate and then I'm seeing another one that's actually at 12% interested rate. And we're doing nothing different. The only thing that's different is the insight that the founder has on the market, which is a hard pill to swallow. And I know that's hard to hear too.
 
 **Lenny Rachitsky** (00:19:32):
@@ -201,13 +200,13 @@ Okay, so you mentioned clay and you kind of nerd sniped me there of just what to
 **Jen Abel** (00:23:28):
 So I say before you buy any tool, don't even think about tools. I feel like people turn everything into this complicated mess with all of the tools that they start integrating. And then they're engineers, I get it. So now they start to engineer these sales tools together and then they blast their market, and now they have 5,000 notes out in one day and their domain takes a hit. So I think before you even overthink about the tools right now, can you manually find 30 people that you want to spend 15 to 20 minutes writing a rock solid note to? Are there 30 people that you are deeply excited to learn from, that you are willing to invest 15 to 20 minutes to write a really thoughtful note? Let's just start there. So some questions. One, are they even discoverable? How hard is it to find 30 people?
 
-(00:24:21):
+**Jen Abel** (00:24:21):
 What have you noticed across those 30 people? Are there any interesting insights? Maybe it's the size of the team they work on, maybe it's the industry they're in, maybe it's the length of time they've been in their role, maybe it's their previous roles in their career. Are there some commonalities? There's always some level of a commonality usually in most cases. Okay, so now you're starting to collect some parameters. Just by doing this exercise, you're starting to collect some parameters around who you want to learn from and sell to. Now if you send out those 30 notes and you wrote them specifically, and you spend good quality of time on it. And you've hit them on email, you've hit them on LinkedIn, maybe even tried to call them, maybe you've sent them a Twitter DM, pulled out all the stops. How many people respond? 1, 5, 0?
 
-(00:25:15):
+**Jen Abel** (00:25:15):
 If it's zero, it begs the question, do you now want to do another 30 in a very similar fashion? Do you want to change the messaging a little bit? Now it forces these natural experiments. Or do you want to maybe go after a different role? So it forces you to answer these questions in a very manual way before you even think about integrating and spending time on tools. And then you get to a point where it's like, okay, now I'm starting to get some learnings and now I've realized, okay, it's this group of people, I've spoken to maybe two or three, now I want to go out and actually build a campaign to now talk to the next 10 to 15 people in that group. Truncate this as much as you can because I think people focus so much on volume in the beginning.
 
-(00:26:06):
+**Jen Abel** (00:26:06):
 Even if you're selling down market, mid market, enterprise, volume comes once you've identified it and know the parameters. Parameters then allow you to do really strong enrichment with a clay. You now know the types of questions to give it. If you're not asking it the right questions, these enrichment tools, these sales tools will yield nothing. So it all comes back to even before you start your sales call, you need to make sure you're asking the right questions with am I even engaging, or do the people that I want to learn from or sell to, am I even messaging them in the right way? Are they even the right person? And the only way you can do that is by actually truncating these little experiments.
 
 **Lenny Rachitsky** (00:26:49):
@@ -288,7 +287,7 @@ Okay, amazing. So we talked about how to figure out who to go after, how to pitc
 **Jen Abel** (00:31:15):
 One is you need to be vulnerable. You're an early stage startup, okay. The market, we're at a point now where the market is smart. I always assume that the buyer I'm speaking to is highly educated and knows way more than I do. So just have that perception because what I've learned is a lot of the market will play dumb, and you can get yourself caught pretty quickly. So when you speak to them, I would be very open and honest with where you are. Hey, I'm an early stage startup. We are deeply passionate about solving this specific problem. We have a lot to learn. Here's how we are thinking about it from a problem priority perspective. Can we gain your insight into how this problem is manifesting on your side? And then let them open up. Now you have them one, talking about the problem. Now you're getting the intel about their perception of the problem, and is it even a problem? When you say you're early stage and there's still a lot to be done, it is easier to be honest.
 
-(00:32:20):
+**Jen Abel** (00:32:20):
 If you tell them you have a fully baked, ready to go product, they're not going to give you honest feedback. It's very hard to say to a founder and look them in the eyes and say, hey, we built this product, can I show you what it is? You're just going to get someone that's going to say, oh, this is great, this is wonderful. But when you're vulnerable and when you tell them it's not fully built yet, even if it is, you will get more raw and honest feedback. Because it is easier to tell someone, hey, before you make this mistake, I actually don't care about that. If you've already built it, they're not going to give you that feedback. So the further you suggest you are, you're actually going to hamstring a lot of the intel, hamstring yourself on gaining a lot of the intel. So that's one counterintuitive thing that I think a lot of founders don't realize.
 
 **Lenny Rachitsky** (00:33:07):
@@ -397,7 +396,7 @@ Okay, cool. Talk about that.
 **Jen Abel** (00:43:16):
 In the early, early days, one of the biggest ways you can get folks excited is it feels like it's going to be built specifically for them. The power of specificity, the power of being extremely focused. With that, you can literally turn a customer into a guide by asking them to co-author the scope. The scope of work. The co-authorship piece is important for two reasons. It helps you understand where they're on their biomaturity. Let me explain. If they do not have an existing process or strategy to solve X problem, they can't buy a technology yet, which means you need to sell them. And this is why I go back to you need to sell them some form of a service, right? Why? You want to be the one in there educating. You also want to get the logo. You also want to show the revenue. While it's not recurring revenue, it still shows intent.
 
-(00:44:13):
+**Jen Abel** (00:44:13):
 And I think that that's really important. Every founder I speak to is like, well, my investor really doesn't want service-based revenue. That's fine. But then you can also tell your investor, great, should I wait 18 months to when they're ready to buy a solution, and be the one that's not the one selling them because someone else educated them? These are all of the implications of waiting. So yes, is service-based revenue great? No, we all know why it's not great. But it's great in the sense that it shows intent. It's great in the sense that you can call them a customer. It's great in the sense that now you can use their logo. And it's great in the sense because you are getting paid to educate them. You are getting paid to help them design their process. This is where all the power lives. And this is why so many AI startups a year and two years ago were going in on services contracts, because they wanted to set the mindset with the buyer around what this would look like.
 
 **Lenny Rachitsky** (00:45:07):
@@ -406,10 +405,10 @@ Is there anything you recommend to time box contain the services piece? Because 
 **Jen Abel** (00:45:12):
 Yes, such a great point, Lenny. You absolutely need to time box this. I would time box it as 90 days and then what you can say in the next 90 days, we'll scope where we are and what you need. Scoping out more than 90 days, listen, so much is going to change. You might also not want to do it anymore, so you don't want to lock yourself up. So I would look at 90 day increments. A specific example. We had a founder that my colleague was working with, and they were selling a very specific technology to a non-traditional... Sorry, a very traditional industry. I don't want to be two bleeding with what it is, but a very traditional industry that's not used to working with startups, or necessarily plugging in a new technology right away. And they were very honest. They said, listen, we haven't changed vendors or partners in over five or six years.
 
-(00:46:04):
+**Jen Abel** (00:46:04):
 I actually don't even know how we would do that today. Could you come in and explain to us, understanding where our workflow is and how we would integrate this, before we even consider the technology? Which we did. We got paid a nominal amount, but we're now a customer and now we get to set the stage for how they think about this. And then they won the technology contract. But everyone is so focused on selling the technology really, really, really quickly. That works in markets that know how to buy that technology, have a process in place, have a strategy in place, have an implementation team in place.
 
-(00:46:40):
+**Jen Abel** (00:46:40):
 If it's a new technology like AI right now, they need a strategy and process like who's the human in the loop? Is it them or is it you? How do we measure success? What does success look like? What risks should we be aware of? Our legal team's not even aware of all these risks. You want to be careful because legal can immediately, and procurement, can shut these things down if it seems too novel, where it's foreign versus they're so used to buying services, especially at market. It's their largest budget line item.
 
 **Lenny Rachitsky** (00:47:10):
@@ -472,7 +471,7 @@ Is that your advice there?
 **Jen Abel** (00:49:36):
 On the first call. Yeah. On the first call, my fundamental belief is that the demo is a bit of the only carry you control in the sales process, right? Once they see it, it's kind of like pitching an investor. Once they take a look under the hood, that dreaminess in their eyes, they're like, oh, I saw it. So leave them wanting more. And the demo is that, leave them wanting more. Even when you do a demo, don't demo everything. Leave it for a second call. Let them invest a lot of time in you. Again, if it's qualified. Preface that, if it's qualified. But everyone races through the sales process like let's do a demo call as quickly as humanly possible.
 
-(00:50:20):
+**Jen Abel** (00:50:20):
 Yes, that is important down market. That is important if you're selling a $3,000 tool, you absolutely want to be demoing as fast as humanly possible because it's a high-volume game. Upmarket, when you're talking about hundreds of thousands of dollars, you want to slow that down as fast as possible. Because you want to, one, make sure all of the right people are in the room. As soon as there's one lead on this, and if it requires other people involved, it doesn't feel like anyone else's baby. So you want it to make it feel like the group's baby versus this one individual's baby because it's very quick. Someone can easily say, I'd rather use this tool. And then there's this stalemate of nothing happens.
 
 **Lenny Rachitsky** (00:50:55):
@@ -481,13 +480,13 @@ Just to maybe reiterate, so far we've talked about figure out who to talk to, pi
 **Jen Abel** (00:51:14):
 Yeah, so if you are selling upmarket and you now need to go to procurement, who is the group involved in the bot. They're the professional buyers. Procurement is a very interesting function. They are very smart, very, very smart. They do this for a living. They are professional buyers. So there's a couple things that you need to be aware of. You need to sell them as well. You need to really make this sound... Don't over complicate it. Don't add in jargon. Make it feel like, okay, I can wrap my head around this. The second piece is it's got to feel different from anything else out there. Because the professional buyer, it's much easier to say, wait a second, we have these 17 other preferred vendors that do similar ish work. Why don't you just go use one of them? Because, oh, by the time this gets through procurement, it could be another three to four months.
 
-(00:52:05):
+**Jen Abel** (00:52:05):
 I've seen deals die on the vine because procurement actually suggested they go use another vendor in the system, that this buyer wasn't even aware of, because they didn't differentiate. It didn't feel different. It just felt slightly better. That's how it was positioned. The third piece is when you get to procurement, you're going to have to do all the work. Make their job easy. You are probably a very small piece into the very large deals that a lot of these people buy. So you can get easily sidelined just because you're just a small buy. So do the work for them. Literally say, I want to make this as easy as possible for you. Give me the forms that you need to fill out. I'll fill them out for you, and you can do it yourself. You can edit them. Do the lift for them. If you don't, it's so easy for it to just go there and die.
 
-(00:52:55):
+**Jen Abel** (00:52:55):
 Another piece that's important with procurement is explaining exactly what you do and don't do. Because if you say you do a bunch of things and they can't really place you, they're going to send you to the kitchen sink of contracting an MSA, which is going to ask you for $5 million in an insurance policy and all sorts of other things. And the ability to look at your book at any point in time. And the reason they did that is because they can't classify you. So the easiest thing to do is classify you as high risk. So make it easy for them, make it simplified. You can also truncate your contracts, meaning let's say IT is maybe, and you want to ask this, how long does it take to get through IT due diligence? They might say, oh, it's a 90-day backup, it's a 60-day backup, it's a 30-day backup.
 
-(00:53:43):
+**Jen Abel** (00:53:43):
 There's no backup. If there's a backup, you also don't want it to die and you want it to give an incentive. So this is when you want to truncate contracts to a technology contract and a service contract. Service contract allows you to onboard them, get them prepped, come in and educate all of the users about what they're about to go through. So that then there's an incentive to get that technology piece through. There's all these little things to think about, and I think everyone... Getting to procurement is also creative. And knowing who you're dealing with and how to make their job as easy as humanly possible. Because what you said and what April said is spot on, which is buying is just as hard as selling.
 
 **Lenny Rachitsky** (00:54:23):
@@ -496,7 +495,7 @@ As I'm hearing you describe this, I feel like we might be discouraging people fr
 **Jen Abel** (00:54:35):
 Yes, I can get people very excited by this. Once you are in, you are in. Once you are in, you are now a preferred vendor. You now have the ability to cross over into other business units. You are now the reason that, hey, if your competitor comes in, well, you got there first. So what do you think procurement's going to say? This is why it's so important to get into the enterprise as fast as humanly possible. While it's a headache to get through, if you project manage it, you'll be good. If you make an accountability, just like if you were to go through fundraising. If you are a part of a team that had to raise money, it's no different. There's always some level of due diligence. There's always you doing more of the work than them. That's just enterprise sales. But if you prove value, your hundred thousand dollars deal could be $500,000 next year. Your $500,000 deal could be a million dollars the following year.
 
-(00:55:36):
+**Jen Abel** (00:55:36):
 This is where stuff begins to compound, and this is where your growth journey really gets accelerated. So the beauty with enterprise is once you're in, you're in. You beat out your competitor for a short period of time. There is a little bit of a moat there, but it's not forever. You all have intel that no one else will have. Meaning you're a part of the conversations, you have the badge, you can join the meetings, you can ask for introductions. They'll do it. It doesn't feel like sales anymore. You're now a partner. This is why it's so powerful to get into the enterprise because there's so many compounding effects. If you put the effort in on the sales side, the return is insane.
 
 **Lenny Rachitsky** (00:56:20):
@@ -505,7 +504,7 @@ That was awesome. Nailed it. I'm excited. Just for folks that are listening, jus
 **Jen Abel** (00:56:33):
 So I've been talking a lot about enterprise sales, which is I would say anywhere north of 500 to a thousand employees. Just mental model. I'm talking about enterprise sales specifically because there's so much nuance involved in it, because the user and the buyer are very different, right? As you go down market, let's talk about small business for a second. The user and the buyer are the same person. There's no procurement. If they like what you've built, it's pretty straightforward process. In the mid-market, mid-market is a funky place because you either are anchoring towards the lower end of mid-market, which is more upper end of small business, or you're anchoring towards lower end enterprise. Those are two very different divides. So mid-market, just if you're talking about lower end enterprise, again, this is all relative. If you're talking about lower end small business, again, your user and the buyer probably are the same person, which makes sales a lot more streamlined.
 
-(00:57:31):
+**Jen Abel** (00:57:31):
 But churn. Small business, challenge with small business is the churn. If they get pissed off, if they don't feel like it's good enough, they are gone faster than you don't even realize. And they might even tell you. They'll just cancel. And we always see this on Twitter. They'll call American Express and say, cancel these charges. I don't want to talk to these people anymore. They're just more irrational because sometimes maybe it's their money if they're a small business. So small business in mid-market, while sales is a bit faster, you really got to be on the product market fit side, worried about churn.
 
 **Lenny Rachitsky** (00:58:07):
@@ -532,10 +531,10 @@ Okay.
 **Jen Abel** (00:58:21):
 Okay. So as you enter procurement, okay, you want to know before you get to the next stage, who is signing this deal? Here are some examples of signers I've seen. Chief financial officer, chief legal officer, the business unit head themselves, the head of procurement. You want to know who that person is so that you can literally say to the head of procurement, hey, listen, I want to make sure this person has everything they need when they review this, to know what they're signing. Who is it and how can I give you a few bullets to share that you can maybe respond to, that we get tight so that they know exactly what they're looking at?
 
-(00:58:59):
+**Jen Abel** (00:58:59):
 This was two or three years ago, I was involved in getting a deal over procurement that was just truly, it was a pharmaceutical company and it was very, very long process. And we got to the finish line and the CFO was the signature. And this is when I made the mistake. CFO responds back to the procurement lead who sent it to the business unit, who sent it to me and was like, what am I signing? I don't actually understand what these people are doing and why are we doing this?
 
-(00:59:32):
+**Jen Abel** (00:59:32):
 So then she quickly said to me, hey, listen, we need to defend this. Can you put together some bullets? And I'm like, well, what kind of bullets do I need? What does this person care about? And again, it created so much anxiety and now I'm back in the bottom of the queue. Probably he or she's looking at the things that come in in an order of priority. So now I've elongated this by another month simply because I didn't plan. So this is just to say I'm learning from my own mistake of know who the signature is, because if they don't know what they're looking at, they're going to kick it out and you're going to lose your queue spot.
 
 **Lenny Rachitsky** (01:00:06):
@@ -574,10 +573,10 @@ Yeah, no, this is exactly what people need. This is amazing. And your pep talk w
 **Jen Abel** (01:02:26):
 So there's three things that dictate sales cycle. One is how well are you project managing it? For example, I'll say, let's have our second or third call in two weeks. Two weeks? Do a week. Why are you elongating this? Keep your calls as tight as possible because that shortens your sales cycle. The second is just how complex the organization is. If you're dealing with a highly regulated industry, just know it's going to take a bit longer, sometimes 20 to 30% longer. So a highly regulated industry, nine to 12 months on conservative, on the conservative side. Again, it's tricky because is there a budget line item dictated towards it yet, or are you creating budget? How painful is the problem? And how senior have you gone? If you're talking to the SVP or chief of whatever, they're pretty good at about being able to navigate the traps.
 
-(01:03:28):
+**Jen Abel** (01:03:28):
 If you're dealing with a director or mid-level person, they maybe have not purchased something before and just make some internal mistakes. I always say it can range anywhere. I've seen enterprise deals close in 90 days, believe it or not. Rare, but I've seen it. I've also seen enterprise deals typically take anywhere between six and 12 months. Really important but. Enterprises know that the process and the length to get the deal done is what costs more than the technology itself. Meaning the effort it takes to get through their system. That's why they're willing to spend so much. Sometimes that's actually more expensive than the technology itself. So don't negotiate with yourself, understand the value you're delivering, but don't be crazy. I've seen people try and go in with a million dollar deal as a seed stage startup. Oh, interesting thing. So interesting tactic. I've seen contracts in the enterprise that state that the deal cannot exceed more than 20% of the existing revenue.
 
-(01:04:39):
+**Jen Abel** (01:04:39):
 So there are these things just to be aware of. In most cases, you can ask them be like, is that a hard line? Is that hard, hard line? Or how negotiable is that? Sometimes it's negotiable. Sometimes it's like, no, this is a hard rule. But then it seems silly because you take a hundred thousand dollar deal and bring it down to 20,000. It's just be careful that you're stripping some of the value out. But I kid you not. I've seen an enterprise deal go from, it lands at 60 and it turns into 280,000 in four months. So again, I want to encourage, yes, this is a lot of work, but the payoff is exponential.
 
 **Lenny Rachitsky** (01:05:19):
@@ -664,7 +663,7 @@ So along those lines, I think a lot of people are just not... Like me included. 
 **Jen Abel** (01:12:13):
 If you have built something that you believe in. Very hard to sell something you don't believe in. I think everyone agrees that. If you've built something you believe in and they have a problem, that's a beautiful thing. Truthfully, that's what makes the world go around, is I have a solution to your problem. Now you just need make sure that the problem, you just need to be honest, that the problem they have, your solution truly can solve for. And you're not short selling just to get a logo and a deal over the line, and see them churn in six months or nine months or three months. That what you are selling is truly going to solve their problem. And be honest about it. I can't tell you enough when I tell someone, listen, I don't think I'm the right fit for you. They try and sell you on them.
 
-(01:12:58):
+**Jen Abel** (01:12:58):
 They're like, well, wait a second. Hold on. What if we did this, this, and this? And it's like, no, no, no. Here's what we're great at. And then they can say, well, I also need that too. And all of a sudden, this level of trust comes out. And trust is the number one currency in sales. If you are a trusted salesperson, people will recommend you all day and every day. If you're a trusted founder, your market will continually send you leads and word of mouth. So don't try and sell something just to prove to investors you sold something, because it'll be quickly seen on the other side when they churn.
 
 **Lenny Rachitsky** (01:13:32):
@@ -694,5 +693,5 @@ Lenny, this was awesome. Thank you so much for having me.
 **Lenny Rachitsky** (01:15:34):
 So awesome. So excited for folks to hear it. I've learned a ton. Okay, I'll let you go. Bye everyone.
 
-(01:15:41):
+**Lenny Rachitsky** (01:15:41):
 Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at Lennyspodcast.com. See you in the next episode.

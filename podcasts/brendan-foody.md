@@ -46,20 +46,19 @@ How can they leverage this technology to do so much more? We'll give people inte
 **Lenny Rachitsky** (00:01:24):
 Today, my guest is Brendan Foody, CEO and co-founder of Mercor. Mercor is the fastest-growing company in history to go from 1 to $500 million in revenue. They did this in 17 months, less than a year and a half. Brendan is also the youngest unicorn founder ever. They just raised $100 million at $2 billion valuation. Mercor, if you haven't heard of them, helps AI labs and AI companies hire experts to help them train their models using AI. They've never had a customer churn, their net retention is over 1,600%, and they're on a nine-figure revenue run rate.
 
-(00:01:59):
+**Lenny Rachitsky** (00:01:59):
 In our conversation, we talk about the increasing value and importance of evals, the landscape of AI training companies like Mercor, and why they've become so important and valuable, how Brendan discovered this opportunity, his insights on what product market fit looks like, the core tenets he's instilled within his organization that have allowed him to build the fastest growing company in history, what people writing evals for labs are actually doing day to day, which skills and jobs are going to last the longest with the rise of AI, why he doesn't think we'll see AGI or superintelligence anytime soon, and so much more. This episode is incredible. You need to hear this.
 
-(00:02:33):
 **Brendan Foody** (00:05:45):
 Thank you so much for having me, Lenny. I'm a huge fan, and so excited to have a conversation.
 
 **Lenny Rachitsky** (00:05:51):
 I'm really excited to have this conversation as well. I'm a huge fan of yours. I'm excited for more people to learn about you and what you're building.
 
-(00:05:57):
+**Lenny Rachitsky** (00:05:57):
 I want to start with a tweet that you have pinned at the top of your Twitter feed right now, and here's the tweet. "We are now working with six out of the Magnificent 7, all of the top five AI labs, most of the AI application layer companies. One trend is common across every customer. We are entering the era of evals."
 
-(00:06:19):
+**Lenny Rachitsky** (00:06:19):
 The reason this caught my attention is that's one of the most recurring trends on this podcast, people talking about the increasing value of learning how to do evals well and the value of evals for companies. It feels like still people don't know what the hell this is what we're talking about, why this is so important. Talk about just what you think people are still missing, what they need to know, what this era of evals means.
 
 **Brendan Foody** (00:06:39):
@@ -77,7 +76,7 @@ I saw you talking about this on the No Priors podcast with Sarah and Elad, and I
 **Brendan Foody** (00:08:32):
 Yeah. Well, it ties to what I said earlier about how if the model is the product, evals are the PRD, but also subsequently the sales collateral, right? Because evals are what you give to researchers to show them what they should be building and going on, but they're also the way that you demonstrate the efficacy of capabilities.
 
-(00:08:51):
+**Brendan Foody** (00:08:51):
 And historically, everyone's been pointing to these academic evals of PhD level reasoning with GPQA, Humanity's Last Exam, or Olympiad Math, but now it's moving towards the capabilities that people practically care about of how do we get models to automate the way that we build a software platform or automate the way that we do an investment banking analysis. And I think labs as well as application layer companies will increasingly use evals to demonstrate the capabilities of their models and their products.
 
 **Lenny Rachitsky** (00:09:26):
@@ -86,10 +85,10 @@ Okay. So let's build on this and zoom out a little bit and talk about the landsc
 **Brendan Foody** (00:10:06):
 Yeah, I'll give a little bit of the origin story, incorporate in that and how it frames the landscape. Because when we started the company, I met my co-founders when we were 14 years old. We started the company together when we were 19 initially, in January 2023, initially hiring people internationally, matching them with our friends and automating all the processes of how we did that. So similar to how a human would review a resume, conduct an interview, and decided to hire. We automated all of those processes with LLMs, bootstrap the company to a million dollar revenue run rate before we dropped out of college.
 
-(00:10:40):
+**Brendan Foody** (00:10:40):
 And then a handful of other things happened, but we met OpenAI and we saw that there was this enormous transition in the human data market where it was moving away from this crowdsourcing problem of how do you find low and medium skilled people that can write barely grammatically correct sentences for early versions of LLMs and moving towards this sourcing and vetting problem. How do we source and assess the best professionals, the experienced? Think software engineers, the investment bankers and doctors and lawyers that can actually help to evaluate and interpret all of the capabilities that people want models to have.
 
-(00:11:21):
+**Brendan Foody** (00:11:21):
 So from there, we start working with all of the top AI labs. We grew from 1 to 400 million in revenue run rate in 16 months, and it's been an extraordinary journey and super exciting.
 
 **Lenny Rachitsky** (00:11:36):
@@ -110,7 +109,7 @@ Okay, what are these people actually doing? So what's an example of a kind of pe
 **Brendan Foody** (00:13:19):
 Effectively, the market is bound by the amount of things where humans can do something that models can't. So I'll make that very concrete. Say you have a model that you want to write a red line for a contract in the way that a lawyer would, and it makes a handful of mistakes, misses a bunch of key points in doing so. What you could do is have a lawyer create a rubric similar to how a professor might create a rubric to create a deliverable for what are the things we want the model to be able to do?
 
-(00:13:50):
+**Brendan Foody** (00:13:50):
 So it can effectively score that, right? Plus however much of it identifies this or XYZ key point. And that's really the foundation to measuring what does progress look like for models? Is this model achieving the capabilities that these professionals want? As well as how do we use this as training data to reward and to reinforce a lot of the capabilities that people want models to achieve.
 
 **Lenny Rachitsky** (00:14:19):
@@ -125,13 +124,13 @@ Okay. So say this lawyer, this person is writing, "Here's what a great red line 
 **Brendan Foody** (00:15:22):
 They may. The data landscape historically has included two kinds of data. The first is supervised fine-tuning data, which is input/output. When people think about fine-tuning in the historical sense, that's what it is. The second is RLHF where the model will generate a couple of examples. We'll choose which is the most popular example.
 
-(00:15:43):
+**Brendan Foody** (00:15:43):
 What everyone is generally moving towards is reinforcement learning from AI feedback instead of human feedback where you have instead the human defined some sort of success criteria, some way to measure that. And examples in code, it could be a unit test. We can scalably measure success and other domains that could be a rubric. And then you use that to incentivize model capabilities. And it's far more scalable and data-efficient, and so that's why a lot of the broader trend in the market across the board is moving towards RLHF to both eval models as well as improved capabilities.
 
 **Lenny Rachitsky** (00:16:24):
 I had one of the co-founders of Anthropic on. He said exactly the same thing. That's what they've done at Anthropic, is move towards AI-driven reinforcement learning.
 
-(00:16:32):
+**Lenny Rachitsky** (00:16:32):
 So essentially, if I can understand this correctly, I'm the lay person here trying to understand this on behalf of the audience. So essentially a lawyer is like, "Here's what correct looks like for redlining," and then it's AI is just on its own almost, just like, "I'm going to try to get this. I'm going to try to improve on this and I know if I'm heading the right direction based on this eval/rubric I've been given."
 
 **Brendan Foody** (00:16:55):
@@ -143,10 +142,10 @@ Awesome, okay. Let me shift to talking about the broader labor market here. So t
 **Brendan Foody** (00:17:29):
 So the key question is how long there's going to be things in the economy that humans can do that AI can't do? And I think there's certainly a bucket of people that say we're going to have superintelligence within three years and humans won't play a role in the economy. And that's one school of thought.
 
-(00:17:46):
+**Brendan Foody** (00:17:46):
 Our perspective is very different. Our perspective is that these models are extraordinary and automating a lot of things very quickly, but there's a lot of things that they're horrible at. Even still, it can't schedule time on my calendar. It can't draft emails for me. It can't use basic tools. And we need evals for everything. For everything that the models can't do, we need evals for the tool use, evals for the long horizon reasoning.
 
-(00:18:12):
+**Brendan Foody** (00:18:12):
 Imagine in 10 years when we want models to be able to go out and build a startup for 30 days. We need evals for that to effectively reward it. And I think that that road to improving models will last for as long as there is anything in the economy that humans can do which models can't and be a huge portion of what the future of work looks like. And so our mission is creating the future of work, and I think that this is a really exciting industry and giving us a glimpse into the direction that everything is headed towards.
 
 **Lenny Rachitsky** (00:18:49):
@@ -161,7 +160,7 @@ What does that mean to you? What is this person implying? And it's basically wha
 **Brendan Foody** (00:19:06):
 It speaks to conversations I've had with a lot of researchers and executives at top labs, which is that it's highly likely that the entire economy will become an aural environment machine, building out all of these worlds and contexts for us to then have rubrics or other kinds of verifiers. And that is really exciting in so many ways.
 
-(00:19:32):
+**Brendan Foody** (00:19:32):
 Because I think let's draw an analog to other revolutions where when we had the industrial revolution, everyone was freaking out about losing their jobs, but there was this whole new class of jobs of how do we build the machines? How do we have knowledge work? How do we create everything new? And I think that the narrative in AI over the last three years has almost entirely been one of job displacement, right? Sure, there's ChatGPT is growing fast and it's very cool that everyone loves using it, but from an economic standpoint, people talking a lot about job displacement. But very few companies and people have talked about this new category of jobs that's being created and what that's going to mean and how people can prepare and upskill for that. And I think that the most exciting thing possible is creating that future of how do humans fit into the economy and how will that evolve over time?
 
 **Lenny Rachitsky** (00:20:22):
@@ -170,10 +169,10 @@ I talk to a lot of people about just what should I be studying? Where should I b
 **Brendan Foody** (00:20:47):
 In terms of jobs, I would respond with a category of things that have very elastic demand are going to be super exciting. Because when we make people 10 times more productive, we'll build 10 times, if not 100 times as much software as an example. And so I think the product managers that can now do so much more are going to be extremely well-positioned. And so far as the skills, I think it's people that can leverage AI to do whatever their day-to-day workflows are.
 
-(00:21:16):
+**Brendan Foody** (00:21:16):
 I have had a couple conversations with teachers where they get my thoughts on how they should be assessing their students because we originally started out curating all of these AI interviews and assessments for people and have thought about this immensely. And what we realized is that you don't want to fight against them using the models. It's similar to when the calculator came out, you don't want to give people all of this arithmetic work of how do you get them to do it and not use the calculator. You want to tell them, "Use the tools and let's see what you can do."
 
-(00:21:49):
+**Brendan Foody** (00:21:49):
 And so we'll give people interviews where we say, "Use ChatGPT and Kodak. Use Claude code. Use whatever tool cursor and whatever tools are available to build a website and let's see what product you're able to build in an hour." And so I think that I give that an example in so far as talent assessment because I think it pertains also to the skills that people should be honing in on of how can they leverage this technology to do so much more in whatever industry or vertical they're operating in.
 
 **Lenny Rachitsky** (00:22:17):
@@ -182,7 +181,7 @@ When you talk about elastic, being elastic, is it generalists being good at just
 **Brendan Foody** (00:22:25):
 So I more mean how much capacity for demand there is in that industry. So I'll give a couple of examples. In accounting, I think realistically we only need so much accounting in the world. Maybe there's areas where we can do more and that'll be good, but it doesn't feel like the world needs 100 times more accounting.
 
-(00:22:46):
+**Brendan Foody** (00:22:46):
 On the other hand, in software development, I think we can ship 100 times more features for our products, move 100 times faster, build so much more. There's just it feels like there's unlimited demand for the industry. And I think Mark Andreessen tweeted about this recently, that software is the most elastic industry of all where when we increase productivity, there's so much more that will be built. And it's definitely characteristic of a lot of other domains as well. And so I would focus on those domains where if we make everyone 10 times more productive, that'll increase demand, not reduce it.
 
 **Lenny Rachitsky** (00:23:23):
@@ -209,7 +208,7 @@ Let's talk about labor markets more broadly. You guys, so it's interesting thoug
 **Brendan Foody** (00:26:14):
 Yeah, it's interesting. I remember when we started the company, as I mentioned, we were 19, and just had this gut intuition that it felt so wildly inefficient that labor markets are so disaggregated. And what I mean by that is when we would hire someone internationally, they would apply to a dozen jobs. When we as a company in the Bay Area were considering candidates, we would consider a fraction of a percent of candidates that were available in the market. And the reason for that is that there was this matching problem that everyone's solving manually where they'll manually review resumes, they'll manually conduct interviews, and manually decide who to hire. But when we're able to automate that matching problem at the cost of software, it makes way for this global unified labor market that every candidate applies to and every company hires from facilitating a perfect flow of information in the economy.
 
-(00:27:08):
+**Brendan Foody** (00:27:08):
 And I think that that future is undoubtedly what we're heading towards, but what we've realized over time is that the nature of work is also changing dramatically. And part of building that future over a 10-year time horizon is creating that future of work and all of the more tactical things we do and building these incredible data sets across evals and RL environments for our customers.
 
 **Lenny Rachitsky** (00:27:35):
@@ -234,7 +233,7 @@ What's the scale of people just working on the stuff. It's like thousands, tens 
 **Brendan Foody** (00:31:53):
 Tens of thousands at any given time, hundreds of thousands more generally. It's huge. And the most exciting thing is that it's growing really quickly. I think that to your question also about the competitive landscape, historically there were all these crowdsourcing companies that would get these super high volumes of low-skilled people. I think Scale and Surge were the primary companies that pioneered that industry. And then in this transition to higher-skilled labor, what people realized is that actually you can go a lot further with just getting higher caliber people even in smaller amounts initially, and now subsequently scaling that back up once they're able to meet the quality bar.
 
-(00:32:35):
+**Brendan Foody** (00:32:35):
 And I think that there's a bunch of companies that after our success and very rapid revenue growth that started early last year have chased after that, which makes sense. And seeing that the market was changing very quickly, we were taking off, and trying to pursue a similar thesis on the market.
 
 **Lenny Rachitsky** (00:32:56):
@@ -267,7 +266,7 @@ Without announcing a new model?
 **Brendan Foody** (00:35:12):
 Exactly. Every couple of weeks versus others do these big releases. And so it depends a lot. We're behind all of them, but we move really fast. It would be a customer gives us a request of we need these award-winning screenwriters, and within 24 hours we'll turn around the experts. And then there's also this really interesting dynamic where in a set of 100 people that we hire, oftentimes the top 10% of people will drive majority of the model improvement. It's like a company. If you have 100-person company, oftentimes the top 10% of the company will drive majority of the impact. And what that means is that when we're able to build proprietary advantages in identifying who are those top 10% of people, both in so far as how do we have them on our platform but also identify and match them effectively, it creates so much value for customers that it's difficult to compete against.
 
-(00:36:08):
+**Brendan Foody** (00:36:08):
 And so it really does tie back to the founding thesis of the company, which is how do we find these extraordinary people and identify them so that we can reliably deliver these top 10% or top 10X experiences for our customers.
 
 **Lenny Rachitsky** (00:36:25):
@@ -318,7 +317,7 @@ I want to understand what you did to make this happen. So let me just ask, what 
 **Brendan Foody** (00:39:20):
 I think the most important thing is looking at the leading indicators in fast-moving markets. I remember when I used to think... Everyone in venture talks about the why now, and I used to think about the why now of how from a product standpoint, less from a market standpoint of now we can automate the way that we review resumes or the way that we conduct interviews, et cetera. But ultimately there is this legacy market that's has all these incumbents and it's relatively stagnant. But what matters a ton is actually figuring out what are the new markets, the new pockets of demand that are changing very quickly where the wealthiest customers in the world are willing to pay whatever it takes to improve model capabilities, and how do we focus on the leading indicators of those markets to make sure that we have the best solution for the flagship customers in the market and optimize everything around that.
 
-(00:40:18):
+**Brendan Foody** (00:40:18):
 And that's what I found has been most impactful in building the business. I think maybe that's one thing is leading indicators in markets. If I had to choose another, it's customer obsession. We have had for the last... We're starting to have a couple of product managers help out with go-to-market, but for the last year and a half of the business, we've had no one in sales and marketing. And so we're immature from a sales and marketing standpoint because we focused 100% of company resources on how do we build great products and experiences for our customers. Just getting word of mouth, the people that have worked with us at other businesses want to keep working with us and leaning into creating those great experiences. And so that's where I spend all my time. And I think that some founders can get caught up in how do they get really good at marketing before they've figured out the thing that really drives a lot of customer love and creates the six-star experiences that you're used to building.
 
 **Lenny Rachitsky** (00:41:19):
@@ -327,10 +326,10 @@ I'm going to go back to that first point, which is like, okay, you found this po
 **Brendan Foody** (00:41:31):
 So there's some crazy stories here. I remember we started the company as I mentioned in January 2023. And then in August 2023 when I was still in college, one of our customers introduced us to the co-founders of xAI over a Zoom call saying how we had these really smart Indian software engineers that were great at math and coding. So we met them and we explained how the software engineers we had were really good at math and coding because they weren't distracted by all the humanities. They didn't have to study history and English and all these other things, and they loved it. So they had us in two days later to the Tesla office and we met the entire xAI co-founding team except for Elon, while I was still a college student. And xAI was just getting started at that point and they were super excited about our focus on the quality of the experts.
 
-(00:42:22):
+**Brendan Foody** (00:42:22):
 And so while they were still doing pre-training, they weren't ready for human data at the time and we didn't start working with them at that point. We just knew from that point forward before we even dropped out that the market was about to change radically and we needed to be at the frontier of that. And so then fast-forward a few months, one of the crowdsourcing players came to us and actually used our platform to hire over 1,000 people where this is very interesting experience because we started getting flooded with support tickets about how those people weren't getting paid. And we obviously felt horrible because we had referred them to this opportunity. It was this reputable company. And we realized that a lot of the incumbents were resting on their laurels with respect to what was needed in the experiences they were creating for talent in their marketplaces to help improve models. And there was this opportunity to work directly with the labs in a way that kept the dignity of the experts in the marketplace, paid them extremely well, and cut out the middlemen.
 
-(00:43:31):
+**Brendan Foody** (00:43:31):
 And so we started doing that in May of last year, and then the rest is history.
 
 **Lenny Rachitsky** (00:43:37):
@@ -351,13 +350,13 @@ It's one thing to see this opportunity and start to execute on it. It's another 
 **Brendan Foody** (00:46:04):
 It totally is. So I'll give the three and maybe a brief story associated with each of them.
 
-(00:46:10):
+**Brendan Foody** (00:46:10):
 So the first one is having a can-do attitude, which everyone gives me a little bit of a hard time for because it's a funny saying, but we've always set these ridiculously ambitious goals, and then somehow the trajectory of the company forms around those goals. Where I remember when we were talking to Benchmark before they led our Series A, we were at 1.5 million in run rate. And I said we'd be at 50 million in run rate by the end of the year. And they said we were absolutely insane, right, as anyone would. And plus or minus two weeks, we hit it. And then we've now well blown past the tracking to 500 million in run rate, which was initially our goal for this year. So setting these incredibly ambitious goals with respect to the revenue scale of the business, the caliber of experiences for talent, all those dimensions is super important to first have a can-do attitude.
 
-(00:47:04):
+**Brendan Foody** (00:47:04):
 The second thing is really high standards, which is who we hire and what we expect of them. We have an incredibly high hiring bar where we hire tons of former founders, people that have incredible experiences. We just hired or partnered with Sundeep Jain who joined us as president. He was previously the chief product officer and chief technology officer at Uber and joined our relatively small in the grand scheme of things company to help scale up all the processes where Uber is of course the largest labor marketplace in the world. So super high standards is of paramount importance.
 
-(00:47:41):
+**Brendan Foody** (00:47:41):
 And then the third one that we really lean on significantly is intensity. And that if you look at the early cultures of the legendary companies, thinking of Meta or Google, they have these incredible, intense early-stage cultures of people just moving heaven and earth and doing whatever it takes to push the frontier of model capabilities. And so still very much output-oriented of what do people achieve rather than input-oriented of the specific hours they work, but recognizing that it takes a lot to build a legendary business, and that's ultimately what we're optimizing for.
 
 **Lenny Rachitsky** (00:48:18):
@@ -378,7 +377,7 @@ I know you also have this perspective that people talk about waiting to hire, to
 **Brendan Foody** (00:50:39):
 It's painful because it's a double-edged sword. On one hand, I'm thrilled that our first 10 people are so phenomenal and I think that that has paid dividends for the business. But on the other hand, I think that companies do get to the point where you just need to hire really fast. And there's some things where you need a lot of people to do them and you need to recognize that there's going to be some variants associated with hiring, but moving quickly is the priority.
 
-(00:51:07):
+**Brendan Foody** (00:51:07):
 And I think that in some ways, we move too slowly with how we scaled out the team. And so the benefit is that everyone is extraordinary. We have this super high bar and we want to maintain that over time. But I think the downside is that while the company has grown incredibly quickly, we likely could have grown even faster if we had moved a little bit more quickly with especially ramping from call, like 10 to 100 people.
 
 **Lenny Rachitsky** (00:51:37):
@@ -399,10 +398,10 @@ So these two companies you've started in the past, maybe share what they work be
 **Brendan Foody** (00:53:38):
 Yeah, so there's been like a dozen, but I'll choose my favorite two. So when I was in eighth grade, I started Donut Dynasty where I saw that Safeway Donuts were selling for $5 a dozen, and I was amazed because I felt like as an eighth grader, this was such an incredible deal. And I started to bike down to Safeway, buy Safeway Donuts for $5 a dozen, and then go back to my middle school and then sell them for $2 each, running really good margins of course. It sold out super quickly. And so then I need to scale up. So I would pay my mom $20 to drive me in her minivan down to Safeway, buy 10 dozen donuts, go to my middle school, sell them all out.
 
-(00:54:19):
+**Brendan Foody** (00:54:19):
 And then the school tried to shut me down because I was selling food on school campus, which they didn't like. So they had me in the principal's office asking me to not do that. And then I moved my donut stand over 50 feet, so it was off school campus, saying that they could no longer police me. I remember we had competitors pop up where the competitors were charging. They bought these Chuck's Donuts, which if anyone in the Bay Area knows, are higher end donuts than Safeway Donuts, but they have a higher cost basis. They cost a dollar per. And so I dropped my prices to $1 for two weeks to run them out of business before I knew what anti-competitive practices were. And I'd hire all my friends, paying my friends in donuts because they perceived the donuts as $2 each where they could sell them throughout the school and I could have a lower cost basis on them.
 
-(00:55:12):
+**Brendan Foody** (00:55:12):
 So I had all of these fun experiences in selling donuts, and then I could talk more about my high school business as well, which was a more significant scale. But I think the takeaway from that was just like you can just do things. So many people have ideas, but the barrier to more companies being built, I think, is just initiative and taking the steps to build the product or experience that customers want and investing the time and the ambition to scale that up. And so I think it was really getting reps of that that enabled me to realize that I should do it later on at a much larger scale.
 
 **Lenny Rachitsky** (00:55:51):
@@ -510,7 +509,7 @@ There we go.
 **Lenny Rachitsky** (01:02:23):
 That's really easy.
 
-(01:02:25):
+**Lenny Rachitsky** (01:02:25):
 Brendan, is there anything else that you wanted to share or touch on or maybe leave listeners with before we get to a very exciting lighting round?
 
 **Brendan Foody** (01:02:32):
@@ -573,7 +572,7 @@ I don't hide it at all. I think a lot of my colleagues know. And I think on one 
 **Lenny Rachitsky** (01:05:46):
 That's such a also recurring theme on this podcast of just focusing on strengths and not focusing over all your focus on weaknesses.
 
-(01:05:53):
+**Lenny Rachitsky** (01:05:53):
 Brendan, this was incredible. I learned so much. I have a billion more questions, but you got shit to do. Two final questions. What should people know about what you're doing and roles you're hiring for? And then how can listeners be useful to you?
 
 **Brendan Foody** (01:06:06):
@@ -588,5 +587,5 @@ Thank you for having me.
 **Lenny Rachitsky** (01:06:41):
 Bye, everyone.
 
-(01:06:43):
+**Lenny Rachitsky** (01:06:43):
 Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.

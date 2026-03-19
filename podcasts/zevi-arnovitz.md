@@ -37,20 +37,19 @@ It's the best time to be a junior, contrary to what a lot of people are saying, 
 **Lenny Rachitsky** (00:01:11):
 Today, my guest is Zevi Arnovitz. Zevi is a PM at Meta. Prior to that, he was a PM at Wix, and this is a truly remarkable conversation that every non-technical product person needs to hear. Zevi is super young and has no technical background, but as a smart, young, ambitious person, has learned how to use Cursor and Claude Code to build significant and real products completely on his own, and he's created his own very clever and effective workflow that everyone listening can copy.
 
-(00:01:40):
+**Lenny Rachitsky** (00:01:40):
 To make that copying even easier, at the top of the show notes of this episode, you can download all of the prompts and /commands and start doing all of this yourself. Zevi shows you how to work with cursor to quickly add your ideas to Linear to explore your idea with AI, how to develop your plan, how to then build the thing, and then have different LLMs review your code and update your documentation, and then use all of this as a learning opportunity to develop your own sense of how things work.
 
-(00:02:07):
+**Lenny Rachitsky** (00:02:07):
 I haven't stopped thinking about this conversation since we had it, and everyone needs to pay attention to what AI is unlocking for non-technical people. A huge thank you to Tal Raviv for encouraging me to meet Zevi. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube.
 
-(00:02:23):
 **Zevi Arnovitz** (00:04:56):
 Thanks for having me, Lenny. I'm a huge fan of the show and tons of people that I've admired most and learned the most from. I've been on here, so it's a crazy moment for me. I'm really excited for this.
 
 **Lenny Rachitsky** (00:05:06):
 I really appreciate that. I want to start by reading actually a note I got about you from Tal Raviv, who is a previous podcast guest, many times newsletter collaborator. One of the most AI forward product managers that I know I've learned a ton from him. So here's what he said about you when he introduced us.
 
-(00:05:23):
+**Lenny Rachitsky** (00:05:23):
 Zevi is the most hands-on vibe coding PM I know, and I've personally learned so much from him. His engineers at Meta ask him to teach them how to do what he does. Every time we get coffee, I repeatedly get this feeling of everyone needs to be hearing this.
 
 **Zevi Arnovitz** (00:05:37):
@@ -62,10 +61,10 @@ And so that's the goal. That's the goal of this conversation is to help more peo
 **Zevi Arnovitz** (00:06:05):
 I'm very non-technical. I have zero technical background. Did music in high school. A lot of Israelis do technology units in the Army. I was not in a tech unit. And basically a year ago, I was traveling with my wife for three months in Asia and we were in Japan and that was around when Sonnet 3.5 came out. And I remember watching a YouTube video. I think it was either Greg Isenberg or Riley Brown and they were basically building apps using, it was either Bolt or Lovable, just using AI.
 
-(00:06:39):
+**Zevi Arnovitz** (00:06:39):
 And it was like a crazy moment for me because I was watching this and it basically felt like someone came up to me and said, "Hey Zevi, there's this cool new technology you should check out. You should really give it a try. Oh, and by the way, you have superpowers now." And the second I got home from Japan, I didn't even unpack my bags, ran to my computer, opened Bolt, opened an account, and for the past year I've been building.
 
-(00:07:03):
+**Zevi Arnovitz** (00:07:03):
 And the last thing I'll say on that is we talked about this a bit before we started recording, but I was prepping with Claude for the episode and I was trying to clarify what my goal is for this episode. And Claude said, "If people walk away thinking how amazing you are, you failed. And if people walk away and open their computer and start building, you've succeeded." So I really hope that we can inspire some people to do the same.
 
 **Lenny Rachitsky** (00:07:27):
@@ -86,25 +85,25 @@ ChatGPT projects?
 **Zevi Arnovitz** (00:08:03):
 Yeah, exactly. GPT projects and Claude projects, which are basically a shared folder of chats which share both custom instructions and shared knowledge base. And I think it was around when GPT started using memory where I thought it was interesting, but it really annoyed me because I do a bunch of different things. I'm a terrible runner, I'm a PM, I was a student, psychology student, so I had all these different facets of life. And what happened was the memory feature was mixing stuff up.
 
-(00:08:39):
+**Zevi Arnovitz** (00:08:39):
 So like I talked to GPT about running and it would say, "Oh yeah, after this 5K, you're going to crush all your next product reviews." And it's like, okay, I understand that you have that in your memory, but it's just not relevant. And projects basically allows you to compartmentalize and have things within the right context. So tracking back to the story I told when we came back from Japan, I started building this app.
 
-(00:09:05):
+**Zevi Arnovitz** (00:09:05):
 The first thing I noticed was that these products were built in a way where, and when I say these products, I mean Bolt and Lovable, were built in a way where they were super eager to write code. So their system prompt was you're a coding agent. So when you'd write something, they'd straight away start coding. So at the beginning of a project, this was super fun and exciting because they just go and start building your app.
 
-(00:09:27):
+**Zevi Arnovitz** (00:09:27):
 But later on when things got more complex, this created much more problems because planning is really important when you're implementing something technical and let's say you're implementing payments or something that's going to be a change to your database. If the coding agent is just like, "All right, I got it." And just starts writing code, this always results in terrible things, some really gnarly bugs that I had.
 
-(00:09:51):
+**Zevi Arnovitz** (00:09:51):
 And to mitigate this, what I did was I created sort of a CTO. So again, I'm not technical. I have been in product for a while, but I know zero stuff about code. So basically what I did was I created a CTO with the custom prompt of it being the complete technical owner of the project. So I told it, "I own the problem. I own how we want the users to feel. You're the complete owner of how this is going to be built. I want you to challenge me. I don't want you to be a people pleaser."
 
-(00:10:24):
+**Zevi Arnovitz** (00:10:24):
 All these things that kind of mitigate the regular ChatGPT-isms. I always think about this where for some reason, the easiest way for me to think about AI is to imagine it as people. And I think ChatGPT would probably be the worst CTO because it's such a people pleaser and it's so sycophantic where ... Just a short story I had a few weeks ago, I was trying to learn about Bun JavaScript, which was acquired by Anthropic and I was trying to understand what they do.
 
-(00:10:54):
+**Zevi Arnovitz** (00:10:54):
 So I was talking to GPT and this wasn't within my co-founder CTO project and I asked it if it's similar to a different framework that I have in my app called Zustand, which nothing to do at all with what Bun JavaScript does. And basically GPT goes, "Oh yeah, it's exactly the same." And then it started talking about what it meant and I was like, "Wait, no, these are not the same at all." And it said the most terrifying and hilarious thing.
 
-(00:11:22):
+**Zevi Arnovitz** (00:11:22):
 He goes, "Oh, I'm sorry. I thought you were just making this up and I was riffing with you." And I was like, "Oh no, no, no, this is terrible." So basically if regular ChatGPT was a CTO, that would be the CTO who goes along with your dumbest ideas. So creating the project allowed me to mitigate that.
 
 **Lenny Rachitsky** (00:11:40):
@@ -113,10 +112,10 @@ So this is, just to be super clear, you have a ChatGPT project that you've given
 **Zevi Arnovitz** (00:12:00):
 Yeah. So now I'll show my full workflow and I don't involve GPT anymore, but I definitely would recommend, even though the technology has gone ... So when I started this, there was no plan mode or ask mode. It was just build on these products on Lovable and Bolt, and they've progressed a ton. A lot of what I had as workflows have become ingrained in these products, which is really interesting.
 
-(00:12:24):
+**Zevi Arnovitz** (00:12:24):
 I would still recommend start with a project for, first of all, the reason that I said, and also it kind of puts you in a place where you're in a chatbot and not writing code. So you take the time to converse and to learn, which I think is critical. And the second thing is if you're non-technical like me, code is terrifying. It's the scariest thing in the world to look at, and I look at it as kind of like exposure therapy.
 
-(00:12:49):
+**Zevi Arnovitz** (00:12:49):
 I think if you see this where I'm working like in Claude or in Cursor, you might be excited to start using those, but I would really recommend starting slow with a GPT project, beautiful UI, super simple, then maybe graduate to like a Bolt or a Lovable, and then go to Cursor in light mode, slowly, slowly, gradually ease in until you open a terminal, go full dark mode, go full dev. So I would really recommend doing this gradually.
 
 **Lenny Rachitsky** (00:13:19):
@@ -131,7 +130,7 @@ You can do exposure therapy, and I love that Cursor is useful to you. And what y
 **Zevi Arnovitz** (00:14:02):
 Yeah, I think I graduated from each tool when I kind of outgrew it. So Bolt was awesome until I was trying to connect payments to my app and I kind of started losing it and then I graduated to Cursor and I've actually fallen in love with Claude. So I'm using Claude Code, but that also runs within Cursor, and I think this is Tal who told me this.
 
-(00:14:22):
+**Zevi Arnovitz** (00:14:22):
 I'm not sure who he's quoting, but code is just words at the end of the day. So it's just files on your computer. So basically you can be working on the same project and carry it from app to app. And especially now, I can work with multiple models and apps on my project. So start slow, but definitely there's a lot of places you can graduate to.
 
 **Lenny Rachitsky** (00:14:42):
@@ -146,25 +145,25 @@ Mm-hmm.
 **Zevi Arnovitz** (00:14:50):
 Perfect. So within my code base, what you can see here on the left, these are all my code files. Here on the right is Cursor. So this is basically like having AI, which has access to all the code. And here in the middle, I have Claude Code running. And what you can see here, I'm going to close cursor for a second. What you can see here are all my /commands.
 
-(00:15:10):
+**Zevi Arnovitz** (00:15:10):
 Basically what /commands are, they are reusable prompts that I save within the code base that I can run by writing / and then the name of the file. So here you can see Create Issue, which is the first command that I'm going to use. And basically what this tells Claude, it says the user is meant development and thought of a bug or a feature and improvement, capture it fast so they can keep working.
 
-(00:15:32):
+**Zevi Arnovitz** (00:15:32):
 And then it basically says, this is the format that I want you to capture the linear issue in, and it explains a bunch of things what exactly Claude needs to do to get there. So the way I invoke this is basically I'll do /create issue and this injects this prompt into Claude. So it says, "I'm ready to help you to capture this issue, what's on your mind."
 
-(00:15:56):
+**Zevi Arnovitz** (00:15:56):
 So basically when I'll do this is if I'm working on a big project and I suddenly come across a bug or have an idea that I don't want to work on right now, but I want to work on later, I'll do this really quick and Claude's main goal is to quickly capture what I'm thinking about. So quickly to run through my full workflow. So basically it starts with creating an issue. So this is the create issue /command, which basically tells Claude that I'm mid-development and it should quickly capture what I'm thinking about and create an issue within linear.
 
-(00:16:26):
+**Zevi Arnovitz** (00:16:26):
 Then later on, when I want to pick this up, I have the exploration phase. Exploration phase is basically telling Claude, we're going to only explore what we want to solve here. It could either pull from linear or I can just speak freely to it. And what it will do is it will analyze and understand the issue and just ask clarifying questions. The next phase after we've done finished exploration phase is we're going to create a plan.
 
-(00:16:50):
+**Zevi Arnovitz** (00:16:50):
 So you can see create plan. This basically has a template that I love for creating plans, and the output of this at the end of the day will be a markdown file with our plan that we can end up building along with code. After creating the plan, we have execute plan. After execution, we have review and then we have peer review, which is really cool and we'll get into later on, and at the end, we update the docs.
 
-(00:17:14):
+**Zevi Arnovitz** (00:17:14):
 So this is updating documentation and everything so that agents can write better code later on. So I think what we'll do is we're going to build a feature live for my app, which I think is really cool. But first what I'd like to do is show you the app so you have some context. So this is StudyMate. It's a platform for students, which allows them to upload study materials and create interactive tests based on their own materials.
 
-(00:17:40):
+**Zevi Arnovitz** (00:17:40):
 So here we can go to the top. Let's upload a PDF. We can decide what pages we want to be quizzed on. We can decide the number of questions, the difficulty level. And basically what happens behind the scenes is we send the information the user uploaded along with the system prompt and any other augmentations the users decided to Gemini and we create a quiz. These are challenging questions that are meant to assess comprehension. You even have some hints and once we do a few of these, we can submit ... I got them right?
 
 **Lenny Rachitsky** (00:18:21):
@@ -200,19 +199,19 @@ That's also from the product pass.
 **Lenny Rachitsky** (00:20:04):
 From the product pass. Oh my God, what a value? Okay. So step one is create the issue in linear. So it's a command. So this prompt /command you've created, just create issue. Then it's explore, which is explore the idea, help me ideate on what this could be. And this is Claude helping you think through the feature and product. And then it's actually create the plan.
 
-(00:20:26):
+**Lenny Rachitsky** (00:20:26):
 And so it's like the AI helping you build the plan to build the product. Then it's actually execute, which is just build the thing. And then there's this review, peer review step, which is awesome that you'll share. And then there's document, update documentation based on the new feature that we're adding. Sweet.
 
 **Zevi Arnovitz** (00:20:44):
 Yeah. Cool. So let's go ahead and start building. So I'm going to use Wispr Flow to dictate and basically this starts with /create issue. So this basically sends that prompt. And I love this because I usually do this during when I'm building something else. So basically it tells Claude that I'm mid building something and I don't have a lot of time to waste time on this.
 
-(00:21:12):
+**Zevi Arnovitz** (00:21:12):
 So just ask some brief questions so that you have enough to capture within linear. So I want to add fill in the blank questions to StudyMate. I want this to be 30% of tests to be generated as fill in the blank questions. I want there to be six potential answers for two blank spots, and of course there's only going to be two correct answers. So one correct answer and two incorrect answers for each spot and I want the interface to be drag and drop.
 
-(00:21:43):
+**Zevi Arnovitz** (00:21:43):
 So that's just basically a quick think of how I want this to work. So it's going to ask me a few questions. Quizzes are 100% multiple choice, question structure, single sentence passage to blanks and priority. So one and two are correct, and this is not high priority. It's a nice to have feature.
 
-(00:22:10):
+**Zevi Arnovitz** (00:22:10):
 So now basically what Claude is going to do is it's going to use MCP, which is basically a technology that was created by Anthropic, which gives AI the ability to use tools. So this is connected to my linear. So what it's going to do now is it's going to use everything we've said and create an issue within Linear.
 
 **Lenny Rachitsky** (00:22:30):
@@ -221,10 +220,10 @@ And by the way, as this is loading, I just love the way, the way you described t
 **Zevi Arnovitz** (00:22:43):
 Yeah. So at first when I was doing this with the CTO, I would do it with ChatGPT voice mode, and that was crazy. That literally felt like ideating with a person. It would push back, ask questions, and maybe one day the coding tools will get there too, but that was exactly ... It really felt like sitting with my CTO. Great. So created STU88. So if we open up Linear now, we should be able to see ... Let's see where STU88.
 
-(00:23:14):
+**Zevi Arnovitz** (00:23:14):
 There it is. Fill in the blank questions with drag and drop interface. So it has a TLDR, it has the current state. It did a little bit of research on the code base, I think, expected outcomes, some context. So yeah, so this is basically ready for me to pick up when I'm interested in building. So now let's say a few days go by, I finished the current project I'm working on, I can pick it up.
 
-(00:23:36):
+**Zevi Arnovitz** (00:23:36):
 So when I pick it up, I do /exploration phase, which is what we said. And then instead of pressing enter, I'll press tab and I'll show you this. So basically, exploration phase, what it does is it will take an argument. This is basically a placeholder within the prompt, which allows me to enter something that is extra context for the AI. So I can say here, Linear STU88, which is referencing the ticket. And now what it's going to do is it's going to go, it's going to fetch the Linear ticket.
 
 **Lenny Rachitsky** (00:24:12):
@@ -263,7 +262,7 @@ Cool. One last question before we move on here, just because I'm thinking about 
 **Zevi Arnovitz** (00:26:08):
 It's completely different because I'm a company of one. So a lot of the context is within here and there's no need for me to talk to other teams and understand. It's basically very accessible, and also I can easily see when Claude understood something wrong.
 
-(00:26:26):
+**Zevi Arnovitz** (00:26:26):
 I don't want to say that I would create Linear issues at work like this, but definitely if you're building your own side project, they're pretty quality. And also, it just kicks off when I want to start working on it. I wouldn't say it's ready to be built. It's ready to start being explored.
 
 **Lenny Rachitsky** (00:26:44):
@@ -278,10 +277,10 @@ Let's come back to that.
 **Zevi Arnovitz** (00:26:59):
 Cool. All right. So this is Claude coming back. I have a comprehensive understanding of the code base. I thoroughly analyzed StudyMate live codebase and understand the current system, feature quest and key areas that it's identified. Usually I'd spend a lot of time going over this because this is super, super important, but just for the sake of development right now, we're going to brush through this.
 
-(00:27:22):
+**Zevi Arnovitz** (00:27:22):
 Now Claude basically comes back after it's gone through the code base and understood the way it currently works. It's basically telling me what the current understanding is. So it's talking about how the app is set up at the moment, how the data is structured, what it understood from the feature quest, and what it has identified as key areas, and then it asks me some questions.
 
-(00:27:46):
+**Zevi Arnovitz** (00:27:46):
 So it's asking about the scope, it's asking about the data model, the UX/UI of the feature, how it should be validated, how it should be graded, what changes need to be happened to the AI system prompt and all kinds of questions about the app. I've prepared answers to all these questions beforehand because I don't think we all want to sit through this. So I'm just going to paste that in and we'll see what Claude says.
 
 **Lenny Rachitsky** (00:28:08):
@@ -290,22 +289,22 @@ Awesome. I love it. And I love just scanning those questions I was asking. It's 
 **Zevi Arnovitz** (00:28:18):
 Yeah, and I think this is the big difference between just vibe coding and going along with the vibes and really building serious apps. I spend a lot, a lot of time going back and forth and understanding. Also, a very cool /command that I haven't showed yet is learning opportunity, which basically when something is really difficult for me to understand, I'll do /learning opportunity and then talk about what I want to learn.
 
-(00:28:44):
+**Zevi Arnovitz** (00:28:44):
 And this basically primes Claude and says, "I am a technical PM in the making. I have mid-level engineering knowledge. I understand architecture and basically I want you to explain what we're currently working on using the 80/20 rule." So this is a great way to learn. I would definitely take this and every time you kind of see something that you don't fully understand, I would definitely use this to learn.
 
-(00:29:08):
+**Zevi Arnovitz** (00:29:08):
 Great. So Claude basically comes back and says how it understands the current data model and how it's going to implement. Yeah, so it's ready to create the plan. So basically what I'm going to do now is I'm going to go and do /create plan and while Claude is doing this, I'm going to show really quick what this looks like. So basically, these plans are from a template that I found on Twitter.
 
-(00:29:36):
+**Zevi Arnovitz** (00:29:36):
 I forgot who it was, but it was just a template that really resonated with me. And it's basically saying, based on our exchange, create a markdown file that will be the plan, include clear, minimal, concise steps, track the status. So this basically has like status trackers on each task that Claude updates as it's going through and it will have a TLDR, some critical decisions that we've made and the plan itself.
 
-(00:30:00):
+**Zevi Arnovitz** (00:30:00):
 So Claude has finished writing the plan, so we'll be able to look and see exactly what the plan is. So it has a TLDR, it has the critical decisions we've made and the tasks broken down. And this is a perfect plan and it's also a really good way to write this because a lot of times, I'll use different models to execute certain stuff. So Cursor has an amazing model called Composer, which is superfast. So a lot of things that are not that complex, I'll use Composer.
 
-(00:30:31):
+**Zevi Arnovitz** (00:30:31):
 Gemini 3 that just came out is unbelievable at UI. So a lot of times, I'll split the plan into backend and front end, and then I'll have Gemini just read the plan and do the front end. So having this as a markdown file is really good. And also going forward, it's really good to have within the app so that later on, if an agent is writing code in a certain area, I can see what's already been done there.
 
-(00:30:54):
+**Zevi Arnovitz** (00:30:54):
 So what we're going to do now is we're going to execute the plan. So now I think we're going to do this with Cursor just because Composer is so freaking fast. So what we can do is basically just say execute and then we can tag the file. And Composer is ridiculously fast. So that's it. It's off. It basically understands what the plan is and it's going to go ahead and start writing the code.
 
 **Lenny Rachitsky** (00:31:20):
@@ -320,10 +319,10 @@ I have many questions, so this is a good time to ask a few of them. You said tha
 **Zevi Arnovitz** (00:31:42):
 I started using Cursor and Claude Code a few months ago and I haven't looked back, but at that time, these teams have been moving like crazy. So I don't want to say I wouldn't trust them. I don't know what the current state is. But for me, it was basically the issue of I felt that Bolt was being very opinionated on how I should do things. And I felt like my knowledge has gotten to a point where I can graduate and be more in control.
 
-(00:32:11):
+**Zevi Arnovitz** (00:32:11):
 By the way, I think that the main difference between all these tools is basically the harness. So the models are all the same models. I'll run Claude within Cursor, I'll run it within Claude Code, and it's also the models that Claude is also the model that is underlying Bolt and Lovable, but basically, Bolt and Lovable will add a bunch of levels in the middle that will take all kind of guesswork and hard decisions out for the user.
 
-(00:32:37):
+**Zevi Arnovitz** (00:32:37):
 So the user doesn't have to make these hard decisions. So it's also very easy to build, but the flip side of that is that you have less control. And basically Claude Code is just taking Claude and shoving it straight in your code system and giving it full tools and to do whatever it wants, but also with that comes a lot of decisions that you need to make. So I don't know if you can't build really amazing production apps using Bolt or Lovable now, but I think basically if you want the most cutting edge abilities of the models and you want to be able to make all the decisions on your own, it's probably best to be on one of these tools.
 
 **Lenny Rachitsky** (00:33:13):
@@ -362,10 +361,10 @@ Okay. I just love how this is like the way you're like flinging, what's the word
 **Zevi Arnovitz** (00:34:48):
 Yeah. We just live in the craziest of times where basically the world changes once a week, it feels like. And there is just no boundaries. You can use all of these just on your regular MacBook or regular laptop. And I have these moments, I call them time machine moments, which is basically this week, for instance, I was prepping for the podcast using Claude with a project.
 
-(00:35:17):
+**Zevi Arnovitz** (00:35:17):
 I was building, I was fully localizing StudyMate from Hebrew to English, which I did in two days, which would probably take a dev team weeks. And I was building a personal site, which went from no domain, no nothing, to live on a domain within an hour and a half. And I was doing all three of these in parallel. And there was a point where basically all three of the agents were running, so I didn't have anything to do.
 
-(00:35:41):
+**Zevi Arnovitz** (00:35:41):
 I just had to let them think, and these are the time machine moments where I feel like I was in the future and I just stick my head out of the time machine and whoever's next to me, at the moment it was my wife, I'll just say, "We live in the future." And she'll be like, "Huh, what?" And I'll be like, "No, no, don't worry about it." But it's just basically so crazy that all these things are just an API away. You can use anything. So I think it's an awesome time to be curious and optimistic and hardworking.
 
 **Lenny Rachitsky** (00:36:08):
@@ -395,7 +394,7 @@ That explains why they're the fastest growing products in history.
 **Lenny Rachitsky** (00:37:23):
 Your marketing website sets the tone for your brand and is the one touchpoint that every single one of your customers sees. In today's age, if you're still having a hard time making small changes and simple updates to it, you are doing something wrong. That is why so many companies from early stage startups to Fortune 500s, including companies like DoorDash, Zapier, Perplexity, and ElevenLabs turn to Framer, the website builder that turns your .com from a formality into a tool for growth. Framer works like your team's favorite design tool and comes with real-time collaboration, a robust CMS with everything you need for great SEO and advanced analytics that includes integrated AB testing.
 
-(00:38:01):
+**Lenny Rachitsky** (00:38:01):
 Changes to your Framer site go live to the web in seconds with a single click and without any help from engineering. Whether you want to launch a new site, test a few landing pages or migrate your full.com, Framer has programs for startups, scale-ups, and large enterprises to make going from idea to live site as easy and fast as possible. Learn how to turn your website into a growth engine from a framer expert or get started building for free today at framer.com/lenny, that's framer.com/lenny. Rules and restrictions may apply.
 
 **Zevi Arnovitz** (00:38:33):
@@ -413,13 +412,13 @@ And what you're doing here is you're having Claude review its own code.
 **Zevi Arnovitz** (00:39:08):
 Yeah, so this is another thing where it's very difficult for me to catch mistakes. So my review process has gone through a bunch of iterations to really be as good as possible and to catch as many things as possible. So I'll always manually QA at first to make sure if I can see any mistakes that Claude made. And then what I'll do is basically /review.
 
-(00:39:32):
+**Zevi Arnovitz** (00:39:32):
 And this tells Claude to start reviewing its own code. But what's even cooler and something that I'm really proud of is I will usually do multiple reviews and I'll have Codex, which is ChatGPT's competitor to Claude Code, as well as cursor open, and I will have each of them review the code. And then what I do is I have a /command called peer review, which is really interesting. And basically what it does is it's going to take Claude, which is usually the agent who I'm working with.
 
-(00:40:07):
+**Zevi Arnovitz** (00:40:07):
 And just to put this in a mental model, this is basically my dev lead that I'm working with. The /command is basically saying, "You're the dead lead on this project. Other team leads within the company have looked at your code and reviewed it and found these issues." Don't take what they said at face value. The reason is you have more context than them and you led this project.
 
-(00:40:33):
+**Zevi Arnovitz** (00:40:33):
 You need to either explain why the stuff they found are not real issues and wrong or fix them yourself. And it's really cool because the way I look at these things is I look at the models, I try to imagine them as people and I can really tell you how each one of these would be as a real human because they have-
 
 **Lenny Rachitsky** (00:40:54):
@@ -428,16 +427,16 @@ Each model.
 **Zevi Arnovitz** (00:40:55):
 Yeah. Each model has such distinct characteristics. So let's say Claude, she would be the perfect CTO. She's very communicative. She's very smart. She doesn't just go with the flow and do whatever you tell her. She's very opinionated, but also super collaborative, which is I think why I'm always drawn to Claude because I need to do so much learning and it's your dream, a very communicative, but very opinionated dev lead, but then there's also Codex.
 
-(00:41:26):
+**Zevi Arnovitz** (00:41:26):
 So I use Codex 5.1 Max, whatever. I don't know, they're not the best at naming models, but GPT's model. I always imagine it as like the best coder within the company who comes to the office with a hoodie and sandals and sits in a dark room. And you basically only bother him when you have the worst bugs and you say, "Listen, we have this bug and it will just close the door for two hours and come out and say, I fixed it." And you're like, "Wait, what? Are you going to tell us what happened or whatever?"
 
-(00:41:56):
+**Zevi Arnovitz** (00:41:56):
 And he's like, "Don't worry about it. I fixed it." It's like really not communicative, but it solves all the worst problems. And let's say Gemini is like a crazy scientist who's super artsy, super talented at designing, but if you sit next to it and watch it work, it's terrifying. You would fire that person instantly. This might be just my experience, but when I'm using Gemini within antigravity, which is Google's new competitor to Cursor, when it's writing code, you can see the steps it's taking and it's terrifying.
 
-(00:42:28):
+**Zevi Arnovitz** (00:42:28):
 You'll say, "I want you to redesign the top of the dashboard." And you're looking at its thought process and it will say, "Oh, first things first, I'll delete the dashboard." And then it'll be like, "Nope, that was a mistake. I'll bring it back." And then it will say, "Oh, can I edit the database?" And you're like, "No, do not edit the database. You're just doing a redesign." And then it will end up designing something beautiful. So the way there is a rollercoaster and very scary, but at the end of the day, Gemini is very good at design.
 
-(00:42:55):
+**Zevi Arnovitz** (00:42:55):
 So I think that using all these models and basically playing to their strengths and mitigating their weaknesses by using other models is a game changer for me. So I'll do peer review a bunch of times and I'll have other models review other models code and kind of have them fight it out basically. Sometimes Claude Code will get really sassy and be like, "This has been raised for the third time. And for the third time I'm telling you, this is not an issue. This is by design." So it's just a really cool thing that I've added and I haven't seen many people doing it.
 
 **Lenny Rachitsky** (00:43:31):
@@ -446,10 +445,10 @@ That is such an incredible rant/way to understand what's going on. Okay, awesome
 **Zevi Arnovitz** (00:43:45):
 Yeah. So basically Claude has reviewed its code and it's found a bunch of bugs, a critical bug it found in the prompt, some high bugs, some medium bugs, and now what I'll do is I'll do the same thing with the other models. So Codex has a built-in code review that you can do, or I just like to say review all the code in this branch.
 
-(00:44:11):
+**Zevi Arnovitz** (00:44:11):
 Of course, branch is referring to the GitHub branch that we're working on. We're not working on the live code base. And then I'll do this with Composer say with, let's do it with Composer One. So I'll do /review here as well. And basically these are both going to run and do a in-depth review similar to what Claude does. But again, because of the differences between the models, they're all going to catch different things and they're all going to look differently, and this is a really cool way to work.
 
-(00:44:40):
+**Zevi Arnovitz** (00:44:40):
 It's basically if you had other team leads within the company review the code. Here, you can see how fast Composer is. I think GPT probably will take a bunch of time. Like I said, it's in its own dark room right now reviewing code and we'll come back in a few minutes.
 
 **Lenny Rachitsky** (00:44:56):
@@ -476,10 +475,10 @@ Okay. Incredible. Let's wrap up this workflow. Is there anything else that's imp
 **Zevi Arnovitz** (00:45:52):
 100%. The one thing I'll say is that I think just like working in general with AI and even just like working on any product, doing constant postmortems is critical. So a lot of times we'll find all these kind of bugs or maybe Claude will fail to execute something correctly. And at the beginning when I started vibe coding, I would basically just keep running at it like running at the wall and until it worked. And once it worked, I was like, "All right, awesome. This works. Let's keep going." But I've learned over time that updating documentation and tooling is one of the biggest hacks for productivity.
 
-(00:46:31):
+**Zevi Arnovitz** (00:46:31):
 So when Claude will fail to do something or I'll see this really bad bug that shows that Claude really didn't understand something, I'll ask it, "What in your system prompt or tooling made you make this mistake?" And Claude will kind of like go introspective and think of what made it create that mistake. And then I'll say, "Okay, great. Let's update your tooling and documentation so that this mistake never occurs again." And I do this every time I'm either building an internal tool or anything. And I think this is just like working.
 
-(00:47:03):
+**Zevi Arnovitz** (00:47:03):
 If you end up doing a bunch of mistakes and then end up releasing the feature to users, so you're like, "All right, it's a big success." But going back and even when you've succeeded, looking and understanding what you did and what you could have done better is critical. And also using AI, this is probably one of the biggest unlocks. Going back to your prompts, understanding what was not good enough, iterating on them and then seeing how AI's responses get better, I think that's probably one of the most important things and one of the things that divides between people who are okay with using AI and the people who actually know how to use it.
 
 **Lenny Rachitsky** (00:47:38):
@@ -536,7 +535,7 @@ Okay. There's a couple directions I want to make sure we touch on. One is coming
 **Zevi Arnovitz** (00:51:28):
 I think that first making your code base AI native is a really important step, and I think this needs to be done by technical people. So basically my codebase has a ton of just plain text in it. So it will have a bunch of markdown files that explain to agents how to work in certain areas of the code base and high level structure so that the agents navigate through the code base easier.
 
-(00:51:54):
+**Zevi Arnovitz** (00:51:54):
 And I think that if this is set up in a really good way, I still don't think PMs should be shipping heavy database chain migrations or any big project, but contained UI projects, especially if you just build it, create the PR and send it to a dev to do the final finishes. I think that's definitely something that's possible. And I think we're going to see that a lot in the next coming years. I think basically everyone's going to become a builder, so it should be really interesting.
 
 **Lenny Rachitsky** (00:52:25):
@@ -545,31 +544,31 @@ Okay. So your advice here is as a PM, maybe don't go right to Cursor, start buil
 **Zevi Arnovitz** (00:52:42):
 If there are PMs. Yeah, I think titles are going to collapse and responsibilities are going to collapse and everyone's just going to be building. I definitely think that the models, the context window is getting bigger, the models are getting smarter and I definitely see how PMs or any other background can be writing. At the moment, I wouldn't wait for that. I would use this as a collaborative learning opportunity to work with your dev team. It's going to be difficult.
 
-(00:53:14):
+**Zevi Arnovitz** (00:53:14):
 A lot of developers are very, very skeptic about the current state, and I think that it's going to be a lot of sales work on your end to convince, but if you're able to convince, and I think teams that are really sold on this and want to take the time to work on their workflow about how can our team become more AI native, I think that these teams are going to probably be a few years in the future and they're going to look back at the few weeks they spent setting this up as the best time they spent.
 
 **Lenny Rachitsky** (00:53:43):
 Let me ask you another question around just the job of a PM. One of the biggest fears people have with these AI tools for PMs for every function I imagine is just you start to rely on these things, your skills start to atrophy, you're producing all this slop that looks great, cool, amazing strategy doc. No, it's actually not at all good. Are these Linear tickets or just products that are half-baked?
 
-(00:54:08):
+**Lenny Rachitsky** (00:54:08):
 What's your take on these two parts of just like, how has this impacted your craft as a PM? Do you feel like this is weakening your skills because you're so reliant on these tools and just how do you keep the quality of this stuff up and not just like, "Eh, it's just a bunch of AI generated slop."
 
 **Zevi Arnovitz** (00:54:25):
 I have a very strong disagree to this and I've heard it a bunch. I remember when I started using Tal Raviv has this whole course on building a PM Copilot using projects, which is probably one of the best courses that you can take. And when I started working with my own Copilot, I remember people at work looking and saying like, "Oh, so you're basically outsourcing your thinking." And to me, that's just the worst way to look at it.
 
-(00:54:53):
+**Zevi Arnovitz** (00:54:53):
 And I think for some reason, these people usually have a high correlation with the kind of person who doesn't like to show their presentation when it's only 10% done or doesn't want to ask for help a lot. I think that there's a misconception with a lot of PMs that the job is always having the right answers and being the smartest person in the room. And at least how I was trained and how I believe the role of the PM is, it's the exact opposite.
 
-(00:55:22):
+**Zevi Arnovitz** (00:55:22):
 It's basically harnessing anything that can get us as quick as possible to delivering the right solution to users. And I just think this is like that really smart person that has context or your mentor or whatever, but is just always available and doesn't judge you and can really help you. So if you're using it to just create your outputs and then putting them out there, yeah, that's AI slot, but it's also human error.
 
-(00:55:49):
+**Zevi Arnovitz** (00:55:49):
 I think it's really important that you own your own outputs. If you put anything out there or show something in a product review and you say, "Oh, sorry, that was built by AI." That's your mistake. I think if you use these intentionally and really take the time to understand how to use AI in the correct way, it's one of the biggest game changers that will make you much better as a PM.
 
-(00:56:13):
+**Zevi Arnovitz** (00:56:13):
 And another thing here is that, especially for more junior PMs, it allows you to play at such a higher level than you would normally. I think that at Wix, I wasn't thinking of what's the marketing strategy of the company and how will the onboarding be completely revamped within the whole product. But on my side product, I can just do whatever decisions I want and think of the strategy and marketing and the messaging.
 
-(00:56:39):
+**Zevi Arnovitz** (00:56:39):
 And this is basically just getting me reps, which is one of the most important things at the beginning of your career. So I understand the fear that how do you outsource certain stuff and you're not owning 100% of everything, but I think the upside is so much more valuable. And I think the only way that AI makes you worse at your job is if you're using it wrong.
 
 **Lenny Rachitsky** (00:57:03):
@@ -578,7 +577,7 @@ Is there anything that you've learned about reducing the sloppiness of the outpu
 **Zevi Arnovitz** (00:57:13):
 Similar to people, setting up AI for success, for the task at hand. So if I just brought in a junior to write a deck or something and I didn't give it any guideline, I just said, "Give a strategy deck." He would probably just go online and find top strategy deck and just reproduce that, which is basically what AI is doing. It's basically just fed all of the internet.
 
-(00:57:40):
+**Zevi Arnovitz** (00:57:40):
 So instead of that, guiding it and giving it context on what your style of writing is and what you're trying to solve and all these different things, I think that's probably one of the biggest unlocks. So that's just a quick tip. And also Cursor has a /command called deslop, which is basically going back over the code. I don't know if this is integrated into the product yet, but it's on Twitter. Their founders have been talking about this, so that's definitely something I would run after just to make sure that no slop is left behind.
 
 **Lenny Rachitsky** (00:58:12):
@@ -587,28 +586,28 @@ That is so funny, deslop. Okay. One more question, which may lead to something e
 **Zevi Arnovitz** (00:58:37):
 I feel like the analogy here is I have 12 nieces and nephews and you can see how people who have grown up in a different world, how their mind is formed differently. So if you ask me, how do you answer a phone, I'll do this. But a child now, when you say, "How do you answer the phone?" They'll do this. They'll do the iPhone answer. And I feel like people who are growing up now in their professional lives were the same just with AI.
 
-(00:59:06):
+**Zevi Arnovitz** (00:59:06):
 So every time I'm faced with a new challenge or problem, I think AI first how to solve it. So Meta reached out and said they'd like me to interview. Straight away, I opened up a project within Claude. I started looking online for all the best information out there, things that I resonated with. I took a ton of frameworks and stuff from Ben Erez who has written a guest post for you, who I think is one of the best minds out there right now.
 
-(00:59:33):
+**Zevi Arnovitz** (00:59:33):
 And basically I created a project which was my coach, which I would come and consult what to do at each phase. I would mock interview with, and this was amazing. Also, I created a game in Base44, which helped me ... I was really struggling with segmentation within the product questions, so thinking of the correct segments. So I basically just created a quiz game, which creates questions and different segmentations and I have to choose.
 
-(00:59:59):
+**Zevi Arnovitz** (00:59:59):
 So this was like, I spun this up. It's a web app that I would play sometimes when I was on the bus to work. So basically, I think Ben talks about this a bunch, so I don't just go read Ben's stuff, but just creating a project and feeding it with all the best information on the internet and then mocking a bunch. I will say that the biggest game changer for me was doing human mocks.
 
-(01:00:22):
+**Zevi Arnovitz** (01:00:22):
 So cold outreaching to people on LinkedIn and having them do actual mocks for me, I think that at the end of the day, especially for the Meta PM prep, which is super competitive and difficult, I think there's no way to get around that.
 
 **Lenny Rachitsky** (01:00:38):
 That is so cool they use that post. I wasn't aware. We're going to link to it. And in that post, Ben shares all these prompts you can feed ChatGPT to help you prepare for interviews, do mocks online. It's a really important point to say that those take you to a point, but it's actually better to use humans. I actually have a post coming out soon in collaboration with Noam Segal about how everyone is using AI to interview.
 
-(01:01:02):
+**Lenny Rachitsky** (01:01:02):
 And one of the most interesting ways I've heard people and that we've found in this research was that people use it to get feedback. They record the interview and then it gives them feedback. Here's where you could have done better. Here's what you missed because the feedback loop is so missing. No one ever tells you, here's what you did badly in this interview. No one tells you that, and AI can do that.
 
 **Zevi Arnovitz** (01:01:21):
 So I'll add two things to that. One, which is exactly this. So I'll mock with AI. Also, I did something really cool where there's a question bank online free by Louis Lynn, which basically is an always updating bank of questions that people are asked in real interviews. And I basically used Comet, which is the Perplexity's browser. And I had the agent run all kinds of analyses on what the most asked questions are. And that's how I knew how to prioritize what questions I would mock.
 
-(01:01:52):
+**Zevi Arnovitz** (01:01:52):
 And then at the end of these mocks, I would tell Claude within the project, "You're my coach and I don't want you to make me feel good. I want you to make me as ready as possible for these interviews. So give me feedback, like you said." And the other thing that I did was really cool was some questions where I didn't have time to mock. I would ask Claude to play the candidate, and then it would just give me a really good answer. And I could also learn from that, like learning from someone who does a perfect answer.
 
 **Lenny Rachitsky** (01:02:20):
@@ -626,25 +625,25 @@ I agree.
 **Lenny Rachitsky** (01:02:48):
 And that's what these conversations are for to help people keep up with all that and to learn some of these skills. And again, see where the future is going and start to learn how to get there yourself. Okay. Zevi, before we get to our very exciting lightning round, I'm going to take us to a recurring segment on this podcast I call Failure Corner.
 
-(01:03:05):
+**Lenny Rachitsky** (01:03:05):
 And why I love this segment is people come on this, just even this conversation, it's like all these amazing things you figured out, everything is going so well. People rarely hear the things that don't go well, and those are often the most interesting and impactful stories. So the question is just, what's the story of a time you failed in your career and what did you learn from that experience?
 
 **Zevi Arnovitz** (01:03:26):
 Yeah, I love this. I love this. I love Failure Corner, big fan. So I'll tell a story about when I started at Wix. So basically I started within Wix as a student program and straight out of the student program, you get put into a certain team. So I was in the editor, which is the core product of Wix. And the other PMs were just the best PMs almost at Wix.
 
-(01:03:51):
+**Zevi Arnovitz** (01:03:51):
 There's four other people had much more experience than me and they were ridiculously good. And I remember coming in and thinking like, my first product review, I'm going to blow these people's socks off. They're not going to believe how good of a PM I am. And I basically didn't really share what I was thinking. I would work tons of hours alone and I was like, "I'm going to kill this product review. They're going to be so impressed." And I ended up failing miserably. My product review was not good.
 
-(01:04:19):
+**Zevi Arnovitz** (01:04:19):
 It wasn't the format they expected. They had a ton of questions that I missed and I felt awful when it was over. I was like, "Ah, you're such an idiot." And I saw that everyone was like, "All right, cool. Yeah, just come back in two weeks and we'll keep getting at this." And I understood in that moment that they had zero expectation of me being a 10X PM, but the expectation of me was being a 10X learner.
 
-(01:04:42):
+**Zevi Arnovitz** (01:04:42):
 And the second I understood that, my whole mindset shifted. And I think this is probably the best tip that I give now to junior PMs is basically be the best learner you can be at the beginning. No one expects you to know all the answers and no one expects you to be good. So basically what I did was I took each person on the PM team, there was four other PMs and I assessed what their strength is and used them as a mentor for that.
 
-(01:05:08):
+**Zevi Arnovitz** (01:05:08):
 So Neri who's still my mentor till today, he has the best product sense of anyone I've met. Oya is super, she's like a methodology expert. She just thinks in frameworks. Yahra, who is the head of product, basically can look at a product and then instantly understand the third and fourth order effects of them, the system thinking. So every time I had an issue with one of these areas, I would come to one of them and consult them, and this does two things. First of all, I learned a ton.
 
-(01:05:35):
+**Zevi Arnovitz** (01:05:35):
 And the second thing is that when the next time, the next product review, my success felt to them like their success because it wasn't this kid who's trying to show us up how cool he is. It was like our mentee kind of making us all proud. And it was such a great shift for me. And basically at the end of the day, I really excelled through this.
 
 **Lenny Rachitsky** (01:05:57):
@@ -653,10 +652,10 @@ That is an awesome story. And this idea of learning is such a good thread throug
 **Zevi Arnovitz** (01:06:25):
 Yeah. So kind of to tie back into the first thing I said where if people walk away thinking, "Zevi's so cool." Then I've failed here. I think that it's just the best time to be alive, I think. It's the best time to be a junior contrary to what a lot of people are saying how there's no more junior roles out there and people get out of school and you can't find a role.
 
-(01:06:52):
+**Zevi Arnovitz** (01:06:52):
 Yeah, that's true. But also when else in history could you get out of school and just build a startup on your own with a couple of friends completely bootstrapped. And I see more and more people towards the end of my time at Wix, I was interviewing and I saw more and more people building their own stuff with AI. And I think contrary to what a lot of people think, it's the best time to be a junior.
 
-(01:07:17):
+**Zevi Arnovitz** (01:07:17):
 It's the best time to be a learner. And I think if any listener is listening to this and you're a curious person, you're a hardworking person, I want to say kind, I'm not sure, but if you're a kind person and a good communicator, you have such an unfair advantage and you can give more value to companies than most people who have 20 years of experience. So I really hope people get inspired by this and start killing it with their projects.
 
 **Lenny Rachitsky** (01:07:44):
@@ -683,7 +682,7 @@ This is great. It was great.
 **Zevi Arnovitz** (01:08:19):
 Yeah. I love Shoe Dog. And then more on the psychology side Mindset by Carol Dweck, who coined the term growth mindset. It's just such an amazing book. It kind of sounds like a self-help book, but then you understand that it's completely psychological and is based on research and that book completely changed my life.
 
-(01:08:39):
+**Zevi Arnovitz** (01:08:39):
 Really, I was always with a fixed mindset, and then after reading that, I kind of understood that it was something holding me back. And since then, I've been really, really trying to cultivate a growth mindset. So I really recommend everyone reading that.
 
 **Lenny Rachitsky** (01:08:51):
@@ -707,22 +706,22 @@ Yeah. I'm kind of between two right now. One, which has become a Twitter meme ba
 **Lenny Rachitsky** (01:10:39):
 I think people see these companies on the outside and it feels like everything they've got all figured out. And if you're ever on the inside of a company that's doing really well, you're like, how is this staying on the rails? How is this still a thing that is working? Doesn't make any sense. It's all about to fall apart. Yeah. Okay.
 
-(01:10:54):
+**Lenny Rachitsky** (01:10:54):
 Last question. You've had a long entrepreneurial thread throughout your career. There's a couple other real world businesses you've started in the past. You did a thermal clothing business and then like a hummus delivery thing. So maybe pick one of those and just tell the story of what that's about.
 
 **Zevi Arnovitz** (01:11:13):
 Yeah, I'd love to. Really fun that you asked about this. So I'll tell the thermal clothing because I think it's really cool. So in high school, I was selling thermal clothes in 10th grade for one of my sister's friends or something, and basically it was just packs of thermal clothing, shirt and pants. I grew up in Jerusalem, so it's a bit chillier there.
 
-(01:11:34):
+**Zevi Arnovitz** (01:11:34):
 So it was perfect for the weather. And in 10th grade, when I was selling them, they were like 20, $25 a piece and I was making like $4 a sale, and if you look in the food chain, I was like sixth or seventh down the line. So this was like crazy margins. So during the summer I thought about it like I should just go straight to the importer. So throughout the summer I called the importer and at first he was really, really mad.
 
-(01:12:00):
+**Zevi Arnovitz** (01:12:00):
 He was like, no, you have to work for me for years to get to this state. And I said, listen, man, I'm finishing school soon. This is not going to be my career. Either do it or not. And we basically negotiated throughout the whole summer. And this was also like how I did things before ChatGPT. So he would throw out something, he'd say, "Oh, the import tax has gone up." And I'll just search Google, like Import Tax Israel and start reading.
 
-(01:12:25):
+**Zevi Arnovitz** (01:12:25):
 And I'll be on the phone with him and I'll be like, "Hey, I would just basically stall." And then I'd somehow come back with a challenge. And I ended up getting a really great price, like 12 and a half dollars a piece. So I was making 100% profit and I spread throughout a bunch of different schools. Each school, I had the coolest people in school selling for me. And then a really fun thing that I did was we had a really awesome basketball team and our basketball team would basically be 30 points up within the first half and it kind of got boring for the crowd.
 
-(01:13:01):
+**Zevi Arnovitz** (01:13:01):
 So I wrote a song, like a basketball chant about Thermal Clothes that basically has my number within it. And the end of it was if you join in now, we'll give you a discount. And it was with drums and everything. And still when I go to Jerusalem, I know some people who I don't even know my number by heart because they know it by the tune. And sometimes when I walk in Jerusalem, people stop me and say like, "Hey, it's Thermal Zevi." So that was just a really cool experience as a kid.
 
 **Lenny Rachitsky** (01:13:29):
